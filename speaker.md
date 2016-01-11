@@ -117,7 +117,7 @@ redirect_from:
       			<div class="box">
       				<figure class="uk-overlay uk-overlay-hover">
 			    		<img class="uk-overlay-spin" src="{{ site.baseurl }}/static/images/emily-toop.jpg" alt="Emily Toop">
-							<a class="uk-position-cover" href="https://twitter.com/emilytoop" target="_blank"></a>
+							<a class="uk-position-cover" href="https://twitter.com/fluffyemily" target="_blank"></a>
 					</figure>
 		     		<div class="info-box">
 		     			 <h4>Emily Toop</h4>
