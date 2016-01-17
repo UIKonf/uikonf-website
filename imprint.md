@@ -17,7 +17,7 @@ description: UIKonf - Imprint
 			<h3>VERTRETEN DURCH:</h3>
 			<p>Engin Kurutepe</p>
 
-			<p><strong>KONTAKT:<strong>
+			<p><strong>KONTAKT:</strong>
 				Telefon:	+49 30 577064820<br/>
 				Telefax:	+49 30 577064829<br/>
 				E-Mail:	hello@fifteenjugglers.com</p>
