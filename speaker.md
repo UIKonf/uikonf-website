@@ -132,6 +132,54 @@ redirect_from:
 	</div>
 </div>
 
+<div class="backshape opposite light-grey">
+	<div class="wrapper">
+		<div class="uk-container uk-container-center">
+			<div class="uk-grid">
+	    	<div class="uk-width-medium-1-3 uk-width-small-1-1 uk-width-large-1-3">
+	      		<a name="laura"></a>
+      			<div class="box">
+      				<figure class="uk-overlay uk-overlay-hover">
+			    		<img class="uk-overlay-spin" src="{{ site.baseurl }}/static/images/laura-savino.jpg" alt="Laura Savino">
+							<a class="uk-position-cover" href="https://twitter.com/savinola" target="_blank"></a>
+					</figure>
+		     		<div class="info-box">
+		     			 <h4>Laura Savino</h4>
+		    		</div>
+		   	   </div>
+	      	</div>
+	      	<div class="uk-width-medium-2-3 uk-width-small-1-1 uk-width-large-2-3" style="padding-top:10px;">
+				<p>Laura is an iOS developer with a penchant for languages, travel, and education. She most recently built apps to transform students&#39; academic experience at Khan Academy, and now independently codes, speaks, and <a href="http://appcamp4girls.com/" target="_blank">teaches</a> in Seattle.</p>
+	      	</div>
+	  		</div>
+		</div>
+	</div>
+</div>
+
+<div class="backshape opposite">
+	<div class="wrapper">
+		<div class="uk-container uk-container-center">
+			<div class="uk-grid">
+	    	<div class="uk-width-medium-1-3 uk-width-small-1-1 uk-width-large-1-3">
+	      		<a name="charles"></a>
+      			<div class="box">
+      				<figure class="uk-overlay uk-overlay-hover">
+			    		<img class="uk-overlay-spin" src="{{ site.baseurl }}/static/images/charles-perry.jpg" alt="Charles Perry">
+							<a class="uk-position-cover" href="https://twitter.com/dazeend" target="_blank"></a>
+					</figure>
+		     		<div class="info-box">
+		     			 <h4>Charles Perry</h4>
+		    		</div>
+		   	   </div>
+	      	</div>
+	      	<div class="uk-width-medium-2-3 uk-width-small-1-1 uk-width-large-2-3" style="padding-top:10px;">
+				<p>Charles Perry is the owner of <a href="http://metakite.com/" target="_blank">Metakite Software</a> which specializes in building iOS apps for productive people. He also co-hosts <a href="http://itpc://releasenotes.tv/feed/podcast/" target="_blank">Release Notes</a>, a weekly podcast about the business of Mac and iOS indie software development. When Charles isn&#39;t writing software, you&#39;ll probably find him making a mess in the kitchen as he cooks, bakes, or brews.</p>
+	      	</div>
+	  		</div>
+		</div>
+	</div>
+</div>
+
 <div class="straight light-grey">
 	<div class="wrapper">
 		<div class="uk-container uk-container-center uk-margin-large-top">
