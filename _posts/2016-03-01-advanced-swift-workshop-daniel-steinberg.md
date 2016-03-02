@@ -9,7 +9,7 @@ description: Thinking in Swift - Understanding the Patterns of Programming in Sw
 
 ### Understanding the Patterns of Programming in Swift
 
-Instructor: <a href="/speakers#daniel">Daniel Steinberg</a> of dimsumthinking.com
+Instructor: <a href="/speakers#daniel">Daniel Steinberg</a> of [dimsumthinking.com](http://dimsumthinking.com)
 
 Date: Saturday, May 21st
 
