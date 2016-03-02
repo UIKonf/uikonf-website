@@ -7,7 +7,7 @@ published: true
 description: Thinking in Swift - Understanding the Patterns of Programming in Swift - Workshop by Daniel Steinberg on May 21st.
 ---
 
-###Understanding the Patterns of Programming in Swift
+### Understanding the Patterns of Programming in Swift
 
 Instructor: <a href="/speakers#daniel">Daniel Steinberg</a> of dimsumthinking.com
 
