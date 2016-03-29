@@ -180,11 +180,63 @@ redirect_from:
 	</div>
 </div>
 
+<div class="backshape opposite light-grey">
+	<div class="wrapper">
+		<div class="uk-container uk-container-center">
+			<div class="uk-grid">
+	    	<div class="uk-width-medium-1-3 uk-width-small-1-1 uk-width-large-1-3">
+	      		<a name="scotty"></a>
+      			<div class="box">
+      				<figure class="uk-overlay uk-overlay-hover">
+			    		<img class="uk-overlay-spin" src="{{ site.baseurl }}/static/images/steve-scott.jpg" alt="Steve Scott">
+							<a class="uk-position-cover" href="https://twitter.com/macdevnet" target="_blank"></a>
+					</figure>
+		     		<div class="info-box">
+		     			 <h4>Steve Scott</h4>
+		    		</div>
+		   	   </div>
+	      	</div>
+	      	<div class="uk-width-medium-2-3 uk-width-small-1-1 uk-width-large-2-3" style="padding-top:10px;">
+				<p>Steve Scott (Scotty) has been a freelance developer since 1992 although he is probably best known for being the host on a number of developer podcasts including <a href="http://t.co/DYdrxRx1B3" target="_blank">The iDeveloper Podcast</a>. He was also the host and creator of NSConference.</p>
+
+<p>He has been developer since 1987 when he started writing accounting software using COBOL on a Convergent Unix machine using vi as his IDE. (Sorry Emacs people). Since then he has worked on mainframes (ICL, DEC, &amps; IBM), 16bit and 32 bit Windows, .NET and since 2007 OS X and (a little later) iOS . During his career he has learnt (and forgotten) more languages and IDE’s than is possibly healthy for one lifetime.</p>
+	      	</div>
+	  		</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="backshape opposite">
+	<div class="wrapper">
+		<div class="uk-container uk-container-center">
+			<div class="uk-grid">
+	    	<div class="uk-width-medium-1-3 uk-width-small-1-1 uk-width-large-1-3">
+	      		<a name="ashley"></a>
+      			<div class="box">
+      				<figure class="uk-overlay uk-overlay-hover">
+			    		<img class="uk-overlay-spin" src="{{ site.baseurl }}/static/images/ashley-nelson-hornstein.jpg" alt="Ashley Nelson-Hornstein">
+							<a class="uk-position-cover" href="https://twitter.com/ashleynh" target="_blank"></a>
+					</figure>
+		     		<div class="info-box">
+		     			 <h4>Ashley Nelson-Hornstein</h4>
+		    		</div>
+		   	   </div>
+	      	</div>
+	      	<div class="uk-width-medium-2-3 uk-width-small-1-1 uk-width-large-2-3" style="padding-top:10px;">
+				<p>Ashley Nelson-Hornstein is an iOS engineer, speaker, and avid <a href="blog.ashleynh.me" target="_blank">blogger</a>. Most recently she was at Dropbox, where she worked on problems at scale and advocated for accessibility. These days, Ashley’s exploring what it means to build impactful products.</p>
+	      	</div>
+	  		</div>
+		</div>
+	</div>
+</div>
+
+
 <div class="straight light-grey">
 	<div class="wrapper">
 		<div class="uk-container uk-container-center uk-margin-large-top">
 	    	<div class="uk-width-1-1">
-	      		<p>You can speak at UIKonf, too. We are going to open our anonymous call for proposal soon. <a href="#newsletter">Sign up for our newsletter</a> to know when it starts.</p>
+	      		<p> <a href="#newsletter">Sign up for our newsletter</a> to be informed about upcoming speakers.</p>
 	  		</div>
 		</div>
 	</div>
