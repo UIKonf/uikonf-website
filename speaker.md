@@ -173,7 +173,7 @@ redirect_from:
 		   	   </div>
 	      	</div>
 	      	<div class="uk-width-medium-2-3 uk-width-small-1-1 uk-width-large-2-3" style="padding-top:10px;">
-				<p>Charles Perry is the owner of <a href="http://metakite.com/" target="_blank">Metakite Software</a> which specializes in building iOS apps for productive people. He also co-hosts <a href="http://itpc://releasenotes.tv/feed/podcast/" target="_blank">Release Notes</a>, a weekly podcast about the business of Mac and iOS indie software development. When Charles isn&#39;t writing software, you&#39;ll probably find him making a mess in the kitchen as he cooks, bakes, or brews.</p>
+				<p>Charles Perry is the owner of <a href="http://metakite.com/" target="_blank">Metakite Software</a> which specializes in building iOS apps for productive people. He also co-hosts <a href="https://releasenotes.tv" target="_blank">Release Notes</a>, a weekly podcast about the business of Mac and iOS indie software development. When Charles isn&#39;t writing software, you&#39;ll probably find him making a mess in the kitchen as he cooks, bakes, or brews.</p>
 	      	</div>
 	  		</div>
 		</div>
