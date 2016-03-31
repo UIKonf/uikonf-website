@@ -224,7 +224,7 @@ redirect_from:
 		   	   </div>
 	      	</div>
 	      	<div class="uk-width-medium-2-3 uk-width-small-1-1 uk-width-large-2-3" style="padding-top:10px;">
-				<p>Ashley Nelson-Hornstein is an iOS engineer, speaker, and avid <a href="blog.ashleynh.me" target="_blank">blogger</a>. Most recently she was at Dropbox, where she worked on problems at scale and advocated for accessibility. These days, Ashley’s exploring what it means to build impactful products.</p>
+				<p>Ashley Nelson-Hornstein is an iOS engineer, speaker, and avid <a href="http://blog.ashleynh.me" target="_blank">blogger</a>. Most recently she was at Dropbox, where she worked on problems at scale and advocated for accessibility. These days, Ashley’s exploring what it means to build impactful products.</p>
 	      	</div>
 	  		</div>
 		</div>
