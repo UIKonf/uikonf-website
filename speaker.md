@@ -231,6 +231,225 @@ redirect_from:
 	</div>
 </div>
 
+<div class="backshape opposite light-grey">
+	<div class="wrapper">
+		<div class="uk-container uk-container-center">
+			<div class="uk-grid">
+	    	<div class="uk-width-medium-1-3 uk-width-small-1-1 uk-width-large-1-3">
+	      		<a name="ellen"></a>
+      			<div class="box">
+      				<figure class="uk-overlay uk-overlay-hover">
+			    		<img class="uk-overlay-spin" src="{{ site.baseurl }}/static/images/ellen-shapiro.jpg" alt="Ellen Shapiro">
+							<a class="uk-position-cover" href="https://twitter.com/designatednerd" target="_blank"></a>
+					</figure>
+		     		<div class="info-box">
+		     			 <h4>Ellen Shapiro</h4>
+		    		</div>
+		   	   </div>
+	      	</div>
+	      	<div class="uk-width-medium-2-3 uk-width-small-1-1 uk-width-large-2-3" style="padding-top:10px;">
+				<p>Ellen is the Lead Mobile Developer for SpotHero and former Director of iOS Engineering at an Vokal in Chicago, IL. She also builds Android apps and runs the Chicago AndroidListener meetup. She works in her spare time to bring leading songwriting application Hum to life, and writes iOS tutorials for RayWenderlich.com.</p>
+	      	</div>
+	  		</div>
+		</div>
+	</div>
+</div>
+
+<div class="backshape opposite">
+	<div class="wrapper">
+		<div class="uk-container uk-container-center">
+			<div class="uk-grid">
+	    	<div class="uk-width-medium-1-3 uk-width-small-1-1 uk-width-large-1-3">
+	      		<a name="shuichi"></a>
+      			<div class="box">
+      				<figure class="uk-overlay uk-overlay-hover">
+			    		<img class="uk-overlay-spin" src="{{ site.baseurl }}/static/images/shuichi-tsutsumi.jpg" alt="Shuichi Tsutsumi">
+							<a class="uk-position-cover" href="https://twitter.com/shu223" target="_blank"></a>
+					</figure>
+		     		<div class="info-box">
+		     			 <h4>Shuichi Tsutsumi</h4>
+		    		</div>
+		   	   </div>
+	      	</div>
+	      	<div class="uk-width-medium-2-3 uk-width-small-1-1 uk-width-large-2-3" style="padding-top:10px;">
+				<p>Shuichi is an iOS Freelancer who has developed many IoT related apps using Bluetooth Low Energy. He co-authored "iOS x BLE  Core Bluetooth Programming" (2015) and authored "iOS Programming - Advanced 100 Recipes" (2013). He is the owner of popular OSS repositories such as iOS-9-Sampler, AnimatedTransitionGallery, and many more, ultimately totaling 15,000 stars.</p>
+	      	</div>
+	  		</div>
+		</div>
+	</div>
+</div>
+
+<div class="backshape opposite light-grey">
+	<div class="wrapper">
+		<div class="uk-container uk-container-center">
+			<div class="uk-grid">
+	    	<div class="uk-width-medium-1-3 uk-width-small-1-1 uk-width-large-1-3">
+	      		<a name="stephen"></a>
+      			<div class="box">
+      				<figure class="uk-overlay uk-overlay-hover">
+			    		<img class="uk-overlay-spin" src="{{ site.baseurl }}/static/images/stephen-barnes.jpg" alt="Stephen Barnes">
+							<a class="uk-position-cover" href="https://twitter.com/smbarne" target="_blank"></a>
+					</figure>
+		     		<div class="info-box">
+		     			 <h4>Stephen Barnes</h4>
+		    		</div>
+		   	   </div>
+	      	</div>
+	      	<div class="uk-width-medium-2-3 uk-width-small-1-1 uk-width-large-2-3" style="padding-top:10px;">
+				<p>Stephen is an engineer, an artist, and many things in between. He is currently a Senior iOS Developer at Fitbit, but he has previously worked on a number of things such as 3D, real-time training simulations, babysitting apps, retail apps for iOS and Android, 84″ touchscreens Mac apps, and more. Along the way he has enjoyed writing shaders in GLSL for an OpenSceneGraph based graphics engine and building useful libraries such as RZTransitions for iOS view controller transitions. And best of all, he got to work with a whole lot of really smart people to teach him things along the way. When he isn’t working on mobile apps, he enjoys digital art, West Coast Swing dancing, and cheesy sci-fi books.</p>
+	      	</div>
+	  		</div>
+		</div>
+	</div>
+</div>
+
+<div class="backshape opposite">
+	<div class="wrapper">
+		<div class="uk-container uk-container-center">
+			<div class="uk-grid">
+	    	<div class="uk-width-medium-1-3 uk-width-small-1-1 uk-width-large-1-3">
+	      		<a name="kupferwerk"></a>
+      			<div class="box">
+      				<figure class="uk-overlay uk-overlay-hover">
+			    		<img class="uk-overlay-spin" src="{{ site.baseurl }}/static/images/bernhard-loibl-mathias-nagler.jpg" alt="Bernhard Loibl &amp; Mathias Nagler">
+							<a class="uk-position-cover" href="https://twitter.com/kupferwerk" target="_blank"></a>
+					</figure>
+		     		<div class="info-box">
+		     			 <h4>Bernhard Loibl & Mathias Nagler</h4>
+		    		</div>
+		   	   </div>
+	      	</div>
+	      	<div class="uk-width-medium-2-3 uk-width-small-1-1 uk-width-large-2-3" style="padding-top:10px;">
+				<p>Mathias and Bernhard are iOS developers raised by wolves in the bavarian woods. After getting to know civilization they started working together at the mobile app agency Kupferwerk in Regensburg, Germany. They both have been developing for iOS since the early days and crafted apps for a variety of clients throughout the last years.</p>
+	      	</div>
+	  		</div>
+		</div>
+	</div>
+</div>
+
+<div class="backshape opposite light-grey">
+	<div class="wrapper">
+		<div class="uk-container uk-container-center">
+			<div class="uk-grid">
+	    	<div class="uk-width-medium-1-3 uk-width-small-1-1 uk-width-large-1-3">
+	      		<a name="ilya"></a>
+      			<div class="box">
+      				<figure class="uk-overlay uk-overlay-hover">
+			    		<img class="uk-overlay-spin" src="{{ site.baseurl }}/static/images/ilja-puchka.jpg" alt="Ilja Puchka">
+							<a class="uk-position-cover" href="https://twitter.com/ilyapuchka" target="_blank"></a>
+					</figure>
+		     		<div class="info-box">
+		     			 <h4>Ilja Puchka</h4>
+		    		</div>
+		   	   </div>
+	      	</div>
+	      	<div class="uk-width-medium-2-3 uk-width-small-1-1 uk-width-large-2-3" style="padding-top:10px;">
+				<p>Ilja has been developing for iOS since 2011 and since then worked on different kinds of apps from live streaming, productivity and advertisement to lifestyle and messaging.</p>
+				<p>Originally he is from Moscow, Russia, and there had a chance to work at one of the biggest Russian IT companies, like Mail.ru and Rambler&Co.About a year ago he moved to Berlin searching for new challenges. Currently he is working at HelloFresh where they try to improve our users mobile cooking experience.</p>
+				<p>He is passionate about architecting code and trying new approaches. Currently he codes exclusively in Swift (so when he switches to Objective-C he always forgets “;”) and blogs about that from time to time.</p>
+	      	</div>
+	  		</div>
+		</div>
+	</div>
+</div>
+
+<div class="backshape opposite">
+	<div class="wrapper">
+		<div class="uk-container uk-container-center">
+			<div class="uk-grid">
+	    	<div class="uk-width-medium-1-3 uk-width-small-1-1 uk-width-large-1-3">
+	      		<a name="andreas"></a>
+      			<div class="box">
+      				<figure class="uk-overlay uk-overlay-hover">
+			    		<img class="uk-overlay-spin" src="{{ site.baseurl }}/static/images/andreas-schranzhofer.jpg" alt="Andreas Schranzhofer">
+							<a class="uk-position-cover" href="https://twitter.com/schranzhofer" target="_blank"></a>
+					</figure>
+		     		<div class="info-box">
+		     			 <h4>Andreas Schranzhofer</h4>
+		    		</div>
+		   	   </div>
+	      	</div>
+	      	<div class="uk-width-medium-2-3 uk-width-small-1-1 uk-width-large-2-3" style="padding-top:10px;">
+				<p>For the last 5 years, Andreas worked on Mobile Platforms for banking and eCommerce. As Head of Mobile Engineering, he build the GetYourGuide Mobile App and Engineering Team in Zurich and Berlin. With Avaloq AG in Zurich, he build the Avaloq Front Platform for Mobile and Webbanking. At his current position as CTO with Scalable Capital, he is responsible for all engineering efforts and takes personal pride in contributing code for the backend, the frontend and the mobile apps. 
+Andreas studied Computer Science at Graz, University of Technology and holds a PhD Degree in Embedded Realtime Systems from ETH Zürich, Switzerland.</p>
+	      	</div>
+	  		</div>
+		</div>
+	</div>
+</div>
+
+<div class="backshape opposite light-grey">
+	<div class="wrapper">
+		<div class="uk-container uk-container-center">
+			<div class="uk-grid">
+	    	<div class="uk-width-medium-1-3 uk-width-small-1-1 uk-width-large-1-3">
+	      		<a name="dasmer"></a>
+      			<div class="box">
+      				<figure class="uk-overlay uk-overlay-hover">
+			    		<img class="uk-overlay-spin" src="{{ site.baseurl }}/static/images/dasmer-singh.jpg" alt="Dasmer Singh">
+							<a class="uk-position-cover" href="https://twitter.com/dasmersingh" target="_blank"></a>
+					</figure>
+		     		<div class="info-box">
+		     			 <h4>Dasmer Singh</h4>
+		    		</div>
+		   	   </div>
+	      	</div>
+	      	<div class="uk-width-medium-2-3 uk-width-small-1-1 uk-width-large-2-3" style="padding-top:10px;">
+				<p>Dasmer studied Financial Engineering at Columbia University. He’s a frozen yogurt aficionado who loves running, basketball, and building great products. His goal at Venmo is to make payments more fun, easy, and delightful. He also invented <a href="http://blog.venmo.com/hf2t3h4x98p5e13z82pl8j66ngcmry/2015/5/14/introducing-emoji-autocomplete">emoji autocomplete</a>.</p>
+				<p>If you want to chat about anything from building iPhone apps in Swift to becoming a player in the Fin-Tech industry, say hello on twitter @dasmersingh!</p>
+	      	</div>
+	  		</div>
+		</div>
+	</div>
+</div>
+
+<div class="backshape opposite">
+	<div class="wrapper">
+		<div class="uk-container uk-container-center">
+			<div class="uk-grid">
+	    	<div class="uk-width-medium-1-3 uk-width-small-1-1 uk-width-large-1-3">
+	      		<a name="michael"></a>
+      			<div class="box">
+      				<figure class="uk-overlay uk-overlay-hover">
+			    		<img class="uk-overlay-spin" src="{{ site.baseurl }}/static/images/michael-may.jpg" alt="Michael May">
+							<a class="uk-position-cover" href="https://twitter.com/codermay" target="_blank"></a>
+					</figure>
+		     		<div class="info-box">
+		     			 <h4>Michael May</h4>
+		    		</div>
+		   	   </div>
+	      	</div>
+	      	<div class="uk-width-medium-2-3 uk-width-small-1-1 uk-width-large-2-3" style="padding-top:10px;">
+				<p>Michael  has been an iOS developer since just after the app store launched, and various incarnations before that, including Windows when NT meant New Technology and Java when it had a Mobile Edition. He has a love of music, has seen him wash up at Songkick most recently, and has only made his music snobbery worse. Also; far too fussy about what coffee and beer he drinks, and very easily upset by bad user interfaces.</p>
+	      	</div>
+	  		</div>
+		</div>
+	</div>
+</div>
+
+<div class="backshape opposite light-grey">
+	<div class="wrapper">
+		<div class="uk-container uk-container-center">
+			<div class="uk-grid">
+	    	<div class="uk-width-medium-1-3 uk-width-small-1-1 uk-width-large-1-3">
+	      		<a name="clay"></a>
+      			<div class="box">
+      				<figure class="uk-overlay uk-overlay-hover">
+			    		<img class="uk-overlay-spin" src="{{ site.baseurl }}/static/images/clay-smith.jpg" alt="Clay Smith">
+							<a class="uk-position-cover" href="https://twitter.com/smithclay" target="_blank"></a>
+					</figure>
+		     		<div class="info-box">
+		     			 <h4>Clay Smith</h4>
+		    		</div>
+		   	   </div>
+	      	</div>
+	      	<div class="uk-width-medium-2-3 uk-width-small-1-1 uk-width-large-2-3" style="padding-top:10px;">
+				<p>Clay is a Developer Advocate at New Relic in San Francisco. He previously has worked at San Francisco Bay Area software companies as a senior software engineer, including founding the mobile engineering team at a PagerDuty and creating one of the first iOS apps written in Swift. He has spoken about mobile and web application development at O’Reilly Fluent, JSConfUY, Twilio SignalConf and Node.js Interactive.</p>
+	      	</div>
+	  		</div>
+		</div>
+	</div>
+</div>
 
 <div class="straight light-grey">
 	<div class="wrapper">

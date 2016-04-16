@@ -101,12 +101,13 @@
 
 .info-box {
 	position: absolute;
-	bottom: -10px;
 	left: 10px;
 	background: $brand-color;
 	color: #fff;
 	padding: 10px 20px;
-	width: 75%;
+	width: 85%;
+	top: 75%;
+	height: 33%;
 	z-index: 2;
 
 	@media screen and (max-width: 479px) {
@@ -145,7 +146,7 @@
 
 	margin-bottom: 10px !important;
 	position: relative;
-	padding: 10px;
+	padding: 40px 10px;
 
 	& + p {
 		padding: 0 10px;
