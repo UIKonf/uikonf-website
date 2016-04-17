@@ -106,8 +106,7 @@
 	color: #fff;
 	padding: 10px 20px;
 	width: 85%;
-	top: 75%;
-	height: 33%;
+	bottom: -20px;
 	z-index: 2;
 
 	@media screen and (max-width: 479px) {
@@ -117,6 +116,10 @@
 	
 	&.grey {
 		background: $grey-color;
+	}
+	
+	&.small {
+		bottom: 15px;
 	}
 	
 	h4 {

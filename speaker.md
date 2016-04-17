@@ -41,7 +41,7 @@ redirect_from:
 			        <img class="uk-overlay-spin" src="{{ site.baseurl }}/static/images/jaimee-newberry1.jpg" alt="Jaimee Newberry">
 					    <a class="uk-position-cover" href="https://twitter.com/jaimeejaimee" target="_blank"></a>
 						</figure>
-		        <div class="info-box">
+		        <div  class="info-box small">
 		          <h4>Jaimee Newberry</h4>
 		        </div>
 		      </div>
@@ -68,7 +68,7 @@ redirect_from:
 			    		<img class="uk-overlay-spin" src="{{ site.baseurl }}/static/images/daniel-steinberg.jpg" alt="Daniel H Steinberg">
 							<a class="uk-position-cover" href="https://twitter.com/dimsumthinking" target="_blank"></a>
 					</figure>
-		     		<div class="info-box">
+		     		<div  class="info-box small">
 		     			 <h4>Daniel H Steinberg</h4>
 		    		</div>
 		   	   </div>
@@ -95,7 +95,7 @@ redirect_from:
 			    		<img class="uk-overlay-spin" src="{{ site.baseurl }}/static/images/jeff-watkins.jpg" alt="Jeff Watkins">
 							<a class="uk-position-cover" href="https://twitter.com/jeffwatkins" target="_blank"></a>
 					</figure>
-		     		<div class="info-box">
+		     		<div  class="info-box small">
 		     			 <h4>Jeff Watkins</h4>
 		    		</div>
 		   	   </div>
@@ -119,7 +119,7 @@ redirect_from:
 			    		<img class="uk-overlay-spin" src="{{ site.baseurl }}/static/images/emily-toop.jpg" alt="Emily Toop">
 							<a class="uk-position-cover" href="https://twitter.com/fluffyemily" target="_blank"></a>
 					</figure>
-		     		<div class="info-box">
+		     		<div  class="info-box small">
 		     			 <h4>Emily Toop</h4>
 		    		</div>
 		   	   </div>
@@ -143,7 +143,7 @@ redirect_from:
 			    		<img class="uk-overlay-spin" src="{{ site.baseurl }}/static/images/laura-savino.jpg" alt="Laura Savino">
 							<a class="uk-position-cover" href="https://twitter.com/savinola" target="_blank"></a>
 					</figure>
-		     		<div class="info-box">
+		     		<div  class="info-box small">
 		     			 <h4>Laura Savino</h4>
 		    		</div>
 		   	   </div>
@@ -167,7 +167,7 @@ redirect_from:
 			    		<img class="uk-overlay-spin" src="{{ site.baseurl }}/static/images/charles-perry.jpg" alt="Charles Perry">
 							<a class="uk-position-cover" href="https://twitter.com/dazeend" target="_blank"></a>
 					</figure>
-		     		<div class="info-box">
+		     		<div  class="info-box small">
 		     			 <h4>Charles Perry</h4>
 		    		</div>
 		   	   </div>
@@ -191,7 +191,7 @@ redirect_from:
 			    		<img class="uk-overlay-spin" src="{{ site.baseurl }}/static/images/steve-scott.jpg" alt="Steve Scott">
 							<a class="uk-position-cover" href="https://twitter.com/macdevnet" target="_blank"></a>
 					</figure>
-		     		<div class="info-box">
+		     		<div  class="info-box small">
 		     			 <h4>Steve Scott</h4>
 		    		</div>
 		   	   </div>
@@ -218,7 +218,7 @@ redirect_from:
 			    		<img class="uk-overlay-spin" src="{{ site.baseurl }}/static/images/ashley-nelson-hornstein.jpg" alt="Ashley Nelson-Hornstein">
 							<a class="uk-position-cover" href="https://twitter.com/ashleynh" target="_blank"></a>
 					</figure>
-		     		<div class="info-box">
+		     		<div  class="info-box small">
 		     			 <h4>Ashley Nelson-Hornstein</h4>
 		    		</div>
 		   	   </div>
@@ -242,13 +242,13 @@ redirect_from:
 			    		<img class="uk-overlay-spin" src="{{ site.baseurl }}/static/images/ellen-shapiro.jpg" alt="Ellen Shapiro">
 							<a class="uk-position-cover" href="https://twitter.com/designatednerd" target="_blank"></a>
 					</figure>
-		     		<div class="info-box">
+		     		<div  class="info-box small">
 		     			 <h4>Ellen Shapiro</h4>
 		    		</div>
 		   	   </div>
 	      	</div>
 	      	<div class="uk-width-medium-2-3 uk-width-small-1-1 uk-width-large-2-3" style="padding-top:10px;">
-				<p>Ellen is the Lead Mobile Developer for SpotHero and former Director of iOS Engineering at an Vokal in Chicago, IL. She also builds Android apps and runs the Chicago AndroidListener meetup. She works in her spare time to bring leading songwriting application Hum to life, and writes iOS tutorials for RayWenderlich.com.</p>
+				<p>Ellen is the Lead Mobile Developer for <a href="http://spothero.com/" target="_blank">SpotHero</a> and former Director of iOS Engineering at an Vokal in Chicago, IL. She also builds Android apps and runs the Chicago AndroidListener meetup. She works in her spare time to bring leading songwriting application Hum to life, and writes iOS tutorials for RayWenderlich.com.</p>
 	      	</div>
 	  		</div>
 		</div>
@@ -266,7 +266,7 @@ redirect_from:
 			    		<img class="uk-overlay-spin" src="{{ site.baseurl }}/static/images/shuichi-tsutsumi.jpg" alt="Shuichi Tsutsumi">
 							<a class="uk-position-cover" href="https://twitter.com/shu223" target="_blank"></a>
 					</figure>
-		     		<div class="info-box">
+		     		<div  class="info-box small">
 		     			 <h4>Shuichi Tsutsumi</h4>
 		    		</div>
 		   	   </div>
@@ -290,13 +290,13 @@ redirect_from:
 			    		<img class="uk-overlay-spin" src="{{ site.baseurl }}/static/images/stephen-barnes.jpg" alt="Stephen Barnes">
 							<a class="uk-position-cover" href="https://twitter.com/smbarne" target="_blank"></a>
 					</figure>
-		     		<div class="info-box">
+		     		<div  class="info-box small">
 		     			 <h4>Stephen Barnes</h4>
 		    		</div>
 		   	   </div>
 	      	</div>
 	      	<div class="uk-width-medium-2-3 uk-width-small-1-1 uk-width-large-2-3" style="padding-top:10px;">
-				<p>Stephen is an engineer, an artist, and many things in between. He is currently a Senior iOS Developer at Fitbit, but he has previously worked on a number of things such as 3D, real-time training simulations, babysitting apps, retail apps for iOS and Android, 84″ touchscreens Mac apps, and more. Along the way he has enjoyed writing shaders in GLSL for an OpenSceneGraph based graphics engine and building useful libraries such as RZTransitions for iOS view controller transitions. And best of all, he got to work with a whole lot of really smart people to teach him things along the way. When he isn’t working on mobile apps, he enjoys digital art, West Coast Swing dancing, and cheesy sci-fi books.</p>
+				<p>Stephen is an engineer, an artist, and many things in between. He is currently a Senior iOS Developer at <a href="https://www.fitbit.com" target="_blank">Fitbit</a>, but he has previously worked on a number of things such as 3D, real-time training simulations, babysitting apps, retail apps for iOS and Android, 84″ touchscreens Mac apps, and more. Along the way he has enjoyed writing shaders in GLSL for an OpenSceneGraph based graphics engine and building useful libraries such as RZTransitions for iOS view controller transitions. And best of all, he got to work with a whole lot of really smart people to teach him things along the way. When he isn’t working on mobile apps, he enjoys digital art, West Coast Swing dancing, and cheesy sci-fi books.</p>
 	      	</div>
 	  		</div>
 		</div>
@@ -314,13 +314,13 @@ redirect_from:
 			    		<img class="uk-overlay-spin" src="{{ site.baseurl }}/static/images/bernhard-loibl-mathias-nagler.jpg" alt="Bernhard Loibl &amp; Mathias Nagler">
 							<a class="uk-position-cover" href="https://twitter.com/kupferwerk" target="_blank"></a>
 					</figure>
-		     		<div class="info-box">
+		     		<div  class="info-box small">
 		     			 <h4>Bernhard Loibl & Mathias Nagler</h4>
 		    		</div>
 		   	   </div>
 	      	</div>
 	      	<div class="uk-width-medium-2-3 uk-width-small-1-1 uk-width-large-2-3" style="padding-top:10px;">
-				<p>Mathias and Bernhard are iOS developers raised by wolves in the bavarian woods. After getting to know civilization they started working together at the mobile app agency Kupferwerk in Regensburg, Germany. They both have been developing for iOS since the early days and crafted apps for a variety of clients throughout the last years.</p>
+				<p>Mathias and Bernhard are iOS developers raised by wolves in the bavarian woods. After getting to know civilization they started working together at the mobile app agency <a href="https://www.kupferwerk.com/" target="_blank">Kupferwerk</a> in Regensburg, Germany. They both have been developing for iOS since the early days and crafted apps for a variety of clients throughout the last years.</p>
 	      	</div>
 	  		</div>
 		</div>
@@ -338,14 +338,14 @@ redirect_from:
 			    		<img class="uk-overlay-spin" src="{{ site.baseurl }}/static/images/ilja-puchka.jpg" alt="Ilja Puchka">
 							<a class="uk-position-cover" href="https://twitter.com/ilyapuchka" target="_blank"></a>
 					</figure>
-		     		<div class="info-box">
+		     		<div  class="info-box small">
 		     			 <h4>Ilja Puchka</h4>
 		    		</div>
 		   	   </div>
 	      	</div>
 	      	<div class="uk-width-medium-2-3 uk-width-small-1-1 uk-width-large-2-3" style="padding-top:10px;">
 				<p>Ilja has been developing for iOS since 2011 and since then worked on different kinds of apps from live streaming, productivity and advertisement to lifestyle and messaging.</p>
-				<p>Originally he is from Moscow, Russia, and there had a chance to work at one of the biggest Russian IT companies, like Mail.ru and Rambler&Co.About a year ago he moved to Berlin searching for new challenges. Currently he is working at HelloFresh where they try to improve our users mobile cooking experience.</p>
+				<p>Originally he is from Moscow, Russia, and there had a chance to work at one of the biggest Russian IT companies, like Mail.ru and Rambler&amp;Co. About a year ago he moved to Berlin searching for new challenges. Currently he is working at <a href="https://www.hellofresh.com/" target="_blank">HelloFresh</a> where they try to improve our users mobile cooking experience.</p>
 				<p>He is passionate about architecting code and trying new approaches. Currently he codes exclusively in Swift (so when he switches to Objective-C he always forgets “;”) and blogs about that from time to time.</p>
 	      	</div>
 	  		</div>
@@ -364,13 +364,13 @@ redirect_from:
 			    		<img class="uk-overlay-spin" src="{{ site.baseurl }}/static/images/andreas-schranzhofer.jpg" alt="Andreas Schranzhofer">
 							<a class="uk-position-cover" href="https://twitter.com/schranzhofer" target="_blank"></a>
 					</figure>
-		     		<div class="info-box">
+		     		<div  class="info-box small">
 		     			 <h4>Andreas Schranzhofer</h4>
 		    		</div>
 		   	   </div>
 	      	</div>
 	      	<div class="uk-width-medium-2-3 uk-width-small-1-1 uk-width-large-2-3" style="padding-top:10px;">
-				<p>For the last 5 years, Andreas worked on Mobile Platforms for banking and eCommerce. As Head of Mobile Engineering, he build the GetYourGuide Mobile App and Engineering Team in Zurich and Berlin. With Avaloq AG in Zurich, he build the Avaloq Front Platform for Mobile and Webbanking. At his current position as CTO with Scalable Capital, he is responsible for all engineering efforts and takes personal pride in contributing code for the backend, the frontend and the mobile apps. 
+				<p>For the last 5 years, Andreas worked on Mobile Platforms for banking and eCommerce. As Head of Mobile Engineering, he build the GetYourGuide Mobile App and Engineering Team in Zurich and Berlin. With Avaloq AG in Zurich, he build the Avaloq Front Platform for Mobile and Webbanking. At his current position as CTO with <a href="https://de.scalable.capital/" target="_blank">Scalable Capital</a>, he is responsible for all engineering efforts and takes personal pride in contributing code for the backend, the frontend and the mobile apps. 
 Andreas studied Computer Science at Graz, University of Technology and holds a PhD Degree in Embedded Realtime Systems from ETH Zürich, Switzerland.</p>
 	      	</div>
 	  		</div>
@@ -389,13 +389,13 @@ Andreas studied Computer Science at Graz, University of Technology and holds a P
 			    		<img class="uk-overlay-spin" src="{{ site.baseurl }}/static/images/dasmer-singh.jpg" alt="Dasmer Singh">
 							<a class="uk-position-cover" href="https://twitter.com/dasmersingh" target="_blank"></a>
 					</figure>
-		     		<div class="info-box">
+		     		<div  class="info-box small">
 		     			 <h4>Dasmer Singh</h4>
 		    		</div>
 		   	   </div>
 	      	</div>
 	      	<div class="uk-width-medium-2-3 uk-width-small-1-1 uk-width-large-2-3" style="padding-top:10px;">
-				<p>Dasmer studied Financial Engineering at Columbia University. He’s a frozen yogurt aficionado who loves running, basketball, and building great products. His goal at Venmo is to make payments more fun, easy, and delightful. He also invented <a href="http://blog.venmo.com/hf2t3h4x98p5e13z82pl8j66ngcmry/2015/5/14/introducing-emoji-autocomplete">emoji autocomplete</a>.</p>
+				<p>Dasmer studied Financial Engineering at Columbia University. He’s a frozen yogurt aficionado who loves running, basketball, and building great products. His goal at <a href="https://venmo.com/" target="_blank">Venmo</a> is to make payments more fun, easy, and delightful. He also invented <a href="http://blog.venmo.com/hf2t3h4x98p5e13z82pl8j66ngcmry/2015/5/14/introducing-emoji-autocomplete">emoji autocomplete</a>.</p>
 				<p>If you want to chat about anything from building iPhone apps in Swift to becoming a player in the Fin-Tech industry, say hello on twitter @dasmersingh!</p>
 	      	</div>
 	  		</div>
@@ -414,13 +414,13 @@ Andreas studied Computer Science at Graz, University of Technology and holds a P
 			    		<img class="uk-overlay-spin" src="{{ site.baseurl }}/static/images/michael-may.jpg" alt="Michael May">
 							<a class="uk-position-cover" href="https://twitter.com/codermay" target="_blank"></a>
 					</figure>
-		     		<div class="info-box">
+		     		<div  class="info-box small">
 		     			 <h4>Michael May</h4>
 		    		</div>
 		   	   </div>
 	      	</div>
 	      	<div class="uk-width-medium-2-3 uk-width-small-1-1 uk-width-large-2-3" style="padding-top:10px;">
-				<p>Michael  has been an iOS developer since just after the app store launched, and various incarnations before that, including Windows when NT meant New Technology and Java when it had a Mobile Edition. He has a love of music, has seen him wash up at Songkick most recently, and has only made his music snobbery worse. Also; far too fussy about what coffee and beer he drinks, and very easily upset by bad user interfaces.</p>
+				<p>Michael has been an iOS developer since just after the app store launched, and various incarnations before that, including Windows when NT meant New Technology and Java when it had a Mobile Edition. He has a love of music, has seen him wash up at <a href="http://www.songkick.com/" target="_blank">Songkick</a> most recently, and has only made his music snobbery worse. Also; far too fussy about what coffee and beer he drinks, and very easily upset by bad user interfaces.</p>
 	      	</div>
 	  		</div>
 		</div>
@@ -438,13 +438,13 @@ Andreas studied Computer Science at Graz, University of Technology and holds a P
 			    		<img class="uk-overlay-spin" src="{{ site.baseurl }}/static/images/clay-smith.jpg" alt="Clay Smith">
 							<a class="uk-position-cover" href="https://twitter.com/smithclay" target="_blank"></a>
 					</figure>
-		     		<div class="info-box">
+		     		<div  class="info-box small">
 		     			 <h4>Clay Smith</h4>
 		    		</div>
 		   	   </div>
 	      	</div>
 	      	<div class="uk-width-medium-2-3 uk-width-small-1-1 uk-width-large-2-3" style="padding-top:10px;">
-				<p>Clay is a Developer Advocate at New Relic in San Francisco. He previously has worked at San Francisco Bay Area software companies as a senior software engineer, including founding the mobile engineering team at a PagerDuty and creating one of the first iOS apps written in Swift. He has spoken about mobile and web application development at O’Reilly Fluent, JSConfUY, Twilio SignalConf and Node.js Interactive.</p>
+				<p>Clay is a Developer Advocate at <a href="http://newrelic.com/" target="_blank">New Relic</a> in San Francisco. He previously has worked at San Francisco Bay Area software companies as a senior software engineer, including founding the mobile engineering team at a PagerDuty and creating one of the first iOS apps written in Swift. He has spoken about mobile and web application development at O’Reilly Fluent, JSConfUY, Twilio SignalConf and Node.js Interactive.</p>
 	      	</div>
 	  		</div>
 		</div>
