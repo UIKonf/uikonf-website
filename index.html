@@ -3,7 +3,6 @@ layout: default
 description: UIKonf - Berlin's independent conference for serious iOS developers.
 redirect_from:
  - /program.html
- - /schedule/
  - /scholarship/
  - /tickets/
  - /venue.html
@@ -12,7 +11,7 @@ redirect_from:
    <div class="uk-position-cover uk-flex uk-flex-center uk-flex-middle uk-flex-column">
       <div class="teaser-register">
        <img src="{{ site.baseurl }}/static/images/Logo_bigger.png" alt="logo UIKonf">
-        <a class="btn uk-button-large" href="https://ti.to/uikonf/uikonf-2016">Register now</a>
+        <a class="btn uk-button-large">We are sold out!</a>
         <p>22 - 25 May 2016   <a href="#Location"><i class="uk-icon-map-o"></i> Heimathafen, Berlin</a></p>
      </div>
    </div>
@@ -47,8 +46,10 @@ redirect_from:
       <div class="uk-grid">
         <div class="uk-width-1-1 uk-text-center">
           <h2 class="brand-color">Tickets</h2>
-          <p><tito-widget event="uikonf/uikonf-2016"></tito-widget></p>
-    		  <p>Ticket prices exclude VAT (MwSt.) but include free drinks, lunch on the conference days and the UIKonf party. <a href="refunds">Our Refunds Policy</a></p>
+	  	</div>
+      <div class="uk-width-1-1">
+          <p>We are sold out! We are sorry if you didn't get a ticket this year. If you want to be informed about next year's ticket sale, you might want to <a href="https://ti.to/uikonf/uikonf-2016" target="_blank">put your name on the waitlist</a>. Chances to get one of the remaining ticket for this year however are pretty low by now.</p>
+			  <p>If you have a ticket but can't come after all, please read <a href="refunds">our refunds policy</a> and <a href="mailto:questions@uikonf.com" target="_blank">send us an email</a> with your request including your ticket reference.</p>
         </div>
 	  </div>
    </div>
@@ -65,218 +66,40 @@ redirect_from:
     		<p>UIKonf hosts a diverse selection of inspiring speakers. We select and invite about the half of our speakers. The other half is selected by our community through our <a href="http://cfp.uikonf.com" target="_blank">anonymous call for proposals</a> system which has already ended. </p> 
       </div>
 
-	    	<div class="uk-width-medium-1-2 uk-width-small-1-2 uk-width-large-1-3">
+{% for speaker in site.speakers %}
+	   <div class="uk-width-medium-1-2 uk-width-small-1-2 uk-width-large-1-3">
       		<div class="box">
       			<figure class="uk-overlay uk-overlay-hover">
-					    <img class="uk-overlay-spin" src="/static/images/jaimee-newberry1.jpg" alt="Jaimee Newberry"/>
-					    <a class="uk-position-cover" href="/speakers#jaimee"></a>
+					    <img class="uk-overlay-spin" src="/static/images/{{ speaker.image }}" alt="{{ speaker.title }}"/>
+					    <a class="uk-position-cover" href="/speakers#{{ speaker.anchor }}"></a>
 						</figure>
 		        <div class="info-box">
-          		  	<h4>Jaimee Newberry</h4>
-         		 	<p><small>Jaimee is a professional experimenter, UX coach, writer and speaker</small></p>
+          		  	<h4>{{ speaker.title }}</h4>
+         		 	<p><small>{{ speaker.short-bio }}</small></p>
 		        </div>
 		      </div>
 	      </div>
-	    	<div class="uk-width-medium-1-2 uk-width-small-1-2 uk-width-large-1-3">
-      		<div class="box">
-      			<figure class="uk-overlay uk-overlay-hover">
-					    <img class="uk-overlay-spin" src="/static/images/daniel-steinberg.jpg" alt="Daniel H Steinberg"/>
-					    <a class="uk-position-cover" href="/speakers#daniel"></a>
-						</figure>
-		        <div class="info-box">
-		            <h4>Daniel H Steinberg</h4>
-		            <p><small>Daniel presents Cocoa and Swift training and consults through
-						<a href="http://www.dimsumthinking.com/" target="_blank">Dim Sum Thinking</a></small></p>
-		        </div>
-		      </div>
-	      </div>
-
-       	<div class="uk-width-medium-1-2 uk-width-small-1-2 uk-width-large-1-3">
-     		<div class="box">
-     			<figure class="uk-overlay uk-overlay-hover">
-		    		<img class="uk-overlay-spin" src="{{ site.baseurl }}/static/images/jeff-watkins.jpg" alt="Jeff Watkins"/>
-   				    <a class="uk-position-cover" href="/speakers#jeff"></a>
-   					</figure>
-   	        <div class="info-box">
-		     	<h4>Jeff Watkins</h4>
-   	            <p><small>Jeff runs a non-profit supporting organisations to increase diversity in the technology industry.</small></p>
-   	        </div>
-   	      </div>
-         </div>
-
-       	<div class="uk-width-medium-1-2 uk-width-small-1-2 uk-width-large-1-3">
-     		<div class="box">
-     			<figure class="uk-overlay uk-overlay-hover">
-		    		<img class="uk-overlay-spin" src="{{ site.baseurl }}/static/images/emily-toop.jpg" alt="Emily Toop"/>
-   				    <a class="uk-position-cover" href="/speakers#emily"></a>
-   					</figure>
-   	        <div class="info-box">
-		     	<h4>Emily Toop</h4>
-   	            <p><small>Emily is a developer at Mozilla, working on Firefox for iOS.</small></p>
-   	        </div>
-   	      </div>
-         </div>
-		 
-        	<div class="uk-width-medium-1-2 uk-width-small-1-2 uk-width-large-1-3">
-      		<div class="box">
-      			<figure class="uk-overlay uk-overlay-hover">
- 		    		<img class="uk-overlay-spin" src="{{ site.baseurl }}/static/images/laura-savino.jpg" alt="Laura Savino"/>
-    				    <a class="uk-position-cover" href="/speakers#laura"></a>
-    					</figure>
-    	        <div class="info-box">
- 		     	<h4>Laura Savino</h4>
-    	            <p><small>Laura is an iOS developer with a passion for human languages, teaching, and song.</small></p>
-    	        </div>
-    	      </div>
-          </div>
-		  
-         	<div class="uk-width-medium-1-2 uk-width-small-1-2 uk-width-large-1-3">
-       		<div class="box">
-       			<figure class="uk-overlay uk-overlay-hover">
-  		    		<img class="uk-overlay-spin" src="{{ site.baseurl }}/static/images/charles-perry.jpg" alt="Charles Perry"/>
-     				    <a class="uk-position-cover" href="/speakers#charles"></a>
-     					</figure>
-     	        <div class="info-box">
-  		     	<h4>Charles Perry</h4>
-     	            <p><small>Charles Perry is the owner of Metakite Software and co-host of Release Notes podcast.</small></p>
-     	        </div>
-     	      </div>
-           </div>
-
-         	<div class="uk-width-medium-1-2 uk-width-small-1-2 uk-width-large-1-3">
-       		<div class="box">
-       			<figure class="uk-overlay uk-overlay-hover">
-  		    		<img class="uk-overlay-spin" src="{{ site.baseurl }}/static/images/steve-scott.jpg" alt="Steve Scott"/>
-     				    <a class="uk-position-cover" href="/speakers#scotty"></a>
-     					</figure>
-     	        <div class="info-box">
-  		     	<h4>Steve Scott</h4>
-     	            <p><small> Scotty is a developer, podcaster and conference organiser with a passion for community.</small></p>
-     	        </div>
-     	      </div>
-           </div>
-
-         	<div class="uk-width-medium-1-2 uk-width-small-1-2 uk-width-large-1-3 uk-margin-large-bottom">
-       		<div class="box">
-       			<figure class="uk-overlay uk-overlay-hover">
-  		    		<img class="uk-overlay-spin" src="{{ site.baseurl }}/static/images/ashley-nelson-hornstein.jpg" alt=" Ashley Nelson-Hornstein"/>
-     				    <a class="uk-position-cover" href="/speakers#ashley"></a>
-     					</figure>
-     	        <div class="info-box">
-  		     	<h4>Ashley Nelson-Hornstein</h4>
-     	            <p><small>Ashley is an iOS engineer, speaker, and avid <a href="blog.ashleynh.me" target="_blank">blogger</a>.</small></p>
-     	        </div>
-     	      </div>
-           </div>
-		   
-		   <div class="uk-margin-large-top">&nbsp;</div>
-	       <div class="uk-width-1-1 uk-margin-large-bottom">
-	 			<p>Speakers will be announced over the next couple of weeks. <a href="#newsletter">Sign up for our newsletter</a>, if you would like to receive an email when we announce more speakers.</p>
-	       </div>
-    </div>
+{% endfor %}
+		</div>
+	</div>
   </div>
 </div>
+
+<div class="backshape opposite relative">
 </div>
-
-
-<div class="backshape">
-</div>
-
 
 <div class="backshape opposite relative">
   <div class="wrapper">
-    <div class="uk-container uk-container-center">
-      <div class="uk-grid">
         <div class="uk-width-medium-6-10 uk-container-center">
           <div class="uk-grid">
             <div class="uk-width-1-1 uk-text-center">
               <h2 class="brand-color">Schedule</h2>
             </div>
-            <div class="uk-width-1-1">
-
-              <ul class="uk-tab uk-tab-center uk-tab-grid uk-margin-large-bottom" data-uk-tab data-uk-switcher="{connect:'#Schedule'}">
-                  <li class="uk-active uk-width-1-3" aria-expanded="true"><a href="#">22 May</a></li>
-                  <li aria-expanded="false" class="uk-width-1-3"><a href="#">23rd &amp; 24th May</a></li>
-                  <li aria-expanded="false" class="uk-width-1-3"><a href="#">25 May</a></li>
-              </ul>
-              <div id="Schedule" class="uk-switcher">
-                  <div class="uk-active" aria-hidden="false">
-                   <div class="uk-grid">
-                     <div class="uk-width-medium-2-6 uk-width-1-1">
-                       <p class="light-text"><i class="uk-icon-clock-o"></i> 14:00</p>
-                     </div>
-                     <div class="uk-width-medium-4-6 uk-width-1-1">
-                       <h3 class="brand-color">Social events</h3>
-                       <p><small>What makes UIKonf great are not just the inspiring talks and speakers, but the ease at which you can meet new people. Make the most of your UIKonf trip to Berlin and join one of our social events to learn more about Berlin while networking with likeminded people.</small></p>
-                     </div>
-                   </div>
-                   <div class="uk-grid">
-                     <div class="uk-width-medium-2-6 uk-width-1-1">
-                       <p class="light-text"><i class="uk-icon-clock-o"></i> 19:00</p>
-                     </div>
-                     <div class="uk-width-medium-4-6 uk-width-1-1">
-                       <h3 class="brand-color">Kick-off party</h3>
-                       <p><small>All social events end at the location of the kick-off party. Pick up your conference badge, grab a beer and meet your fellow coders.</small></p>
-                     </div>
-                   </div>
-                  </div>
-                  <div aria-hidden="true" class="">
-                      <div class="uk-grid">
-                        <div class="uk-width-medium-2-6 uk-width-1-1">
-                          <p class="light-text"><i class="uk-icon-clock-o"></i> 9:00</p>
-                        </div>
-                        <div class="uk-width-medium-4-6 uk-width-1-1">
-                          <h3 class="brand-color">Registration</h3>
-                          <p><small>Sleep in a bit longer and register already on Sunday during the kickoff party. Or enjoy a freshly brewed coffee by Companion Coffee.</small></p>
-                        </div>
-                      </div>
-                    <div class="uk-grid">
-                      <div class="uk-width-medium-2-6 uk-width-1-1">
-                        <p class="light-text"><i class="uk-icon-clock-o"></i> 10:00</p>
-                      </div>
-                      <div class="uk-width-medium-4-6 uk-width-1-1">
-                        <h3 class="brand-color">Talks and Treats</h3>
-                        <p><small>Talks will last for about 30 min each with a 10 min Q &amp; A session.</small></p>
-						<p><small>Enjoy free drinks and lunch with vegan options and icecream in the sun.</small></p>
-                      </div>
-                    </div>
-                    <!-- <div class="uk-grid">
-                      <div class="uk-width-1-1">
-                        <p class="uk-text-center">1 hour lunch break</p>
-                      </div>
-                    </div> -->
-                    <div class="uk-grid">
-                      <div class="uk-width-medium-2-6 uk-width-1-1">
-                        <p class="light-text"><i class="uk-icon-clock-o"></i> 19:00</p>
-                      </div>
-                      <div class="uk-width-medium-4-6 uk-width-1-1">
-                        <h3 class="brand-color">Satellite Events</h3>
-                        <p><small> The conference days close with an afterparty on the 24th. If you want to organize or host a satellite event on the 23rd, <a href="mailto:questions@uikonf.com">get in touch with us</a>.</small></p>
-                      </div>
-                    </div>
-                  </div>
-                  <div aria-hidden="true" class="">
-                      <div class="uk-grid">
-                        <div class="uk-width-medium-2-6 uk-width-1-1">
-                          <p class="light-text"><i class="uk-icon-clock-o"></i> 10:00</p>
-                        </div>
-                        <div class="uk-width-medium-4-6 uk-width-1-1">
-                          <h3 class="brand-color">Hackathon, workshops and more!</h3>
-                          <p><small>In addition to taking part in the hackathon you can meet our sponsors, dissect code problems with selected experts or just hang out and code with new friends.</small></p>
-						  <p><small>Check out our <a href="/workshops">workshop page</a> for more information.</small></p>
-						              <p><small>Do you want to hold a workshop or sponsor a hackathon prize, <a href="mailto:questions@uikonf.com">get in touch with us</a>.</small></p>
-                        </div>
-                      </div>
-					  </div>
-              </div>
-
-            </div>
+		    {% include schedule.md context="home" %}
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-</div>
+     </div>
+ </div>
 
 <div class="backshape opposite relative light-grey">
   <div class="wrapper">
@@ -290,78 +113,25 @@ redirect_from:
           <p>A central part of UIKonf are the social events on the Sunday before the conference. Not only do you get to enjoy Berlin for a day but they also give you a first opportunity to get to know other participants of the conference in a fun atmosphere.</p>
 		  <p>We will ask you to donate a little suggested sum this year for the social events. 100% of the revenue from the events ticket sale be donated to <a href="/2016/02/24/Social-events-and-charity.html">Diakonie Katastrophenhilfe</a> to support Syrian refugees.</p>
         </div>
-        <div class="box uk-width-medium-1-2 uk-width-large-1-3">
-  			<figure class="uk-overlay uk-overlay-hover">
-				    <img class="uk-overlay-spin" src="/static/images/bike.jpg" alt="UIKonf Bike Tour mit Ole Begemann">
-				    <a class="uk-position-cover" href="/social-events#bike"></a>
-					</figure>
-          <div class="grey info-box">
-            <h4>Bike Tour</h4>
-            <p><small>UIKonf bike tour has become a tradition. The tour of 2016 will continue that tradition.</small></p>
-          </div>
-        </div>
-
-        <div class="box uk-width-medium-1-2 uk-width-large-1-3">
-  			<figure class="uk-overlay uk-overlay-hover">
-				    <img class="uk-overlay-spin" src="/static/images/tempelhof.jpg" alt="Tempelhof Airport photo by Ciaron Linstead">
-				    <a class="uk-position-cover" href="/social-events#tempelhof"></a>
-					</figure>
-          <div class="grey info-box">
-            <h4>Tempelhof Airport Tour</h4>
-            <p><small>Ever wondered how Tempelhof airport looks from the inside? Then join this tour.</small></p>
-          </div>
-        </div>
-
-        <div class="box uk-width-medium-1-2 uk-width-large-1-3">
-  			<figure class="uk-overlay uk-overlay-hover">
-				    <img class="uk-overlay-spin" src="/static/images/brewery.jpg" alt="Berliner Kindl photo by Ciaron Linstead">
-				    <a class="uk-position-cover" href="/social-events#brewery"></a>
-					</figure>
-          <div class="grey info-box">
-            <h4>Brewery Tour</h4>
-            <p><small>Follow a German tradition and learn how to brew beer at the Brewery Tour.</small></p>
-          </div>
-        </div>
-        
-        <div class="box uk-width-medium-1-2 uk-width-large-1-3">
-  			<figure class="uk-overlay uk-overlay-hover">
-				    <img class="uk-overlay-spin" src="/static/images/bunker.jpg" alt="Flur 2.UG">
-				    <a class="uk-position-cover" href="/social-events#bunker"></a>
-					</figure>
-          <div class="grey info-box">
-            <h4>WWII Bunker Tour</h4>
-            <p><small>A guided tour of a WWII bomb shelter.</small></p>
-          </div>
-        </div>
-        
-        <div class="box uk-width-medium-1-2 uk-width-large-1-3">
-  			<figure class="uk-overlay uk-overlay-hover">
-				    <img class="uk-overlay-spin" src="/static/images/boat.jpg" alt="Touring boats on Spree River &amp; Moltke bridge">
-				    <a class="uk-position-cover" href="/social-events#boat"></a>
-					</figure>
-          <div class="grey info-box">
-            <h4>A Boat Tour on the Spree</h4>
-            <p><small>Relax, enjoy Berlin from a boat and chat with other UIKonf participants.</small></p>
-          </div>
-        </div>
 		
+		{% for event in site.events %}
         <div class="box uk-width-medium-1-2 uk-width-large-1-3">
   			<figure class="uk-overlay uk-overlay-hover">
-				    <img class="uk-overlay-spin" src="/static/images/stasi-museum.jpg" alt="Stasi Museum Foto by Ian Weddell">
-				    <a class="uk-position-cover" href="/social-events#stasi"></a>
+				    <img class="uk-overlay-spin" src="/static/images/{{ event.image }}" alt="{{ event.image-alt }}">
+				    <a class="uk-position-cover" href="/social-events#{{ event.anchor }}"></a>
 					</figure>
           <div class="grey info-box">
-            <h4>Stasi Museum Tour</h4>
-            <p><small>Visit the former GDR state security head office which has been conserved in time.</small></p>
+            <h4>{{ event.title }}</h4>
+            <p><small>{{ event.description }}</small></p>
           </div>
         </div>
-        
-      </div>
+		{% endfor %}
+	    </div>
     <div class="uk-text-center uk-width-large-1-1 uk-width-medium-1-2  uk-width-small-1-1 uk-margin-large-top">
 		<a class="btn uk-button-large" style="padding:20px; text-decoration: none;" href="/social-events" alt="Social Events">More details</a>
 	  </div>
-    </div>
 	</div>
+</div>
 </div>
 
 <div class="straight">
@@ -374,7 +144,7 @@ redirect_from:
       </div>
       <div class="box uk-width-medium-1-2 uk-width-large-1-3">
 			<figure class="uk-overlay uk-overlay-hover">
-			    <img src="/static/images/GrandCentrix.png" alt="GrandCentrix">
+			    <a href="https://www.grandcentrix.net/" target="_blank"><img src="/static/images/GrandCentrix.png" alt="GrandCentrix"></a>
 			</figure>
       </div>
     </div>

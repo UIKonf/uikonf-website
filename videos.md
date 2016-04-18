@@ -1,5 +1,6 @@
 ---
 layout: default
+order: 4
 title: Videos
 permalink: /videos/
 description: Watch the videos of UIKonf 2015, 2013 and 2012 or learn more about Berlin's independent iOS developer conference.

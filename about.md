@@ -1,5 +1,6 @@
 ---
 layout: default
+order: 3
 title: About
 permalink: /about/
 description: UIKonf - Berlin's independent iOS conference is run by Engin Kurutepe, Maxim Zaks and Sabine Geithner.
@@ -29,7 +30,7 @@ description: UIKonf - Berlin's independent iOS conference is run by Engin Kurute
 					    <img class="uk-overlay-spin" src="{{ site.baseurl }}/static/images/Engin.jpg" alt="Engin Kurutepe">
 					    <a class="uk-position-cover" href="https://twitter.com/ekurutepe"></a>
 						</figure>
-		        <div class="info-box">
+		        <div class="info-box small">
 		          <h4>Engin Kurutepe</h4>
 		        </div>
 		      </div>
@@ -43,7 +44,7 @@ description: UIKonf - Berlin's independent iOS conference is run by Engin Kurute
 					    <img class="uk-overlay-spin" src="{{ site.baseurl }}/static/images/Maxim.jpg" alt="Maxim Zaks">
 					    <a class="uk-position-cover" href="https://twitter.com/iceX33"></a>
 						</figure>
-		        <div class="info-box">
+		        <div  class="info-box small">
 		          <h4>Maxim Zaks</h4>
 		        </div>
 	        </div>
@@ -56,11 +57,11 @@ description: UIKonf - Berlin's independent iOS conference is run by Engin Kurute
 					    <img class="uk-overlay-spin" src="{{ site.baseurl }}/static/images/sabine.jpg" alt="Sabine Geithner">
 					    <a class="uk-position-cover" href="https://twitter.com/sabinegeithner"></a>
 						</figure>
-		        <div class="info-box">
+		        <div  class="info-box small">
 		          <h4>Sabine Geithner</h4>
 		        </div>
 	        </div>
-	        <p><small>iOS developer at <a href="#">@wire</a> // organizes@uikonf with <a href="#">@ekurutepe</a> and @iceX33 // passionate about <a href="#">#learning</a> <a href="#">#design</a> <a href="#">#psychology</a> <a href="#">#science</a></small></p>
+	        <p><small>iOS developer at Wire, former Online Marketer and Scientist.</small></p>
 	      </div>
 
 			</div>
@@ -81,7 +82,7 @@ description: UIKonf - Berlin's independent iOS conference is run by Engin Kurute
 						    <img class="uk-overlay-spin" src="{{ site.baseurl }}/static/images/diana_thumb.jpg" alt="Diana Arce">
 						    <a class="uk-position-cover" href="https://twitter.com/visualosmosis"></a>
 							</figure>
-			        <div class="info-box">
+			        <div  class="info-box small">
 			          <p>Diana Arce</p>
 			        </div>
 		        </div>
@@ -93,7 +94,7 @@ description: UIKonf - Berlin's independent iOS conference is run by Engin Kurute
 						    Chris Eidhof">
 						    <a class="uk-position-cover" href="https://twitter.com/chriseidhof"></a>
 							</figure>
-			        <div class="info-box">
+			        <div  class="info-box small">
 			          <p>Chris Eidhof</p>
 			        </div>
 						</div>
@@ -105,7 +106,7 @@ description: UIKonf - Berlin's independent iOS conference is run by Engin Kurute
 						    Matt Patterson">
 						    <a class="uk-position-cover" href="https://twitter.com/fidothe"></a>
 							</figure>
-			        <div class="info-box">
+			        <div  class="info-box small">
 			          <p>Matt Patterson</p>
 			        </div>
 		        </div>
@@ -117,7 +118,7 @@ description: UIKonf - Berlin's independent iOS conference is run by Engin Kurute
 					    Peter Bihr">
 					    <a class="uk-position-cover" href="https://twitter.com/peterbihr"></a>
 							</figure>
-			        <div class="info-box">
+			        <div  class="info-box small">
 			          <p>Peter Bihr</p>
 			        </div>
 		        </div>
@@ -129,7 +130,7 @@ description: UIKonf - Berlin's independent iOS conference is run by Engin Kurute
 						    Max Krüger">
 						    <a class="uk-position-cover" href="https://twitter.com/KrgerMax"></a>
 							</figure>
-			        <div class="info-box">
+			        <div  class="info-box small">
 			          <p>Max Krüger</p>
 			        </div>
 		        </div>

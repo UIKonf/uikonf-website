@@ -1,0 +1,10 @@
+---
+title: WWII Bomb-Shelter Tour
+start: 9am!
+image: bunker.jpg
+image-alt: WWII Bomb-Shelter Tour
+anchor: bunker
+description: A guided tour of a WWII bomb shelter
+---
+
+<p>There are not too many bomb shelters left in Berlin, but some might really surprise you. This tour takes you through a bomb shelter just above a U-Bahn (underground) platform. You will learn a lot about the history of WWII and the Cold War in Berlin.</p>
