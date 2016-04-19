@@ -1,5 +1,5 @@
 ---
-title: Charles Perry
+title: Steve Scott
 twitter: https://twitter.com/macdevnet
 image: steve-scott.jpg
 anchor: scotty
