@@ -8,7 +8,7 @@ items:
     description: Sleep in a bit longer and register already on Sunday during the kickoff party. Or enjoy a freshly brewed coffee by Companion Coffee
     time: "9:00"
   - title: Talks and Treats
-    description: Talks will last for about 30 min each with a 10 min Q &amp; A session.<br/>Enjoy free drinks and lunch with vegan options and icecream in the sun.
+    description: Talks will last for about 30 min each with a 10 min Q &amp; A session.<br/>Enjoy free drinks and lunch with vegan options and icecream in the sun. <br/>For more details on the schedule please visit our <a href="/schedule">schedule page</a>.
     time: "10:00"
   - title: Satellite Events
     description: The conference days close with an afterparty on the 24th. If you want to organize or host a satellite event on the 23rd, <a href="mailto:questions@uikonf.com">get in touch with us</a>.

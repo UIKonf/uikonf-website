@@ -4,19 +4,39 @@ day: 24
 isDetail: true
 isSummary: false
 items:
-  - title: Coffee
+  - title: Coffee & Registration
     description: Enjoy a freshly brewed coffee by Companion Coffee
     time: "9:00"
-  - title: Talks and Treats
-    description: Talks will last for about 30 min each with a 10 min Q &amp; A session.<br/>Enjoy free drinks and lunch with vegan options and icecream in the sun. The full schedule will be published soon.
+    type: break
+  - title: Ashley Nelson-Hornstein - Humanities x Technology
     time: "10:00"
+  - title: Bernhard Loibl & Mathias Nagler - Your (Forgotten) Friend inside Xcode - The Interface Builder
+    time: "10:35"
+  - title: Coffee Break
+    time: "11:10" 
+    type: break
+  - title: Andreas Schranzhofer - App Security and Securing Apps
+    time: "11:50" 
+  - title: Stephen Barnes - Bring Your App to Life with CALayers
+    time: "12:25" 
+  - title: Lunch Break
+    time: "13:00"
+    type: break 
+  - title: Michael May - The Empathetic Programmer
+    time: "14:30" 
+  - title: Ilya Puchka - Dependency Injection in Swift
+    time: "15:05" 
+  - title: Isabel Barrera - 4 Steps To (Architectural) Epiphany
+    time: "15:40" 
+  - title: Coffee Break
+    time: "16:15"
+    type: break
+  - title: Daniel H. Steinberg - A Time Lapse look at Swift
+    time: "17:00" 
+  - title: Jaimee Newberry - &#35;NoExcuses
+    time: "17:35" 
   - title: After Party
-    description: Come and celebrate UIKonf with us.
-    time: "19:00"     
+    description: Come and celebrate UIKonf with us. The location will be announced soon.
+    time: "19:00"
+    type: break     
 ---
-
-<!-- <div class="uk-grid">
-                      <div class="uk-width-1-1">
-                        <p class="uk-text-center">1 hour lunch break</p>
-                      </div>
-                    </div> -->

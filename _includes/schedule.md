@@ -40,15 +40,31 @@
                       <div aria-hidden="true" class="">
 				{% endif %}
 	    		{% for item in day.items %}
+					{% if item.type == "break" %}
+						<div class="uk-grid">
+                  		  	<div class="uk-width-medium-1-6 uk-width-1-1">
+                    			<p class="light-text"><i class="uk-icon-clock-o"></i> {{ item.time }}</p>
+                 		   	</div>
+					          <div class="uk-width-5-6">
+					              <p class="light-text, uk-text-center" style="background-color:#F5F5F5; color:rgba(74, 74, 74, 0.7);"> {{ item.title }}</p>
+								{% if item.description %}
+                  				     <p><small>{{ item.description }}</small></p>
+								{% endif %}
+					          </div>
+					    </div>
+					{% else %}
                    	 	<div class="uk-grid">
-                      		  	<div class="uk-width-medium-2-6 uk-width-1-1">
+                      		  	<div class="uk-width-medium-1-6 uk-width-1-1">
                         			<p class="light-text"><i class="uk-icon-clock-o"></i> {{ item.time }}</p>
                      		   	</div>
-                      		 	<div class="uk-width-medium-4-6 uk-width-1-1">
-                        				<h3 class="brand-color">{{ item.title }}</h3>
-                        				<p><small>{{ item.description }}</small></p>
+                      		 	<div class="uk-width-medium-5-6 uk-width-1-1">
+                        				<h3 class="brand-color" style="font-size: 1.7rem;">{{ item.title }}</h3>
+										{% if item.description %}
+                        				     <p><small>{{ item.description }}</small></p>
+										{% endif %}
                       			</div>
                     		</div>
+							{% endif %}
   			    {% endfor %}
 				      </div>
 			{% endif %}
