@@ -22,6 +22,8 @@ items:
   - title: Lunch Break
     time: "13:00"
     type: "break"
+  - title: Workshop - <a href="/workshops#realm">Reactive Programming with Realm</a>
+    time: "14:30"
   - title: Emily Toop - Working Within the Walled Garden
     time: "14:30"
   - title: Steve Scott - MVVM-C In Practice
