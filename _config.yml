@@ -28,6 +28,7 @@ collections:
   - speakers
   - events
   - days
+  - workshops
 
 # Build settings
 markdown: kramdown

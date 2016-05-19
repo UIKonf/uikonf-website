@@ -21,132 +21,45 @@ description: UIKonf 2016 - Workshops and Unconference on Wednesday 25th May
    </div>
 </div>
 
-<div class="backshape">
+{% for workshop in site.workshops %}
+{% assign loopindex = forloop.index | modulo: 2 %}
+  {% if loopindex == 1 %}
+  <div class="backshape opposite light-grey">
+  {% else %}
+  <div class="backshape opposite">
+  {% endif %}	
 	<div class="wrapper">
-		<div class="uk-container uk-container-center uk-margin-large-top">
-    		<div class="uk-grid">
+		<div class="uk-container uk-container-center uk-margin-large-bottom">
+			<div class="uk-grid">
 	    	<div class="uk-width-medium-1-3 uk-width-small-1-1 uk-width-large-1-3">
-      		<a name="swift"></a>
-			<div class="box">
-      			<figure class="uk-overlay uk-overlay-hover">
-			        <img src="{{ site.baseurl }}/static/images/daniel-steinberg.jpg" alt="Core Data">
-						</figure>
-		        <div class="info-box small">
-		          <h4>Advanced Swift Workshop</h4>
-		        </div>
-		      </div>
+	      		<a name="{{ workshop.anchor }}"></a>
+      			<div class="box">
+      				<figure class="uk-overlay uk-overlay-hover">
+			    		<img class="uk-overlay" src="{{ site.baseurl }}/static/images/{{ workshop.image }}" alt="{{ workshop.title }}">
+							<a class="uk-position-cover" href="{{ speaker.twitter }}" target="_blank"></a>
+					</figure>
+		     		<div  class="info-box small">
+		     			 <h4>{{ workshop.shortTitle }}</h4>
+		    		</div>
+		   	   </div>
 	      	</div>
-
-	     	 <div class="uk-width-medium-2-3 uk-width-small-1-1 uk-width-large-2-3" style="padding-top:10px;">
-	       	 	<h3>Understanding the Patterns of Programming in Swift</h3>
-				<p>Instructor: <a href="/speakers#daniel">Daniel Steinberg</a> of <a href="http://dimsumthinking.com" target="_blank">dimsumthinking.com</a></p>
-<p>Date: Saturday, May 21st</p>
-
-<p>This fast-paced workshop shows you how to take advantage of Swift features to write more robust code that is easier to reason about. We'll spend a good part of the day looking at functional programming and playing with map, filter, reduce, and flatmap but we will also create instances of classes, structs, and enums. We'll explore how your iOS app architecture may change when you embrace idiomatic Swift.</p>
-
-<p>One of the strengths of Swift is that it can borrow the best from a multitude of paradigms. We'll look at how to successfully weave together OO and functional code into a readable and flexible architecture and focus on protocol oriented programming.</p>
-
-<p>Prerequisites: We assume that you are an experienced programmer who has spent some time looking at Swift but you aren't yet an expert in Swift. You understand most of the hows and whats of working with Swift and are looking for the whys and wheres. You need a Mac running Yosemite or El Capitan with the latest publicly shipping version of Xcode 7.x installed.</p>
-
-<p>Start: 10am</p>
-<p>Duration: approx. 8h (Note this workshop is on Saturday!)</p>
-
-<p>Fee: 150 € - You don't need a UIKonf ticket to attend this workshop.</p>
-
-<div class="uk-text-center uk-width-large-1-1 uk-width-medium-1-2  uk-width-small-1-1 uk-margin-large-top">
-		<a class="btn uk-button-large" style="padding:20px; text-decoration: none;" href="https://ti.to/uikonf/thinking-in-swift/with/nxtgihxgmmy" target="_blank" alt="Swift Thinking Workshop Tickets">Book a Ticket</a>
-</div>
+	      	<div class="uk-width-medium-2-3 uk-width-small-1-1 uk-width-large-2-3" style="padding-top:10px;">
+				<h3>{{ workshop.title }}</h3>
+				<p>Presenter: {{ workshop.presenter }}<br/>
+					Date: {{ workshop.date }}<br/>
+					Time: {{ workshop.time }}<br/>
+					Duration: {{ workshop.duration }}<br/>
+					Fee: {{ workshop.fee }}</p>
+				
+				{{ workshop.content }}
 	      	</div>
 	  		</div>
 		</div>
 	</div>
 </div>
-
-<div class="backshape ligth-grey">
-	<div class="wrapper">
-		<div class="uk-container uk-container-center uk-margin-large-top">
-    		<div class="uk-grid">
-	    	<div class="uk-width-medium-1-3 uk-width-small-1-1 uk-width-large-1-3">
-      		<a name="tdd"></a>
-			<div class="box">
-      			<figure class="uk-overlay uk-overlay-hover">
-			        <img src="{{ site.baseurl }}/static/images/swift-tdd.jpg" alt="Swift TDD">
-						</figure>
-		        <div class="info-box small">
-		          <h4>Swift TDD Workshop</h4>
-		        </div>
-		      </div>
-	      	</div>
-
-	     	 <div class="uk-width-medium-2-3 uk-width-small-1-1 uk-width-large-2-3" style="padding-top:10px;">
-	       	 	<h3>Test Driven Development in Swift</h3>
-				<p>Instructor: Pawel Dudek of mobile-academy.io</p>
-<p>Date: Wednesday, May 25th</p>
-
-<p>Agenda: Starting your adventure with testing is not an easy task. You know this if you ever started writing tests on your own - you wrote some, but they were more of a burden rather than salvation. Fragile to change, long and hard to understand. </p>
-
-<p>Or perhaps you have written tests before, but you’re having problems with applying what you’ve learned so far to Swift. Or maybe you’d just like to refresh your TDD skills. </p>
-
-<p>If you thought ‘That’s me!’ for any one of these (or all of them!) then you’re a prefect match for our Swift TDD workshop!</p>
-
-<p>During this workshop you’ll learn how you can write more testable code by incorporating Test Driven Development into your workflow. Moreover you’ll learn how to make existing code more testable and what are the best tools for TDD in Swift.</p>
-<p>Prerequisites:</p>
-<ul><li>General Swift knowledge - you should be able to read and understand code in Swift</li>
-<li>Latest Xcode installed</li>
-<li>Although not required AppCode is recommended - we’ll be heavily relying on its refactoring capabilities</li>
-<li>Humor and hunger for knowledge!</li>
-</ul>
-<p>Start: 10am</p>
-<p>Duration: approx. 3h</p>
-<p>Fee: 50 €</p>
-<div class="uk-text-center uk-width-large-1-1 uk-width-medium-1-2  uk-width-small-1-1 uk-margin-large-top">
-		<a class="btn uk-button-large" style="padding:20px; text-decoration: none;" href="https://ti.to/uikonf/uikonf-2016/with/43kxerqjnkg" target="_blank">Book a Ticket</a>
-</div>
-
-	      	</div>
-	  		</div>
-		</div>
-	</div>
-</div>
+{% endfor %}
 
 
-<div class="backshape opposite">
-	<div class="wrapper">
-		<div class="uk-container uk-container-center uk-margin-large-top">
-    		<div class="uk-grid">
-	    	<div class="uk-width-medium-1-3 uk-width-small-1-1 uk-width-large-1-3">
-      		<a name="coredata"></a>
-			<div class="box">
-      			<figure class="uk-overlay uk-overlay-hover">
-			        <img src="{{ site.baseurl }}/static/images/core-data.jpg" alt="Core Data">
-						</figure>
-		        <div class="info-box small">
-		          <h4>Core Data Workshop</h4>
-		        </div>
-		      </div>
-	      	</div>
-
-	     	 <div class="uk-width-medium-2-3 uk-width-small-1-1 uk-width-large-2-3" style="padding-top:10px;">
-	       	 	<h3>Understanding Core Data Performance and Concurrency</h3>
-				<p>Instructor: Florian Kugler of objc.io</p>
-<p>Date: Wednesday, May 25th</p>
-
-<p>Agenda: The key to using Core Data successfully is an in-depth understanding of its architecture. Together with Daniel and Florian you will take a deep dive into this flexible and powerful framework to enable you to make the best choices for your project: how to setup the stack, how to implement a clean concurrency model, and how to tackle performance problems.</p>
-
-<p>Next to the workshop itself each participant gets a copy of the <a href="https://www.objc.io/books/core-data" target="_blank">Core Data eBook</a>.</p>
-
-<p>Prerequisites: This workshop is not for newcomers to Core Data. We assume that you have a basic understanding of Core Data’s API.</p>
-<p>Start: 1pm</p>
-<p>Duration: approx. 3h</p>
-<p>Fee: 50 €</p>
-<div class="uk-text-center uk-width-large-1-1 uk-width-medium-1-2  uk-width-small-1-1 uk-margin-large-top">
-		<a class="btn uk-button-large" style="padding:20px; text-decoration: none;" href="https://ti.to/uikonf/uikonf-2016/with/sepdt6oua2a" target="_blank">Book a Ticket</a>
-</div>
-	      	</div>
-	  		</div>
-		</div>
-	</div>
-</div>
 
 <div class="straight light-grey">
 	<div class="wrapper">
