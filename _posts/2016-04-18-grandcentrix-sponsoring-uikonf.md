@@ -1,15 +1,15 @@
 ---
-title: Grandcentrix is Sponsoring UIKonf
+title: grandcentrix is Sponsoring UIKonf
 layout: post
 author: basine
 date: 18 May 2016
 published: true
-description: An interview with Ralf Rottmann, Managing Partner of Grandcentrix which is Sponsor of UIKonf 2016.
+description: An interview with Ralf Rottmann, Managing Partner of grandcentrix which is Sponsor of UIKonf 2016.
 ---
 
-### Interview with Ralf Rottmann, Managing Partner of Grandcentrix
+### Interview with Ralf Rottmann, Managing Partner of grandcentrix
 
-Grandcentrix is one of UIKonf's Gold Sponsors this year.
+grandcentrix is one of UIKonf's Gold Sponsors this year.
 
 <p style="font-style:italic; margin-top:40px; color:#009FDF;">In a nutshell, who is grandcentrix?</p>
 
