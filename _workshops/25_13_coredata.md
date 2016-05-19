@@ -4,7 +4,7 @@ shortTitle: Core Data Workshop
 presenter: Florian Kugler of objc.io
 image: core-data.jpg
 anchor: coredata
-date: Wednesday, May 25th
+date: "Wednesday, May 25th"
 time: 1 pm
 duration: ca. 3h
 fee: 50 €

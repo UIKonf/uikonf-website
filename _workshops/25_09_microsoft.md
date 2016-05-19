@@ -2,9 +2,9 @@
 title: Make your apps human - get hands on with Microsoft Cognitive Services
 shortTitle: Microsoft Workshop
 presenter: <a href="https://twitter.com/arepty" target="_blank">Alexander Repty</a> of <a href="https://careers.microsoft.com/" target="_blank">Microsoft</a>
-image: microsoft_logo_small.png
+image: Microsoft_logo_small.png
 anchor: microsoft
-date: Wednesday, May 25th
+date: "Wednesday, May 25th"
 time: 10 am & 1 pm
 duration: ca. 2.5h each
 fee: free :)

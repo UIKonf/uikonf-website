@@ -4,7 +4,7 @@ shortTitle: Advanced Swift Workshop
 presenter: <a href="/speakers#daniel">Daniel Steinberg</a> of <a href="http://dimsumthinking.com" target="_blank">dimsumthinking.com</a>
 image: daniel-steinberg.jpg
 anchor: swift
-date: Saturday, May 21st
+date: "Saturday, May 21st"
 time: 10 am
 duration: approx. 8h (Note this workshop is on Saturday!)
 fee: 150 € - You don't need a UIKonf ticket to attend this workshop.
