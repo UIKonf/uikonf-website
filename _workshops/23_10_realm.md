@@ -4,7 +4,7 @@ shortTitle: Realm Workshop
 presenter: Marius Rackwitz of Realm
 image: marius-rackwitz.jpg
 anchor: realm
-date: Monday 23rd & Tuesday 24th May
+presentationDate: Monday 23rd & Tuesday 24th May
 time: 2:30 pm
 duration: ca. 1.5 h
 fee: free

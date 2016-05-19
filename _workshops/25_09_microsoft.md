@@ -4,7 +4,7 @@ shortTitle: Microsoft Workshop
 presenter: <a href="https://twitter.com/arepty" target="_blank">Alexander Repty</a> of <a href="https://careers.microsoft.com/" target="_blank">Microsoft</a>
 image: Microsoft_logo_small.png
 anchor: microsoft
-date: "Wednesday, May 25th"
+presentationDate: Wednesday, May 25th
 time: 10 am & 1 pm
 duration: ca. 2.5h each
 fee: free :)

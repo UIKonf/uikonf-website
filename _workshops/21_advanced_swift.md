@@ -4,10 +4,11 @@ shortTitle: Advanced Swift Workshop
 presenter: <a href="/speakers#daniel">Daniel Steinberg</a> of <a href="http://dimsumthinking.com" target="_blank">dimsumthinking.com</a>
 image: daniel-steinberg.jpg
 anchor: swift
-date: "Saturday, May 21st"
+presentationDate: Saturday, May 21st
 time: 10 am
 duration: approx. 8h (Note this workshop is on Saturday!)
 fee: 150 € - You don't need a UIKonf ticket to attend this workshop.
+
 ---
 
 <p>This fast-paced workshop shows you how to take advantage of Swift features to write more robust code that is easier to reason about. We'll spend a good part of the day looking at functional programming and playing with map, filter, reduce, and flatmap but we will also create instances of classes, structs, and enums. We'll explore how your iOS app architecture may change when you embrace idiomatic Swift.</p>
