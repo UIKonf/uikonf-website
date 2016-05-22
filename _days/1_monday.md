@@ -35,7 +35,7 @@ items:
     type: "break"
   - title: Charles Perry - Succeeding Slowly - A Practical Guide to Going Indie
     time: "17:00"
-  - title: Laura Saviola - Reading in a New Language
+  - title: Laura Savino - Reading in a New Language
     time: "17:35"
   - title: Satellite Events
     description: If you want to organize or host a satellite event on the 23rd, <a href="mailto:questions@uikonf.com">get in touch with us</a>.
