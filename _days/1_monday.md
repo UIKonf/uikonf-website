@@ -12,6 +12,7 @@ items:
     time: "10:00"
   - title: Dasmer Singh - Build once, use everywhere
     time: "10:35"
+    description: <a href="https://speakerdeck.com/dasmer/build-once-use-everywhere" target="_blank">Show Slides</a>
   - title: Coffee Break
     time: "11:10"
     type: "break"
