@@ -17,8 +17,10 @@ items:
     type: "break"
   - title: Clay Smith - High-Performance iOS Networking - Attacking Latency for Faster Apps
     time: "11:50"
+    description: <a href="https://speakerdeck.com/smithclay/high-performance-ios-networking" target="_blank">Show Slides</a>
   - title: Shuichi Tsutsumi - Practical Core Bluetooth in IoT & Wearable projects
     time: "12:25"
+    description: <a href="http://www.slideshare.net/t26v0748/practical-core-bluetooth-in-iot-wearable-projects" target="_blank">Show Slides</a>
   - title: Lunch Break
     time: "13:00"
     type: "break"
