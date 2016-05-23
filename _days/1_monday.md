@@ -28,6 +28,7 @@ items:
     time: "14:30"
   - title: Emily Toop - Working Within the Walled Garden
     time: "14:30"
+    description: <a href="https://www.dropbox.com/s/6mvlrcst3yuy94e/Working%20Within%20The%20Walled%20Garden.key?dl=0" target="_blank">Show Slides</a>
   - title: Steve Scott - MVVM-C In Practice
     time: "15:05"
   - title: Ellen Shapiro - Outside In - Using UI Tests To Start Improving Your App
@@ -35,8 +36,9 @@ items:
   - title: Coffee Break
     time: "16:15"
     type: "break"
-  - title: Charles Perry - Succeeding Slowly - A Practical Guide to Going Indie
+  - title: Charles Perry - An Indie's Guide to Building Profitable Apps
     time: "17:00"
+    description: <a href="http://metakite.com/wp-content/uploads/2016/05/Building-Profitable-Apps-UIKonf.pdf" target="_blank">Show Slides</a>
   - title: Laura Savino - Reading in a New Language
     time: "17:35"
   - title: Satellite Events
