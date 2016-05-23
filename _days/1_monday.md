@@ -28,9 +28,10 @@ items:
     time: "14:30"
   - title: Emily Toop - Working Within the Walled Garden
     time: "14:30"
-    description: <a href="https://www.dropbox.com/s/6mvlrcst3yuy94e/Working%20Within%20The%20Walled%20Garden.key?dl=0" target="_blank">Show Slides</a>
+    description: <a href="https://speakerdeck.com/fluffyemily/working-within-the-walled-garden" target="_blank">Show Slides</a>
   - title: Steve Scott - MVVM-C In Practice
     time: "15:05"
+    description: <a href="https://speakerdeck.com/macdevnet/mvvm-c-in-practice" target="_blank">Show Slides</a>
   - title: Ellen Shapiro - Outside In - Using UI Tests To Start Improving Your App
     time: "15:40"
   - title: Coffee Break
