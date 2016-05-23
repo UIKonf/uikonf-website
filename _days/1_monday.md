@@ -35,6 +35,7 @@ items:
     description: <a href="https://speakerdeck.com/macdevnet/mvvm-c-in-practice" target="_blank">Show Slides</a>
   - title: Ellen Shapiro - Outside In - Using UI Tests To Start Improving Your App
     time: "15:40"
+    description: <a href="https://speakerdeck.com/designatednerd/outside-in-using-ui-tests-to-start-improving-your-app-uikonf-berlin-2016" target="_blank">Show Slides</a>
   - title: Coffee Break
     time: "16:15"
     type: "break"
