@@ -12,13 +12,16 @@ items:
     time: "10:00"
   - title: Bernhard Loibl & Mathias Nagler - Your (Forgotten) Friend inside Xcode - The Interface Builder
     time: "10:35"
+    description: <a href="https://speakerdeck.com/mathiasnagler/your-forgotten-friend-inside-xcode-interface-builder" target="_blank">Show slides</a>
   - title: Coffee Break
     time: "11:10" 
     type: break
   - title: Andreas Schranzhofer - App Security and Securing Apps
-    time: "11:50" 
+    time: "11:50"
+    description: <a href="http://www.slideshare.net/andreasschranzhofer/app-security-and-securing-app" target="_blank">Show slides</a>
   - title: Stephen Barnes - Bring Your App to Life with CALayers
     time: "12:25" 
+    description: <a href="https://speakerdeck.com/smbarne/bring-your-app-to-life-with-calayers" target="_blank">Show slides</a>
   - title: Lunch Break
     time: "13:00"
     type: break 
@@ -35,6 +38,7 @@ items:
     type: break
   - title: Daniel H. Steinberg - A Time Lapse look at Swift
     time: "17:00" 
+    description: <a href="https://speakerdeck.com/dimsumthinking/a-swift-timelapse-uikonf-2016" target="_blank">Show slides</a>
   - title: Jaimee Newberry - &#35;NoExcuses
     time: "17:35" 
   - title: After Party
