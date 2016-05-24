@@ -5,7 +5,7 @@ presenter: Florian Kugler of objc.io
 image: core-data.jpg
 anchor: coredata
 presentationDate: Wednesday, May 25th
-time: 1 pm
+time: 3 pm
 duration: ca. 3h
 fee: 50 €
 
