@@ -5,7 +5,7 @@ presenter: <a href="https://twitter.com/arepty" target="_blank">Alexander Repty<
 image: Microsoft_logo_small.png
 anchor: microsoft
 presentationDate: Wednesday, May 25th
-time: 10 am & 1 pm
+time: 10 am & 3 pm
 duration: ca. 2.5h each
 fee: free :)
 
