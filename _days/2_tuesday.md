@@ -29,6 +29,7 @@ items:
     time: "14:30"
   - title: Michael May - The Empathetic Programmer
     time: "14:30" 
+    description: <a href="https://speakerdeck.com/codermay/the-empathetic-programmer" target="_blank">Show slides</a>
   - title: Ilya Puchka - Dependency Injection in Swift
     time: "15:05" 
   - title: Isabel Barrera - 4 Steps To (Architectural) Epiphany
