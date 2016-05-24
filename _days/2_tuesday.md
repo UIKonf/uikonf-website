@@ -32,6 +32,7 @@ items:
     description: <a href="https://speakerdeck.com/codermay/the-empathetic-programmer" target="_blank">Show slides</a>
   - title: Ilya Puchka - Dependency Injection in Swift
     time: "15:05" 
+    description: <a href="https://speakerdeck.com/ilyapuchka/dependency-injection-in-swift" target="_blank">Show slides</a>
   - title: Isabel Barrera - 4 Steps To (Architectural) Epiphany
     time: "15:40" 
   - title: Coffee Break
