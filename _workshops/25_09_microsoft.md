@@ -8,7 +8,7 @@ presentationDate: Wednesday, May 25th
 time: 10 am & 3 pm
 duration: ca. 2.5h each
 fee: free :)
-
+location: <a href="https://www.google.de/maps/place/betahaus/@52.5025407,13.4121985,15z/data=!4m5!3m4!1s0x0:0x1687d2a7997ddff1!8m2!3d52.5025407!4d13.4121985?sa=X&ved=0ahUKEwiKzbOZ3PTMAhUKOxQKHadRCrUQ_BIIhAEwDQ" target="_blank">betahaus Berlin</a>
 ---
 
 <p>Learn how to use Microsoft's vast array of online services to extend your application with magical capabilities.</p>
