@@ -59,7 +59,7 @@ redirect_from:
   	      	<div class="uk-width-1-1">
   	      		<h3 class="brand-color">UIKonf 2016</h3>
   	      		<div class="uk-responsive-height">
-  	      			<iframe width="100%" height="500" src="https://www.youtube.com/playlist?list=PLdr22uU_wISqm9QbnczWxXs9qyuWpSU4k" frameborder="0" allowfullscreen></iframe>
+                <iframe width="100%" height="500" src="https://www.youtube.com/embed/videoseries?list=PLdr22uU_wISqm9QbnczWxXs9qyuWpSU4k" frameborder="0" allowfullscreen></iframe>
   	      		</div>
 			      </div>
 
