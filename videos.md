@@ -57,16 +57,23 @@ redirect_from:
     		<div class="uk-width-medium-8-10 uk-container-center">
 					<div class="videos-section uk-grid">
   	      	<div class="uk-width-1-1">
-  	      		<h3 class="brand-color">UIKonf 2015</h3>
+  	      		<h3 class="brand-color">UIKonf 2016</h3>
   	      		<div class="uk-responsive-height">
-  	      			<iframe width="100%" height="500" src="https://www.youtube.com/embed/SDZkKvC8r40?list=PLdr22uU_wISpW6XI1J0S7Lp-X8Km-HaQW" frameborder="0" allowfullscreen></iframe>
+  	      			<iframe width="100%" height="500" src="https://www.youtube.com/playlist?list=PLdr22uU_wISqm9QbnczWxXs9qyuWpSU4k" frameborder="0" allowfullscreen></iframe>
   	      		</div>
 			      </div>
 
 			      <div class="uk-width-1-1 uk-margin-large-top">
 		        	<h1 class="brand-color">Other Videos</h1>
 		      	</div>
-
+            
+			      <div class="uk-width-medium-1-2">
+  	      		<h3 class="brand-color">UIKonf 2015</h3>
+  	      		<div class="uk-responsive-height">
+  	      			<iframe width="100%" height="500" src="https://www.youtube.com/embed/SDZkKvC8r40?list=PLdr22uU_wISpW6XI1J0S7Lp-X8Km-HaQW" frameborder="0" allowfullscreen></iframe>
+  	      		</div>
+			      </div>
+            
 			      <div class="uk-width-medium-1-2">
 			      	<h3 class="brand-color">UIKonf 2014</h3>
 							<div class="uk-responsive-height">
