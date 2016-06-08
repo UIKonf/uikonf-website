@@ -34,8 +34,7 @@ description: UIKonf - Berlin's independent iOS conference is run by Engin Kurute
 		          <h4>Engin Kurutepe</h4>
 		        </div>
 		      </div>
-		      <p ><small>Makes <a href="#">@snaplineapp</a>. Organizes <a href="#">@uikonf</a>. 
-				Glider pilot in training.</small></p>
+		      <p ><small>Freelance iOS developer building <a href="http://appcare.io">AppCare</a>. Glider pilot in training.</small></p>
 	      </div>
 
 	      <div class="uk-width-medium-1-2 uk-width-small-1-2 uk-width-large-1-3">
