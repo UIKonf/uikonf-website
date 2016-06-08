@@ -70,7 +70,7 @@ redirect_from:
 			      <div class="uk-width-medium-1-2">
   	      		<h3 class="brand-color">UIKonf 2015</h3>
   	      		<div class="uk-responsive-height">
-  	      			<iframe width="100%" height="500" src="https://www.youtube.com/embed/SDZkKvC8r40?list=PLdr22uU_wISpW6XI1J0S7Lp-X8Km-HaQW" frameborder="0" allowfullscreen></iframe>
+  	      			<iframe width="100%" height="300" src="https://www.youtube.com/embed/SDZkKvC8r40?list=PLdr22uU_wISpW6XI1J0S7Lp-X8Km-HaQW" frameborder="0" allowfullscreen></iframe>
   	      		</div>
 			      </div>
             
