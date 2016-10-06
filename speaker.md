@@ -1,7 +1,6 @@
 ---
 layout: default
 order: 1
-title: Speakers
 permalink: /speakers/
 description: UIKonf 2016 - Speaker list 
 redirect_from:

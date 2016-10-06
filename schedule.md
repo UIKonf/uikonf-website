@@ -1,7 +1,6 @@
 ---
 layout: default
 order: 0
-title: Schedule
 permalink: /schedule/
 description: UIKonf 2016 - Schedule for May 23rd & 24th
 ---
