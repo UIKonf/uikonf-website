@@ -1,14 +1,14 @@
 ---
-title: 23 & 24 May
-day: 23, 24
+title: May 15th & 16th
+day: 15, 16
 isDetail: false
 isSummary: true
 items:
   - title: Registration
-    description: Sleep in a bit longer and register already on Sunday during the kickoff party. Or enjoy a freshly brewed coffee by Companion Coffee
+    description: Sleep in a bit longer and register already on Sunday during the kickoff party. Or enjoy a freshly brewed coffee.
     time: "9:00"
   - title: Talks and Treats
-    description: Talks will last for about 30 min each with a 10 min Q &amp; A session.<br/>Enjoy free drinks and lunch with vegan options and icecream in the sun. <br/>For more details on the schedule please visit our <a href="/schedule">schedule page</a>.
+    description: Talks will last for about 30 min each with a 10 min Q &amp; A session.<br/>Enjoy free drinks and lunch with vegan options and icecream in the sun.
     time: "10:00"
   - title: Satellite Events
     description: The conference days close with an afterparty on the 24th. If you want to organize or host a satellite event on the 23rd, <a href="mailto:questions@uikonf.com">get in touch with us</a>.
