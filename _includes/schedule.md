@@ -6,7 +6,7 @@
   	    {% assign columns = 4 %}
   		{% endif %}
 			
-  		{% assign shouldShow = true %}
+  		{% assign shouldShow = false %}
   		{% if include.context == "home" and day.isSummary %}
   			{% assign shouldShow = true %}
   		{% elsif include.context == "schedule" and day.isDetail %}
@@ -25,7 +25,7 @@
 		  
    <div id="Schedule" class="uk-switcher">
   	{% for day in site.days %}	
-  		{% assign shouldShow = true %}
+  		{% assign shouldShow = false %}
   		{% if include.context == "home" and day.isSummary %}
   			{% assign shouldShow = true %}
   		{% elsif include.context == "schedule" and day.isDetail %}
