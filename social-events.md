@@ -12,13 +12,13 @@ description: UIKonf features a list of social events. You can set a donation for
 	    <div class="uk-container uk-container-center">
 			<div class="uk-grid">
         		<div class="uk-width-1-1">
-        			<h1>Social Events at UIKonf 2016</h1>
+        			<h1>Social Events at UIKonf 2017</h1>
 				</div>
        	 		<div class="uk-width-medium-1-2 uk-text-left">
 			 	   <p>UIKonf features a list of social events on the day before the conference. These events are intended to help you break the ice with fellow conference attendees.</p> 
 				</div>
        	 		<div class="uk-width-medium-1-2 uk-text-left">
-				   <p>The events are free to attend, but we encourage you to submit a small donation. Your contribution will be donated to <a href="http://www.diakonie-katastrophenhilfe.de/hilfe-weltweit/uebersicht-aller-projekte/syrien-irak.html" target="_blank">Diakonie Katastrophenhilfe</a>.</p>
+				   <p>The events are free to attend, but we encourage you to submit a small donation. More details coming soon…</p>
 				</div>
 			</div>
 		</div>
@@ -56,15 +56,15 @@ description: UIKonf features a list of social events. You can set a donation for
 </div>
 {% endfor %}
 
-<div class="straight light-grey">
-	<div class="wrapper">
-		<div class="uk-container uk-container-center uk-margin-large-top">
-	    	<div class="uk-width-1-1">
-				<p>You can register your social event ticket through the confirmation email you received after registering your main conference ticket. </p>
-	      		<p>If you already hold a UIKonf ticket, but haven't received an email to book an event ticket, <a href="mailto:questions@uikonf.com?subject=Social event tickets&body=Hi, I didn't receive the email to book a ticket for the social events. My UIKonf ticket reference is:" target="_blank">please contact us</a> with your booking reference.</p>
-				<p>If you would like to guide one of the tours, <a href="mailto:questions@uikonf.com?subject=Social events guide">get in touch with us</a>.</p>
-	  		</div>
-		</div>
-	</div>
-</div>
+<!-- <div class="straight light-grey">
+  <div class="wrapper">
+    <div class="uk-container uk-container-center uk-margin-large-top">
+        <div class="uk-width-1-1">
+        <p>You can register your social event ticket through the confirmation email you received after registering your main conference ticket. </p>
+            <p>If you already hold a UIKonf ticket, but haven't received an email to book an event ticket, <a href="mailto:questions@uikonf.com?subject=Social event tickets&body=Hi, I didn't receive the email to book a ticket for the social events. My UIKonf ticket reference is:" target="_blank">please contact us</a> with your booking reference.</p>
+        <p>If you would like to guide one of the tours, <a href="mailto:questions@uikonf.com?subject=Social events guide">get in touch with us</a>.</p>
+        </div>
+    </div>
+  </div>
+</div> -->
 

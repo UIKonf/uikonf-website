@@ -57,7 +57,7 @@ redirect_from:
     		<div class="uk-width-medium-8-10 uk-container-center">
 					<div class="videos-section uk-grid">
   	      	<div class="uk-width-1-1">
-  	      		<h3 class="brand-color">UIKonf 2016</h3>
+  	      		<h3 class="brand-color">UIKonf 2017</h3>
   	      		<div class="uk-responsive-height">
                 <iframe width="100%" height="500" src="https://www.youtube.com/embed/videoseries?list=PLdr22uU_wISqm9QbnczWxXs9qyuWpSU4k" frameborder="0" allowfullscreen></iframe>
   	      		</div>
