@@ -1,6 +1,6 @@
 ---
 title: WWII Bomb-Shelter Tour
-start: 9am!
+start: Start time will be announced soon. This could be a whole day trip.
 image: bunker.jpg
 image-alt: WWII Bomb-Shelter Tour
 anchor: bunker
