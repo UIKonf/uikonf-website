@@ -2,14 +2,14 @@
 layout: default
 order: 0
 permalink: /schedule/
-description: UIKonf 2016 - Schedule for May 23rd & 24th
+description: UIKonf 2017 - Schedule for May 23rd & 24th
 ---
 
 <div class="headerimage uk-position-relative" style="background-image: url({{ site.baseurl }}/static/images/about_image.jpg);" data-uk-parallax="{bg: '-50'}">
   <img class="uk-invisible" src="{{ site.baseurl }}/static/images/about_image.jpg" alt="home image">
    <div class="uk-position-cover uk-flex uk-flex-center uk-flex-middle uk-flex-column">
       <div class="teaser-register">
-      	<h1>UIKonf 2016 Schedule</h1>
+      	<h1>UIKonf 2017 Schedule</h1>
         <p>UIKonf is an independent conference for serious iOS developers</p>
      </div>
    </div>
