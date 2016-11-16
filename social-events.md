@@ -12,7 +12,7 @@ description: UIKonf features a list of social events. You can set a donation for
 	    <div class="uk-container uk-container-center">
 			<div class="uk-grid">
         		<div class="uk-width-1-1">
-        			<h1>Social Events at UIKonf 2016</h1>
+        			<h1>Social Events at UIKonf 2017</h1>
 				</div>
        	 		<div class="uk-width-medium-1-2 uk-text-left">
 			 	   <p>UIKonf features a list of social events on the day before the conference. These events are intended to help you break the ice with fellow conference attendees.</p> 

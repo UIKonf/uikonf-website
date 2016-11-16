@@ -2,7 +2,7 @@
 layout: default
 order: 1
 permalink: /speakers/
-description: UIKonf 2016 - Speaker list 
+description: UIKonf 2017 - Speaker list 
 redirect_from:
  - /speakers/boris_buegling.html
  - /speakers/peter_steinberger.html
@@ -16,7 +16,7 @@ redirect_from:
 	    <div class="uk-container uk-container-center">
 			<div class="uk-grid">
         		<div class="uk-width-1-1">
-        			<h1>Speakers at UIKonf 2016</h1>
+        			<h1>Speakers at UIKonf 2017</h1>
 				</div>
        	 		<div class="uk-width-medium-1-2 uk-text-left">
 			 	   <p>UIKonf hosts a diverse selection of inspiring speakers. We select and invite about half of our speakers. The other half is selected by our community through our anonymous call for proposals system. Details coming soon.</p>
