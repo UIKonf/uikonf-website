@@ -1,7 +1,7 @@
 ---
 title: Announcing UIKonf 2017
 layout: post
-author: engin
+author: ekurutepe
 date: 16 November 2016
 published: true
 description: We are very happy to announce UIKonf 2017. This year is the fifth time UIKonf is happening and we have a great new location…
