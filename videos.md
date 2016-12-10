@@ -3,7 +3,7 @@ layout: default
 order: 4
 title: Videos
 permalink: /videos/
-description: Watch the videos of UIKonf 2015, 2013 and 2012 or learn more about Berlin's independent iOS developer conference.
+description: Watch the videos of UIKonf 2016, 2015, 2014 and 2013 or learn more about Berlin's independent iOS developer conference.
 redirect_from:
  - /videos/apps-are-just-the-tip-of-the-iceberg/
  - /videos/beyond-voiceover/
@@ -57,7 +57,7 @@ redirect_from:
     		<div class="uk-width-medium-8-10 uk-container-center">
 					<div class="videos-section uk-grid">
   	      	<div class="uk-width-1-1">
-  	      		<h3 class="brand-color">UIKonf 2017</h3>
+  	      		<h3 class="brand-color">UIKonf 2016</h3>
   	      		<div class="uk-responsive-height">
                 <iframe width="100%" height="500" src="https://www.youtube.com/embed/videoseries?list=PLdr22uU_wISqm9QbnczWxXs9qyuWpSU4k" frameborder="0" allowfullscreen></iframe>
   	      		</div>
