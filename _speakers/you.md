@@ -11,7 +11,7 @@ short-bio: Submit your talk until Feb 15th to talk at UIKonf
 
 <p>These are the deadlines<br/>
 15 Feb: Proposal submission<br/>
-28 Feb: Feedback &amp; Finetuning<br/>
+28 Feb: Feedback &amp; Fine-tuning<br/>
 8 Mar: Final selection
 </p>
 Find more infos or submit your talk on <a href="http://cfp.uikonf.com/about">our CfP page</a>.
