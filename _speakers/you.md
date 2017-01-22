@@ -7,7 +7,7 @@ short-bio: Submit your talk until Feb 15th to talk at UIKonf
 ---
 
 <strong>Get your name on the UIKonf speaker list</strong><br/>
-<p>Submit your talk to our anonymous CfP, finetune it with the help of others and keep your fingers crossed it gets selected as one of the final eight.</p>
+<p>Submit your talk to our anonymous CfP, fine-tune it with the help of others and keep your fingers crossed it gets selected as one of the final eight.</p>
 
 <p>These are the deadlines<br/>
 15 Feb: Proposal submission<br/>
