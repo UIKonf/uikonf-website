@@ -20,3 +20,7 @@ location: t.b.a.
 
 <p><strong>About Jeff</strong><br />
 Living a quiet life with his daughter and four cats on beautiful Bainbridge Island, Jeff Watkins divides his time between creating fiendishly clever bugs and teaching public speaking workshops. He was the driving force behind bringing live-captioning to UIKonf last year.</p>
+
+<p style="margin:30px 0px;"><a class="btn uk-button-large" style="padding:20px; text-decoration: none;" href="https://ti.to/uikonf/uikonf-2017/with/hwsscvswzh0" target="_blank">Workshop Tickets</a></p>
+
+<p>If you think you qualify for a discounted ticket, please send us a short <a href="mailto:questions@uikonf.com?subject=Workshop%20Scholarship" target="_blank">email</a>.</p>
