@@ -11,7 +11,7 @@ fee: 100 Euro (discounts available for members of underrepresented groups in tec
 prerequisites: None
 showTickets: false
 location: t.b.a.
-
+twitter: https://twitter.com/jeffwatkins
 ---
 
 <p>Whether during a team standup, giving a presentation to a client, pitching an investor, or on stage at a conference, we all have opportunities to be in the spotlight. In the morning session, students will explore the basics of using gestures and body language, motion, and their voice to be better communicators. They&rsquo;ll also learn techniques to encourage confidence in front of an audience. In the afternoon, each student will prepare, rehearse, and record a 5 minute lightning talk.</p>
