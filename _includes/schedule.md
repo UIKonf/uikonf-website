@@ -1,7 +1,7 @@
 <div class="uk-width-1-1">
   <ul class="uk-tab uk-tab-center uk-tab-grid uk-margin-large-bottom" data-uk-tab data-uk-switcher="{connect:'#Schedule'}">
 		{% for day in site.days %}
-  		{% assign columns = 3 %}
+  		{% assign columns = 4 %}
   		{% if include.context == "schedule" %}
   	    {% assign columns = 4 %}
   		{% endif %}
