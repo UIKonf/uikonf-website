@@ -7,7 +7,7 @@ anchor: public-speaking
 presentationDate: Saturday 13th May
 time: 10:00 am
 duration: 6 -7 h
-fee: 100 Euro (discounts available for members of underrepresented groups in tech) <br />Registration opens soon.
+fee: 100 Euro (discounts available for members of underrepresented groups in tech)
 prerequisites: None
 showTickets: false
 location: t.b.a.
