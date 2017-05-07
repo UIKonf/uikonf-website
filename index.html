@@ -95,20 +95,32 @@ redirect_from:
  </div>
 </div>
 
-<div class="backshape relative">
+<div class="backshape opposite relative light-grey">
   <div class="wrapper">
         <div class="uk-container uk-width-medium-6-10 uk-container-center">
           <div class="uk-grid">
             <div class="uk-width-1-1 uk-text-center">
               <h2 class="brand-color">Schedule</h2>
             </div>
-        {% include schedule.md context="home" %}
+        {% include schedule.md context="schedule" %}
           </div>
         </div>
-     </div>
- </div>
 
-<div class="backshape opposite relative light-grey">
+  	  <div class="uk-container uk-container-center">
+    	  <div class="uk-grid">
+		  <div class="uk-width-1-1">
+			  <h2 class="uk-margin-large-top uk-text-center">Got dinner plans?</h2>
+			  <p>UIKonf is all about meeting new people. To make it easier for you to connect, we are introducing UIKonf ambassadors who will take a group of 8 people to a restaurant of their choice. (Everyone pays for themselves, though.) If you would like to be an ambassador for UIKonf, <a href="https://docs.google.com/forms/d/e/1FAIpQLSdKUNdsBnbcZFYL8YQUfVXwKOM8ymJHTAyG5sQbcZ57zUCtcw/viewform" target="blank">please fill in this form</a>. Your response will be published immediately on this website.</p>
+			  <p>If you are interested in joining, there is no need to reach out to the ambassador beforehand (unless you are 100% sure you want to join). We will designate meeting points in the conference venue where you can meet on Monday evening.</p>
+		  </div>
+	  </div>
+	  <div class="uk-grid" id="output"></div>
+  </div>
+</div>
+</div>
+
+
+<div class="backshape relative">
   <div class="wrapper">
     <div class="uk-container uk-container-center">
 
@@ -141,7 +153,7 @@ redirect_from:
 </div>
 </div>
 
-<div class="straight">
+<div class="straight light-grey">
   <div class="uk-container uk-container-center">
     <div class="uk-grid">
       <div class="uk-width-1-1 uk-text-center">
@@ -169,3 +181,68 @@ redirect_from:
     </div>
   </div>
 </div>
+
+
+
+<script type="text/javascript" charset="utf-8">
+	function getJSONP(url, success) {
+
+	    var ud = '_' + +new Date,
+	        script = document.createElement('script'),
+	        head = document.getElementsByTagName('head')[0]
+	               || document.documentElement;
+
+	    window[ud] = function(data) {
+	        head.removeChild(script);
+	        success && success(data);
+	    };
+
+	    script.src = url.replace('callback=?', 'callback=' + ud);
+	    head.appendChild(script);
+	}
+	
+	function parseResponse(data) {
+	    console.log(data);
+		var div = document.getElementById('output');
+		var innerHTML = '';
+		for (idx in data) {
+			var twitter = data[idx]["twitter"]
+			var ambassador = data[idx]["name"]
+			var restaurant = data[idx]["restaurant"]
+			var link = data[idx]["link"]
+			var reason = data[idx]["why"]
+			var profileLink = data[idx]["profileLink"]
+			if (!profileLink) {
+				profileLink = twitter+'/profile_image?size=original'
+			}
+		    innerHTML += '<div class="uk-width-medium-1-6 uk-width-small-1-1 uk-width-large-1-6"><div class="box"><figure class="uk-overlay uk-overlay-hover"><img class="uk-overlay-spin" src="'+profileLink+'">'
+			innerHTML += '<a class="uk-position-cover" href="'+twitter+'" target="_blank"></a></figure>'
+		 	innerHTML += '<div class="info-box small"><h4>'+ambassador+'</h4></div></div></div>'
+		  	innerHTML += '<div class="uk-width-medium-2-6 uk-width-small-1-1 uk-width-large-2-6 uk-margin-large-bottom" style="padding-top:10px;"><a href="'+twitter+'" target="_blank">'+ambassador+'</a> will take you to '
+			if (link) {
+				innerHTML += '<a href="'+link+'" target="_blank">'
+			}
+			innerHTML += restaurant
+			if (link) {
+				innerHTML += '</a>'
+			}
+			innerHTML += '<p><strong>You should join '+ambassador+' because:</strong><br />'
+			if (reason) { 
+				innerHTML += reason
+			} else {
+				innerHTML += 'It is fun!'
+			}
+			innerHTML += '</p></div></div>'
+		}
+		
+		div.innerHTML = innerHTML;
+		
+	}
+	getJSONP('https://script.google.com/macros/s/AKfycbzQ4Zoaue0GNDWxkaXbHbmIukdHMJ8OrOXaA_alPJWqipB5Zg4/exec?prefix=parseResponse', function(data){});
+	
+</script>
+
+
+
+	  
+
