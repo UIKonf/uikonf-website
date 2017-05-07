@@ -3,7 +3,7 @@
 		{% for day in site.days %}
   		{% assign columns = 4 %}
   		{% if include.context == "schedule" %}
-  	    {% assign columns = 4 %}
+  	    {% assign columns = 5 %}
   		{% endif %}
 			
   		{% assign shouldShow = false %}
@@ -43,10 +43,10 @@
   				{% if item.type == "break" %}
   					<div class="uk-grid">
       		  	<div class="uk-width-medium-1-6 uk-width-1-1">
-          			<p class="light-text"><i class="uk-icon-clock-o"></i> {{ item.time }}</p>
+          			<p class="light-text" ><i class="uk-icon-clock-o"></i> {{ item.time }}</p>
        		   	</div>
   	          <div class="uk-width-5-6">
-                <p class="light-text, uk-text-center" style="background-color:#F5F5F5; color:rgba(74, 74, 74, 0.7);"> {{ item.title }}</p>
+                <p class="light-text"> {{ item.title }}</p>
   							{% if item.description %}
       				    <p><small>{{ item.description }}</small></p>
   							{% endif %}
@@ -58,7 +58,7 @@
           			<p class="light-text"><i class="uk-icon-clock-o"></i> {{ item.time }}</p>
        		   	</div>
         		 	<div class="uk-width-medium-5-6 uk-width-1-1">
-        				<h3 class="brand-color" style="font-size: 1.7rem;">{{ item.title }}</h3>
+        				<a href="/speakers/#{{ item.speaker }}"><h3 class="brand-color" style="font-size: 1.7rem;">{{ item.title }} - {{ item.talk }}</h3></a>
   							{% if item.description %}
       				     <p><small>{{ item.description }}</small></p>
   							{% endif %}
