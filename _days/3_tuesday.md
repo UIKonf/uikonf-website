@@ -22,7 +22,7 @@ items:
   - title: Martijn Walraven
     talk: Strong typing from the server to the UI with GraphQL
     talkId: 31
-    time: "15:00"
+    time: "11:50"
     speaker: martijn
   - title: Olivier Halligon
     talk: Code Generation in Swift — Gain time type safety and more!
