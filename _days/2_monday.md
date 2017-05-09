@@ -22,7 +22,7 @@ items:
   - title: Marcel Weiher  
     talk: High Performance App Architecture
     talkId: 12
-    time: "15:00"
+    time: "11:50"
     speaker: marcel
   - title: Thomas Visser 
     talk: Reactive Programming From Scratch
