@@ -19,6 +19,9 @@ items:
   - title: Coffee Break
     type: break
     time: "11:15"
+  - title: Workshop - Using Firebase to Build Successful Apps without Backend Code
+    description: The Firebase SDKs take the grunt work out of building software - taking care of data storage, synchronization, file storage, authentication, and other backend functionalities so that your time is spent polishing user interactions. In this workshop, we will guide you through building a sophisticated real-time iOS app using only the Firebase iOS SDKs. We will showcase the various ways Firebase can help you be successful and provide on-site assistance should you have any questions.
+    time: "11:50"
   - title: Marcel Weiher  
     talk: High Performance App Architecture
     talkId: 12
