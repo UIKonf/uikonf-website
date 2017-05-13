@@ -8,7 +8,7 @@ items:
     time: "9:30"
     type: break
   - title: Gwen Weston 
-    talk: Coding While Afraid
+    talk: Implementing Compassion
     time: "10:00"
     speaker: gwen
   - title: Francisco Díaz 
@@ -37,7 +37,7 @@ items:
     time: "14:30"
     speaker: rob
   - title: Brandon Williams & Lisa Luo
-    talk: t.b.a.
+    talk: Anything you can do, I can do better
     time: "15:05"
     speaker: lisa-brandon
   - title: Mischa Hildebrand 
@@ -54,7 +54,7 @@ items:
     time: "17:00"
     speaker: sommer
   - title: Chris Eidhof & Florian Kugler
-    talk: t.b.a.
+    talk: Intermediate Types
     time: "17:35"
     speaker: chris-florian
   - title: Closing party at Pavillon Volkspark Friedrichshain

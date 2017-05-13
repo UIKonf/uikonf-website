@@ -58,7 +58,7 @@ items:
     time: "17:00"
     speaker: sarah
   - title: TJ Usiyan
-    talk: t.b.a
+    talk: Re:Programming Language
     time: "17:35"
     speaker: tj
   - title: Dinner plans with our ambassadors?
