@@ -30,6 +30,7 @@ collections:
   - days
   - workshops
   - sponsors
+  - ambassadors
 
 # Build settings
 markdown: kramdown

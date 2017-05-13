@@ -120,6 +120,24 @@ redirect_from:
 			  <p>If you are interested in joining, there is no need to reach out to the ambassador beforehand (unless you are 100% sure you want to join). We will designate meeting points in the conference venue where you can meet on Monday evening.</p>
 		  </div>
 	  </div>
+	  <div class="uk-grid">
+      {% for amb in site.ambassadors %}
+          <div class="box uk-width-medium-1-3 uk-width-large-1-6">
+          <figure class="uk-overlay uk-overlay-hover">
+              <img class="uk-overlay-spin" src="/static/images/{{ amb.image }}" alt="{{ amb.name }}">
+              <a class="uk-position-cover" href="{{ amb.twitter }}"></a>
+            </figure>
+            <div class="small info-box" style="bottom:35px;">
+              <h4>{{ amb.name }}</h4>
+            </div>
+          </div>
+          <div class="box uk-width-medium-2-3 uk-width-large-2-6">
+              <p><a href="{{ amb.twitter }}" target="_blank">{{ amb.name }}</a> will take you to:<br/> 
+				  <a href="{{ amb.restaurant-link }}" target="_blank">{{ amb.restaurant }}</a></p>
+			  <p><strong>You join should because:</strong><br/>{{ amb.reason }}</p>
+          </div>
+      {% endfor %}
+  </div>
 	  <div class="uk-grid" id="output"></div>
   </div>
 </div>
@@ -202,7 +220,7 @@ redirect_from:
 </div>
 
 
-<!-- <script type="text/javascript" charset="utf-8">
+<!--<script type="text/javascript" charset="utf-8">
 	function getJSONP(url, success) {
 
 	    var ud = '_' + +new Date,
@@ -218,7 +236,7 @@ redirect_from:
 	    script.src = url.replace('callback=?', 'callback=' + ud);
 	    head.appendChild(script);
 	}
-	
+
 	function parseResponse(data) {
 	    console.log(data);
 		var div = document.getElementById('output');
@@ -245,19 +263,19 @@ redirect_from:
 				innerHTML += '</a>'
 			}
 			innerHTML += '<p><strong>You should join '+ambassador+' because:</strong><br />'
-			if (reason) { 
+			if (reason) {
 				innerHTML += reason
 			} else {
 				innerHTML += 'It is fun!'
 			}
 			innerHTML += '</p></div></div>'
 		}
-		
+
 		div.innerHTML = innerHTML;
-		
+
 	}
 	getJSONP('https://script.google.com/macros/s/AKfycbzQ4Zoaue0GNDWxkaXbHbmIukdHMJ8OrOXaA_alPJWqipB5Zg4/exec?prefix=parseResponse', function(data){});
-	
+
 </script> -->
 
 
