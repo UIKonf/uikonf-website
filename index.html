@@ -106,7 +106,11 @@ redirect_from:
         	{% include schedule.md context="schedule" %}
           </div>
         </div>
+	</div>
+</div>
 
+<div class="backshape opposite">
+    <div class="wrapper">
   	  <div class="uk-container uk-container-center">
     	  <div class="uk-grid">
 		  <div class="uk-width-1-1">
@@ -121,8 +125,33 @@ redirect_from:
 </div>
 </div>
 
+<div class="backshape opposite light-grey">
+    <div class="wrapper">
+	
+  <div class="uk-container uk-container-center">
+    <div class="uk-grid">
+      <div class="uk-width-1-1 uk-text-center">
+  			<a name="Sponsors"></a>
+  			<h2 class="brand-color uk-margin-large-top">Sponsors</h2>
+          <p>Please contact <a href="mailto:questions@uikonf.com">questions@uikonf.com</a> if you would like to support UIKonf.</p>
+  		</div>
+	    {% for sponsor in site.sponsors %}
+	        <div class="box uk-width-medium-1-3 uk-width-large-1-3 uk-width-small-1-1 ">
+	        <figure class="uk-overlay uk-overlay-hover">
+	            <img class="uk-overlay-spin" src="/static/images/{{ sponsor.image }}" alt="{{ sponsor.image-alt }}">
+	            <a class="uk-position-cover" href="{{ sponsor.anchor }}" target="_blank"></a>
+	          </figure>
+		  </div>
+	        <div class="box uk-width-medium-2-3 uk-width-large-2-3 uk-width-small-1-1 ">
+	            <p>{{ sponsor.description }}</p>
+	       </div>
+	    {% endfor %}
+    </div>
+  </div>
+</div>
+</div>
 
-<div class="backshape relative">
+<div class="backshape opposite">
   <div class="wrapper">
     <div class="uk-container uk-container-center">
 
@@ -153,18 +182,6 @@ redirect_from:
     </div>
   </div>
 </div>
-</div>
-
-<div class="straight light-grey">
-  <div class="uk-container uk-container-center">
-    <div class="uk-grid">
-      <div class="uk-width-1-1 uk-text-center">
-  			<a name="Sponsors"></a>
-  			<h2 class="brand-color uk-margin-large-top">Sponsors</h2>
-          <p>Please contact <a href="mailto:questions@uikonf.com">questions@uikonf.com</a> if you would like to support UIKonf.</p>
-  		</div>
-    </div>
-  </div>
 </div>
 
 <div class="straight brand-color">
