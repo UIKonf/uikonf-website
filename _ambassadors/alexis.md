@@ -1,8 +1,8 @@
 ---
 name: Alexis
-twitter: https://twitter.com/orkoden
-restaurant: 1990 Vegan Living
-restaurant-link: http://4sq.com/2hCxTIZ
-reason: Delicious veggie food first and then on to cheap Sterni from the Späti or gourmet Moscow Mule in a hipster bar. Essential German lesson included!
+twitter: https://twitter.com/surryhill
+restaurant: The Bowl
+restaurant-link:https://www.happycow.net/reviews/the-bowl-berlin-57986
+reason: You should join because you care about fresh, delicious, vegan food 🌱
 image: ambassadors/alexis.jpg
 ---
