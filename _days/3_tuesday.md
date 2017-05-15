@@ -32,10 +32,11 @@ items:
   - title: Lunch
     type: break
     time: "13:00"
-  - title: Rob Napier
-    talk: Learning From Our Elders - Applying functional insights without losing Swift
+  - title: Sarah E Olson
+    talk: Developing Empathy
+    talkId: 44
     time: "14:30"
-    speaker: rob
+    speaker: sarah
   - title: Brandon Williams & Lisa Luo
     talk: Anything you can do, I can do better
     time: "15:05"

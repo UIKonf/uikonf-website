@@ -52,11 +52,10 @@ items:
   - title: Coffee Break
     type: break
     time: "16:15"
-  - title: Sarah E Olson
-    talk: Developing Empathy
-    talkId: 44
+  - title: Rob Napier
+    talk: Learning From Our Elders - Applying functional insights without losing Swift
     time: "17:00"
-    speaker: sarah
+    speaker: rob
   - title: TJ Usiyan
     talk: Re:Programming Language
     time: "17:35"
