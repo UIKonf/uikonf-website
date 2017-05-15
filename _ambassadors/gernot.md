@@ -1,8 +1,8 @@
 ---
 name: Gernot
 twitter: https://twitter.com/gernot
-restaurant: Gasthaus Alt Wien
-restaurant-link: https://de.foursquare.com/v/gasthaus-alt-wien/4c92989f2bf7b60cb0f7630a
+restaurant: Schneeweiss
+restaurant-link: https://foursquare.com/v/schneewei%C3%9F/4b0a7e83f964a520712423e3
 reason: Schnitzel.
 image: ambassadors/gernot.jpg
 ---
