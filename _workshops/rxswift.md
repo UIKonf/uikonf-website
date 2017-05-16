@@ -9,7 +9,7 @@ time: 10:00 am
 duration: 3 h
 fee: 100 Euro
 prerequisites: None
-location: t.b.a.
+location: betahaus Prinzessinnenstraße 19-20, 10969 Berlin
 twitter: https://twitter.com/eldudi
 ---
 <p>This workshop will cover the basics of RxSwift, introducing the reactive programming paradigm and explaining core concepts of the framework. You will learn how to use RxSwift &amp; RxCocoa in a pragmatic and efficient way when facing day-to-day iOS programming challenges.</p>

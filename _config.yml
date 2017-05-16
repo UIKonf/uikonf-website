@@ -29,6 +29,8 @@ collections:
   - events
   - days
   - workshops
+  - sponsors
+  - ambassadors
 
 # Build settings
 markdown: kramdown
