@@ -58,7 +58,7 @@ items:
     talk: Intermediate Types
     time: "17:35"
     speaker: chris-florian
-  - title: Closing party at Pavillon Volkspark Friedrichshain
+  - title: Closing party at Pavillon Volkspark Friedrichshain (Friedenstraße 101, 10249 Berlin)
     type: break
     time: "19:00"
 ---
