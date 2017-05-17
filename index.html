@@ -9,11 +9,17 @@ redirect_from:
  - /schedule/
 ---
 <div class="headerimage" style="background-image: url({{ site.baseurl }}/static/images/img-home.jpg);" data-uk-parallax="{bg: '-50'}">
-   <div class="uk-position-cover uk-flex uk-flex-center uk-flex-middle uk-flex-column">
-      <div class="teaser-register">
-		<iframe width="100%" src="https://www.youtube.com/embed/f95ykXwpxIc?ecver=1" frameborder="0" allowfullscreen></iframe>
-     </div>
-   </div>
+    <div class="uk-position-cover uk-flex uk-flex-center uk-flex-middle uk-flex-column">
+       <div class="teaser-register">
+ 	    <div class="uk-container uk-container-center">
+ 			<div class="uk-grid">
+         		<div class="uk-width-1-1">
+   				 <h1>UIKonf 2017</h1>
+			 </div>
+		 	</div>
+		 </div>
+		</div>
+	</div>	 
 </div>
 
 <div class="backshape brand-color">
@@ -23,7 +29,7 @@ redirect_from:
         <div class="uk-width-medium-8-10 uk-container-center">
           <div class="uk-grid">
             <div class="uk-width-1-1">
-              <h1>About UIKonf</h1>
+              <h2>About UIKonf</h2>
             </div>
             <div class="uk-width-medium-1-2">
               <p>UIKonf is Berlin's independent conference for serious iOS developers. Taking place from May 14th to 17th 2017 in Kosmos in Berlin it is a great place to meet and connect with experienced developers from all over Europe.</p>
@@ -40,9 +46,47 @@ redirect_from:
   </div>
 </div>
 
+<div class="backshape opposite">
+<div class="wrapper">
+  <div class="uk-container uk-container-center">
+    <div class="uk-grid uk-grid-small">
+      	<div class="uk-width-1-1 uk-text-center">
+        	<h2 class="brand-color">UIKonf 2017 is Over</h2>
+    	</div>
+	    <div class="uk-width-1-1 uk-text-center uk-margin-large-bottom">
+			<p>UIKonf 2017 was a blast. Many thanks to everyone who came and contributed to the event, to our sponsors, speakers and volunteers.</p>
+	 		<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLdr22uU_wISqntV4tQmx9H6sj9gMtj7nG" frameborder="0" allowfullscreen style="max-width: 100%;"></iframe>
+	    </div>
+	</div>
+	</div>
+	</div>
+</div>
 
+<div class="backshape light-grey">
+    <div class="wrapper">
+	<div class="uk-container uk-container-center">
+    <div class="uk-grid">
+      <div class="uk-width-1-1 uk-text-center">
+  			<a name="Sponsors"></a>
+  			<h2 class="brand-color uk-margin-large-top">Sponsors</h2>
+  		</div>
+	    {% for sponsor in site.sponsors %}
+	        <div class="box uk-width-medium-2-3 uk-width-large-1-6 uk-width-small-1-1 ">
+	        <figure class="uk-overlay uk-overlay-hover">
+	            <img class="uk-overlay-spin" src="/static/images/{{ sponsor.image }}" alt="{{ sponsor.image-alt }}">
+	            <a class="uk-position-cover" href="{{ sponsor.anchor }}" target="_blank"></a>
+	          </figure>
+		  </div>
+	        <div class="box uk-width-medium-2-3 uk-width-large-2-6 uk-width-small-1-1 ">
+	            <p>{{ sponsor.description }}</p>
+	       </div>
+	    {% endfor %}
+    </div>
+  </div>
+</div>
+</div>
 
-<div class="backshape opposite light-grey">
+<div class="backshape">
 <div class="wrapper">
   <div class="uk-container uk-container-center">
     <div class="uk-grid uk-grid-small">
@@ -75,6 +119,7 @@ redirect_from:
 <div class="backshape opposite relative" style="clear:both;"> 
 </div>
 
+<!--
 <div class="backshape opposite">
 <div class="wrapper">
   <div class="uk-container uk-container-center">
@@ -83,7 +128,7 @@ redirect_from:
         <h2 class="brand-color">Tickets</h2>
     </div>
       <div class="uk-width-1-1">
-			<p><tito-widget event="uikonf/uikonf-2017"></tito-widget></p> 
+			<p><tito-widget event="uikonf/uikonf-2017"></tito-widget></p>
 		 		<p>Ticket prices include VAT (MwSt.), free drinks, lunch on the conference days and the UIKonf party. See <a href="refunds">our refunds policy</a> if you are not sure about your plans in May.
 				</p>
 				<p>We also provide discounted diversity tickets for 99€, aimed to help underrepresented groups in tech. If you applied for one and haven't heard from us yet, please <a href="mailto:questions@uikonf.com" target="_blank">contact us</a>.</p>
@@ -91,9 +136,9 @@ redirect_from:
         </div>
      </div>
  </div>
-</div>
+</div> -->
 
-<div class="backshape opposite relative light-grey">
+<!-- <div class="backshape opposite relative light-grey">
   <div class="wrapper">
         <div class="uk-container uk-width-medium-6-10 uk-container-center">
           <div class="uk-grid">
@@ -130,7 +175,7 @@ redirect_from:
             </div>
           </div>
           <div class="box uk-width-medium-2-3 uk-width-large-2-6">
-              <p><a href="{{ amb.twitter }}" target="_blank">{{ amb.name }}</a> will take you to:<br/> 
+              <p><a href="{{ amb.twitter }}" target="_blank">{{ amb.name }}</a> will take you to:<br/>
 				  <a href="{{ amb.restaurant-link }}" target="_blank">{{ amb.restaurant }}</a></p>
 			  <p><strong>You join should because:</strong><br/>{{ amb.reason }}</p>
           </div>
@@ -139,35 +184,11 @@ redirect_from:
 	  <div class="uk-grid" id="output"></div>
   </div>
 </div>
-</div>
+</div> -->
 
-<div class="backshape opposite light-grey">
-    <div class="wrapper">
-	
-  <div class="uk-container uk-container-center">
-    <div class="uk-grid">
-      <div class="uk-width-1-1 uk-text-center">
-  			<a name="Sponsors"></a>
-  			<h2 class="brand-color uk-margin-large-top">Sponsors</h2>
-          <p>Please contact <a href="mailto:questions@uikonf.com">questions@uikonf.com</a> if you would like to support UIKonf.</p>
-  		</div>
-	    {% for sponsor in site.sponsors %}
-	        <div class="box uk-width-medium-1-3 uk-width-large-1-3 uk-width-small-1-1 ">
-	        <figure class="uk-overlay uk-overlay-hover">
-	            <img class="uk-overlay-spin" src="/static/images/{{ sponsor.image }}" alt="{{ sponsor.image-alt }}">
-	            <a class="uk-position-cover" href="{{ sponsor.anchor }}" target="_blank"></a>
-	          </figure>
-		  </div>
-	        <div class="box uk-width-medium-2-3 uk-width-large-2-3 uk-width-small-1-1 ">
-	            <p>{{ sponsor.description }}</p>
-	       </div>
-	    {% endfor %}
-    </div>
-  </div>
-</div>
-</div>
 
-<div class="backshape opposite">
+
+<!--<div class="backshape opposite light-grey">
   <div class="wrapper">
     <div class="uk-container uk-container-center">
 
@@ -198,7 +219,7 @@ redirect_from:
     </div>
   </div>
 </div>
-</div>
+</div> -->
 
 <div class="straight brand-color">
   <div class="uk-container uk-container-center">
