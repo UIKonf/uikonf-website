@@ -1,5 +1,4 @@
 ---
-layout: page
 permalink: /refunds/
 description: UIKonf - Berlin's independent iOS conference – Refunding or Transferring Tickets
 ---
