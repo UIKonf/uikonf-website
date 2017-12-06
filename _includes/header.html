@@ -6,15 +6,12 @@
           <img src="{{ site.baseurl }}/static/images/Logo.png" alt="logo UIKonf">
         </a>
           <ul class="uk-navbar-nav uk-hidden-small uk-navbar-flip">
-			{% assign sorted_pages = site.pages | sort:"order" %}
+			{% assign sorted_pages = site.pages | where:"includeInNavigation",1 | sort:"order" %}
               {% for my_page in sorted_pages %}
-                {% if my_page.title %}
-				{% if my_page.title != "Social Events" %}
-				
+                {% if my_page.title %}				
                 <li>
                   <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
                 </li>
-				{% endif %}
                 {% endif %}
               {% endfor %}
               <li>
@@ -23,9 +20,9 @@
               <!-- <li>
                 <a class="page-link" href="http://cfp.uikonf.com" target="_blank">Call for Proposals</a>
               </li> -->
-			  <!-- <li>
-				 <a class="page-link btn" href="https://ti.to/uikonf/uikonf-2017" target="_blank">Tickets</a>
-			  </li> -->
+			  <li>
+				 <a class="page-link btn" href="https://ti.to/uikonf/uikonf-2018" target="_blank">Tickets</a>
+			  </li>
           </ul>
           <ul class="uk-navbar-nav uk-visible-small uk-navbar-flip">
             <li>
@@ -36,7 +33,8 @@
     <div id="my-id" class="uk-offcanvas">
         <div class="uk-offcanvas-bar uk-offcanvas-bar-flip">
           <ul  class="uk-nav uk-nav-offcanvas uk-nav-parent-icon" data-uk-nav>
-              {% for my_page in site.pages %}
+  			{% assign pages = site.pages | where:"includeInNavigation",1 %}
+              {% for my_page in pages %}
                 {% if my_page.title %}
                 <li>
                   <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
@@ -47,7 +45,7 @@
                 <a class="page-link" href="{{ '/blog' | prepend: site.baseurl }}">Blog</a>
               </li>
 			  <li>
-				 <a class="page-link" href="https://ti.to/uikonf/uikonf-2017" target="_blank">Tickets</a>
+				 <a class="page-link" href="https://ti.to/uikonf/uikonf-2018" target="_blank">Tickets</a>
 			  </li>
           </ul>
         </div>

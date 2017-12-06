@@ -1,8 +1,10 @@
 ---
 layout: default
 order: 1
+title: Speakers
 permalink: /speakers/
-description: UIKonf 2017 - Speaker list 
+description: UIKonf 2017 - Speaker list
+includeInNavigation: 0
 redirect_from:
  - /speakers/boris_buegling.html
  - /speakers/peter_steinberger.html
