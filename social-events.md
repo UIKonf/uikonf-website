@@ -3,6 +3,7 @@ layout: default
 title: Social Events
 permalink: /social-events/
 description: UIKonf features a list of social events. You can set a donation for your ticket. Your contribution will be donated to a charity supporting refugees.
+includeInNavigation: 0
 ---
 
 <div class="headerimage uk-position-relative" style="background-image: url({{ site.baseurl }}/static/images/speakers-header-cropped.jpg);" data-uk-parallax="{bg: '-50'}">

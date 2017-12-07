@@ -2,6 +2,7 @@
 layout: default
 order: 4
 title: Videos
+includeInNavigation: 1
 permalink: /videos/
 description: Watch the videos of UIKonf 2016, 2015, 2014 and 2013 or learn more about Berlin's independent iOS developer conference.
 redirect_from:

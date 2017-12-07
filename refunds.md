@@ -1,5 +1,9 @@
 ---
+layout: page
+title: Refund Policy
 permalink: /refunds/
+includeInNavigation: 0
+order: 6
 description: UIKonf - Berlin's independent iOS conference – Refunding or Transferring Tickets
 ---
 
@@ -13,6 +17,6 @@ From March 3rd until April 13th, there is a 100€ (excl. VAT) penalty for refun
 
 After April 14th, we don't accept any refunds and transfers any more.
 
-## Refunds for PayPal orders: 
+## Refunds for PayPal Orders 
 
 Due to PayPal rules, we cannot refund your ticket after 60 days. So if you paid with PayPal, it is either the deadlines above or 60 days after purchase whichever comes first. 

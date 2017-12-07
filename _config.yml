@@ -15,7 +15,7 @@ twitter_username: uikonf
 github_username:  uikonf
 
 # Gems
-gems:
+plugins:
   - jekyll-redirect-from
   - jekyll-paginate
 
@@ -31,6 +31,7 @@ collections:
   - workshops
   - sponsors
   - ambassadors
+  - uikonf-2017
 
 # Build settings
 markdown: kramdown
