@@ -47,7 +47,7 @@ redirect_from:
 	      		<a name="{{ speaker.anchor }}"></a>
       			<div class="box">
       				<figure class="uk-overlay uk-overlay-hover">
-			    		<img class="uk-overlay-spin" src="{{ site.baseurl }}/static/images/{{ speaker.image }}" alt="{{ speaker.title }}">
+			    		<img class="uk-overlay-spin" src="{{ site.baseurl }}/static/images/speaker/{{ speaker.image }}" alt="{{ speaker.title }}">
 							<a class="uk-position-cover" href="{{ speaker.twitter }}" target="_blank"></a>
 					</figure>
 		     		<div  class="info-box small">
