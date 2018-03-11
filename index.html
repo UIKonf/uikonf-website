@@ -193,6 +193,7 @@ redirect_from:
 
 
 <div class="straight brand-color">
+	<div class="wrapper">
   <div class="uk-container uk-container-center">
     <div class="uk-grid">
       <div class="uk-width-medium-4-10">
@@ -200,11 +201,12 @@ redirect_from:
         <h2 class="uk-margin-large-top">Location</h2>
         <p>RADIALSYSTEM V Berlin,<br>Holzmarktstr. 33,<br>10243 Berlin</p>
       </div>
-      <div class="uk-width-medium-6-10">
+      <div class="uk-width-medium-6-10 uk-margin-large-top">
         <div id='map'></div>
         </div>
       </div>
     </div>
+</div>
 </div>
 
 <script>
@@ -216,10 +218,22 @@ redirect_from:
 			    zoom: 15 // starting zoom
 		});
 		
+		map.on('click', function(e) {
+		  var features = map.queryRenderedFeatures(e.point, {
+		    layers: ['radialsystem'] // replace this with the name of the layer
+		  });
+
+		  if (!features.length) {
+		    return;
+		  }
+
+		  var feature = features[0];
+		  
 		var popup = new mapboxgl.Popup({ offset: [0, -50] })
-		    .setLngLat([13.428628, 52.510368])
-		    .setHTML('<div style="color:#3399ff"><strong>RadialSystem V</strong><br/>Holzmarktstr. 33, 10243 Berlin</div>')
-		    .setLngLat([13.428628, 52.510368])
+    	  	.setLngLat(feature.geometry.coordinates)
+		    .setHTML('<div style="color:#3399ff"><strong>'+feature.properties.title+'</strong><br/>'+feature.properties.description+'</div>')
+    	  	.setLngLat(feature.geometry.coordinates)
 			.addTo(map);
+		});
 		
 </script>
