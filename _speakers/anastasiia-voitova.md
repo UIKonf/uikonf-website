@@ -1,5 +1,5 @@
 ---
-title: Anastasiia-Voitova
+title: Anastasiia Voitova
 short-bio: Product Engineer at Cossack Labs
 image: Anastasiia-Voitova.jpg
 anchor: anastasiia
