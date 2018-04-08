@@ -62,7 +62,7 @@ includeInNavigation: 1
 		          <h4>Sabine Geithner</h4>
 		        </div>
 	        </div>
-	        <p><small>iOS developer at Wire, former Online Marketer and Scientist.</small></p>
+	        <p><small>iOS developer at Mercedes-Benz.io, former Online Marketer and Scientist.</small></p>
 	      </div>
 
 			</div>
