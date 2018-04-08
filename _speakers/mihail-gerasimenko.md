@@ -13,7 +13,7 @@ twitter: https://twitter.com/GerasimenkoMiha
 - 5 years Berliner.
 - Proud father of Alexander and Daniel.
 
-**Talk: 🔑 End-to-End encryption for iOS Developer**
+**Talk: 🔑 End-to-End encryption for iOS Developer**  
 My talk is going to explain what end-to-end encryption (E2EE) is, the current state and the algorithms and protocols behind it as well as the challenges of implementing the truly E2EE application on the iOS platform and the future of the protocols.
 
 In particular I would like to touch the following topics:
