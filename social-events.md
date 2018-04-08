@@ -2,7 +2,7 @@
 layout: default
 title: Social Events
 permalink: /social-events/
-description: UIKonf features a list of social events. You can set a donation for your ticket. Your contribution will be donated to a charity supporting refugees.
+description: UIKonf features a list of social events which are free for conference attendees
 includeInNavigation: 0
 ---
 
@@ -13,13 +13,10 @@ includeInNavigation: 0
 	    <div class="uk-container uk-container-center">
 			<div class="uk-grid">
         		<div class="uk-width-1-1">
-        			<h1>Social Events at UIKonf 2017</h1>
+        			<h1>Social Events at UIKonf 2018</h1>
 				</div>
        	 		<div class="uk-width-medium-1-2 uk-text-left">
 			 	   <p>UIKonf features a list of social events on the day before the conference. These events are intended to help you break the ice with fellow conference attendees.</p> 
-				</div>
-       	 		<div class="uk-width-medium-1-2 uk-text-left">
-				   <p>The events are free to attend, but we encourage you to submit a small donation. More details coming soon…</p>
 				</div>
 			</div>
 		</div>
@@ -41,7 +38,7 @@ includeInNavigation: 0
 	    	<div class="uk-width-medium-1-3 uk-width-small-1-1 uk-width-large-1-3">
       		<a name="{{ event.anchor }}"></a>
 			<div class="box">
-      			<figure class="uk-overlay uk-overlay-hover"><img src="/static/images/{{ event.image }}" alt="{{ event.image-alt }}"> </figure>
+      			<figure class="uk-overlay uk-overlay-hover"><img src="/static/images/events/{{ event.image }}" alt="{{ event.image-alt }}"> </figure>
 		        <div  class="info-box small">
 		          <h4>{{ event.title }}</h4>
 		        </div>
