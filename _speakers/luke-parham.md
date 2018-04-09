@@ -1,7 +1,7 @@
 ---
 title: Luke Parham
 short-bio: iOS Developer at Fyusion working on the rendering system for the 3D photos
-image: Luke-Parham.jpg
+image: luke-parham.jpg
 anchor: luke
 twitter: https://twitter.com/lukeparham
 ---
