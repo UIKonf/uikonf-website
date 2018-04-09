@@ -1,12 +1,12 @@
 ---
 title: Kayaking on the Spree
 start: Around 2pm
-image: kayak.jpg
+image: kajak-tour.jpg
 anchor: kayak
-description: Kayaking through Berlin
-active: 0
+description: Hop on kayaks and paddle past some of Berlins sweetest spots
+active: 1
 ---
 
 <p>
-  Hop on kayaks and paddle through the hip Neukölln and Kreuzberg with other UIKonf attendees.
+  Hop on kayaks and paddle with other UIKonf attendees longside some of Berlins sweetest spots – through the hip Neukölln and Kreuzberg to the marvelous Oberbaumbrücke and the East harbour. Enjoy the stunning waterscape of the legendary Landwehrkanal and the Spree River and discover an unexpected oasis in the middle of the city caused by a switch of your perspective and the kind of movement. 
 </p>

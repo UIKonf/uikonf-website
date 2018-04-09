@@ -5,9 +5,9 @@ image: csm.jpg
 image-alt: Computer Games Museum
 anchor: csm
 description: Revisit the games of your youth
-active: 0
+active: 1
 ---
 
-<p>Their new permanent exhibition “Computer games. The evolution of a medium” saw its premiere on January 21st, 2011. You will find more than 300 exhibits on our premises for playing and exploring the cultural history of these games. Join an entertaining time travel presenting the theme of Mankind at play in the 21st century.</p>
-
-
+<p>
+	Visit with us Europe´s first museum for video and computer games, where you can meet them all: The top performers and other famous pieces such as the legendary Pong-Machine, Nimrod, PainStation, and the Giant Joystick are all here for you to play with. Historical treasures like “PolyPlay” as well as games for dancing and movement are all part of our exhibition containing more than 300 objects altogether. With you on board, an entertaining journey through the 21st century can begin.
+</p>

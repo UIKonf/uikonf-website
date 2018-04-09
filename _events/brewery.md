@@ -1,12 +1,16 @@
 ---
-title: Brewery Tour
-start: around 3pm
-image: brewery.jpg
-image-alt: Berliner Kindl photo by Ciaron Linstead
+title: Craft Beer Brewery Tour
+start: around 2pm
+image: beer-tour.jpg
 anchor: brewery
-description: Follow a German tradition and learn how to brew beer at the Brewery Tour.
-active: 0
+description: Follow a German tradition and learn how to brew beer at BRLO BRWHOUSE
+active: 1
 ---
 
-<p>Germany is known for its beer brewing tradition. In our brewery tour you will see and touch the ingredients used for brewing beer, get an explanation of the process and visit the different stages, like the mashhouse and fermentation. Additionally you get a lot of informations about the history of beer-making.</p>
+<p>
+	Welcome to one of Berlin's most innovative Micro-Breweries: BRLO BRWHOUSE. Over the course of our tour you will get the unique opportunity to visit the very heart of BRLO - our 20HL brewery. Here, specialist staff will take you on a journey through the brewing process, from farm to finished product, giving you an overview of each of the ingredients which use to give our beer its distinctive character.
+</p>
+<p>
+	We will cap off the tour with a guided tasting of our fantastic beer. PRST!
+</p>
 

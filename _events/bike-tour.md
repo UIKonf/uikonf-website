@@ -1,10 +1,10 @@
 ---
-title: Bike Tour
+title: Bike Tour - a UIKonf classic
 start: Usually around 2pm
 image: bike.jpg
 anchor: bike
-description: UIKonf bike tour has become a tradition. The tour of 2017 will continue that tradition.
-active: 0
+description: UIKonf bike tour has become a tradition. The tour of 2018 will continue that tradition.
+active: 1
 ---
 
-<p>The Bike Tour has become a classic for UIKonf. We provide the bikes, all you have to bring is your curiosity, a little bit of leg strength, good mood and something to cover yourself should it start to rain. Check out the <a href="http://www.gpsies.com/map.do?fileId=nkyxtericidlmqgi" target="_blank">route</a> of last year.</p>
+<p>A guided bicycle tour is the best way to discover Berlin. You’ll enjoy the city’s expansive, green and primarily flat urban landscape. On routes, almost entirely separated from automobile traffic, our guides will take you to some of Berlin’s most interesting, exciting and unexpected places. We provide the bikes, all you have to bring is your curiosity, a little bit of leg strength, good mood and something to cover yourself should it start to rain.</p>
