@@ -1,6 +1,6 @@
 ---
 title: Kayaking on the Spree
-start: Around 2pm
+start: 2pm
 image: kajak-tour.jpg
 anchor: kayak
 description: Hop on kayaks and paddle past some of Berlins sweetest spots

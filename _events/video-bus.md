@@ -1,6 +1,6 @@
 ---
 title: Video Bus Tour
-start: around 2pm
+start: 3:30pm
 image: videobus-tour.jpg
 anchor: video-bus
 description: Time travel through Berlin in a video bus augmenting locations with original film documents 

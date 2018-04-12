@@ -1,6 +1,6 @@
 ---
 title: East-Side Gallery Tour
-start: around 2pm
+start: 2pm
 image: east-side-gallery.jpg
 anchor: east-side
 description: Berlin artist share stories that took place at this historic piece of the wall

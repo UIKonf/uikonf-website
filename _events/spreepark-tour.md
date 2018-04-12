@@ -1,6 +1,6 @@
 ---
 title: Berlin Spreepark Tour
-start: around 2pm
+start: 3pm
 image: spreepark-tour.jpg
 anchor: spreepark
 description: Experience the apocalyptic scenery of this abandoned amusement park

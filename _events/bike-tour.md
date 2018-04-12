@@ -1,6 +1,6 @@
 ---
 title: Bike Tour - a UIKonf classic
-start: Usually around 2pm
+start: 2pm
 image: bike.jpg
 anchor: bike
 description: UIKonf bike tour has become a tradition. The tour of 2018 will continue that tradition.
