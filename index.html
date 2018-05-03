@@ -6,7 +6,6 @@ redirect_from:
  - /scholarship/
  - /tickets/
  - /venue.html
- - /schedule/
 ---
 <div class="headerimage" style="background-image: url({{ site.baseurl }}/static/images/img-home.jpg);" data-uk-parallax="{bg: '-50'}">
     <div class="uk-position-cover uk-flex uk-flex-center uk-flex-middle uk-flex-column"> 
@@ -46,20 +45,33 @@ redirect_from:
 </div>
 
 <div class="straight">
+  <div class="wrapper">
+        <div class="uk-container uk-width-medium-6-10 uk-container-center">
+          <div class="uk-grid">
+            <div class="uk-width-1-1 uk-text-center">
+	      <a name="schedule"></a>
+              <h2 class="brand-color">Schedule</h2>
+            </div>
+        	{% include schedule.md context="schedule" %}
+          </div>
+        </div>
+	</div>
+</div>
+
+
+<div class="backshape">
 <div class="wrapper">
   <div class="uk-container uk-container-center">
     <div class="uk-grid uk-grid-small">
       <div class="uk-width-1-1 uk-text-center">
         <h2 class="brand-color">Tickets</h2>
-    </div>
+		<p>We are sold out! Please add yourself to the waitlist if you are still interested.</p>
+      </div>
       <div class="uk-width-1-1">
-			<p><tito-widget event="uikonf/uikonf-2018"></tito-widget></p>
-		 		<p>Ticket prices include VAT (MwSt.), free drinks, lunch on the conference days and the UIKonf party. See <a href="refunds">our refunds policy</a> if you are not sure about your plans in May.
-				</p>
-				<p>If you can't afford a ticket to UIKonf, you may apply to our diversity program. This program is aims to help underrepresented groups in tech to attend and to lower the barriers for them. This includes but isn’t limited to: women, people of colour, LGBTQIA+ people, and disabled people and generally people who are unable to attend without financial assistance. <a href="https://goo.gl/forms/Yc9nomeec9OUnRoY2" target="_blank">Please apply here!</a></p>
-			</div>
-        </div>
+		<p><tito-widget event="uikonf/uikonf-2018"></tito-widget></p>
+	  </div>
      </div>
+   </div>
  </div>
 </div>
 
@@ -102,19 +114,6 @@ redirect_from:
   </div>
 </div>
 
-<div class="backshape">
-  <div class="wrapper">
-        <div class="uk-container uk-width-medium-6-10 uk-container-center">
-          <div class="uk-grid">
-            <div class="uk-width-1-1 uk-text-center">
-	      <a name="schedule"></a>
-              <h2 class="brand-color">Schedule</h2>
-            </div>
-        	{% include schedule.md context="home" %}
-          </div>
-        </div>
-	</div>
-</div>
 
 {% assign activeSponsors = site.sponsors | where:"active",1 %}
 {% if activeSponsors.size > 0 %}

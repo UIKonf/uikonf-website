@@ -1,65 +1,61 @@
 ---
-title: May 16th
-day: 16
+title: May 15th
+day: 15
 isDetail: true
 isSummary: false
 items:
   - title: Late registration & Coffee
     time: "9:30"
-    type: break
-  - title: Gwen Weston 
-    talk: Implementing Compassion
+    location: Radialsystem V, Holzmarktstraße 33
+    location_link: https://goo.gl/maps/jA7wcLtfZo32
+  - title: Peter Steinberger
+    talk: t.b.a.
     time: "10:00"
-    speaker: gwen
-  - title: Francisco Díaz 
-    talk: Move fast and keep your code quality
-    talkId: 67
+    speaker: peter
+  - title: Luke Parham
+    talk: Gotta Go Fast (A Performance and Instruments Talk)
     time: "10:40"
-    speaker: francisco
+    speaker: luke
   - title: Coffee Break
     type: break
     time: "11:15"
-  - title: Martijn Walraven
-    talk: Strong typing from the server to the UI with GraphQL
-    talkId: 31
+  - title: Mihail Gerasimenko
+    talk: End-to-End encryption for iOS Developer
     time: "11:50"
-    speaker: martijn
-  - title: Olivier Halligon
-    talk: Code Generation in Swift — Gain time type safety and more!
-    talkId: 35
+    speaker: mihail
+  - title: Domas Nutautas
+    talk: The code you don’t have to write
     time: "12:25"
-    speaker: olivier
+    speaker: domas
   - title: Lunch
     type: break
     time: "13:00"
-  - title: Sarah E Olson
-    talk: Developing Empathy
-    talkId: 44
+  - title: Dave DeLong
+    talk: The Laws of Magic
     time: "14:30"
-    speaker: sarah
-  - title: Brandon Williams & Lisa Luo
-    talk: Anything you can do, I can do better
+    speaker: dave
+  - title: Janina Kutyn
+    talk: Improving Scrolling Performance through GPU Optimisation
     time: "15:05"
-    speaker: lisa-brandon
-  - title: Mischa Hildebrand 
-    talk: Auto Layout - From Trailing to Leading
-    talkId: 57
+    speaker: janina
+  - title: Susmita Horrow
+    talk: Simplified VIPER architecture
     time: "15:40"
-    speaker: mischa
+    speaker: susmita
   - title: Coffee Break
     type: break
     time: "16:15"
-  - title: Sommer Panage
-    talk: Accessibility - iOS for All
-    talkId: 43
+  - title: Vincent Garrigues
+    talk: Scaling iOS, a story of technical debt, and how to get through it
     time: "17:00"
-    speaker: sommer
-  - title: Chris Eidhof & Florian Kugler
-    talk: Intermediate Types
+    speaker: vincent
+  - title: Adrian Kosmaczewski
+    talk: A Decade of iPhone & iOS in 40 minutes
     time: "17:35"
-    speaker: chris-florian
-  - title: Closing party at Pavillon Volkspark Friedrichshain (Friedenstraße 101, 10249 Berlin)
-    type: break
+    speaker: adrian
+  - title: Closing party
     time: "19:00"
+    location: Festsaal Kreuzberg, Am Flutgraben 2
+    location_link: https://goo.gl/maps/89FMnGMmdvF2
 ---
 

@@ -28,16 +28,44 @@
     		{% for item in day.items %}
   				{% if item.type == "break" %}
   					<div class="uk-grid">
-      		  	<div class="uk-width-medium-1-6 uk-width-1-1">
-          			<p class="light-text" ><i class="uk-icon-clock-o"></i> {{ item.time }}</p>
-       		   	</div>
-  	          <div class="uk-width-5-6">
-                <p class="light-text"> {{ item.title }}</p>
-  							{% if item.description %}
-      				    <p><small>{{ item.description }}</small></p>
+      		  			<div class="uk-width-medium-1-6 uk-width-1-1">
+          					<p class="light-text" ><i class="uk-icon-clock-o"></i> {{ item.time }}</p>
+       		   			</div>
+  	          		   <div class="uk-width-5-6">
+                		   <p class="light-text"> {{ item.title }}</p>
+  							
+							{% if item.description %}
+      				    	<p><small>{{ item.description }}</small></p>
   							{% endif %}
-  	          </div>
-  			    </div>
+							
+	  						{% if item.location %}
+	      				    <p><small><strong>Location: </strong>
+								{% if item.location_link %}
+									<a href="{{ item.location_link }}" target="_blank">{{ item.location }}</a>
+								{% else %}
+									{{ item.location }}
+								{% endif %}
+							</small></p>
+	  						{% endif %}
+  	          		  </div>
+  			    	</div>
+  				{% elsif item.type == "workshop" %}
+	         	 	<div class="uk-grid">
+	      		  	<div class="uk-width-medium-1-6 uk-width-1-1">
+	          			<p class="light-text"><i class="uk-icon-clock-o"></i> {{ item.time }}</p>
+	       		   	</div>
+	        		 	<div class="uk-width-medium-5-6 uk-width-1-1">
+							{% if item.anchor %}<a href="/workshops/#{{ item.anchor }}">{% endif %}
+								<h3 class="brand-color" style="font-size: 1.7rem;">{{ item.title }}{% if item.talk %} - {{ item.talk }}{% endif %}</h3>
+							{% if item.anchor %} </a> {% endif %}
+	      				     <p><small>
+	       				    	 	<strong>Duration:</strong> {{ item.duration }} <br/>
+								 	<strong>Costs:</strong> {{ item.costs }} - 
+	 								<a href="{{ item.registration }}" target="_blank">Book a ticket</a> | 
+									<a href="/workshops/#{{ item.anchor }}" target="_blank">Learn More</a>
+							 </small></p>						
+	        			</div>
+	        		</div>
   				{% else %}
          	 	<div class="uk-grid">
       		  	<div class="uk-width-medium-1-6 uk-width-1-1">
@@ -47,9 +75,16 @@
 						{% if item.speaker %}<a href="/speakers/#{{ item.speaker }}">{% endif %}
 							<h3 class="brand-color" style="font-size: 1.7rem;">{{ item.title }}{% if item.talk %} - {{ item.talk }}{% endif %}</h3>
 						{% if item.speaker %} </a> {% endif %}
-  							{% if item.description %}
-      				     <p><small>{{ item.description }}</small></p>
-  							{% endif %}
+						{% if item.description %} <p><small>{{ item.description }}</small></p>  {% endif %}
+  						{% if item.location %}
+      				    <p><small><strong>Location: </strong>
+							{% if item.location_link %}
+								<a href="{{ item.location_link }}" target="_blank">{{ item.location }}</a>
+							{% else %}
+								{{ item.location }}
+							{% endif %}
+						</small></p>
+  						{% endif %}
         			</div>
         		</div>
   				{% endif %}

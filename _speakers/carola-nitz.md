@@ -2,7 +2,7 @@
 title: Carola Nitz
 short-bio: Senior Software Engineer at Videolabs
 image: carola-nitz.jpg
-anchor: janie
+anchor: carola
 twitter: https://twitter.com/_caro_n
 ---
 
