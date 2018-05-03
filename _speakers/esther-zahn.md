@@ -2,7 +2,7 @@
 title: Esther Zahn
 short-bio: Fashion Tech Activist
 image: esther-zahn-1.jpg
-anchor: peter
+anchor: esther
 twitter: http://estherzahn.com/ux-ftt
 ---
 

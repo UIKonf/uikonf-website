@@ -14,9 +14,3 @@ items:
     description: If you would like to organize or host a satellite event, <a href="mailto:questions@uikonf.com">get in touch with us</a>.
     time: "19:00"     
 ---
-
-<!-- <div class="uk-grid">
-                      <div class="uk-width-1-1">
-                        <p class="uk-text-center">1 hour lunch break</p>
-                      </div>
-                    </div> -->

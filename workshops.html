@@ -3,8 +3,8 @@ layout: default
 order: 2
 title: Workshops
 permalink: /workshops/
-includeInNavigation: 0
-description: UIKonf 2017 - Workshops and Unconference on Saturday 13th and Wednesday 17th May
+includeInNavigation: 1
+description: UIKonf 2018 - Workshops
 ---
 
 <div class="headerimage uk-position-relative" style="background-image: url({{ site.baseurl }}/static/images/speakers-header-cropped.jpg);" data-uk-parallax="{bg: '-50'}">
@@ -14,7 +14,7 @@ description: UIKonf 2017 - Workshops and Unconference on Saturday 13th and Wedne
 	    <div class="uk-container uk-container-center">
 			<div class="uk-grid">
         		<div class="uk-width-1-1">
-        			<h1>Workshops at UIKonf 2017</h1>
+        			<h1>Workshops at UIKonf 2018</h1>
 				</div>
 			</div>
 		</div>
@@ -22,7 +22,8 @@ description: UIKonf 2017 - Workshops and Unconference on Saturday 13th and Wedne
    </div>
 </div>
 
-{% for workshop in site.workshops %}
+{% assign sorted = site.workshops | sort: 'order' %}
+{% for workshop in sorted %}
 {% assign loopindex = forloop.index | modulo: 2 %}
   {% if loopindex == 1 %}
   <div class="backshape opposite light-grey">
@@ -54,6 +55,9 @@ description: UIKonf 2017 - Workshops and Unconference on Saturday 13th and Wedne
 					Fee: {{ workshop.fee }}</p>
 				
 				{{ workshop.content }}
+				{% if workshop.tickets %}
+					<p style="margin:30px 0px;"><a class="btn uk-button-large" style="padding:20px; text-decoration: none;" href="{{ workshop.tickets }}" target="_blank">Book a Ticket</a></p>
+				{% endif %}
 	      	</div>
 	  		</div>
 		</div>
