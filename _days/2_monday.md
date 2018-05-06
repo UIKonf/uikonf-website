@@ -23,6 +23,9 @@ items:
     talk: 10 Things you Need to Know before Implementing Cryptography
     time: "11:50"
     speaker: anastasiia
+  - title: Workshop - Building Apps Fast with Cloud Firestore
+    description: In this codelab, you will build a restaurant recommendation app on iOS backed by Google Cloud Firestore. We will set up Cloud Firestore and learn about Firebase Authentication. Any level of iOS experience welcome! Please come with Xcode, cocoapods and a simulator installed. You don't need to register for this workshop.
+    time: "11:50"
   - title: Edward Valentini  
     talk: Compilers and LLVM Demystified
     time: "12:25"
@@ -58,6 +61,3 @@ items:
     time: "18:10"
 ---
 
-  <!-- - title: Workshop - Using Firebase to Build Successful Apps without Backend Code
-    description: The Firebase SDKs take the grunt work out of building software - taking care of data storage, synchronization, file storage, authentication, and other backend functionalities so that your time is spent polishing user interactions. In this workshop, we will guide you through building a sophisticated real-time iOS app using only the Firebase iOS SDKs. We will showcase the various ways Firebase can help you be successful and provide on-site assistance should you have any questions.
-    time: "11:50" -->
