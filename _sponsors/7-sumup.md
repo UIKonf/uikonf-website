@@ -8,5 +8,3 @@ active: 1
 We are the leading mobile point-of-sale (mPOS) company in Europe. We started out 6 years ago and built our payment service from scratch to shake up the industry and wake up the entrepreneur within anyone. We created a unique device that with the smartphone that’s in your pocket, allows small merchants to accept card payments anywhere.
 
 Whether our merchants are brewing coffee or fixing cars, we want to make technology that anyone can use - so our merchants can get on with what they do best. From our paperless onboarding to taking the first payment, we make it easy. Traditional offerings leave out small businesses, we don’t. We are open and honest about our pricing and have no hidden fees.
-
-Launched in August 2012, our company enjoys impressive global reach and has since expanded into 31 countries, including Germany, the U.S. and Brazil. SumUp continues to grow and is backed by American Express, BBVA, Groupon, Holtzbrinck Ventures and other renowned venture capital investors.
