@@ -9,5 +9,3 @@ Cities around the world are evolving and, as a result, urban mobility has become
 
 With transportation on the edge of disruption, Daimler, the company that invented the automobile in 1886 and owns Mercedes-Benz, founded moovel to reinvent the concept of urban mobility. At moovel, we aim to discover how new technologies will affect the way we move tomorrow and connect the ever-changing state of urban transportation.
 
-moovel offers new ways to connect the urban mobility ecosystem with our three complementary products: moovel app, moovel transit and moovel On-Demand.
-
