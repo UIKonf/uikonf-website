@@ -36,7 +36,7 @@ includeInNavigation: 1
 		          <h4>Engin Kurutepe</h4>
 		        </div>
 		      </div>
-		      <p ><small>Freelance iOS developer building <a href="https://gliderange.com">Glide Range</a>. Glider pilot in training.</small></p>
+		      <p><small>General Manager at Keepsafe Europe. Does not get to write much code these days except for his little <a href="https://itunes.apple.com/de/app/solar-watch-24h-solar-clock/id1191365122?l=en&mt=8">Solar Watch</a>. Flies gliders at <a href="http://www.fcc-berlin.de">FCC Berlin</a>.</small></p>
 	      </div>
 
 	      <div class="uk-width-medium-1-2 uk-width-small-1-2 uk-width-large-1-3">
