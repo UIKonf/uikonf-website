@@ -54,7 +54,7 @@ items:
     speaker: agis
   - title: Esther Zahn
     talk: t.b.a.
-    time: "17:00"
+    time: "17:35"
     speaker: esther
   - title: Dinner plans with our ambassadors?
     type: break
