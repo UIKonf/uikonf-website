@@ -9,7 +9,7 @@ items:
     location: Radialsystem V, Holzmarktstraße 33
     location_link: https://goo.gl/maps/jA7wcLtfZo32
   - title: Kamilah Taylor
-    talk: t.b.a
+    talk: Tired of the state of online conversations? 🙈🙉🙊 Let’s do something about it 💪
     time: "10:00"
     speaker: kamilah
   - title: John Sundell
@@ -53,7 +53,7 @@ items:
     time: "17:00"
     speaker: agis
   - title: Esther Zahn
-    talk: t.b.a.
+    talk: Since when does fashion communicate? Does technology affect fashion or fashion technology?
     time: "17:35"
     speaker: esther
   - title: Dinner plans with our ambassadors?

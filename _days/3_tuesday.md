@@ -9,7 +9,7 @@ items:
     location: Radialsystem V, Holzmarktstraße 33
     location_link: https://goo.gl/maps/jA7wcLtfZo32
   - title: Peter Steinberger
-    talk: t.b.a.
+    talk: Building Personal Brands for Introverts
     time: "10:00"
     speaker: peter
   - title: Luke Parham
