@@ -1,9 +1,16 @@
 ---
-title: May 16th
-day: 16
+title: May 28th
+day: 28
 isDetail: true
 isSummary: true
 items:
+  - title: Unconference, workshops and more!
+    description: In addition to taking part in the unconference, you can meet our sponsors, dissect code problems in lab sessions with experienced experts, signup for a workshop or just hang out and code with new friends. 
+    time: "10.00"
+    location: tbd
+---
+
+<!-- 
   - title: Unconference, workshops and more!
     description: In addition to taking part in the unconference, you can meet our sponsors, dissect code problems in lab sessions with experienced experts, signup for a workshop or just hang out and code with new friends. 
     time: "10.00"
@@ -17,14 +24,4 @@ items:
     time: "10:00"
     duration: 3h
     anchor: tdd
-    type: workshop
-  - title: Nico Roenpagel
-    talk: Burn-Out, Burn-In - Focusing Your Fire of Purpose
-    description: In today's world of complexity, competition and constant deadlines, we require novel skills to develop and maintain sustainable health without and within. In this workshop we will look with radical and compassionate honesty at how work affects us on our physical, mental and emotional levels. Underpinned by exciting research into mindfulness, we use meditative and body-mind practices to tackle the roots of feeling disconnected and burnt out. Participants in this workshop will learn specific tools to become more attentive to their personal limits and capacities as professionals.
-    registration: https://ti.to/uikonf/uikonf-2018/with/7ffryuqofpw
-    costs: 49 Euro (incl. VAT)
-    time: "14:00"
-    duration: 3h
-    anchor: burnout
-    type: workshop
----
+    type: workshop -->

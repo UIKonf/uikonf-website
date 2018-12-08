@@ -3,7 +3,7 @@ title: SumUp
 image: sponsors/sumup-400x200.jpg
 image-alt: SumUp
 anchor: https://sumup.com/developers/
-active: 1
+active: 0
 ---
 We are the leading mobile point-of-sale (mPOS) company in Europe. We started out 6 years ago and built our payment service from scratch to shake up the industry and wake up the entrepreneur within anyone. We created a unique device that with the smartphone that’s in your pocket, allows small merchants to accept card payments anywhere.
 

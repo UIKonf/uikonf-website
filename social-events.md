@@ -8,20 +8,18 @@ includeInNavigation: 0
 
 <div class="headerimage uk-position-relative" style="background-image: url({{ site.baseurl }}/static/images/speakers-header-cropped.jpg);" data-uk-parallax="{bg: '-50'}">
   <img class="uk-invisible" src="{{ site.baseurl }}/static/images/speakers-header-cropped.jpg" alt="speaker image">
-   <div class="uk-position-cover uk-flex uk-flex-center uk-flex-middle uk-flex-column">
-      <div class="teaser-register">
+  <div class="uk-position-cover uk-flex uk-flex-center uk-flex-middle uk-flex-column">
+    <div class="teaser-register">
 	    <div class="uk-container uk-container-center">
-			<div class="uk-grid">
-        		<div class="uk-width-1-1">
-        			<h1>Social Events at UIKonf 2018</h1>
-				</div>
-       	 		<div class="uk-width-medium-1-2 uk-text-left">
-			 	   <p>UIKonf features a list of social events on the day before the conference. These events are intended to help you break the ice with fellow conference attendees.</p> 
+				<div class="uk-grid">
+        	<div class="uk-width-1-1">
+        		<h1>Social Events at UIKonf 2018</h1>
+			 	   	<p>UIKonf features a list of social events on the day before the conference. These events are intended to help you break the ice with fellow conference attendees.</p> 
+					</div>
 				</div>
 			</div>
-		</div>
-     </div>
-   </div>
+    </div>
+  </div>
 </div>
 
 
@@ -32,26 +30,28 @@ includeInNavigation: 0
   {% else %}
   <div class="backshape opposite">
   {% endif %}	
-	<div class="wrapper">
-		<div class="uk-container uk-container-center uk-margin-large-top">
+		<div class="wrapper">
+			<div class="uk-container uk-container-center uk-margin-large-top">
     		<div class="uk-grid">
-	    	<div class="uk-width-medium-1-3 uk-width-small-1-1 uk-width-large-1-3">
-      		<a name="{{ event.anchor }}"></a>
-			<div class="box">
-      			<figure class="uk-overlay uk-overlay-hover"><img src="/static/images/events/{{ event.image }}" alt="{{ event.image-alt }}"> </figure>
-		        <div  class="info-box small">
-		          <h4>{{ event.title }}</h4>
-		        </div>
-		      </div>
+	    		<div class="uk-width-medium-1-3 uk-width-small-1-1 uk-width-large-1-3">
+      			<a name="{{ event.anchor }}"></a>
+						<div class="box">
+      				<figure class="uk-overlay uk-overlay-hover"><img src="/static/images/events/{{ event.image }}" alt="{{ event.image-alt }}"> </figure>
+		        	<div  class="info-box small">
+		          	<h4>{{ event.title }}</h4>
+		        	</div>
+		      	</div>
 	      	</div> 
-			<div class="uk-width-medium-2-3 uk-width-small-1-1 uk-width-large-2-3" style="padding-top:10px;">
-				{{ event.content }}
-	       	 	<p>Start: {{ event.start }}</p>
+					<div class="uk-width-medium-2-3 uk-width-small-1-1 uk-width-large-2-3" style="padding-top:10px;">
+						{{ event.content }}
+	       		{% if event.start %}
+	       			<p>Start: {{ event.start }}</p>
+						{% endif %}	
 	      	</div>
 	  		</div>
+			</div>
 		</div>
 	</div>
-</div>
 {% endfor %}
 
 <!-- <div class="straight light-grey">

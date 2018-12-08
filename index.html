@@ -2,19 +2,20 @@
 layout: default
 description: UIKonf - Berlin's independent conference for serious iOS developers.
 redirect_from:
- - /program.html
- - /scholarship/
- - /tickets/
- - /venue.html
+- /program.html
+- /scholarship/
+- /tickets/
+- /venue.html
 ---
 
 <div class="headerimage" style="background-image: url({{ site.baseurl }}/static/images/img-home.jpg);" data-uk-parallax="{bg: '-50'}">
   <div class="uk-position-cover uk-flex uk-flex-center uk-flex-middle uk-flex-column">
     <div class="teaser-register">
       <img src="{{ site.baseurl }}/static/images/Logo_bigger.png" alt="logo UIKonf" />
-      <p>See you again next May!</br>
+      <p>May 26th-29th 2019</br>
         <a href="#Sponsors">Become a Sponsor</a> &nbsp; | &nbsp;
-        <a href="http://uikonf.us9.list-manage.com/subscribe?u=08d7d9a7a55f501920eb76453&id=d3f17105cf" target="_blank">Sign up for News</a>
+        <a href="http://uikonf.us9.list-manage.com/subscribe?u=08d7d9a7a55f501920eb76453&id=d3f17105cf" target="_blank">Sign
+          up for News</a>
       </p>
     </div>
   </div>
@@ -30,19 +31,21 @@ redirect_from:
               <h2>About UIKonf</h2>
             </div>
             <div class="uk-width-medium-1-2">
-              <p>UIKonf is Berlin's independent conference for serious iOS developers. Taking place from May 13th to 16th 2018
-                in RADIALSYSTEM V in Berlin it is a great place to meet and connect with experienced developers from all
+              <p>UIKonf is Berlin's independent conference for serious iOS developers. Taking place from May 26th to
+                29th 2019 in RADIALSYSTEM V in Berlin it is a great place to meet and connect with experienced
+                developers from all
                 over Europe.</p>
-              <p>UIKonf features inspiring speakers giving talks on cutting edge topics in iOS development, mobile design and
-                business.</p>
+              <p>UIKonf features inspiring speakers giving talks on cutting edge topics in iOS development, mobile
+                design and business.</p>
             </div>
             <div class="uk-width-medium-1-2">
-              <p class="uk-contrast">But UIKonf is not only about gathering knowledge. We want to facilitate new connections and friends amongst
-                our great community by providing an inclusive setting where all participants feel safe and welcome. In order
-                to achieve that, we expect all to abide by our
+              <p class="uk-contrast">But UIKonf is not only about gathering knowledge. We want to facilitate new
+                connections and friends amongst
+                our great community by providing an inclusive setting where all participants feel safe and welcome. In
+                order to achieve that, we expect all to abide by our
                 <a href="coc">Code of Conduct</a>.</p>
-              <p>To help people connect, we framed UIKonf with social events which provide an informal environment for meeting
-                like-minded people.</p>
+              <p>To help people connect, we framed UIKonf with social events which provide an informal environment for
+                meeting like-minded people.</p>
             </div>
           </div>
         </div>
@@ -51,15 +54,29 @@ redirect_from:
   </div>
 </div>
 
+
 <div class="straight">
   <div class="wrapper">
-    <div class="uk-container uk-width-medium-6-10 uk-container-center">
-      <div class="uk-grid">
+    <div class="uk-container uk-container-center">
+      <div class="uk-grid uk-grid-small">
         <div class="uk-width-1-1 uk-text-center">
-          <h2 class="brand-color">UIKonf 2018</h2>
-          <a name="videos"></a>
-          <p>UIKonf is over! Thanks to everyone who participated, to our sponsors, our volunteers and ambassadors. You all contributed to creating a welcoming and fun event.</p>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLdr22uU_wISohI7PIhzq0gotGfKZl1lGo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <h2 class="brand-color">Tickets</h2>
+        </div>
+        <div class="uk-width-1-1">
+          <p>
+            <tito-widget event="uikonf/uikonf-2019"></tito-widget>
+          </p>
+          <p>Ticket prices include VAT (MwSt.), free drinks, lunch on the conference days and the UIKonf party. See <a
+              href="refunds">our refunds policy</a> if you are not sure about your plans in May.
+          </p>
+          <!-- <p>We also provide discounted diversity tickets for 99€, aimed to help underrepresented groups in tech. This
+            includes but isn’t limited to: women, people of colour, LGBTQIA+ people, disabled people and generally
+            people who are unable to attend without financial assistance. If you think you are eligible for a diversity
+            ticket, simply <a href="https://goo.gl/forms/E02529wutoMOyB2S2" target="_blank">fill out the application
+              form</a>.</p> -->
+          <p>We will also offer discounted tickets to members of underrepresented groups in tech. Details for this will
+            follow soon. If you want to support diversity at UIKonf, you can do so when booking your ticket. Simply
+            select the additional "Scholarship Sponsor" package which provides one ticket for our diversity ticket applicants.</p>
         </div>
       </div>
     </div>
@@ -74,13 +91,18 @@ redirect_from:
           <h2 class="brand-color">Speakers</h2>
         </div>
         <div class="uk-width-1-1">
-          <p>UIKonf hosts a diverse selection of inspiring speakers. We select and invite about the half of our speakers. The
-            other half will be selected by our community through our
-            <a href="http://cfp.uikonf.com/about">anonymous call for proposals</a>. As a speaker, your travel expenses will be reimbursed and you will be our guests
-            at our selected Hotel in Berlin. Of course, we will also reimburse you for your ticket if you already have purchased
+          <p>UIKonf hosts a diverse selection of inspiring speakers. We select and invite about the half of our
+            speakers. The
+            other half will be selected by our community through our <a href="http://cfp.uikonf.com/about">anonymous
+              call for proposals</a> which opens in January 2019.
+            As a speaker, your travel expenses will be reimbursed and you will be our guests
+            at our selected Hotel in Berlin. Of course, we will also reimburse you for your ticket if you already have
+            purchased
             one.</p>
+            <p><a href="http://uikonf.us9.list-manage.com/subscribe?u=08d7d9a7a55f501920eb76453&id=d3f17105cf" target="_blank">Sign
+              up for our newsletter to hear about our inivted speakers first.</a></p>
         </div>
-        {% for speaker in site.speakers %}
+        <!-- {% for speaker in site.speakers %}
         <div class="uk-width-medium-1-2 uk-width-small-1-2 uk-width-large-1-3">
           <div class="box">
             <figure class="uk-overlay uk-overlay-hover">
@@ -95,7 +117,20 @@ redirect_from:
             </div>
           </div>
         </div>
-        {% endfor %}
+        {% endfor %} -->
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="backshape light-grey">
+  <div class="wrapper">
+    <div class="uk-container uk-width-medium-6-10 uk-container-center">
+      <div class="uk-grid">
+        <div class="uk-width-1-1 uk-text-center">
+          <h2 class="brand-color">Schedule</h2>
+        </div>
+        {% include schedule.md context="home" %}
       </div>
     </div>
   </div>
@@ -113,7 +148,8 @@ redirect_from:
         </div>
         <div class="uk-width-1-1 uk-text-center">
           <p>If you want to help us bring the iOS developer community together,
-            <a href="mailto:questions@uikonf.com" target="_blank">get in touch with us</a>. Previous UIKonf supporters include Facebook, ebay Tech, JetBrains, Google Firebase,
+            <a href="mailto:questions@uikonf.com" target="_blank">get in touch with us</a>. Previous UIKonf supporters
+            include Facebook, ebay Tech, JetBrains, Google Firebase,
             Sky and Microsoft.</p>
         </div>
         {% for sponsor in activeSponsors %}
@@ -135,8 +171,6 @@ redirect_from:
 </div>
 {% endif %}
 
-
-
 <div class="backshape light-grey">
   <div class="wrapper">
     <div class="uk-container uk-container-center">
@@ -146,8 +180,10 @@ redirect_from:
           <h2 class="brand-color">Social Events</h2>
         </div>
         <div class="uk-width-1-1 uk-margin-large-bottom">
-          <p>A central part of UIKonf are the social events on the Sunday before the conference. Not only do you get to enjoy
-            Berlin for a day but they also give you a first opportunity to get to know other participants of the conference
+          <p>A central part of UIKonf are the social events on the Sunday before the conference. Not only do you get to
+            enjoy
+            Berlin for a day but they also give you a first opportunity to get to know other participants of the
+            conference
             in a fun atmosphere.</p>
           <p>These are some events we offered in previous years:</p>
         </div>
@@ -173,12 +209,30 @@ redirect_from:
 
       {% assign activeEvents = site.events | where:"active",1 %} {% if activeEvents.size > 0 %}
       <div class="uk-text-center uk-width-large-1-1 uk-width-medium-1-2  uk-width-small-1-1 uk-margin-large-top">
-        <a class="btn uk-button-large" style="padding:20px; text-decoration: none;" href="/social-events" alt="Social Events">More details</a>
+        <a class="btn uk-button-large" style="padding:20px; text-decoration: none;" href="/social-events" alt="Social Events">More
+          details</a>
       </div>
       {% endif %}
     </div>
   </div>
 </div>
+
+<div class="backshape opposite">
+    <div class="wrapper">
+      <div class="uk-container uk-width-medium-6-10 uk-container-center">
+        <div class="uk-grid">
+          <div class="uk-width-1-1 uk-text-center">
+            <h2 class="brand-color">This was UIKonf 2018</h2>
+            <a name="videos"></a>
+            <p>Thanks to everyone who participated, to our sponsors, our volunteers and ambassadors. You all contributed
+              to creating a welcoming and fun event.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLdr22uU_wISohI7PIhzq0gotGfKZl1lGo"
+              frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 <div class="straight brand-color">

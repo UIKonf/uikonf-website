@@ -1,6 +1,6 @@
 ---
 title: Computer Games Museum
-start: 2pm
+_start: 2pm 
 image: csm.jpg
 image-alt: Computer Games Museum
 anchor: csm

@@ -1,9 +1,9 @@
 ---
 title: Bike Tour - a UIKonf classic
-start: 2pm
+_start: 2pm
 image: bike.jpg
 anchor: bike
-description: UIKonf bike tour has become a tradition. The tour of 2018 will continue that tradition.
+description: UIKonf bike tour has become a tradition. The tour of 2019 will continue that tradition.
 active: 1
 ---
 
