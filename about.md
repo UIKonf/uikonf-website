@@ -25,8 +25,7 @@ includeInNavigation: 1
 				<div class="uk-width-1-1 uk-text-center">
         	<h2 class="brand-color">Current Team</h2>
       	</div>
-
-	    	<div class="uk-width-medium-1-2 uk-width-small-1-2 uk-width-large-1-3">
+	    	<div class="uk-width-medium-1-2 uk-width-small-1-2 uk-width-large-1-4">
       		<div class="box">
       			<figure class="uk-overlay uk-overlay-hover">
 					    <img class="uk-overlay-spin" src="{{ site.baseurl }}/static/images/Engin.jpg" alt="Engin Kurutepe">
@@ -38,8 +37,7 @@ includeInNavigation: 1
 		      </div>
 		      <p><small>General Manager at Keepsafe Europe. Still writes code for <a href="https://itunes.apple.com/de/app/solar-watch-24h-solar-clock/id1191365122?l=en&mt=8">Solar Watch</a>. Flies gliders at <a href="http://www.fcc-berlin.de">FCC Berlin</a>.</small></p>
 	      </div>
-
-	      <div class="uk-width-medium-1-2 uk-width-small-1-2 uk-width-large-1-3">
+	      <div class="uk-width-medium-1-2 uk-width-small-1-2 uk-width-large-1-4">
 	      	<div class="box">
 	      		<figure class="uk-overlay uk-overlay-hover">
 					    <img class="uk-overlay-spin" src="{{ site.baseurl }}/static/images/Maxim.jpg" alt="Maxim Zaks">
@@ -51,8 +49,7 @@ includeInNavigation: 1
 	        </div>
 	        <p><small>Software developer with a passion for Games, Testing and Agile.</small></p>
 	      </div>
-
-	      <div class="uk-width-medium-1-2 uk-width-small-1-2 uk-width-large-1-3">
+	      <div class="uk-width-medium-1-2 uk-width-small-1-2 uk-width-large-1-4">
 	      	<div class="box">
 	      		<figure class="uk-overlay uk-overlay-hover">
 					    <img class="uk-overlay-spin" src="{{ site.baseurl }}/static/images/sabine.jpg" alt="Sabine Geithner">
@@ -64,7 +61,18 @@ includeInNavigation: 1
 	        </div>
 	        <p><small>iOS developer at Mercedes-Benz.io, former Online Marketer and Scientist.</small></p>
 	      </div>
-
+				 <div class="uk-width-medium-1-2 uk-width-small-1-2 uk-width-large-1-4">
+	      	<div class="box">
+	      		<figure class="uk-overlay uk-overlay-hover">
+					    <img class="uk-overlay-spin" src="{{ site.baseurl }}/static/images/Chrissy.jpg" alt="Christine Braun">
+					    <a class="uk-position-cover" href="https://twitter.com/post4chrissy"></a>
+						</figure>
+		        <div  class="info-box small">
+		          <h4>Christine Braun</h4>
+		        </div>
+	        </div>
+	        <p><small>Beratung und Kreation für Geschäfte mit guten Absichten <a href="mailto:post@chrissybrown.com">post@chrissybrown.com</a></small></p>
+	      </div>
 			</div>
 		</div>
 	</div>
