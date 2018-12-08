@@ -64,7 +64,7 @@ includeInNavigation: 1
 				 <div class="uk-width-medium-1-2 uk-width-small-1-2 uk-width-large-1-4">
 	      	<div class="box">
 	      		<figure class="uk-overlay uk-overlay-hover">
-					    <img class="uk-overlay-spin" src="{{ site.baseurl }}/static/images/Chrissy.jpg" alt="Christine Braun">
+					    <img class="uk-overlay-spin" src="{{ site.baseurl }}/static/images/chrissy.jpg" alt="Christine Braun">
 					    <a class="uk-position-cover" href="https://twitter.com/post4chrissy"></a>
 						</figure>
 		        <div  class="info-box small">
