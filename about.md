@@ -19,7 +19,7 @@ organizers:
    image: sabine-geithner.jpg
  - name: Christine Braun
    lastName: Braun
-   bio: Beratung und Kreation für Geschäfte mit guten Absichten <a href="mailto:post@chrissybrown.com">post@chrissybrown.com</a>.
+   bio: Consulting and creation for businesses with good intentions <a href="mailto:post@chrissybrown.com">post@chrissybrown.com</a>.
    link: https://twitter.com/post4chrissy
    image: christine-braun.jpg
  - name: Bianca Walterspiel Stromlund
@@ -27,9 +27,9 @@ organizers:
    bio: Managing Global Engineering Relations at Delivery Hero.
    link: https://twitter.com/biancawalty
    image: bianca-walterspiel.jpg
- - name: Julia von Kallenberg
+ - name: Julia Kallenberg
    lastName: Kallenberg
-   bio: iOS Developer at evenly.
+   bio: iOS Developer at evenly. Traveler and former project manager for renewable energies.
    link: https://twitter.com/KallenbergJulia
    image: julia-kallenberg.jpg
 alumni:
