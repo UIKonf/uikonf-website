@@ -24,7 +24,7 @@ organizers:
    image: christine-braun.jpg
  - name: Bianca Walterspiel Stromlund
    lastName: Walterspiel
-   bio: Managing Global Engineering Relations at Delivery Hero. Recovering Tech Recruiter.
+   bio: Managing Global Engineering Relations at Delivery Hero.
    link: https://twitter.com/biancawalty
    image: bianca-walterspiel.jpg
  - name: Julia von Kallenberg
