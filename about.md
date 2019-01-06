@@ -9,7 +9,7 @@ includeInNavigation: 1
 organizers:
  - name: Engin Kurutepe
    lastName: Kurutepe
-   bio: General Manager at Keepsafe Europe. Still writes code for <a href="https://itunes.apple.com/de/app/solar-watch-24h-solar-clock/id1191365122?l=en&mt=8">Solar Watch</a>. Flies gliders at <a href="http://www.fcc-berlin.de">FCC Berlin</a>.
+   bio: General Manager at Keepsafe Europe. Still writes code for <a target="_blank" href="https://itunes.apple.com/de/app/solar-watch-24h-solar-clock/id1191365122?l=en&mt=8">Solar Watch</a>. Flies gliders at <a target="_blank" href="http://www.fcc-berlin.de">FCC Berlin</a>.
    link: https://twitter.com/ekurutepe
    image: engin-kurutepe.jpg
  - name: Sabine Geithner
@@ -29,7 +29,7 @@ organizers:
    image: bianca-walterspiel.jpg
  - name: Julia Kallenberg
    lastName: Kallenberg
-   bio: iOS Developer at evenly. Traveler and former project manager for renewable energies.
+   bio: iOS Developer at <a target="_blank" href="http://www.nebenan.de">nebenan.de</a>. Traveler and former project manager for renewable energies.
    link: https://twitter.com/KallenbergJulia
    image: julia-kallenberg.jpg
 alumni:
