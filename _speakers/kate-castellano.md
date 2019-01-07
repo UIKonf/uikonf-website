@@ -1,6 +1,6 @@
 ---
 title: Kate Castellano
-short-bio: iOS developer at Slack
+short-bio: iOS developer at Clue
 image: kate-castellano.jpg
 anchor: kate
 twitter: https://twitter.com/KateCastellano
