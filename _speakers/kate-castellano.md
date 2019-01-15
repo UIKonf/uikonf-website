@@ -6,4 +6,4 @@ anchor: kate
 twitter: https://twitter.com/KateCastellano
 ---
 
-<strong>Kate Castellano</strong> is an iOS developer at Clue and currently director of <a href="https://twitter.com/WWCodeBerlin" target="_blank"><strong>Women Who Code Berlin</strong></a>, as well as a supporter of Women In Tech Communities.
+**Kate Castellano** is a Senior iOS Developer at <a href="https://helloclue.com" target="_blank">Clue</a>. She has expertise in Swift and enjoys playing with Raspberry Pi's and ARKit. When she is not coding, you can find her working towards the inclusion of more women in technology as a Director at <a href="https://twitter.com/WWCodeBerlin" target="_blank">Women Who Code</a> Berlin Chapter.
