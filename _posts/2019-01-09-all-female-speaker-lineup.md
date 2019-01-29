@@ -1,7 +1,7 @@
 ---
 title: UIKonf 2019 - All female speaker line-up
 layout: post
-author: mietzmithut
+author: basine
 date: 29 January 2019
 published: true
 description: All female speaker line-up
