@@ -1,10 +1,10 @@
 ---
 title: UIKonf 2019 - All female speaker line-up
 layout: post
-author: basine
+author: ekurutepe
 date: 29 January 2019
 published: true
-description: All female speaker line-up
+description: To support women in tech and diversity in general, UIKonf 2019 will feature an all-female speaker line-up.
 ---
 
 We’re very excited to announce that UIKonf 2019 will have an all-female* speaker line up on stage! 
