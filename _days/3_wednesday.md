@@ -1,6 +1,6 @@
 ---
-title: May 28th
-day: 28
+title: May 29th
+day: 29
 isDetail: true
 isSummary: true
 items:
