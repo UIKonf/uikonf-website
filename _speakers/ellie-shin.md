@@ -1,6 +1,6 @@
 ---
 title: Ellie Shin
-short-bio: Ellie is a Senior iOS Engineer at Uber on the Mobile Platform Team
+short-bio: Senior iOS Engineer at Uber on the Mobile Platform Team
 image: ellie-shin.jpg
 anchor: ellie
 twitter: https://twitter.com/ellsk1
