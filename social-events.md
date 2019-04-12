@@ -9,7 +9,7 @@ includeInNavigation: 0
 <div class="headerimage uk-position-relative" style="background-image: url({{ site.baseurl }}/static/images/speakers-header-cropped.jpg);" data-uk-parallax="{bg: '-50'}">
   <img class="uk-invisible" src="{{ site.baseurl }}/static/images/speakers-header-cropped.jpg" alt="speaker image">
   <div class="uk-position-cover uk-flex uk-flex-center uk-flex-middle uk-flex-column">
-    <div class="teaser-register">
+    <div class="teaser">
 	    <div class="uk-container uk-container-center">
 				<div class="uk-grid">
         	<div class="uk-width-1-1">
