@@ -1,5 +1,5 @@
 ---
-title: MyTaxi
+title: tytaxi
 image: sponsors/my-taxi.png
 image-alt: www.mytaxi.com
 anchor: www.mytaxi.com
