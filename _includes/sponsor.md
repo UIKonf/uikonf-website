@@ -7,7 +7,7 @@
       </figure>
     {% endif %}
     </div>
-    <div class="box uk-width-medium-2-3 uk-width-large-2-3 uk-width-small-1-1 ">
+    <div class="box uk-width-medium-2-3 uk-width-large-2-3 uk-width-small-1-1" style="padding-right:20px;">
         <p>{{ include.content }}</p>
     </div>
 </div>
