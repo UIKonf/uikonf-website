@@ -5,8 +5,8 @@ presenter: Inka Kretschmer
 image: inka-kretschmer.jpg
 anchor: bias
 presentationDate: Wednesday 29th May
-time: 2:00 pm
-duration: 3 h
+time: 11:00 am
+duration: 2 h
 fee: 
 prerequisites: None
 tickets: https://ti.to/uikonf/uikonf-2019/with/bepifplpet4
