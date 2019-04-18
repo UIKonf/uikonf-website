@@ -1,10 +1,10 @@
 ---
 title: Public Speaking
-shortTitle: 
+shortTitle: Jeff Watkins
 presenter: Jeff Watkins
 image: jeff-watkins.jpg
 anchor: speaking
-presentationDate: Staurday 25th May
+presentationDate: Saturday 25th May
 time: 9:00 am
 duration: 6 h
 fee: 100

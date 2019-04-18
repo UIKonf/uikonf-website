@@ -1,12 +1,12 @@
 ---
 title: Unconscious Bias
-shortTitle: 
+shortTitle: Inka Kretschmer
 presenter: Inka Kretschmer
 image: inka-kretschmer.jpg
 anchor: bias
 presentationDate: Wednesday 29th May
-time: 14:00 am - check
-duration: 3 h - check
+time: 2:00 pm
+duration: 3 h
 fee: 
 prerequisites: None
 tickets: https://ti.to/uikonf/uikonf-2019/with/bepifplpet4
