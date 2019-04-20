@@ -122,11 +122,12 @@ redirect_from:
     <p>These are some events we offered in previous years:</p>
   </div>
 
-  {% for event in site.events %}
+  {% assign activeEvents = site.events | where:"active",1 %} 
+
+  {% for event in activeEvents %}
     {% include event.md active=event.active title=event.title description=event.description image=event.image image-alt=event.image-alt anchor=event.anchor %}
   {% endfor %}
 
-  {% assign activeEvents = site.events | where:"active",1 %} 
   {% if activeEvents.size > 0 %}
     <div class="uk-text-center uk-width-large-1-1 uk-width-medium-1-2  uk-width-small-1-1 uk-margin-large-top">
       <a class="btn uk-button-large" style="padding:20px; text-decoration: none;" href="/social-events" alt="Social Events">More details</a>

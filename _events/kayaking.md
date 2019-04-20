@@ -4,7 +4,7 @@ _start: 2pm
 image: kajak-tour.jpg
 anchor: kayak
 description: Hop on kayaks and paddle past some of Berlins sweetest spots
-active: 1
+active: 0
 ---
 
 <p>

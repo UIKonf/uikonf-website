@@ -4,7 +4,7 @@ _start: 2pm
 image: minigolf.jpg
 anchor: minigolf
 description: If sun is not your thing, blacklight minigolf comes to the rescue.
-active: 1
+active: 0
 ---
 
 <p>

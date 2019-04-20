@@ -5,7 +5,7 @@ image: csm.jpg
 image-alt: Computer Games Museum
 anchor: csm
 description: Revisit the games of your youth
-active: 1
+active: 0
 ---
 
 <p>
