@@ -22,8 +22,9 @@ includeInNavigation: 0
   </div>
 </div>
 
+{% assign activeEvents = site.events | where:"active",1 %}
 
-{% for event in site.events %}
+{% for event in activeEvents %}
 {% assign loopindex = forloop.index | modulo: 2 %}
   {% if loopindex == 1 %}
   <div class="backshape opposite light-grey">

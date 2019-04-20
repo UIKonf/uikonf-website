@@ -4,7 +4,7 @@ _start: 3pm
 image: spreepark-tour.jpg
 anchor: spreepark
 description: Experience the apocalyptic scenery of this abandoned amusement park
-active: 1
+active: 0
 ---
 
 <p>

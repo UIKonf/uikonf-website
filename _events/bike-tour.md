@@ -1,9 +1,9 @@
 ---
-title: Bike Tour - a UIKonf classic
-_start: 2pm
+title: Bike Tour
+_start: approx. 2pm
 image: bike.jpg
 anchor: bike
-description: UIKonf bike tour has become a tradition. The tour of 2019 will continue that tradition.
+description: Join UIKonf's oldest tradition and explore Berlin by bike
 active: 1
 ---
 
