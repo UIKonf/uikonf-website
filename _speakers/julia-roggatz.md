@@ -3,7 +3,7 @@ title: Julia Roggatz
 short-bio: Freelance iOS Developer
 image: julia-roggatz.jpg
 anchor: julia
-twitter: www.linkedin.com/in/jroggatz
+twitter: https://www.linkedin.com/in/jroggatz
 ---
 
 Julia is a freelance iOS developer with a passion for creating delightful user interfaces. She’s currently working with a fully-remote research lab, building experimental prototypes that explore what the future of tablet computing for creativity and productivity could look like.
