@@ -13,7 +13,7 @@ includeInNavigation: 0
 	    <div class="uk-container uk-container-center">
 				<div class="uk-grid">
         	<div class="uk-width-1-1">
-        		<h1>Social Events at UIKonf 2018</h1>
+        		<h1>Social Events at UIKonf 2019</h1>
 			 	   	<p>UIKonf features a list of social events on the day before the conference. These events are intended to help you break the ice with fellow conference attendees.</p> 
 					</div>
 				</div>
