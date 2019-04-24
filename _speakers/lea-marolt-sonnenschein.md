@@ -1,6 +1,6 @@
 ---
 title: Lea Marolt Sonnenschein
-short-bio: Writer and video-course author at raywenderlich.com. Formerly iOS at Rent the Runway.
+short-bio: Writer & course author @ raywenderlich. Formerly iOS @ Rent the Runway
 image: lea-marolt-sonnenschein.jpg
 anchor: lea
 twitter: https://twitter.com/hellosunschein
