@@ -6,4 +6,4 @@ anchor: neha
 twitter: https://twitter.com/NehaPundlik
 ---
 
-I am an iOS Engineer at POF living in beautiful Vancouver. I worked at Starbucks & Disney before. I am passionate about anything iOS especially enjoy dealing with platform issues, design and process improvements. Contributor at Women Who Code Vancouver chapter
+**Neha Kulkarni** is an iOS Engineer at POF living in beautiful Vancouver. She worked at Starbucks & Disney before. She is passionate about anything iOS, especially enjoys dealing with platform issues, design and process improvements. She is also a contributor at Women Who Code Vancouver chapter.
