@@ -5,11 +5,11 @@ presenter: Phiture represented by Kevin Bravo and Mathew Parry
 image: Phiture.jpg
 anchor: appstore-optimization
 presentationDate: Wednesday, 29th May
-time: 9:00 am
+time: 10:00 am
 duration: 3 h
-fee: 100
+fee: 150
 prerequisites: None
-tickets: 
+tickets: https://ti.to/uikonf/uikonf-2019/with/qgf3l65fexg
 location: BetaHaus Neukölln, Harzer Straße 39, Berlin 12059
 order: 2
 ---
