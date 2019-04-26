@@ -7,7 +7,7 @@ anchor: bias
 presentationDate: Wednesday 29th May
 time: 11:00 am
 duration: 2 h
-fee: 
+fee: 30€ (suggested)
 prerequisites: None
 tickets: https://ti.to/uikonf/uikonf-2019/with/bepifplpet4
 location: BetaHaus Neukölln, Harzer Straße 39, Berlin 12059
