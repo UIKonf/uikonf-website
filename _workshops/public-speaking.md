@@ -7,7 +7,7 @@ anchor: speaking
 presentationDate: Saturday 25th May
 time: 9:00 am
 duration: 6 h
-fee: 100
+fee: 100€ (suggested)
 prerequisites: None
 tickets: https://ti.to/uikonf/uikonf-2019/with/it-wwx1ifrc
 location: tbd
