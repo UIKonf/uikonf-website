@@ -1,13 +1,13 @@
 ---
 title: How to set up App Store Optimization (ASO) and Apple Search Ads (ASA) processes to increase your app’s visibility and conversion
 shortTitle:  Mathew Parry & Kevin Bravo
-presenter: Phiture represented by Kevin Bravo and Mathew Parry
+presenter: [Phiture](https://www.phiture.com) represented by Kevin Bravo and Mathew Parry
 image: Phiture.jpg
 anchor: appstore-optimization
 presentationDate: Wednesday, 29th May
 time: 10:00 am
 duration: 3 h
-fee: 150
+fee: 149€
 prerequisites: None
 tickets: https://ti.to/uikonf/uikonf-2019/with/qgf3l65fexg
 location: BetaHaus Neukölln, Harzer Straße 39, Berlin 12059
