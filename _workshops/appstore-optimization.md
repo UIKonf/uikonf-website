@@ -1,7 +1,7 @@
 ---
 title: How to set up App Store Optimization (ASO) and Apple Search Ads (ASA) processes to increase your app’s visibility and conversion
 shortTitle:  Mathew Parry & Kevin Bravo
-presenter: [Phiture](https://www.phiture.com) represented by Kevin Bravo and Mathew Parry
+presenter: Phiture represented by Kevin Bravo and Mathew Parry
 image: Phiture.jpg
 anchor: appstore-optimization
 presentationDate: Wednesday, 29th May
@@ -14,7 +14,7 @@ location: BetaHaus Neukölln, Harzer Straße 39, Berlin 12059
 order: 2
 ---
 
-Phiture is a leading ASO/ASA & Retention agency working with top brands like Headspace, Adobe, and Deezer. They will share their unique take on how to drive growth through methodical processes for experimenting in ASO and ASA. The topics that will be covered range from how to build a conversion optimization loop to ASA campaign setup & automation, and more.
+[Phiture](https://www.phiture.com) is a leading ASO/ASA & Retention agency working with top brands like Headspace, Adobe, and Deezer. They will share their unique take on how to drive growth through methodical processes for experimenting in ASO and ASA. The topics that will be covered range from how to build a conversion optimization loop to ASA campaign setup & automation, and more.
 
 **Agenda**
 - Quick ASO intro
