@@ -1,6 +1,6 @@
 ---
 title: Museum of Technology
-_start: approx. 2pm
+start: 12:30pm (meeting time 12:15pm)
 image: technology-museum.jpg
 anchor: technology-museum
 description: Geek out with trains, planes and early computers at the Museum of Technology

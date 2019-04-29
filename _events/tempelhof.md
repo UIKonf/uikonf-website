@@ -1,6 +1,6 @@
 ---
 title: Tempelhof Airport Tour
-_start: approx. 2pm
+start: 2:30pm (meeting-time 2:10pm)
 image: tempelhof.jpg
 anchor: tempelhof
 description: Discover the history of one of the first public airports world-wide

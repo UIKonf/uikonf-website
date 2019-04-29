@@ -1,6 +1,6 @@
 ---
 title: Craft Beer Brewery Tour
-_start: approx. 2pm
+start: 2pm (meeting-time 1:45pm)
 image: beer-tour.jpg
 anchor: brewery
 description: Follow a German tradition and learn how to brew beer at BRLO BRWHOUSE
