@@ -1,6 +1,6 @@
 ---
 title: Boat Tour
-_start: approx. 1pm
+start: 1:30pm (meeting-time 1:00pm)
 image: boat-tour.jpg
 anchor: boat
 description: Cruise through the sights of Berlin with this boat tour on the Spree

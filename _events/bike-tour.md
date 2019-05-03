@@ -1,6 +1,6 @@
 ---
 title: Bike Tour
-_start: approx. 2pm
+start: 2pm (meeting-time 1:45pm)
 image: bike.jpg
 anchor: bike
 description: Join UIKonf's oldest tradition and explore Berlin by bike

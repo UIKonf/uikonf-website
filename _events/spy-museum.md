@@ -1,6 +1,6 @@
 ---
 title: Spy Museum
-_start: approx. 2pm
+start: 1pm (meeting-time 12:45pm)
 image: spy-museum.jpg
 anchor: spy-museum
 description: Step into the shoes of a spy and discover the history of espionage
