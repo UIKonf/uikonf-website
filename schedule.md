@@ -4,7 +4,7 @@ order: 1
 title: Schedule
 permalink: /schedule/
 description: UIKonf 2018 - Schedule for May 14th & 15th
-includeInNavigation: 0
+includeInNavigation: 1
 ---
 
 <div class="headerimage uk-position-relative" style="background-image: url({{ site.baseurl }}/static/images/about_image.jpg);" data-uk-parallax="{bg: '-50'}">
