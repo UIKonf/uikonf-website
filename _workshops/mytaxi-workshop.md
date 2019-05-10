@@ -12,7 +12,7 @@ location: MyTaxi Boat Stage, RadialSystem
 order: 3
 ---
 
-**Sensor: How to develop apps with a state  of the art architecture**
+**Sensor: How to develop apps with a state of the art architecture**
 
 A good architecture like MVVM makes it easy to separate the view from the business logic.
 But how do you manage the state?
