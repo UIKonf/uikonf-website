@@ -8,7 +8,7 @@ time: "14:15"
 duration: 2 h
 fee: free
 prerequisites: None
-location: MyTaxi Boat Stage, RadialSystem
+location: mytaxi Boat Stage, RadialSystem
 order: 3
 ---
 
