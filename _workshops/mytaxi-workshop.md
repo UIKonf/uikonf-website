@@ -21,7 +21,7 @@ Do you have a single source of truth of your state?
 Is you code easy to test and refactor?
 What about Referential Transparency?
 
-We would like to show case how we jazzed up MVVM by adding a state machine and ideas from Redux to solve all our state related troubles._
+We would like to show case how we jazzed up MVVM by adding a state machine and ideas from Redux to solve all our state related troubles.
 In this workshop we will develop a simple rating screen, complex enough to demonstrate how easy and clean state management can be and we will answer all the questions we posed above.
 
 Your conference ticket already includes this workshop.
