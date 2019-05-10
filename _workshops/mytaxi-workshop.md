@@ -1,7 +1,7 @@
 ---
 title: "Sensor: How to develop apps with a state  of the art architecture"
 shortTitle: Mounir & Philipp
-presenter: Mounir & Philipp
+presenter: Mounir Dellagi & Philipp Schöne
 image: mytaxi-workshop-speakers.jpg
 presentationDate: Monday, 27th May & Tuesday, 28th May (repeat)
 time: "14:15"
