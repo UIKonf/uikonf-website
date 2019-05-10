@@ -35,18 +35,18 @@ items:
     time: "14:30"
     speaker: kristina
   - title: Ellie Shin
-    talk: Efficient Mock Generation Tool
+    talk: "Mockolo: Efficient Mock Generator for Swift"
     time: "15:05"
     speaker: ellie
   - title: Julie Yaunches
-    talk: ‘Consistency Principle’
+    talk: Consistency Principle
     time: "15:40"
     speaker: julie
   - title: Coffee
     time: "16:15"
     type: break
   - title: Lisa Dziuba
-    talk: App Marketing for Devs
+    talk: How to Market Your Mobile App
     time: "17:00"
     speaker: lisa
   - title: Sally Shepard

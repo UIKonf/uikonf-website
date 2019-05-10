@@ -42,7 +42,7 @@ items:
     type: break 
     time: "16:15"
   - title: Kate Castellano
-    talk: Backend driven UI
+    talk: What to expect when you are templating? Clue’s approach to Backend Driven UIs
     time: "17:00"
     speaker: kate
   - title: Lea Marolt
