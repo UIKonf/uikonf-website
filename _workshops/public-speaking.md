@@ -1,5 +1,5 @@
 ---
-title: Public Speaking
+title: Public Speaking [SOLD OUT]
 shortTitle: Jeff Watkins
 presenter: Jeff Watkins
 image: jeff-watkins.jpg
@@ -9,9 +9,9 @@ time: 9:00 am
 duration: 6 h
 fee: 100€ (suggested)
 prerequisites: None
-tickets: https://ti.to/uikonf/uikonf-2019/with/it-wwx1ifrc
+# tickets: https://ti.to/uikonf/uikonf-2019/with/it-wwx1ifrc
 location: tbd
-order: 1
+order: 4
 ---
 
 **Public speaking Workshop**

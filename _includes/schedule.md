@@ -62,7 +62,7 @@
 	       				    	 	<strong>Duration:</strong> {{ item.duration }} <br/>
 								 	<strong>Costs:</strong> {{ item.costs }} - 
 	 								<a href="{{ item.registration }}" target="_blank">Book a ticket</a> | 
-									<a href="/workshops/#{{ item.anchor }}" target="_blank">Learn More</a>
+									<a href="/workshops/#{{ item.anchor }}">Learn More</a>
 							 </small></p>						
 	        			</div>
 	        		</div>
