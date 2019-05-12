@@ -147,3 +147,10 @@ article.author-post-first {
 		color: white;
 	}
 }
+
+span {
+
+	&.mytaxi-color {
+		color: $mytaxi-color !important;
+	}
+}

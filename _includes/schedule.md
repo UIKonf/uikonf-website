@@ -69,12 +69,24 @@
   				{% else %}
          	 	<div class="uk-grid">
       		  	<div class="uk-width-medium-1-6 uk-width-1-1">
-          			<p class="light-text"><i class="uk-icon-clock-o"></i> {{ item.time }}</p>
+					{% if item.time %}
+          				<p class="light-text"><i class="uk-icon-clock-o"></i> {{ item.time }}</p>
+					{% endif %}
        		   	</div>
         		 	<div class="uk-width-medium-5-6 uk-width-1-1">
-						{% if item.speaker %}<a href="/speakers/#{{ item.speaker }}">{% endif %}
+						{% if item.anchor %}
+							{% if item.type == "mytaxi-stage" %}
+								<a href="/mytaxi-stage/#{{ item.anchor }}">
+							{% else %}
+								<a href="/speakers/#{{ item.anchor }}">
+							{% endif %}
+						{% endif %}
+						{% if item.type == "mytaxi-stage" %}
+						    <h3 style="font-size: 1.7rem;"><span class="mytaxi-color">MyTaxi Stage: </span>{{ item.talk }}</h3>
+						{% else %}
 							<h3 class="brand-color" style="font-size: 1.7rem;">{{ item.title }}{% if item.talk %} - {{ item.talk }}{% endif %}</h3>
-						{% if item.speaker %} </a> {% endif %}
+						{% endif %}
+						{% if item.anchor %} </a> {% endif %}
 						{% if item.description %} <p><small>{{ item.description }}</small></p>  {% endif %}
   						{% if item.location %}
       				    <p><small><strong>Location: </strong>
