@@ -10,9 +10,11 @@ fee: free
 prerequisites: None
 location: mytaxi Boat Stage, RadialSystem
 order: 3
-includeOnWorkshopPage: 1
 sponsor: mytaxi
 anchor: architecture
+includedIn: 
+  - workshops
+  - mytaxi
 ---
 
 **Sensor: How to develop apps with a state of the art architecture**

@@ -10,9 +10,9 @@ fee: free
 prerequisites: None
 location: mytaxi Boat Stage, RadialSystem
 order: 1
-includeOnWorkshopPage: 0
 anchor: scaling-up
-sponsor: mytaxi
+includedIn: 
+  - mytaxi
 ---
 				
 In 2018 we relaunched mytaxi’s passenger apps introducing new user flows and rebuilding the technical implementation. This talk focusses on the changes on technologies (app and backend), agile processes and reshaping teams during this long-term project and how we stepwise launched the product, collected feedback and addressed bugs and improvements. Topics are: modularisation, agile project management and forecasting, scaling up architectures and product teams, testing and quality improvements.<br>

@@ -32,7 +32,7 @@ description: UIKonf 2019 - mytaxi Stage on a Boat
 </div>
 
 
-{% assign sorted = site.workshops | where: 'sponsor', 'mytaxi' | sort: 'order' %}
+{% assign sorted = site.workshops | where_exp: "item", "item.includedIn contains 'mytaxi'" | sort: 'order' %}
 {% for workshop in sorted %}
 {% assign loopindex = forloop.index | modulo: 2 %}
   {% if loopindex == 1 %}
