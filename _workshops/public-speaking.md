@@ -12,6 +12,7 @@ prerequisites: None
 # tickets: https://ti.to/uikonf/uikonf-2019/with/it-wwx1ifrc
 location: tbd
 order: 4
+includeOnWorkshopPage: 1
 ---
 
 **Public speaking Workshop**

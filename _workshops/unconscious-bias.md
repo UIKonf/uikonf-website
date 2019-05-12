@@ -12,6 +12,7 @@ prerequisites: None
 tickets: https://ti.to/uikonf/uikonf-2019/with/bepifplpet4
 location: BetaHaus Neukölln, Harzer Straße 39, Berlin 12059
 order: 3
+includeOnWorkshopPage: 1
 ---
 
 **Unconscious Bias Workshop**

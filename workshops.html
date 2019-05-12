@@ -22,7 +22,7 @@ description: UIKonf 2019 - Workshops
    </div>
 </div>
 
-{% assign sorted = site.workshops | sort: 'order' %}
+{% assign sorted = site.workshops | where: 'includeOnWorkshopPage', 1 | sort: 'order' %}
 {% for workshop in sorted %}
 {% assign loopindex = forloop.index | modulo: 2 %}
   {% if loopindex == 1 %}
