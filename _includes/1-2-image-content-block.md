@@ -6,7 +6,12 @@
 	      		    <a name="{{ include.anchor }}"></a>
       			    <div class="box">
       				    <figure class="uk-overlay uk-overlay-hover">
-			    		    <img class="uk-overlay" src="{{ site.baseurl }}/static/images/{{ include.image }}" alt="{{ include.title }}">
+                            {%if include.link %}
+                                {% assign overlay-class="uk-overlay-spin" %} 
+                            {% else %}
+                                {% assign overlay-class="uk-overlay" %} 
+                            {% endif %}
+			    		    <img class="{{ overlay-class }}" src="{{ site.baseurl }}/static/images/{{ include.image }}" alt="{{ include.imageAlt }}">
                             {% if include.link %}<a class="uk-position-cover" href="{{ include.link }}" target="_blank"></a>{% endif %}
 					    </figure>
 		     		    <div  class="info-box small">

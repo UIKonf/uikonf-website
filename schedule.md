@@ -24,7 +24,7 @@ includeInNavigation: 1
             <div class="uk-width-1-1 uk-text-center">
               <h2 class="brand-color">Schedule</h2>
             </div>
-		     {% include schedule.md context="schedule" %}
+		          {% include schedule.md context="schedule" %}
            </div>
        </div>
     </div>
