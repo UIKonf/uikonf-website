@@ -21,40 +21,21 @@ description: UIKonf 2019 - mytaxi Stage on a Boat
   		<div class="uk-container uk-container-center uk-margin-large-bottom">
   			<div class="uk-grid">
   	    	<div class="uk-width-1-1">
-            <h2>mytaxi Stage on a Boat</h2>
-
-            <p>This year we have bunch of new things at UIKonf. One of them is the parallel stage hosted by our Platinum Sponsor, mytaxi.</p>
-            <p>This stage will be on a boat anchored in front of our venue, RadialSystem, and will feature a workshop and two talks held by the mytaxi team.</p>
+						<h2>mytaxi Stage on a Boat</h2>
+						<p>This year we have bunch of new things at UIKonf. One of them is the parallel stage hosted by our Platinum Sponsor, mytaxi.</p>
+						<p>This stage will be on a boat anchored in front of our venue, RadialSystem, and will feature a workshop and two talks held by the mytaxi team.</p>
           </div>
       </div>
     </div>
   </div>
 </div>
 
-
+<!-- Include all workshops in the _workshop folder that contain 'mytaxi' in includedIn -->
 {% assign sorted = site.workshops | where_exp: "item", "item.includedIn contains 'mytaxi'" | sort: 'order' %}
 {% for workshop in sorted %}
-{% assign loopindex = forloop.index | modulo: 2 %}
-  {% if loopindex == 1 %}
-  <div class="backshape opposite">
-  {% else %}
-  <div class="backshape opposite light-grey">
-  {% endif %}	
-	<div class="wrapper">
-		<div class="uk-container uk-container-center uk-margin-large-bottom">
-			<div class="uk-grid">
-	    	<div class="uk-width-medium-1-3 uk-width-small-1-1 uk-width-large-1-3">
-	      		<a name="{{ workshop.anchor }}"></a>
-      			<div class="box">
-      				<figure class="uk-overlay uk-overlay-hover">
-			    		<img class="uk-overlay" src="{{ site.baseurl }}/static/images/{{ workshop.image }}" alt="{{ workshop.title }}">
-					</figure>
-		     		<div  class="info-box small">
-		     			 <h4>{{ workshop.shortTitle }}</h4>
-		    		</div>
-		   	   </div>
-	      	</div>
-	      	<div class="uk-width-medium-2-3 uk-width-small-1-1 uk-width-large-2-3" style="padding-top:10px;">
+	
+	<!-- Configure content -->
+	{% capture workshop_content %}
 				<h3>{{ workshop.title }}</h3>
 				<p>Presenter: {{ workshop.presenter }}<br/>
 					Date: {{ workshop.presentationDate }}<br/>
@@ -67,11 +48,19 @@ description: UIKonf 2019 - mytaxi Stage on a Boat
 				{% if workshop.tickets %}
 					<p style="margin:30px 0px;"><a class="btn uk-button-large" style="padding:20px; text-decoration: none;" href="{{ workshop.tickets }}" target="_blank">Book a Ticket</a></p>
 				{% endif %}
-	      	</div>
-	  		</div>
-		</div>
-	</div>
-</div>
+	{% endcapture %}
+
+	<!-- Configure topshape --> 
+	{% assign loopindex = forloop.index | modulo: 2 %}
+	{% if loopindex == 1 %}
+		{% assign topshape = 'backshape opposite' %}
+	{% else %}
+		{% assign topshape = 'backshape opposite light-grey' %}
+	{% endif %}	
+
+	<!-- Include content block -->
+	{% include 1-2-image-content-block.md topShape=topshape anchor=workshop.anchor image=workshop.image title= workshop.title imageTitle=workshop.shortTitle content=workshop_content %}
+
 {% endfor %}
 
 <div class="straight light-grey">
