@@ -8,6 +8,7 @@ items:
     description: In addition to taking part in the unconference, you can meet our sponsors, dissect code problems in lab sessions with experienced experts, signup for a workshop or just hang out and code with new friends. 
     time: "10.00"
     location: BetaHaus Neukölln, Harzer Straße 39, Berlin 12059
+    location_link: https://goo.gl/maps/5f6gjFfNHHFcPF5VA
   - title: Phiture
     talk: App Store Optimization and Apple Search Apps
     description: Phiture is a leading ASO/ASA & Retention agency working with top brands like Headspace, Adobe, and Deezer. They will share their unique take on how to drive growth through methodical processes for experimenting in ASO and ASA. The topics that will be covered range from how to build a conversion optimization loop to ASA campaign setup & automation, and more.
@@ -22,7 +23,7 @@ items:
     description: Everyone talks about the benefits of diversity and inclusion in our ever so fast-moving world. But what do we actually mean by diversity? What does an inclusive workplace look like? And more importantly, what gets in the way of us building an inclusive culture? These are the questions we’ll explore in this interactive session. You’ll learn about unconscious bias as well as the impact it has on you and your decision-making. In the second half of the session, we’ll explore practical actions for taking a more inclusive approach and what difference we can bring to our (working) environment. The number of participants is limited to 30 and you can get your ticket here.  We are offering this workshop on a PWYW basis and recommend 30 Euros per person. All proceeds will be donated to charity.
     registration: https://ti.to/uikonf/uikonf-2019/with/bepifplpet4
     costs: donation (30 € suggested)
-    time: "10:00"
+    time: "11:00"
     duration: 2h
     anchor: bias
     type: workshop
