@@ -8,7 +8,7 @@ items:
     type: break
     time: "9:00"
   - title: Füsun Wehrmann
-    talk: tba
+    talk: From Heroic Leaders To High Performing Teams
     time: "10:00"
     anchor: fuesun
   - title: Erica Sadun
