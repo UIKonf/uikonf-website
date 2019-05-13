@@ -1,6 +1,6 @@
 ---
 title: How to set up App Store Optimization (ASO) and Apple Search Ads (ASA) processes to increase your app’s visibility and conversion
-shortTitle:  Mathew Parry & Kevin Bravo
+shortTitle:  Moritz Daan & Kevin Bravo
 presenter: Phiture represented by Kevin Bravo and Mathew Parry
 image: Phiture.jpg
 anchor: appstore-optimization
@@ -32,6 +32,6 @@ includedIn:
 
 Kevin has honed his technical and strategic skills in various startups and environments all over Europe. A regular speaker at conferences involving Growth hacking, mobile app development, analytics and marketing, Kevin now brings in his broad range of expertise to work both as a Growth Consultant and an innovation catalyst at Phiture. Kevin is also a keen Magic student and is seriously handy with a pack of cards.
 
-**About Mathew Parry**
+**About Moritz Daan**
 
-Hailing from the UK, Mathew has worked in numerous media, advertising and start-up companies. Matt brings that valuable mix of experience, on top of a Degree in Film & Media studies, to his role as ASO consultant at Phiture. His account management proficiency has helped us level-up our approach across the team and Matt personally manages our accounts with many internationally recognized apps and mobile games.
+Moritz built and successfully exited two games companies in his early years, publishing several well-known online games in Europe before completing his Master’s degree in Law. Moritz - together with Phiture co-founder Andy - led the growth team at SoundCloud. As a founding partner, Moritz has helped Phiture’s clients with countless ASO efforts and growth consulting - while also authoring the industry-acclaimed Advanced ASO book.
