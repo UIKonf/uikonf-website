@@ -64,7 +64,7 @@ items:
     time: "17:00"
     anchor: kate
   - title: Lea Marolt
-    talk: Mobile Applications in Africa
+    talk: "Mobile && Me == It's Complicated"
     time: "17:35"
     anchor: lea
   - title: After Party
