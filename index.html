@@ -49,7 +49,7 @@ redirect_from:
 {% include content-block.md topShape="backshape brand-color" content=about_content %}
 
 <!-- TICKETS --> 
-<!-- {% capture ticket_content %}
+{% capture ticket_content %}
   <div class="uk-width-1-1">  
     <p><tito-widget event="uikonf/uikonf-2019"></tito-widget></p>
     <p>Ticket prices include VAT (MwSt.), free drinks, lunch on the conference days and the UIKonf party. See <a
@@ -58,21 +58,15 @@ redirect_from:
       includes but isn’t limited to: women, people of colour, LGBTQIA+ people, disabled people and generally
       people who are unable to attend without financial assistance. If you think you are eligible for a diversity
       ticket, simply <a href="https://goo.gl/forms/E02529wutoMOyB2S2" target="_blank">fill out the application
-        form</a>.</p>
-     <p>We are also offering free tickets to members of underrepresented groups in tech. This includes but isn’t limited to: 
+        form</a>.</p> -->
+    <p>We are also offering free tickets to members of underrepresented groups in tech. This includes but isn’t limited to: 
       women, people of colour, LGBTQIA+ people, and disabled people and generally people who are unable to attend without financial assistance. 
       To apply for a diversity ticket, <a href="https://goo.gl/forms/LVDWNeVkYwNbjUFR2">fill out this form</a>.</p> 
     <p>If you want to support diversity at UIKonf, you can do so when booking your ticket. Simply
       select the additional "Scholarship Sponsor" package which provides one ticket for our diversity ticket applicants.</p>
   </div>
 {% endcapture %}
-{% include content-block.md topShape="straight" title="Tickets" content=ticket_content %} --> -->
-
-<!-- SCHEDULE --> 
-{% capture schedule_content %}
-  {% include schedule.md context="schedule" %}
-{% endcapture %}
-{% include content-block.md topShape="straight" title="Schedule" content=schedule_content %}
+{% include content-block.md topShape="straight" title="Tickets" content=ticket_content %}
 
 <!-- SPEAKER --> 
 {% capture speaker_content %}
@@ -95,6 +89,12 @@ redirect_from:
   {% endfor %}
 {% endcapture %}
 {% include content-block.md topShape="backshape light-grey" title="Speakers" content=speaker_content %}
+
+<!-- SCHEDULE --> 
+{% capture schedule_content %}
+  {% include schedule.md context="schedule" %}
+{% endcapture %}
+{% include content-block.md topShape="backshape light-grey" title="Schedule" content=schedule_content %}
 
 <!-- SPONSORS --> 
 <a name="Sponsors"></a>
