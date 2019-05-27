@@ -48,6 +48,17 @@ redirect_from:
 {% endcapture %}
 {% include content-block.md topShape="backshape brand-color" content=about_content %}
 
+REVIEW
+{% capture review_content %}
+  <div class="uk-width-1-1 uk-text-center">
+    <a name="videos"></a>
+    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=9onK2xjY31g"
+      frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+{% endcapture %}
+{% include content-block.md topShape="straight" title="Live Stream" content=review_content %}
+
+
 <!-- SCHEDULE --> 
 {% capture schedule_content %}
   {% include schedule.md context="schedule" %}
@@ -137,20 +148,9 @@ redirect_from:
 {% include content-block.md topShape="backshape light-grey" title="Social Events" content=event_content %}
 
 
-<!-- REVIEW --> 
-<!-- {% capture review_content %}
-  <div class="uk-width-1-1 uk-text-center">
-    <a name="videos"></a>
-    <p>Thanks to everyone who participated, to our sponsors, our volunteers and ambassadors. You all contributed
-      to creating a welcoming and fun event.</p>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLdr22uU_wISohI7PIhzq0gotGfKZl1lGo"
-      frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-  </div>
-{% endcapture %}
-{% include content-block.md topShape="straight" title="This was UIKonf 2018" content=review_content %} -->
 
 
-<!-- MAP --> 
+MAP
 {% capture map_content %}
   <div class="uk-width-medium-4-10">
     <a name="Location"></a>
