@@ -30,9 +30,12 @@ redirect_from:
  - /videos/use-your-tools-app-optimization-with-instruments/
  - /videos/were-not-doing-a-startup/
 videos:
+  - title: UIKonf 2019
+    url: https://www.youtube.com/embed/videoseries?list=PLdr22uU_wISr-FYeKblv3LMe_kHFzRFBw
+    isMain: 1
  - title: UIKonf 2018
    url: https://www.youtube.com/embed/videoseries?list=PLdr22uU_wISohI7PIhzq0gotGfKZl1lGo
-   isMain: 1
+   isMain: 0
  - title: UIKonf 2017
    url: https://www.youtube.com/embed/videoseries?list=PLdr22uU_wISqntV4tQmx9H6sj9gMtj7nG
    isMain: 0
