@@ -9,8 +9,8 @@ includeInNavigation: 1
 organizers:
  - name: Engin Kurutepe
    lastName: Kurutepe
-   bio: General Manager at Keepsafe Europe. Still writes code for <a target="_blank" href="https://itunes.apple.com/de/app/solar-watch-24h-solar-clock/id1191365122?l=en&mt=8">Solar Watch</a>. Flies gliders at <a target="_blank" href="http://www.fcc-berlin.de">FCC Berlin</a>.
-   link: https://twitter.com/ekurutepe
+   bio: Indie Developer at [Fifteen Jugglers](https://fifteenjugglers.com) making [SolarWatch](https://solarwat.ch) and [CallTap](https://calltap.app). Glider pilot.
+   link: https://kurutepe.com
    image: engin-kurutepe.jpg
  - name: Sabine Geithner
    lastName: Geithner
