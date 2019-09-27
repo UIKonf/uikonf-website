@@ -9,7 +9,7 @@ includeInNavigation: 1
 organizers:
  - name: Engin Kurutepe
    lastName: Kurutepe
-   bio: Indie Developer at [Fifteen Jugglers](https://fifteenjugglers.com) making [SolarWatch](https://solarwat.ch) and [CallTap](https://calltap.app). Glider pilot.
+   bio: Indie Developer at <a href="https://fifteenjugglers.com">Fifteen Jugglers]</a> making <a href="https://solarwat.ch">SolarWatch</a> and <a href="https://calltap.app">CallTap</a>. Glider pilot.
    link: https://kurutepe.com
    image: engin-kurutepe.jpg
  - name: Sabine Geithner
