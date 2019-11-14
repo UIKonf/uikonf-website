@@ -7,7 +7,7 @@ description: UIKonf 2018 - Schedule for May 14th & 15th
 includeInNavigation: 1
 ---
 
-<div class="headerimage uk-position-relative" style="background-image: url({{ site.baseurl }}/static/images/about_image.jpg);" uk-parallax="bgx: -50">
+<div class="headerimage uk-position-relative" style="background-image: url({{ site.baseurl }}/static/images/about_image.jpg);" uk-parallax="by: -50">
   <img class="uk-invisible" src="{{ site.baseurl }}/static/images/about_image.jpg" alt="home image">
    <div class="uk-position-cover uk-flex uk-flex-center uk-flex-middle uk-flex-column">
       <div class="teaser">

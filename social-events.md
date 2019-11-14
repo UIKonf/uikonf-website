@@ -6,7 +6,7 @@ description: UIKonf features a list of social events which are free for conferen
 includeInNavigation: 0
 ---
 
-<div class="headerimage uk-position-relative" style="background-image: url({{ site.baseurl }}/static/images/speakers-header-cropped.jpg);" uk-parallax="bgx: -50">
+<div class="headerimage uk-position-relative" style="background-image: url({{ site.baseurl }}/static/images/speakers-header-cropped.jpg);" uk-parallax="by: -50">
   <img class="uk-invisible" src="{{ site.baseurl }}/static/images/speakers-header-cropped.jpg" alt="speaker image">
   <div class="uk-position-cover uk-flex uk-flex-center uk-flex-middle uk-flex-column">
     <div class="teaser">
