@@ -10,7 +10,7 @@ includeInNavigation: 0
   <img class="uk-invisible" src="{{ site.baseurl }}/static/images/speakers-header-cropped.jpg" alt="speaker image">
    <div class="uk-position-cover uk-flex uk-flex-center uk-flex-middle uk-flex-column">
       <div class="teaser">
-	    <div class="uk-container uk-container-center">
+	    <div class="uk-container">
 			<div class="uk-grid">
         		<div class="uk-width-1-1">
         			<h1>Speakers at UIKonf 2017</h1>
@@ -28,7 +28,7 @@ includeInNavigation: 0
 <div class="backshape opposite">
 	  <div class="wrapper">
 		{% for speaker in site.uikonf-2017 %}
-		<div class="uk-container uk-container-center uk-margin-large-bottom">
+		<div class="uk-container uk-margin-large-bottom">
 			<div class="uk-grid">
 	    	<div class="uk-width-medium-1-3 uk-width-small-1-1 uk-width-large-1-3">
 	      		<a name="{{ speaker.anchor }}"></a>

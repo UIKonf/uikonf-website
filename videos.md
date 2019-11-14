@@ -59,7 +59,7 @@ videos:
 {% include header-image.md image="videos_image.jpg" title="Videos" %}
 
 {% capture video_content %}
-	<div class="uk-width-medium-8-10 uk-container-center">
+	<div class="uk-width-medium-8-10">
 					<div class="videos-section uk-grid uk-margin-large-top">
 						{% assign mainVideos = page.videos | where:"isMain",1 %}
 						{% for video in mainVideos %}

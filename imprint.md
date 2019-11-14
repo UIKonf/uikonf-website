@@ -6,7 +6,7 @@ description: UIKonf - Imprint
 
 <div class="backshape">
 <div class="wrapper">
-	<div class="uk-container uk-container-center">
+	<div class="uk-container">
 		<h2>IMPRESSUM</h2>
 		<p>ANGABEN GEMÄSS § 5 TMG:<br/>
 			Fifteen Jugglers Software UG (haftungsbeschränkt)<br/>

@@ -1,6 +1,6 @@
 <header class="site-header">
 
-  <div class="uk-container uk-container-center">
+  <div class="uk-container">
     <nav class="uk-navbar uk-margin-large-bottom">
         <a class="uk-navbar-brand" href="{{ site.baseurl }}/">
           <img src="{{ site.baseurl }}/static/images/Logo.png" alt="logo UIKonf">
@@ -32,7 +32,7 @@
     </nav>
     <div id="my-id" class="uk-offcanvas">
         <div class="uk-offcanvas-bar uk-offcanvas-bar-flip">
-          <ul  class="uk-nav uk-nav-offcanvas uk-nav-parent-icon" data-uk-nav>
+          <ul  class="uk-nav uk-nav-offcanvas uk-nav-parent-icon" uk-nav>
   			{% assign pages = site.pages | where:"includeInNavigation",1 %}
               {% for my_page in pages %}
                 {% if my_page.title %}
