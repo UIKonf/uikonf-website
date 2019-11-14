@@ -5,7 +5,7 @@
         <a class="uk-navbar-brand" href="{{ site.baseurl }}/">
           <img src="{{ site.baseurl }}/static/images/Logo.png" alt="logo UIKonf">
         </a>
-          <ul class="uk-navbar-nav uk-hidden-small uk-navbar-flip">
+          <ul class="hidden uk-navbar-nav uk-visible@m uk-navbar-right">
 			{% assign sorted_pages = site.pages | where:"includeInNavigation",1 | sort:"order" %}
               {% for my_page in sorted_pages %}
                 {% if my_page.title %}				
@@ -24,15 +24,15 @@
 				 <a class="page-link btn" href="{{ site.ticket_url }}" target="_blank">Tickets</a>
 			  </li>
           </ul>
-          <ul class="uk-navbar-nav uk-visible-small uk-navbar-flip">
+          <ul class="uk-navbar-nav uk-visible@s uk-navbar-right">
             <li>
-                <a data-uk-offcanvas="{target:'#my-id'}"><i class="uk-icon-bars"></i></a>
+                <a uk-toggle="target: #my-id"><i class="uk-icon-bars"></i></a>
             </li>
           </ul>
     </nav>
-    <div id="my-id" class="uk-offcanvas">
-        <div class="uk-offcanvas-bar uk-offcanvas-bar-flip">
-          <ul  class="uk-nav uk-nav-offcanvas uk-nav-parent-icon" uk-nav>
+    <div id="my-id" uk-offcanvas>
+        <div class="uk-offcanvas-bar" uk-offcanvas="flip:true">
+          <ul  class="uk-nav uk-nav-default uk-nav-parent-icon" uk-nav>
   			{% assign pages = site.pages | where:"includeInNavigation",1 %}
               {% for my_page in pages %}
                 {% if my_page.title %}

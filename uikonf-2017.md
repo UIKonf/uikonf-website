@@ -30,7 +30,7 @@ includeInNavigation: 0
 		{% for speaker in site.uikonf-2017 %}
 		<div class="uk-container uk-margin-large-bottom">
 			<div class="uk-grid">
-	    	<div class="uk-width-medium-1-3 uk-width-small-1-1 uk-width-large-1-3">
+	    	<div class="uk-width-medium-1-3 uk-width-small-1-1 uk-width-1-3@l">
 	      		<a name="{{ speaker.anchor }}"></a>
       			<div class="box">
       				<figure class="uk-overlay uk-overlay-hover">

@@ -28,7 +28,7 @@
     		{% for item in day.items %}
   				{% if item.type == "break" %}
   					<div class="uk-grid">
-      		  			<div class="uk-width-medium-1-6 uk-width-1-1">
+      		  			<div class="uk-width-1-6@m uk-width-1-1">
           					<p class="light-text" ><i class="uk-icon-clock-o"></i> {{ item.time }}</p>
        		   			</div>
   	          		   <div class="uk-width-5-6">
@@ -51,10 +51,10 @@
   			    	</div>
   				{% elsif item.type == "workshop" %}
 	         	 	<div class="uk-grid">
-	      		  	<div class="uk-width-medium-1-6 uk-width-1-1">
+	      		  	<div class="uk-width-1-6@m uk-width-1-1">
 	          			<p class="light-text"><i class="uk-icon-clock-o"></i> {{ item.time }}</p>
 	       		   	</div>
-	        		 	<div class="uk-width-medium-5-6 uk-width-1-1">
+	        		 	<div class="uk-width-5-6@m uk-width-1-1">
 							{% if item.anchor %}<a href="/workshops/#{{ item.anchor }}">{% endif %}
 								<h3 class="brand-color" style="font-size: 1.7rem;">{{ item.title }}{% if item.talk %} - {{ item.talk }}{% endif %}</h3>
 							{% if item.anchor %} </a> {% endif %}
@@ -68,12 +68,12 @@
 	        		</div>
   				{% else %}
          	 	<div class="uk-grid">
-      		  	<div class="uk-width-medium-1-6 uk-width-1-1">
+      		  	<div class="uk-width-1-6@m uk-width-1-1">
 					{% if item.time %}
           				<p class="light-text"><i class="uk-icon-clock-o"></i> {{ item.time }}</p>
 					{% endif %}
        		   	</div>
-        		 	<div class="uk-width-medium-5-6 uk-width-1-1">
+        		 	<div class="uk-width-5-6@m uk-width-1-1">
 						{% if item.anchor %}
 							{% if item.type == "mytaxi-stage" %}
 								<a href="/mytaxi-stage/#{{ item.anchor }}">

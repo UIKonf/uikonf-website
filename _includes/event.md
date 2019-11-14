@@ -1,4 +1,4 @@
-<div class="box uk-width-medium-1-2 uk-width-large-1-3">
+<div class="box uk-width-1-2@m uk-width-1-3@l">
     <figure class="uk-overlay uk-overlay-hover">
         {% if include.active == 1 %}
             <img class="uk-overlay-spin" src="/static/images/events/{{ include.image }}" alt="{{ include.image-alt }}">

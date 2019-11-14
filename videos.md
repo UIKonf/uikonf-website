@@ -59,7 +59,7 @@ videos:
 {% include header-image.md image="videos_image.jpg" title="Videos" %}
 
 {% capture video_content %}
-	<div class="uk-width-medium-8-10">
+	<div class="uk-width-8-10@m">
 					<div class="videos-section uk-grid uk-margin-large-top">
 						{% assign mainVideos = page.videos | where:"isMain",1 %}
 						{% for video in mainVideos %}
@@ -76,7 +76,7 @@ videos:
 		      			</div>
 						{% assign otherVideos = page.videos | where:"isMain",0 %}
 						{% for video in otherVideos %}
-						<div class="uk-width-medium-1-2">
+						<div class="uk-width-1-2@m">
   	      					<h3 class="brand-color">{{ video.title }}</h3>
   	      					<div class="uk-responsive-height">
   	      						<iframe width="100%" height="300" src="{{ video.url }}" frameborder="0" allowfullscreen></iframe>

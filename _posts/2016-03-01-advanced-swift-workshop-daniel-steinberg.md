@@ -23,6 +23,6 @@ Duration: approx. 8h
 
 Fee: 150 € - You don't need a UIKonf ticket to attend this workshop.
 
-<div class="uk-text-center uk-width-large-1-1 uk-width-medium-1-2  uk-width-small-1-1 uk-margin-large-top">
+<div class="uk-text-center uk-width-1-2@m uk-width-1-1@s uk-width-1-1@l uk-margin-large-top">
 		<a class="btn uk-button-large" style="padding:20px; text-decoration: none;" href="https://ti.to/uikonf/thinking-in-swift/with/nxtgihxgmmy" target="_blank" alt="Swift Thinking Workshop Tickets">Book a Ticket</a>
 </div>
