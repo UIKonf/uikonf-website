@@ -1,6 +1,6 @@
 <div class="box">
-    <figure class="uk-overlay uk-overlay-hover">
-        <img class="uk-overlay-spin" src="/static/images/{{ include.image }}" alt="{{ include.title }}" />
+    <figure class="uk-inline-clip uk-transition-toggle">
+        <img class="uk-transition-scale-up" src="/static/images/{{ include.image }}" alt="{{ include.title }}" />
         <a class="uk-position-cover" href="{{ include.link }}"></a>
     </figure>
     {% if include.isSmall == 1 %}

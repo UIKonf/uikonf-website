@@ -1,5 +1,5 @@
 <div class="uk-width-1-1">
-  <ul class="uk-tab uk-tab-center uk-tab-grid uk-margin-large-bottom" uk-tab uk-switcher="{connect:'#Schedule', active:2 }">
+  <ul class="uk-tab uk-flex-center uk-tab-grid uk-margin-large-bottom" uk-tab uk-switcher="{connect:'#Schedule', active:2 }">
 		
   		{% if include.context == "schedule" %}
   	    	{% assign days = site.days | where:"isDetail", true %}

@@ -2,10 +2,13 @@
 
   <div class="uk-container">
     <nav class="uk-navbar uk-margin-large-bottom">
-        <a class="uk-navbar-brand" href="{{ site.baseurl }}/">
-          <img src="{{ site.baseurl }}/static/images/Logo.png" alt="logo UIKonf">
-        </a>
-          <ul class="hidden uk-navbar-nav uk-visible@m uk-navbar-right">
+        <div class="uk-navbar-left">
+            <a class="uk-logo uk-navbar-item" href="{{ site.baseurl }}/">
+              <img src="{{ site.baseurl }}/static/images/Logo.png" alt="logo UIKonf">
+            </a>
+        </div>
+        <div class="uk-navbar-right">
+          <ul class="hidden uk-navbar-nav uk-visible@ms">
 			{% assign sorted_pages = site.pages | where:"includeInNavigation",1 | sort:"order" %}
               {% for my_page in sorted_pages %}
                 {% if my_page.title %}				
@@ -24,11 +27,13 @@
 				 <a class="page-link btn" href="{{ site.ticket_url }}" target="_blank">Tickets</a>
 			  </li>
           </ul>
+
           <ul class="uk-navbar-nav uk-visible@s uk-navbar-right">
             <li>
                 <a uk-toggle="target: #my-id"><i class="uk-icon-bars"></i></a>
             </li>
           </ul>
+        </div>
     </nav>
     <div id="my-id" uk-offcanvas>
         <div class="uk-offcanvas-bar" uk-offcanvas="flip:true">

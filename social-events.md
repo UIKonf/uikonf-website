@@ -37,7 +37,7 @@ includeInNavigation: 0
 	    		<div class="uk-width-medium-1-3 uk-width-small-1-1 uk-width-1-3@l">
       			<a name="{{ event.anchor }}"></a>
 						<div class="box">
-      				<figure class="uk-overlay uk-overlay-hover"><img src="/static/images/events/{{ event.image }}" alt="{{ event.image-alt }}"> </figure>
+      				<figure class="uk-inline-clip uk-transition-toggle"><img src="/static/images/events/{{ event.image }}" alt="{{ event.image-alt }}"> </figure>
 		        	<div  class="info-box small">
 		          	<h4>{{ event.title }}</h4>
 		        	</div>

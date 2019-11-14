@@ -33,8 +33,8 @@ includeInNavigation: 0
 	    	<div class="uk-width-medium-1-3 uk-width-small-1-1 uk-width-1-3@l">
 	      		<a name="{{ speaker.anchor }}"></a>
       			<div class="box">
-      				<figure class="uk-overlay uk-overlay-hover">
-			    		<img class="uk-overlay-spin" src="{{ site.baseurl }}/static/images/{{ speaker.image }}" alt="{{ speaker.title }}">
+      				<figure class="uk-inline-clip uk-transition-toggle">
+			    		<img class="uk-transition-scale-up" src="{{ site.baseurl }}/static/images/{{ speaker.image }}" alt="{{ speaker.title }}">
 							<a class="uk-position-cover" href="{{ speaker.twitter }}" target="_blank"></a>
 					</figure>
 		     		<div  class="info-box small">
