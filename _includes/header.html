@@ -8,7 +8,7 @@
             </a>
         </div>
         <div class="uk-navbar-right">
-          <ul class="hidden uk-navbar-nav uk-visible@ms">
+          <ul class="hidden uk-navbar-nav uk-visible@m">
 			{% assign sorted_pages = site.pages | where:"includeInNavigation",1 | sort:"order" %}
               {% for my_page in sorted_pages %}
                 {% if my_page.title %}				
@@ -28,7 +28,7 @@
 			  </li>
           </ul>
 
-          <ul class="uk-navbar-nav uk-visible@s uk-navbar-right">
+          <ul class="uk-navbar-nav uk-hidden@m uk-navbar-right">
             <li>
                 <a uk-toggle="target: #my-id"><i uk-icon="icon: menu"></i></a>
             </li>
