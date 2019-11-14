@@ -11,7 +11,7 @@
                             {% else %}
                                 {% assign overlay-class="uk-overlay" %} 
                             {% endif %}
-			    		    <img class="{{ overlay-class }}" src="{{ site.baseurl }}/static/images/{{ include.image }}" alt="{{ include.imageAlt }}">
+			    		    <img class="{{ overlay-class }}" src="{{ site.baseurl }}/static/images/{{ include.image }}" alt="{{ include.imageAlt }}" style="opacity: 1">
                             {% if include.link %}<a class="uk-position-cover" href="{{ include.link }}" target="_blank"></a>{% endif %}
 					    </figure>
 		     		    <div  class="info-box small">
