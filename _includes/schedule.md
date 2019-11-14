@@ -1,5 +1,5 @@
 <div class="uk-width-1-1">
-  <ul class="uk-tab uk-flex-center uk-tab-grid uk-margin-large-bottom" uk-tab uk-switcher="{connect:'#Schedule', active:2 }">
+  <ul class="uk-tab uk-flex-center uk-margin-large-bottom" uk-tab uk-switcher="{connect:'#Schedule', active:2 }">
 		
   		{% if include.context == "schedule" %}
   	    	{% assign days = site.days | where:"isDetail", true %}
@@ -29,7 +29,7 @@
   				{% if item.type == "break" %}
   					<div class="uk-grid">
       		  			<div class="uk-width-1-6@m uk-width-1-1">
-          					<p class="light-text" ><i class="uk-icon-clock-o"></i> {{ item.time }}</p>
+          					<p class="light-text" ><i uk-icon="icon: clock"></i> {{ item.time }}</p>
        		   			</div>
   	          		   <div class="uk-width-5-6">
                 		   <p class="light-text"> {{ item.title }}</p>
@@ -52,7 +52,7 @@
   				{% elsif item.type == "workshop" %}
 	         	 	<div class="uk-grid">
 	      		  	<div class="uk-width-1-6@m uk-width-1-1">
-	          			<p class="light-text"><i class="uk-icon-clock-o"></i> {{ item.time }}</p>
+	          			<p class="light-text"><i uk-icon="icon: clock"></i> {{ item.time }}</p>
 	       		   	</div>
 	        		 	<div class="uk-width-5-6@m uk-width-1-1">
 							{% if item.anchor %}<a href="/workshops/#{{ item.anchor }}">{% endif %}
@@ -70,7 +70,7 @@
          	 	<div class="uk-grid">
       		  	<div class="uk-width-1-6@m uk-width-1-1">
 					{% if item.time %}
-          				<p class="light-text"><i class="uk-icon-clock-o"></i> {{ item.time }}</p>
+          				<p class="light-text"><i uk-icon="icon: clock"></i> {{ item.time }}</p>
 					{% endif %}
        		   	</div>
         		 	<div class="uk-width-5-6@m uk-width-1-1">
