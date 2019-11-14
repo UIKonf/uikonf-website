@@ -6,7 +6,7 @@ description: UIKonf 2017 - Speaker list
 includeInNavigation: 0
 ---
 
-<div class="headerimage-small uk-position-relative" style="background-image: url({{ site.baseurl }}/static/images/speakers-header-cropped.jpg);" data-uk-parallax="{bg: '-50'}">
+<div class="headerimage-small uk-position-relative" style="background-image: url({{ site.baseurl }}/static/images/speakers-header-cropped.jpg);" uk-parallax="bgx: -50">
   <img class="uk-invisible" src="{{ site.baseurl }}/static/images/speakers-header-cropped.jpg" alt="speaker image">
    <div class="uk-position-cover uk-flex uk-flex-center uk-flex-middle uk-flex-column">
       <div class="teaser">
