@@ -12,9 +12,9 @@ redirect_from:
   <div class="uk-position-cover uk-flex uk-flex-center uk-flex-middle uk-flex-column">
     <div class="teaser-register">
       <img src="{{ site.baseurl }}/static/images/Logo_bigger.png" alt="logo UIKonf" />
-      <p>May 26th-29th 2019<br/>
+      <p>Coming Soon!<br/>
       <a href="#Location"><i class="uk-icon-map-o"></i> Radialsystem V - Berlin</a></p>
-      <a class="btn uk-button-large" href="{{ site.ticket_url }}">Register now</a>
+      <!-- <a class="btn uk-button-large" href="{{ site.ticket_url }}">Register now</a> -->
       <p><a href="#Sponsors">Become a Sponsor</a> &nbsp; | &nbsp;
       <a href="http://uikonf.us9.list-manage.com/subscribe?u=08d7d9a7a55f501920eb76453&id=d3f17105cf" target="_blank">Sign up for News</a>
       </p>
@@ -59,10 +59,10 @@ redirect_from:
 
 
 <!-- SCHEDULE --> 
-{% capture schedule_content %}
+<!-- {% capture schedule_content %}
   {% include schedule.md context="schedule" %}
 {% endcapture %}
-{% include content-block.md topShape="backshape light-grey" title="Schedule" content=schedule_content %}
+{% include content-block.md topShape="backshape light-grey" title="Schedule" content=schedule_content %} -->
 
 <!-- TICKETS  -->
 <!-- {% capture ticket_content %}
@@ -104,7 +104,7 @@ redirect_from:
     </div>
   {% endfor %}
 {% endcapture %}
-{% include content-block.md topShape="backshape light-grey" title="Speakers" content=speaker_content %}
+{% include content-block.md topShape="backshape light-grey" title="Speakers 2019" content=speaker_content %}
 
 <!-- SPONSORS --> 
 <a name="Sponsors"></a>
@@ -116,13 +116,19 @@ redirect_from:
   </div>
   {% assign activeSponsors = site.sponsors | where:"active",1 %} {% if activeSponsors.size > 0 %}
   {% for sponsor in activeSponsors %}
-    <div class="uk-width-medium-1-1 uk-width-large-1-2 uk-width-small-1-1 ">
+    <!-- <div class="uk-width-medium-1-1 uk-width-large-1-2 uk-width-small-1-1 ">
       {% include sponsor.md content=sponsor.content image=sponsor.image anchor=sponsor.anchor image-alt=sponsor.image-alt%}
-    </div>
+    </div> -->
+	<div class="uk-width-medium-1-2 uk-width-large-1-4 uk-width-small-1-2 ">
+		<figure class="uk-overlay uk-overlay-hover" style="padding: 20px 40px;">
+		        <img class="uk-overlay-spin" src="/static/images/{{ sponsor.image }}" alt="{{ sponsor.image-alt }}">
+		        <a class="uk-position-cover" href="{{ sponsor.anchor }}" target="_blank"></a>
+		</figure>
+	</div>
   {% endfor %}
   {% endif %}
 {% endcapture %}
-{% include content-block.md topShape="backshape" title="Sponsors" content=sponsor_content %}
+{% include content-block.md topShape="backshape" title="Sponsors 2019" content=sponsor_content %}
 
 <!-- SOCIAL EVENTS --> 
 {% capture event_content %}
@@ -149,7 +155,7 @@ redirect_from:
 
 
 
-MAP
+<!-- MAP -->
 {% capture map_content %}
   <div class="uk-width-medium-4-10">
     <a name="Location"></a>
