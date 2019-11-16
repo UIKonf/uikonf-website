@@ -62,7 +62,7 @@ redirect_from:
 {% capture schedule_content %}
   {% include schedule.md context="home" %}
 {% endcapture %}
-{% include content-block.md topShape="backshape light-grey" title="Schedule" content=schedule_content %}
+{% include content-block.md topShape="backshape light-grey" title="Schedule" content=schedule_content %} -->
 
 <!-- TICKETS  -->
 <!-- {% capture ticket_content %}
@@ -116,13 +116,15 @@ redirect_from:
   </div>
   {% assign activeSponsors = site.sponsors | where:"active",1 %} {% if activeSponsors.size > 0 %}
   {% for sponsor in activeSponsors %}
-    <div class="uk-width-medium-1-2 uk-width-large-1-4 uk-width-small-1-2 ">
-	<figure class="uk-overlay uk-overlay-hover" style="padding: 20px 40px;">
-	        <img class="uk-overlay-spin" src="/static/images/{{ sponsor.image }}" alt="{{ sponsor.image-alt }}">
-	        <a class="uk-position-cover" href="{{ sponsor.anchor }}" target="_blank"></a>
-	</figure>
-    </div>
-      <!-- {% include sponsor.md content=sponsor.content image=sponsor.image anchor=sponsor.anchor image-alt=sponsor.image-alt%} -->
+    <!-- <div class="uk-width-medium-1-1 uk-width-large-1-2 uk-width-small-1-1 ">
+      {% include sponsor.md content=sponsor.content image=sponsor.image anchor=sponsor.anchor image-alt=sponsor.image-alt%}
+    </div> -->
+	<div class="uk-width-medium-1-2 uk-width-large-1-4 uk-width-small-1-2 ">
+		<figure class="uk-overlay uk-overlay-hover" style="padding: 20px 40px;">
+		        <img class="uk-overlay-spin" src="/static/images/{{ sponsor.image }}" alt="{{ sponsor.image-alt }}">
+		        <a class="uk-position-cover" href="{{ sponsor.anchor }}" target="_blank"></a>
+		</figure>
+	</div>
   {% endfor %}
   {% endif %}
 {% endcapture %}
