@@ -4,7 +4,6 @@ layout: page
 description: UIKonf - Privacy Policy
 ---
 
-<h1>Privacy Policy</h1>
 <h2 id="m14">Preamble</h2>
 
 <p>We respect the personal data you entrust us. The data is solely collected with the purpose of organizing a great UIKonf for you.</p>
