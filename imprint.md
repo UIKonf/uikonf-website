@@ -7,33 +7,42 @@ description: UIKonf - Imprint
 <div class="backshape">
 <div class="wrapper">
 	<div class="uk-container uk-container-center">
-		<h2>IMPRESSUM</h2>
-		<p>ANGABEN GEMÄSS § 5 TMG:<br/>
-			Kallenberg & Geithner GbR<br/>
-			Lehmbruckstr. 3<br/>
-			10245 Berlin</p>
+		<h2>IMPRINT</h2>
+			<h3>Provider</h3>
+			<p> Kallenberg &amp; Geithner GbR<br/>
+				Lehmbruckstr. 3<br/>
+				10245 Berlin<br/>
+				Germany</p>
+			
+			<h3>Contact Options</h3>
+			<p><strong>E-Mail Address</strong>: <a href="mailto:questions@uikonf.com">questions@uikonf.com</a></p>
+			<!-- <p><strong>Phone:</strong>: +4917696772091</p> -->
+			
+			<h3>Representatives</h3>
+			<p><strong>Representative/s</strong>: Sabine Geithner (Gesellschafter) &amp; Julia Kallenberg (Gesellschafter)</p>
+			
+			<h3>Company Details</h3>
+			<p><strong>Business area</strong>: Event Organisation</p>
+			<!-- <p><strong>Terms & Conditions</strong>: <a href="{{ site.url }}/terms">https://uikonf.com/terms</a></p> -->
+			<p><strong>Privacy Policy</strong>: <a href="{{ site.url }}/privacy-policy">https://uikonf.com/privacy-policy</a></p>
+			
+			<p><strong>Terms & Conditions</strong></p>
+			<p>Each ticket entitles the ticket holder registered during the purchase process to attend the UIKonf during the days stated in the purchase confirmation.</p>
+			<ul><li>The tickets are transferable until four weeks before the event.</li>
+				<li>The tickets are fully refundable up to 2 months before the event</li>
+				<li>The tickets can be refunded from 2 months before the event until 4 weeks before the event at 100€ + VAT penalty.</li>
+				<li>The tickets are not refundable and all sales are final in the 4 weeks before the event.</li>
+			</ul>
 
-			<h3>VERTRETEN DURCH:</h3>
-			<p>Sabine Geithner</p>
+			<p>All participants are expected to observe the Code of Conduct. The latest version of the Code of Conduct is available under <a href="{{ site.url }}/coc">http://www.uikonf.com/coc/</a><br/>
 
-			<p><strong>KONTAKT:</strong><br/>
-				E-Mail:	sabine@uikonf.com</p>
-
-
-			<h3>UMSATZSTEUER-ID:</h3>
-			<p>Noch nicht erteilt.</p>
-
-			<h3>VERANTWORTLICH FÜR DEN INHALT NACH § 55 ABS. 2 RSTV:</h3>
-			<p>Sabine Geithner</p>
-
-			<h3>DATENSCHUTZERKLÄRUNG:</h3>
-			<h4>Datenschutz</h4>
-
-			<p>Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder eMail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben.</p>
-
-			<p>Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.</p>
-
-			<p>Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit ausdrücklich widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails, vor.</p>
+			We reserve the right to exclude anybody from the event in cases of inappropriate behaviour against the code of conduct. No refunds are possible in case of such an exclusion.</p>
+			
+			<h3>Online Dispute Resolution (ODR)</h3>
+			<p>Online dispute resolution: The European Commission provides a platform for Online Dispute Resolution (ODR), which can be accessed at <a href="https://ec.europa.eu/consumers/odr/.">https://ec.europa.eu/consumers/odr/.</a> Consumers have the possibility to use this platform to settle their disputes.</p>
+			
+			<h3>Social Media Accounts and other Online Profiles</h3>
+			<p><a href="https://twitter.com/uikonf">Twitter</a></p>
 		</div>
 	</div>
 </div>
