@@ -6,12 +6,11 @@ description: UIKonf - Privacy Policy
 
 <h2 id="m14">Preamble</h2>
 
-<p>We respect the personal data you entrust us. The data is solely collected with the purpose of organizing a great UIKonf for you.</p>
+<p>We respect the personal data you entrust us. We collect data solely with the purpose of organizing a great UIKonf for you. For example, we collect your name, email and address for the purposes of invoicing and communicating with you.</p>
 
-<p>Your name, your email and your address for the purposes of invoicing and organizing the event. Opting-out of this will prevent us from fulfilling our obligations to you.</p>
+<p>However, some services we use for performing these tasks might collect additional information from you (e.g. YouTube might collect data on which embedded videos you watched on uikonf.com). The list below lists all services we use for infrastructure, planning and organisation and which data they might collect. All services that store sensitive personal data are - to our current knowledge - GDPR compliant and protected by 2-Factor-Authentication.</p>
 
-<p>During the course of the event, we or our service providers might make audio, video or photo recordings of you. Please inform the event staff during registration or any time during the event if you would like to opt-out of such recordings.</p>
-
+<p>And now: lots of legal text:</p>
 
 <p>With the following privacy policy we would like to inform you which types of your personal data (hereinafter also abbreviated as " data") we process for which purposes and in which scope. The privacy statement applies to all processing of personal data carried out by us, both in the context of providing our services and in particular on our websites, in mobile applications and within external online presences, such as our social media profiles (hereinafter collectively referred to as "online services").</p>
 <p>The terms used are not gender-specific.</p>
