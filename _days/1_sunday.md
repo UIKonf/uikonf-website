@@ -1,6 +1,6 @@
 ---
-title: May 26th
-day: 26
+title: May 17th
+day: 17
 isDetail: true
 isSummary: true
 items:
@@ -11,6 +11,5 @@ items:
   - title: Kick-off party
     description: All social events end at the venue for the kick-off party. Pick up your conference badge, grab a beer and meet your other attendees.
     time: "19:00"
-    location: James June, (Karl-Marx-Allee 93, 10243 Berlin)
-    location_link: https://goo.gl/maps/Zz1uwQ1RPeS2
+    location: tbd
 ---

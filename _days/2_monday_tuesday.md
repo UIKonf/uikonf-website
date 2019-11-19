@@ -1,6 +1,6 @@
 ---
-title: May 27th & 28th
-day: 27, 28
+title: May 18th & 19th
+day: 18, 19 
 isDetail: false
 isSummary: true
 items:
