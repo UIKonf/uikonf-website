@@ -3,22 +3,12 @@
 ---
 @charset "utf-8";
 
-@font-face {
-	font-family: 'AntennaExtraCond';
-	src: url('../static/fonts/AntennaExtraCond-Bold.eot');
-	src: url('../static/fonts/AntennaExtraCond-Bold.eot?#iefix') format('embedded-opentype'),
-		url('../static/fonts/AntennaExtraCond-Bold.woff') format('woff'),
-		url('../static/fonts/AntennaExtraCond-Bold.ttf') format('truetype');
-	font-style: normal;
-}
-
 @import url('https://fonts.googleapis.com/css?family=Poppins:600&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Muli:400,600,700&display=swap');
 
 // Our variables
 $header-font-family: "Poppins", sans-serif;
 $base-font-family: "Muli", sans-serif;
-$alternate-font-stack : "AntennaExtraCond", sans-serif;
 $base-font-size:   18px;
 $base-font-weight: 400;
 $header-font-weight: 600;
