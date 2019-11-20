@@ -36,6 +36,7 @@ h1, .title-section {
 
 h2, .title-section {
 	padding: 30px 0;
+	text-transform: uppercase;
 }
 
 h3 {
@@ -83,7 +84,8 @@ article.author-post-first {
 
 .teaser  {
 	text-align: center;
-	margin-top: -100px;
+	position: absolute;
+    top: 130px;
 	a.btn {
 		display: block;
 		margin: 40px 0 10px;

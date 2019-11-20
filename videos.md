@@ -31,7 +31,7 @@ redirect_from:
  - /videos/were-not-doing-a-startup/
 videos:
  - title: UIKonf 2020
-   url: "https://www.youtube.com/embed/videoseries?list=PLdr22uU_wISr-FYeKblv3LMe_kHFzRFBw"
+   url: ""
    isMain: 1
  - title: UIKonf 2019
    url: "https://www.youtube.com/embed/videoseries?list=PLdr22uU_wISr-FYeKblv3LMe_kHFzRFBw"
@@ -56,7 +56,7 @@ videos:
    isMain: 0
 ---
 
-{% include header-image.md image="videos_image.jpg" title="Videos" %}
+{% include header-image.md image="uikonf_2020_hero_image.jpg" title="Videos" %}
 
 {% capture video_content %}
 	<div class="uk-width-8-10@m">

@@ -1,19 +1,9 @@
-<div class="box">
-    <figure class="uk-inline-clip uk-transition-toggle">
-        <img class="uk-transition-scale-up" src="/static/images/{{ include.image }}" alt="{{ include.title }}"  style="opacity: 1" />
-        <a class="uk-position-cover" href="{{ include.link }}"></a>
-    </figure>
-    {% if include.isSmall == 1 %}
-    <div class="info-box small">
-    {% else %}
-    <div class="info-box">
-    {% endif %}
-        <h4>{{ include.title }}</h4>
-        {% if include.inbox-description %}
-            <p><small>{{ include.inbox-description }}</small></p>
-        {% endif %}
+ <figure class="uk-transition-toggle">
+    <div class="uk-border-circle uk-inline-clip">
+        <a href="{{ include.link }}"><div class="uk-transition-scale-up person-photo" style="background-image: url('/static/images/{{ include.image }}')"></div></a>
     </div>
-</div>
-{% if include.outbox-description %}
-	<p><small>{{ include.outbox-description }}</small></p>
+ </figure>
+<p><b>{{ include.title }}</b></p>
+{% if include.description %}
+    <p><small>{{ include.description }}</small></p>
 {% endif %}

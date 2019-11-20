@@ -8,7 +8,7 @@
   background-size:cover;
 
   &.small {
-  	height: 339px;
+  	height: 372px;
   }
 }
 
@@ -92,6 +92,22 @@
     	}
 	}
 }
+
+.person-photo {
+	height: 170px;
+    width: 170px;
+    display: block;
+    background-position: 50%;
+	background-size: cover;
+	opacity: 1;
+	
+	@media screen and (max-width: 479px) {
+		height: 240px;
+    	width: 240px;
+    }
+}
+
+
 .box {
 
 	margin-bottom: 10px !important;
