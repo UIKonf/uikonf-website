@@ -44,23 +44,13 @@ redirect_from:
     </div>
   </div>
 {% endcapture %}
-{% include content-block.md topShape="backshape brand-color" content=about_content %}
-
-<!-- REVIEW
-{% capture review_content %}
-  <div class="uk-width-1-1 uk-text-center">
-    <a name="videos"></a>
-    <div class="video-container"><iframe src="https://www.youtube.com/embed/jdDq5wNkqZ8"  frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
-  </div>
-{% endcapture %}
-{% include content-block.md topShape="straight" title="Live Stream" content=review_content %} -->
-
+{% include content-block.md content=about_content %}
 
 <!-- SCHEDULE --> 
 {% capture schedule_content %}
   {% include schedule.md context="home" %}
 {% endcapture %}
-{% include content-block.md topShape="backshape light-grey" title="Schedule" content=schedule_content %}
+{% include content-block.md title="Schedule" content=schedule_content %}
 
 <!-- TICKETS  -->
 <!-- {% capture ticket_content %}
@@ -80,7 +70,7 @@ redirect_from:
       select the additional "Scholarship Sponsor" package which provides one ticket for our diversity ticket applicants.</p>
   </div>
 {% endcapture %}
-{% include content-block.md topShape="straight" title="Tickets" content=ticket_content %} -->
+{% include content-block.md title="Tickets" content=ticket_content %} -->
 
 <!-- SPEAKER --> 
 {% capture speaker_content %}
@@ -102,7 +92,7 @@ redirect_from:
     </div>
   {% endfor %}
 {% endcapture %}
-{% include content-block.md topShape="backshape light-grey" title="Speakers 2019" content=speaker_content %}
+{% include content-block.md title="Speakers 2019" content=speaker_content %}
 
 <!-- SPONSORS --> 
 <a name="Sponsors"></a>
@@ -127,7 +117,7 @@ redirect_from:
   {% endfor %}
   {% endif %}
 {% endcapture %}
-{% include content-block.md topShape="backshape" title="Sponsors 2019" content=sponsor_content %}
+{% include content-block.md title="Sponsors 2019" content=sponsor_content %}
 
 <!-- SOCIAL EVENTS --> 
 {% capture event_content %}
@@ -149,7 +139,7 @@ redirect_from:
     </div>
   {% endif %}
 {% endcapture %}
-{% include content-block.md topShape="backshape light-grey" title="Social Events" content=event_content %}
+{% include content-block.md title="Social Events" content=event_content %}
 
 
 
@@ -167,7 +157,7 @@ redirect_from:
     <div id='map'></div>
   </div>
 {% endcapture %}
-{% include content-block.md topShape="straight brand-color" content=map_content %}
+{% include content-block.md content=map_content %}
 
 <script>
   mapboxgl.accessToken = 'pk.eyJ1Ijoic2FiaW5lLXVpa29uZiIsImEiOiJjamVuNGFjeHY0bzNiMndvM245NzM4aHp2In0.mEFZQQ-3Qhh2JudtqJ64RQ';

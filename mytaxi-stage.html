@@ -16,7 +16,7 @@ description: UIKonf 2019 - mytaxi Stage on a Boat
 		</div>
    </div>
 </div>
-  <div class="backshape opposite light-grey">
+  <div class="opposite light-grey">
   	<div class="wrapper">
   		<div class="uk-container uk-margin-large-bottom">
   			<div class="uk-grid">
@@ -50,16 +50,8 @@ description: UIKonf 2019 - mytaxi Stage on a Boat
 				{% endif %}
 	{% endcapture %}
 
-	<!-- Configure topshape --> 
-	{% assign loopindex = forloop.index | modulo: 2 %}
-	{% if loopindex == 1 %}
-		{% assign topshape = 'backshape opposite' %}
-	{% else %}
-		{% assign topshape = 'backshape opposite light-grey' %}
-	{% endif %}	
-
 	<!-- Include content block -->
-	{% include 1-2-image-content-block.md topShape=topshape anchor=workshop.anchor image=workshop.image imageAlt= workshop.presenter imageTitle=workshop.shortTitle content=workshop_content %}
+	{% include 1-2-image-content-block.md anchor=workshop.anchor image=workshop.image imageAlt= workshop.presenter imageTitle=workshop.shortTitle content=workshop_content %}
 
 {% endfor %}
 

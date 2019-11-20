@@ -17,7 +17,7 @@ includeInNavigation: 1
    </div>
 </div>
 
-<div class="backshape opposite relative">
+<div class="opposite relative">
   <div class="wrapper">
         <div class="uk-width-6-10@m">
           <div class="uk-grid" style="padding: 0 15px;">

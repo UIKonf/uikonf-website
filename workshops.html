@@ -40,16 +40,8 @@ description: UIKonf 2019 - Workshops
 		{% endif %}
 	{% endcapture %}
 
-	<!-- Configure topshape --> 
-	{% assign loopindex = forloop.index | modulo: 2 %}
-	{% if loopindex == 1 %}
-		{% assign topshape = 'backshape opposite light-grey' %}
-	{% else %}
-		{% assign topshape = 'backshape opposite' %}
-	{% endif %}	
-
 	<!-- Include content block -->
-	{% include 1-2-image-content-block.md topShape=topshape anchor=workshop.anchor image=workshop.image imageAlt= workshop.title imageTitle=workshop.shortTitle link=workshop.twitter content=workshop_content %}
+	{% include 1-2-image-content-block.md anchor=workshop.anchor image=workshop.image imageAlt= workshop.title imageTitle=workshop.shortTitle link=workshop.twitter content=workshop_content %}
 
 {% endfor %}
 

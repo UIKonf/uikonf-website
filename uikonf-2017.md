@@ -21,11 +21,11 @@ includeInNavigation: 0
    </div>
 </div>
 
-<div class="backshape opposite"><div class="wrapper"></div></div>
+<div class="opposite"><div class="wrapper"></div></div>
 
 
 
-<div class="backshape opposite">
+<div class="opposite">
 	  <div class="wrapper">
 		{% for speaker in site.uikonf-2017 %}
 		<div class="uk-container uk-margin-large-bottom">

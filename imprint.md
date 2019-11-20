@@ -4,7 +4,6 @@ permalink: /imprint/
 description: UIKonf - Imprint
 ---
 
-<div class="backshape">
 <div class="wrapper">
 	<div class="uk-container">
 		<h2>IMPRINT</h2>
@@ -31,6 +30,6 @@ description: UIKonf - Imprint
 			
 			<h3>Social Media Accounts and other Online Profiles</h3>
 			<p><a href="https://twitter.com/uikonf">Twitter</a></p>
-		</div>
 	</div>
 </div>
+

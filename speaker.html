@@ -33,16 +33,10 @@ redirect_from:
 </div>
 
 {% for speaker in site.speakers %}
-	{% assign loopindex = forloop.index | modulo: 2 %}
-  	{% if loopindex == 1 %}
-		{% assign topshape = 'backshape opposite light-grey' %}
-  	{% else %}
-	  	{% assign topshape = 'backshape opposite' %}
-  	{% endif %}	
-	
+
   	{% assign imagePath = 'speaker/' | append: speaker.image %}
   
-  	{% include 1-2-image-content-block.md topShape=topshape anchor=speaker.anchor image=imagePath imageAlt=speaker.title imageTitle=speaker.title link=speaker.twitter content=speaker.content %}	
+  	{% include 1-2-image-content-block.md anchor=speaker.anchor image=imagePath imageAlt=speaker.title imageTitle=speaker.title link=speaker.twitter content=speaker.content %}	
 {% endfor %}
 
 

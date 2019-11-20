@@ -86,4 +86,4 @@ videos:
 			      	</div>
 			    </div>
 {% endcapture %}
-{% include content-block.md topShape="straight" content=video_content %}
+{% include content-block.md content=video_content %}

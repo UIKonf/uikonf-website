@@ -104,7 +104,8 @@ article.author-post-first {
 
 .teaser-register  {
 	text-align: center;
-	margin-top: -100px;
+	position: absolute;
+	top: 80px;
 	background: rgba(0,0,0,0.5);
 	padding: 40px;
 	border-radius: 16px;

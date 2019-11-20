@@ -27,9 +27,9 @@ includeInNavigation: 0
 {% for event in activeEvents %}
 {% assign loopindex = forloop.index | modulo: 2 %}
   {% if loopindex == 1 %}
-  <div class="backshape opposite light-grey">
+  <div class="opposite light-grey">
   {% else %}
-  <div class="backshape opposite">
+  <div class="opposite">
   {% endif %}	
 		<div class="wrapper">
 			<div class="uk-container uk-margin-large-top">
