@@ -118,7 +118,8 @@ redirect_from:
       {% include sponsor.md content=sponsor.content image=sponsor.image anchor=sponsor.anchor image-alt=sponsor.image-alt%}
     </div> -->
 	<div class="uk-width-medium-1-2 uk-width-large-1-4 uk-width-small-1-2 ">
-		<figure class="uk-overlay uk-overlay-hover" style="padding: 20px 40px;">
+		<figure class="uk-overlay uk-overlay-hover" style="padding: 20px 40px;max-width: 200px;
+    margin: 0 auto;">
 		        <img class="uk-overlay-spin" src="/static/images/{{ sponsor.image }}" alt="{{ sponsor.image-alt }}">
 		        <a class="uk-position-cover" href="{{ sponsor.anchor }}" target="_blank"></a>
 		</figure>
