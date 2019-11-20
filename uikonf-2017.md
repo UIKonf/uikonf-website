@@ -6,11 +6,11 @@ description: UIKonf 2017 - Speaker list
 includeInNavigation: 0
 ---
 
-<div class="headerimage-small uk-position-relative" style="background-image: url({{ site.baseurl }}/static/images/speakers-header-cropped.jpg);" data-uk-parallax="{bg: '-50'}">
+<div class="headerimage-small uk-position-relative" style="background-image: url({{ site.baseurl }}/static/images/speakers-header-cropped.jpg);" uk-parallax="by: -50">
   <img class="uk-invisible" src="{{ site.baseurl }}/static/images/speakers-header-cropped.jpg" alt="speaker image">
    <div class="uk-position-cover uk-flex uk-flex-center uk-flex-middle uk-flex-column">
       <div class="teaser">
-	    <div class="uk-container uk-container-center">
+	    <div class="uk-container">
 			<div class="uk-grid">
         		<div class="uk-width-1-1">
         			<h1>Speakers at UIKonf 2017</h1>
@@ -28,13 +28,13 @@ includeInNavigation: 0
 <div class="backshape opposite">
 	  <div class="wrapper">
 		{% for speaker in site.uikonf-2017 %}
-		<div class="uk-container uk-container-center uk-margin-large-bottom">
+		<div class="uk-container uk-margin-large-bottom">
 			<div class="uk-grid">
-	    	<div class="uk-width-medium-1-3 uk-width-small-1-1 uk-width-large-1-3">
+	    	<div class="uk-width-medium-1-3 uk-width-small-1-1 uk-width-1-3@l">
 	      		<a name="{{ speaker.anchor }}"></a>
       			<div class="box">
-      				<figure class="uk-overlay uk-overlay-hover">
-			    		<img class="uk-overlay-spin" src="{{ site.baseurl }}/static/images/{{ speaker.image }}" alt="{{ speaker.title }}">
+      				<figure class="uk-inline-clip uk-transition-toggle">
+			    		<img class="uk-transition-scale-up" src="{{ site.baseurl }}/static/images/{{ speaker.image }}" alt="{{ speaker.title }}">
 							<a class="uk-position-cover" href="{{ speaker.twitter }}" target="_blank"></a>
 					</figure>
 		     		<div  class="info-box small">

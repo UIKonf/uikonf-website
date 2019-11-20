@@ -74,7 +74,7 @@ redirect_from:
 {% if paginator.total_pages > 1 %}
 <div class="pagination uk-text-right">
   {% if paginator.previous_page %}
-    <a rel="prev" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><i class="uk-icon-long-arrow-left"></i> Prev</a>
+    <a rel="prev" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><i uk-icon="icon: arrow-left"></i> Prev</a>
   {% endif %}
 
   {% for page in (1..paginator.total_pages) %}
@@ -88,7 +88,7 @@ redirect_from:
   {% endfor %}
 
   {% if paginator.next_page %}
-    <a rel="next" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next <i class="uk-icon-long-arrow-right"></i></a>
+    <a rel="next" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next <i uk-icon="icon: arrow-right"></i></a>
   {% endif %}
 </div>
 {% endif %}

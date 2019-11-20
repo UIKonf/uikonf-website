@@ -1,11 +1,14 @@
 <header class="site-header">
 
-  <div class="uk-container uk-container-center">
-    <nav class="uk-navbar uk-margin-large-bottom">
-        <a class="uk-navbar-brand" href="{{ site.baseurl }}/">
-          <img src="{{ site.baseurl }}/static/images/Logo.png" alt="logo UIKonf">
-        </a>
-          <ul class="uk-navbar-nav uk-hidden-small uk-navbar-flip">
+  <div class="uk-container">
+    <nav class="uk-navbar">
+        <div class="uk-navbar-left">
+            <a class="uk-logo uk-navbar-item" href="{{ site.baseurl }}/">
+              <img src="{{ site.baseurl }}/static/images/Logo.png" alt="logo UIKonf">
+            </a>
+        </div>
+        <div class="uk-navbar-right">
+          <ul class="hidden uk-navbar-nav uk-visible@m">
 			{% assign sorted_pages = site.pages | where:"includeInNavigation",1 | sort:"order" %}
               {% for my_page in sorted_pages %}
                 {% if my_page.title %}				
@@ -24,15 +27,17 @@
 				 <a class="page-link btn" href="{{ site.ticket_url }}" target="_blank">Tickets</a>
 			  </li> -->
           </ul>
-          <ul class="uk-navbar-nav uk-visible-small uk-navbar-flip">
+
+          <ul class="uk-navbar-nav uk-hidden@m uk-navbar-right">
             <li>
-                <a data-uk-offcanvas="{target:'#my-id'}"><i class="uk-icon-bars"></i></a>
+                <a uk-toggle="target: #my-id"><i uk-navbar-toggle-icon></i></a>
             </li>
           </ul>
+        </div>
     </nav>
-    <div id="my-id" class="uk-offcanvas">
-        <div class="uk-offcanvas-bar uk-offcanvas-bar-flip">
-          <ul  class="uk-nav uk-nav-offcanvas uk-nav-parent-icon" data-uk-nav>
+    <div id="my-id" uk-offcanvas="flip: true">
+        <div class="uk-offcanvas-bar">
+          <ul  class="uk-nav uk-nav-default uk-nav-parent-icon" uk-nav>
   			{% assign pages = site.pages | where:"includeInNavigation",1 %}
               {% for my_page in pages %}
                 {% if my_page.title %}

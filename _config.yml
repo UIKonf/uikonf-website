@@ -20,6 +20,13 @@ plugins:
   - jekyll-redirect-from
   - jekyll-paginate
 
+# Exclude files from the Jekyll
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - CNAME
+
 # Pagination
 paginate: 5
 paginate_path: "/blog/page:num/"

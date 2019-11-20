@@ -6,7 +6,7 @@ description: UIKonf - Imprint
 
 <div class="backshape">
 <div class="wrapper">
-	<div class="uk-container uk-container-center">
+	<div class="uk-container">
 		<h2>IMPRINT</h2>
 			<h3>Provider</h3>
 			<p> Kallenberg &amp; Geithner GbR<br/>
