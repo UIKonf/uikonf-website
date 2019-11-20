@@ -9,7 +9,7 @@
         </div>
         <div class="uk-navbar-right">
           <ul class="hidden uk-navbar-nav uk-visible@m">
-			{% assign sorted_pages = site.pages | where:"includeInNavigation",1 | sort:"order" %}
+			        {% assign sorted_pages = site.pages | where:"includeInNavigation",1 | sort:"order" %}
               {% for my_page in sorted_pages %}
                 {% if my_page.title %}				
                 <li>

@@ -55,7 +55,7 @@ includeInNavigation: 0
 	</div>
 {% endfor %}
 
-<!-- <div class="straight light-grey">
+<!-- <div class="light-grey">
   <div class="wrapper">
     <div class="uk-container uk-margin-large-top">
         <div class="uk-width-1-1">

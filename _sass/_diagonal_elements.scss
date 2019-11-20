@@ -23,27 +23,25 @@
   }
 }
 
-.straight {
+.wrapper {
 	background: white;
 	z-index:3;
-	margin-top:-4.4em;
 	position:relative;
 	width:100%;
 	display:block;
-	float:left;
 	padding-bottom: 200px;
+}
 
-  &.light-grey {
-  	background: $light-grey;
-  }
+.light-grey {
+	background: $light-grey;
+}
 
-  &.brand-color {
-  	background: $brand-color;
+.brand-color {
+	background: $brand-color;
 
-  	h1, h2, h3, h4, h5, h6, p {
-  		color: white;
-  	}
-  }
+	h1, h2, h3, h4, h5, h6, p, ul, a {
+		color: white;
+	}
 }
 
 .info-box {

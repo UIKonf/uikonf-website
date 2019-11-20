@@ -9,7 +9,7 @@ body {
     font-kerning: normal;
 }
 a, button, input, ul li {
-	font: $base-font-family;
+	font-family: $base-font-family;
 }
 
 a, .btn, button, a img {
@@ -23,10 +23,7 @@ a, .btn, button, a img {
 h1,h2,h3,h4,h5,h6 {
 	font-family: $header-font-family;
 	font-weight: $header-font-weight;
-
-	&.brand-color {
-		color: $brand-color !important;
-	}
+	color: $brand-color;
 }
 
 h1, .title-section {
