@@ -12,9 +12,9 @@ redirect_from:
   <div class="uk-position-cover uk-flex uk-flex-center uk-flex-middle uk-flex-column">
     <div class="teaser-register">
       <img src="{{ site.baseurl }}/static/images/Logo_bigger.png" alt="logo UIKonf" />
-      <p>May 26th-29th 2020<br/>
+      <p>May 17th – 20th, 2020<br/>
       <a href="#Location"><i uk-icon="icon: map"></i> Radialsystem V - Berlin</a></p>
-      <a class="btn uk-button-large" href="{{ site.ticket_url }}">Register now</a>
+      <!-- <a class="btn uk-button-large" href="{{ site.ticket_url }}">Register now</a> -->
       <p><a href="#Sponsors">Become a Sponsor</a> &nbsp; | &nbsp;
       <a href="http://uikonf.us9.list-manage.com/subscribe?u=08d7d9a7a55f501920eb76453&id=d3f17105cf" target="_blank">Sign up for News</a>
       </p>
@@ -30,11 +30,9 @@ redirect_from:
         <h2>About UIKonf</h2>
       </div>
       <div class="uk-width-1-2@m">
-        <p>UIKonf is Berlin's independent conference for serious iOS developers. Taking place from May 26th to
-        29th 2020 in RADIALSYSTEM V in Berlin it is a great place to meet and connect with experienced
-        developers from all over Europe.</p>
-        <p>UIKonf features inspiring speakers giving talks on cutting edge topics in iOS development, mobile
-        design and business.</p>
+        <p>UIKonf is Berlin's independent conference for serious iOS developers. Taking place from May 17th to
+        20th 2020 in RADIALSYSTEM V in Berlin it is a great place to meet and connect with experienced developers from all over Europe.</p>
+        <p>UIKonf features inspiring speakers giving talks on cutting edge topics in iOS development, mobile design and business.</p>
       </div>
       <div class="uk-width-1-2@m">
         <p class="uk-light">But UIKonf is not only about gathering knowledge. We want to facilitate new
@@ -60,7 +58,7 @@ redirect_from:
 
 <!-- SCHEDULE --> 
 {% capture schedule_content %}
-  {% include schedule.md context="schedule" %}
+  {% include schedule.md context="home" %}
 {% endcapture %}
 {% include content-block.md topShape="backshape light-grey" title="Schedule" content=schedule_content %}
 
@@ -104,7 +102,7 @@ redirect_from:
     </div>
   {% endfor %}
 {% endcapture %}
-{% include content-block.md topShape="backshape light-grey" title="Speakers" content=speaker_content %}
+{% include content-block.md topShape="backshape light-grey" title="Speakers 2019" content=speaker_content %}
 
 <!-- SPONSORS --> 
 <a name="Sponsors"></a>
@@ -116,13 +114,19 @@ redirect_from:
   </div>
   {% assign activeSponsors = site.sponsors | where:"active",1 %} {% if activeSponsors.size > 0 %}
   {% for sponsor in activeSponsors %}
-    <div class="uk-width-1-1@m uk-width-1-1@s uk-width-1-2@l">
+    <!-- <div class="uk-width-1-1@m uk-width-1-1@s uk-width-1-2@l">
       {% include sponsor.md content=sponsor.content image=sponsor.image anchor=sponsor.anchor image-alt=sponsor.image-alt%}
-    </div>
+    </div> -->
+	<div class="uk-width-medium-1-2 uk-width-large-1-4 uk-width-small-1-2 ">
+		<figure class="uk-overlay uk-overlay-hover" style="padding: 20px 40px;">
+		        <img class="uk-overlay-spin" src="/static/images/{{ sponsor.image }}" alt="{{ sponsor.image-alt }}">
+		        <a class="uk-position-cover" href="{{ sponsor.anchor }}" target="_blank"></a>
+		</figure>
+	</div>
   {% endfor %}
   {% endif %}
 {% endcapture %}
-{% include content-block.md topShape="backshape" title="Sponsors" content=sponsor_content %}
+{% include content-block.md topShape="backshape" title="Sponsors 2019" content=sponsor_content %}
 
 <!-- SOCIAL EVENTS --> 
 {% capture event_content %}
@@ -149,7 +153,7 @@ redirect_from:
 
 
 
-MAP
+<!-- MAP -->
 {% capture map_content %}
   <div class="uk-width-4-10@m">
     <a name="Location"></a>
