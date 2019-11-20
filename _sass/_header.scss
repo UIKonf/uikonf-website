@@ -1,13 +1,11 @@
 .site-header {
-	background: $light-grey;
-	height: 84px;
+	background-color: $background-color;
 
 	.uk-navbar {
 		background: none;
 
 		a {
 			color: $brand-color;
-			text-transform: none;
 		}
 		.btn {
 			padding: 0px 20px 0px 20px;
@@ -19,6 +17,6 @@
 		line-height: 84px;
 	}
 	.uk-navbar-nav {
-		margin-top: 22px;
+		
 	}
 }

@@ -12,11 +12,16 @@
 	font-style: normal;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Poppins:600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli:400,600,700&display=swap');
+
 // Our variables
-$base-font-family: "ff-bau-web", sans-serif;
+$header-font-family: "Poppins", sans-serif;
+$base-font-family: "Muli", sans-serif;
 $alternate-font-stack : "AntennaExtraCond", sans-serif;
 $base-font-size:   18px;
 $base-font-weight: 400;
+$header-font-weight: 600;
 $small-font-size:  $base-font-size * 0.75;
 $base-line-height: 1.5;
 
@@ -26,7 +31,7 @@ $text-color:       rgb(74,74,74);
 $light-text-color: rgba(74,74,74, 0.7);
 
 $background-color: #fff;
-$brand-color:      #009FDF;
+$brand-color:      #3399FF;
 $mytaxi-color:     #fdc300;
 
 $light-grey: 		#F5F5F5;
