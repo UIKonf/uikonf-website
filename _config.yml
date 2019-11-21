@@ -13,7 +13,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.uikonf.com" # the base hostname & protocol for your site
 twitter_username: uikonf
 github_username:  uikonf
-ticket_url: https://ti.to/uikonf/uikonf-2019
+ticket_url: https://ti.to/uikonf/uikonf-2020
 
 # Gems
 plugins:
