@@ -1,11 +1,11 @@
 ---
-layout: default
+layout: page
 order: 3
 title: About
 permalink: /about/
 headerImage: uikonf_2020_hero_image.jpg
 headerTitle: About UIKonf
-description: UIKonf - Berlin's independent iOS conference is run by Engin Kurutepe, Maxim Zaks and Sabine Geithner.
+description: UIKonf - UIKonf is an independent conference for serious iOS developers
 includeInNavigation: 1
 organizers:
  - name: Engin Kurutepe
@@ -60,9 +60,6 @@ alumni:
    link: https://twitter.com/iceX33
    image: Maxim.jpg
 ---
-
-{% include header-image.md image=page.headerImage title=page.headerTitle description="UIKonf is an independent conference for serious iOS developers" %}
-
 
 {% capture organizers_content %}
 	{% assign sortedOrganizers = page.organizers | sort: 'lastName' %}
