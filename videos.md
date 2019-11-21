@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: videos
 order: 4
 title: Videos
 includeInNavigation: 1
@@ -55,35 +55,3 @@ videos:
    url: https://www.youtube.com/embed/-fb4bIkniq8?list=PLdr22uU_wISruLvW5HhcbwbtkZ5w6hguY
    isMain: 0
 ---
-
-{% include header-image.md image="uikonf_2020_hero_image.jpg" title="Videos" %}
-
-{% capture video_content %}
-	<div class="uk-width-8-10@m">
-					<div class="videos-section uk-grid uk-margin-large-top">
-						{% assign mainVideos = page.videos | where:"isMain",1 %}
-						{% for video in mainVideos %}
-  	      				<div class="uk-width-1-1 uk-text-center">
-							<h3>{{ video.title }}</h3>
-  	      					<div class="uk-responsive-height">
-                				<iframe width="100%" height="500" src="{{ video.url }}" frameborder="0" allowfullscreen></iframe>
-  	      					</div>
-			      		</div>
-						{% endfor %}
-
-			      		<div class="uk-width-1-1 uk-margin-large-top">
-		        			<h1>Other Videos</h1>
-		      			</div>
-						{% assign otherVideos = page.videos | where:"isMain",0 %}
-						{% for video in otherVideos %}
-						<div class="uk-width-1-2@m">
-  	      					<h3>{{ video.title }}</h3>
-  	      					<div class="uk-responsive-height">
-  	      						<iframe width="100%" height="300" src="{{ video.url }}" frameborder="0" allowfullscreen></iframe>
-  	      					</div>
-			      		</div>
-						{% endfor %}
-			      	</div>
-			    </div>
-{% endcapture %}
-{% include content-block.md content=video_content %}
