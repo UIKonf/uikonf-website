@@ -1,0 +1,40 @@
+<div class="uk-width-4-10@m">
+        <a name="Location"></a>
+        <h2 class="uk-margin-large-top">Location</h2>
+        <p>RADIALSYSTEM V Berlin,
+            <br/>Holzmarktstr. 33,
+            <br/>10243 Berlin</p>
+      </div>
+      <div class="uk-margin-large-top">
+          <div id='map'></div>
+      </div>
+      
+      <script>
+        mapboxgl.accessToken = 'pk.eyJ1Ijoic2FiaW5lLXVpa29uZiIsImEiOiJjamVuNGFjeHY0bzNiMndvM245NzM4aHp2In0.mEFZQQ-3Qhh2JudtqJ64RQ';
+        var map = new mapboxgl.Map({
+          container: 'map', // container id
+          style: 'mapbox://styles/sabine-uikonf/cjen5yuasvvmt2snub9qlmv0m', // stylesheet location
+          center: [13.428628, 52.510368], // starting position [lng, lat]
+          zoom: 15 // starting zoom
+        });
+      
+        map.on('click', function (e) {
+          var features = map.queryRenderedFeatures(e.point, {
+            layers: ['radialsystem'] // replace this with the name of the layer
+          });
+      
+          if (!features.length) {
+            return;
+          }
+      
+          var feature = features[0];
+      
+          var popup = new mapboxgl.Popup({ offset: [0, -50] })
+            .setLngLat(feature.geometry.coordinates)
+            .setHTML('<div style="color:#3399ff"><strong>' + feature.properties.title + '</strong><br/>' + feature.properties.description + '</div>')
+            .setLngLat(feature.geometry.coordinates)
+            .addTo(map);
+        });
+      
+      </script>
+      
