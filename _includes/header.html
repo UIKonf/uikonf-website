@@ -30,14 +30,18 @@
 
           <ul class="uk-navbar-nav uk-hidden@m uk-navbar-right">
             <li>
-                <a uk-toggle="target: #my-id"><i uk-navbar-toggle-icon></i></a>
+                <a uk-toggle="target: #mobile-navigation"><i uk-navbar-toggle-icon></i></a>
             </li>
           </ul>
         </div>
     </nav>
-    <div id="my-id" uk-offcanvas="flip: true">
-        <div class="uk-offcanvas-bar">
-          <ul  class="uk-nav uk-nav-default uk-nav-parent-icon" uk-nav>
+    <div id="mobile-navigation" uk-offcanvas="mode: none" class="uk-width-1-1">
+        <div class="uk-offcanvas-bar brand-color-background uk-width-1-1 uk-flex uk-flex-column">
+            <button class="uk-offcanvas-close" type="button" uk-close></button>
+            <div class="uk-text-center uk-margin-auto-vertical">
+                <img src="{{ site.baseurl }}/static/images/uikonf-logo-white.svg" height="106" width="106" alt="UIKonf logo">
+            
+            <ul class="uk-nav uk-nav-primary" uk-nav>
   			{% assign pages = site.pages | where:"includeInNavigation",1 %}
               {% for my_page in pages %}
                 {% if my_page.title %}
@@ -52,10 +56,11 @@
               <!-- <li>
                 <a class="page-link" href="http://cfp.uikonf.com" target="_blank">Call for Proposals</a>
               </li> -->
-			  <!-- <li>
-				 <a class="page-link" href="{{ site.ticket_url }}" target="_blank">Tickets</a>
-			  </li> -->
+              <li>
+              <a class="page-link btn" href="{{ site.ticket_url }}" target="_blank">Tickets</a>
+              </li>
           </ul>
+        </div>
         </div>
     </div>
   </div>
