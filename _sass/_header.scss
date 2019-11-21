@@ -1,9 +1,9 @@
 .site-header {
-	background-color: $background-color;
+	z-index: 100;
+    position: relative;
 
 	.uk-navbar {
 		background: none;
-
 		a {
 			color: $brand-color;
     		min-height: auto;
@@ -13,6 +13,11 @@
 		.btn {
 			border-width: 2px;
 		}
+	}
+
+	.headerimage-home & .uk-navbar a {
+		color: white;
+		border-color: white;
 	}
 
 	.uk-navbar-brand {
