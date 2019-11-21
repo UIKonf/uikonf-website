@@ -64,7 +64,7 @@ videos:
 						{% assign mainVideos = page.videos | where:"isMain",1 %}
 						{% for video in mainVideos %}
   	      				<div class="uk-width-1-1 uk-text-center">
-							<h3 class="brand-color">{{ video.title }}</h3>
+							<h3>{{ video.title }}</h3>
   	      					<div class="uk-responsive-height">
                 				<iframe width="100%" height="500" src="{{ video.url }}" frameborder="0" allowfullscreen></iframe>
   	      					</div>
@@ -72,12 +72,12 @@ videos:
 						{% endfor %}
 
 			      		<div class="uk-width-1-1 uk-margin-large-top">
-		        			<h1 class="brand-color">Other Videos</h1>
+		        			<h1>Other Videos</h1>
 		      			</div>
 						{% assign otherVideos = page.videos | where:"isMain",0 %}
 						{% for video in otherVideos %}
 						<div class="uk-width-1-2@m">
-  	      					<h3 class="brand-color">{{ video.title }}</h3>
+  	      					<h3>{{ video.title }}</h3>
   	      					<div class="uk-responsive-height">
   	      						<iframe width="100%" height="300" src="{{ video.url }}" frameborder="0" allowfullscreen></iframe>
   	      					</div>

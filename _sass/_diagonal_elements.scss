@@ -36,12 +36,16 @@
 	background: $light-grey;
 }
 
-.brand-color {
+.brand-color-background {
 	background: $brand-color;
 
 	h1, h2, h3, h4, h5, h6, p, ul, a {
 		color: white;
 	}
+}
+
+.brand-color-text {
+	color: $brand-color;
 }
 
 .info-box {

@@ -6,10 +6,12 @@
 
 		a {
 			color: $brand-color;
+    		min-height: auto;
+			margin: 20px 0;
+			height: 42px;
 		}
 		.btn {
-			padding: 0px 20px 0px 20px;
-			height: auto;
+			border-width: 2px;
 		}
 	}
 
