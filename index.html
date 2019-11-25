@@ -89,10 +89,10 @@ redirect_from:
 <div class="uk-width-1-1">
   <div class="uk-width-2-3@m uk-grid uk-margin-medium-top uk-margin-medium-bottom" style="margin-left: auto; margin-right: auto;">
       {% for speaker in site.speakers %}
-      <div class="uk-width-1-1@s uk-width-1-3@m uk-margin-bottom">
+      <div class="uk-width-1-1@s uk-width-1-3@m uk-margin-bottom uk-text-center">
         {% capture speaker_link %}/speakers#{{ speaker.anchor}}{% endcapture %}
         {% capture speaker_image %}/speaker/{{ speaker.image}}{% endcapture %}
-        {% include person.md title=speaker.title description=speaker.short-bio image=speaker_image link=speaker_link isSmall=0 %}
+        {% include person.html title=speaker.title description=speaker.short-bio image=speaker_image link=speaker_link isSmall=0 %}
       </div>
       {% endfor %}
   </div>

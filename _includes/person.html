@@ -3,7 +3,9 @@
         <a href="{{ include.link }}"><div class="uk-transition-scale-up person-photo" style="background-image: url('/static/images/{{ include.image }}')"></div></a>
     </div>
  </figure>
-<p><b>{{ include.title }}</b></p>
+<p class="uk-text-center text-larger"><b>{{ include.title }}</b>
 {% if include.description %}
-    <p><i>{{ include.description }}</i></p>
+    <br/>
+    <i>{{ include.description }}</i>
 {% endif %}
+</p>

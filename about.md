@@ -65,7 +65,7 @@ alumni:
 	{% assign sortedOrganizers = page.organizers | sort: 'lastName' %}
 	{% for person in sortedOrganizers %}
 		<div class="uk-width-1-1@s uk-width-1-5@m uk-text-center uk-margin-medium-bottom">
-        {% include person.md title=person.name description=person.bio image=person.image link=person.link isSmall=1 %}
+        {% include person.html title=person.name description=person.bio image=person.image link=person.link isSmall=1 %}
 	  </div>
 	{% endfor %}
 {% endcapture %}
@@ -76,7 +76,7 @@ alumni:
 	{% assign sortedAlumni = page.alumni | sort: 'lastName' %}
 	{% for person in sortedAlumni %}
 		<div class="uk-width-1-1@s uk-width-1-5@m uk-text-center uk-margin-medium-bottom">
-        {% include person.md title=person.name image=person.image link=person.link isSmall=1 %}
+        {% include person.html title=person.name image=person.image link=person.link isSmall=1 %}
 	  </div>
 	{% endfor %}
 {% endcapture %}
