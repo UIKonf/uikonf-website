@@ -1,5 +1,4 @@
-
-<div class="wrapper">
+<div class="wrapper {{ include.classes }}">
     <div class="uk-container">
         <div class="uk-grid uk-grid-small">
             {% if include.title %}

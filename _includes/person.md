@@ -5,5 +5,5 @@
  </figure>
 <p><b>{{ include.title }}</b></p>
 {% if include.description %}
-    <p><small>{{ include.description }}</small></p>
+    <p><i>{{ include.description }}</i></p>
 {% endif %}

@@ -24,11 +24,8 @@ redirect_from:
 <!-- ABOUT -->
 {% capture about_content %}
 <div class="uk-width-8-10@m">
-  <div class="uk-grid">
-    <div class="uk-width-1-1">
-      <h2>About UIKonf</h2>
-    </div>
-    <div class="uk-width-1-2@m">
+  <div class="uk-grid uk-margin-large-top uk-margin-bottom">
+    <div class="uk-width-1-2@m uk-margin-bottom">
       <p>UIKonf is Berlin's independent conference for serious iOS developers. Taking place from May 17th to
         20th 2020 in RADIALSYSTEM V in Berlin it is a great place to meet and connect with experienced developers from
         all over Europe.</p>
@@ -36,7 +33,7 @@ redirect_from:
         business.</p>
     </div>
     <div class="uk-width-1-2@m">
-      <p class="uk-light">But UIKonf is not only about gathering knowledge. We want to facilitate new
+      <p>But UIKonf is not only about gathering knowledge. We want to facilitate new
         connections and friends amongst our great community by providing an inclusive setting where all participants
         feel safe and welcome. In
         order to achieve that, we expect all to abide by our <a href="coc">Code of Conduct</a>.</p>
@@ -49,10 +46,10 @@ redirect_from:
 {% include content-block.md content=about_content %}
 
 <!-- SCHEDULE -->
-{% capture schedule_content %}
+<!-- {% capture schedule_content %}
 {% include schedule.md context="home" %}
 {% endcapture %}
-{% include content-block.md title="Schedule" content=schedule_content %}
+{% include content-block.md title="Schedule" content=schedule_content %} -->
 
 <!-- TICKETS  -->
 <!-- {% capture ticket_content %}
@@ -89,15 +86,20 @@ redirect_from:
       target="_blank">Sign
       up for our newsletter to hear about our invited speakers first.</a></p>
 </div>
-{% for speaker in site.speakers %}
-<div class="uk-width-1-2@m uk-width-1-2@s uk-width-1-3@l">
-  {% capture speaker_link %}/speakers#{{ speaker.anchor}}{% endcapture %}
-  {% capture speaker_image %}/speaker/{{ speaker.image}}{% endcapture %}
-  {% include person.md title=speaker.title description=speaker.short-bio image=speaker_image link=speaker_link isSmall=0 %}
+<div class="uk-width-1-1">
+  <div class="uk-width-2-3@m uk-grid uk-margin-medium-top uk-margin-medium-bottom" style="margin-left: auto; margin-right: auto;">
+      {% for speaker in site.speakers %}
+      <div class="uk-width-1-1@s uk-width-1-3@m uk-margin-bottom">
+        {% capture speaker_link %}/speakers#{{ speaker.anchor}}{% endcapture %}
+        {% capture speaker_image %}/speaker/{{ speaker.image}}{% endcapture %}
+        {% include person.md title=speaker.title description=speaker.short-bio image=speaker_image link=speaker_link isSmall=0 %}
+      </div>
+      {% endfor %}
+  </div>
 </div>
-{% endfor %}
+
 {% endcapture %}
-{% include content-block.md title="Speakers 2019" content=speaker_content %}
+{% include content-block.md title="Speakers 2019" content=speaker_content classes="light-grey" %}
 
 <!-- SPONSORS -->
 <a name="Sponsors"></a>
@@ -142,22 +144,5 @@ redirect_from:
 {% endcapture %}
 {% include content-block.md title="Social Events" content=event_content %}
 
-
-
-
-<!-- MAP -->
-{% capture map_content %}
-<div class="uk-width-4-10@m">
-  <a name="Location"></a>
-  <h2 class="uk-margin-large-top">Location</h2>
-  <p>RADIALSYSTEM V Berlin,
-    <br />Holzmarktstr. 33,
-    <br />10243 Berlin</p>
-</div>
-<div class="uk-margin-large-top">
-  <div id='map'></div>
-</div>
-{% endcapture %}
-{% include content-block.md content=map_content %}
 
 {% include location.html %}
