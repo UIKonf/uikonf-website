@@ -110,13 +110,15 @@ redirect_from:
     include Keepsafe, Facebook, ebay Tech, JetBrains, Google Firebase,
     Sky and Microsoft.</p>
 </div>
+<div class="uk-width-1-1 uk-text-center uk-flex uk-flex-wrap">
 {% assign activeSponsors = site.sponsors | where:"active",1 %} {% if activeSponsors.size > 0 %}
-{% for sponsor in activeSponsors %}
-<div class="uk-width-1-3@m uk-width-1-1@s">
-  {% include sponsor.md content=sponsor.content image=sponsor.image anchor=sponsor.anchor image-alt=sponsor.image-alt%}
-</div>
-{% endfor %}
+  {% for sponsor in activeSponsors %}
+  <div class="uk-width-1-3@m uk-width-1-1@s">
+    {% include sponsor.md content=sponsor.content image=sponsor.image anchor=sponsor.anchor image-alt=sponsor.image-alt%}
+  </div>
+  {% endfor %}
 {% endif %}
+</div>
 {% endcapture %}
 {% include content-block.md title="Sponsors 2019" content=sponsor_content %}
 
