@@ -83,19 +83,6 @@ form {
 	text-align: center;
 	position: absolute;
     top: 130px;
-	a.btn {
-		display: block;
-		margin: 40px 0 10px;
-		color: white;
-		border-color: white;
-		font-size: 140%;
-		padding: 6px 0;
-
-		&:hover, &:focus {
-			text-decoration: none;
-			border-color: $brand-color;
-		}
-	}
 	h1, p, a {
 		color: white;
 	}
@@ -105,45 +92,14 @@ form {
 	text-align: center;
 	position: absolute;
 	top: 80px;
-	a.btn {
-		display: block;
-		background-color: $brand-color;
-		font-size: 140%;
-		padding: 6px 0;
 
-		&:hover, &:focus {
-			text-decoration: none;
-		}
+	h1 {
+		font-size: 60px;
 	}
 	h1, p, a {
 		color: white;
 	}
 }
-
-.teaser-light  {
-	text-align: center;
-	margin-top: -100px;
-	background: rgba(255,255,255,0.5);
-	padding: 40px;
-	border-radius: 16px;
-	a.btn {
-		display: block;
-		margin: 40px 0 10px;
-		color: white;
-		border-color: white;
-		font-size: 140%;
-		padding: 6px 0;
-
-		&:hover, &:focus {
-			text-decoration: none;
-			border-color: $brand-color;
-		}
-	}
-	h1, p, a {
-		color: white;
-	}
-}
-
 span {
 
 	&.mytaxi-color {

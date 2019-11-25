@@ -4,15 +4,33 @@
 
 	.uk-navbar {
 		background: none;
+
+		li:hover > a {
+			color: $brand-color;
+		}
+
 		a {
 			color: $brand-color;
     		min-height: auto;
 			margin: 20px 0;
 			height: 42px;
+
+			&:hover, &:focus {
+				color: $brand-color;
+			}
 		}
+
 		.btn {
-			border-width: 2px;
+			background-color: transparent;
+			padding: 20px;
+
+			&:hover, &:focus {
+				background: $brand-color;
+				border-color: $brand-color;
+				color: #fff;
+			}
 		}
+		
 	}
 
 	.headerimage-home & .uk-navbar a {
@@ -22,8 +40,5 @@
 
 	.uk-navbar-brand {
 		line-height: 84px;
-	}
-	.uk-navbar-nav {
-		
 	}
 }

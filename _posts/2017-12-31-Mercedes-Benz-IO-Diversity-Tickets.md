@@ -14,6 +14,6 @@ We want to thank Mercedes-Benz.io for their generous support.
 [Mercedes-Benz.io](https://mercedes-benz.io/en/) is Daimler’s digital delivery hub working on products for the Sales and Marketing efforts of Mercedes-Benz and has offices in Berlin, Lisbon, and Stuttgart.
 
 <div class="uk-text-center" style="margin-top:40px;">
-<a class="btn uk-button-large" style="padding:20px; text-decoration: none;" href="https://goo.gl/forms/Yc9nomeec9OUnRoY2" target="_blank">Please apply here!</a>
+<a class="btn" style="padding:20px; text-decoration: none;" href="https://goo.gl/forms/Yc9nomeec9OUnRoY2" target="_blank">Please apply here!</a>
 </div>
 
