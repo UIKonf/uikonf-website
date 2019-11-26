@@ -101,12 +101,39 @@ redirect_from:
 {% endcapture %}
 {% include content-block.md title="Speakers 2019" content=speaker_content classes="light-grey" %}
 
+<div class="uk-background-primary">
+    <div class="uk-container">
+      <h2 class="uk-text-center">Sponsors!!</h2>
+      <div class="uk-text-center uk-grid uk-flex-between uk-child-width-1-4" uk-grid>
+          {% assign activeSponsors = site.sponsors | where:"active",1 %} {% if activeSponsors.size > 0 %}
+          {% for sponsor in activeSponsors %}
+          <div class="">
+            {% include sponsor.md content=sponsor.content image=sponsor.image anchor=sponsor.anchor image-alt=sponsor.image-alt%}
+          </div>
+          {% endfor %}
+        {% endif %}
+
+          <div class="uk-first-column">
+              <div class="sponsor-logo" data-src="/static/images/sponsors/my-taxi.png" uk-img="" style="background-image: url(&quot;http://localhost:4000/static/images/sponsors/my-taxi.png&quot;);">
+              </div>
+          </div>
+          <div class="">
+              <div class="uk-card uk-card-default uk-card-body">Item 2</div>
+          </div>
+          <div class="">
+              <div class="uk-card uk-card-default uk-card-body">Item 3</div>
+          </div>
+      </div>
+    </div>
+</div>
+
 <!-- SPONSORS -->
 <a name="Sponsors"></a>
 {% capture sponsor_content %}
 <div class="uk-width-1-1 uk-text-center">
   <p>If you want to help us bring the iOS developer community together, <a href="mailto:questions@uikonf.com"
-      target="_blank">get in touch with us</a>. Previous UIKonf supporters
+      target="_blank">get in touch with us</a>.<br>
+    Previous UIKonf supporters
     include Keepsafe, Facebook, ebay Tech, JetBrains, Google Firebase,
     Sky and Microsoft.</p>
 </div>
@@ -122,29 +149,31 @@ redirect_from:
 {% endcapture %}
 {% include content-block.md title="Sponsors 2019" content=sponsor_content %}
 
-<!-- SOCIAL EVENTS -->
-{% capture event_content %}
-<div class="uk-width-1-1 uk-margin-large-bottom">
-  <p>A central part of UIKonf are the social events on the Sunday before the conference. Not only do you get to enjoy
-    Berlin for
-    a day but they also give you a first opportunity to get to know other participants of the conference in a fun
-    atmosphere.</p>
-  <p>These are some events we offered in previous years:</p>
+
+<div class="light-grey">
+    <div class="uk-container">
+      <h2 class="uk-text-center">Social Events</h2>
+      <div class="uk-width-1-1 uk-margin-large-bottom">
+          <p>A central part of UIKonf are the social events on the Sunday before the conference. Not only do you get to enjoy
+            Berlin for
+            a day but they also give you a first opportunity to get to know other participants of the conference in a fun
+            atmosphere.</p>
+          <p>These are some events we offered in previous years:</p>
+      </div>
+      <div class="uk-text-center uk-grid uk-flex-center uk-child-width-1-4@m uk-child-width-1-1@s uk-margin-large-bottom" uk-grid>
+          {% assign activeEvents = site.events | where:"active",1 %}
+
+          {% for event in activeEvents %}
+          <div class="">
+              {% capture event_link %}/social-events#{{ event.anchor}}{% endcapture %}
+              {% capture event_image %}/events/{{ event.image}}{% endcapture %}
+          {% include person.html title=event.title description=event.description image=event_image link=event_link isSmall=0 %}
+        </div>
+          {% endfor %}
+  
+      </div>
+    </div>
 </div>
-
-{% assign activeEvents = site.events | where:"active",1 %}
-
-{% for event in activeEvents %}
-{% include event.md active=event.active title=event.title description=event.description image=event.image image-alt=event.image-alt anchor=event.anchor %}
-{% endfor %}
-
-{% if activeEvents.size > 0 %}
-<div class="uk-text-center uk-width-1-2@m uk-width-1-1@s uk-width-1-1@l uk-margin-large-top">
-  <a class="btn" href="/social-events" alt="Social Events">More details</a>
-</div>
-{% endif %}
-{% endcapture %}
-{% include content-block.md title="Social Events" content=event_content %}
 
 
 {% include location.html %}
