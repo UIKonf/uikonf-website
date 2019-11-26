@@ -1,40 +1,15 @@
-<div class="uk-width-4-10@m">
-        <a name="Location"></a>
-        <h2 class="uk-margin-large-top">Location</h2>
-        <p>RADIALSYSTEM V Berlin,
-            <br/>Holzmarktstr. 33,
-            <br/>10243 Berlin</p>
-      </div>
-      <div class="uk-margin-large-top uk-position-relative">
-          <div id="map"></div>
-      </div>
-      
-      <script>
-        mapboxgl.accessToken = 'pk.eyJ1Ijoic2FiaW5lLXVpa29uZiIsImEiOiJjamVuNGFjeHY0bzNiMndvM245NzM4aHp2In0.mEFZQQ-3Qhh2JudtqJ64RQ';
-        var map = new mapboxgl.Map({
-          container: 'map', // container id
-          style: 'mapbox://styles/sabine-uikonf/cjen5yuasvvmt2snub9qlmv0m', // stylesheet location
-          center: [13.428628, 52.510368], // starting position [lng, lat]
-          zoom: 15 // starting zoom
-        });
-      
-        map.on('click', function (e) {
-          var features = map.queryRenderedFeatures(e.point, {
-            layers: ['radialsystem'] // replace this with the name of the layer
-          });
-      
-          if (!features.length) {
-            return;
-          }
-      
-          var feature = features[0];
-      
-          var popup = new mapboxgl.Popup({ offset: [0, -50] })
-            .setLngLat(feature.geometry.coordinates)
-            .setHTML('<div style="color:#3399ff"><strong>' + feature.properties.title + '</strong><br/>' + feature.properties.description + '</div>')
-            .setLngLat(feature.geometry.coordinates)
-            .addTo(map);
-        });
-      
-      </script>
-      
+<div class="uk-container">
+    <h2 class="uk-text-center">Location</h2>
+    <div class="uk-width-1-1 uk-margin-large-bottom uk-text-center">
+        <p>RADIALSYSTEM V Berlin,<br>
+            Holzmarktstr. 33,<br>
+            10243 Berlin<br>
+            <a href="http://maps.apple.com/?q=Radialsystem+V">Apple Maps</a> | <a href="https://www.google.com/maps/search/?api=1&query=Radialsystem+V">Google Maps</a>
+          </p>
+    </div>
+  </div>
+  <div class="uk-height-medium uk-background-cover" data-src="/static/images/uikonf_map.png" uk-img></div>
+    <div class="uk-text-center">
+      © <a href='https://www.mapbox.com/about/maps/'>Mapbox</a> © <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a> <strong><a href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a></strong>
+    </div>
+  </div>
