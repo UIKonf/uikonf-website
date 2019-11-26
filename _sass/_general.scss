@@ -49,6 +49,10 @@ h3 {
 	position: relative;
 }
 
+.brand-color-text {
+	color: $brand-color;
+}
+
 .light-text {
 	color: $light-text-color;
 }
@@ -86,7 +90,7 @@ form {
 	background-position: center center;
 	background-repeat: no-repeat;
 	height: 96px;
-	width: 100%;
+	width: 80%;
 	margin: auto;
 }
 
