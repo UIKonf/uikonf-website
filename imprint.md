@@ -20,6 +20,9 @@ description: UIKonf - Imprint
 			
 			<h3>Representatives</h3>
 			<p><strong>Representative/s</strong>: Sabine Geithner (Gesellschafter) &amp; Julia Kallenberg (Gesellschafter)</p>
+
+			<h3>VAT registration number</h3>
+			<p>USt-ID: DE326563483</p>
 			
 			<h3>Company Details</h3>
 			<p><strong>Business area</strong>: Event Organisation</p>
