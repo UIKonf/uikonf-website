@@ -19,9 +19,6 @@ sections:
 
     But UIKonf is not only about gathering knowledge. We want to facilitate new
     connections and friends amongst our great community by providing an inclusive setting where all participants feel safe and welcome. In order to achieve that, we expect all to abide by our <a href="coc">Code of Conduct</a>
-- id: schedule
-  enabled: true
-  headline: Schedule
 - id: tickets
   enabled: true
   headline: Tickets
@@ -31,6 +28,9 @@ sections:
     "We also provide discounted diversity tickets for 99€, aimed to help underrepresented groups in tech. This includes but isn’t limited to: women, people of colour, LGBTQIA+ people, disabled people and generally people who are unable to attend without financial assistance. If you think you are eligible for a diversity ticket, simply <a href="https://goo.gl/forms/E02529wutoMOyB2S2" target="_blank">fill out the application form</a>."
 
     If you want to support diversity at UIKonf, you can do so when booking your ticket. Simply select the additional "Scholarship Sponsor" package which provides one ticket for our diversity ticket applicants.
+- id: schedule
+  enabled: true
+  headline: Schedule
 - id: speakers
   enabled: true
   headline: Speakers 2019
