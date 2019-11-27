@@ -2,10 +2,21 @@
 layout: page
 ---
 
-{% for speaker in site.speakers %}
-  	{% assign imagePath = 'speaker/' | append: speaker.image %}
+<div class="uk-section">
+  {% for speaker in site.speakers %}
+  <div class="uk-grid">
+    <div class="uk-width-1-4@m">
+      {% assign imagePath = 'speaker/' | append: speaker.image %}
+      {% include thumbnail.html link=speaker.twitter image=imagePath alt=speaker.title %}
+    </div>
+    <div class="uk-width-3-4@m">
+      <h4>{{ speaker.title }}</h4>
+      {{ speaker.content | markdownify }}
+    </div>
+  </div>
+  {% endfor %}
+</div>
 
-    {% include person.html title=speaker.title description=speaker.content image=imagePath link=speaker.twitter isSmall=0 %}
-{% endfor %}
-
-{{ content }}
+<div class="uk-section">
+  {{ content }}
+</div>

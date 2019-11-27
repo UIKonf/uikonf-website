@@ -1,12 +1,5 @@
 <div>
-    <figure class="uk-transition-toggle">
-        <div class="uk-border-circle uk-inline-clip">
-            <a href="{{ include.link }}">
-                <div class="uk-transition-scale-up person-photo"
-                    style="background-image: url('/static/images/{{ include.image }}')"></div>
-            </a>
-        </div>
-    </figure>
+    {% include thumbnail.html link=include.link image=include.image alt=include.title %}
     <div class="uk-text-center">
         <b>{{ include.title }}</b>
         {% if include.description %}
