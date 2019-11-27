@@ -1,0 +1,11 @@
+---
+layout: page
+---
+
+{% for speaker in site.speakers %}
+  	{% assign imagePath = 'speaker/' | append: speaker.image %}
+
+    {% include person.html title=speaker.title description=speaker.content image=imagePath link=speaker.twitter isSmall=0 %}
+{% endfor %}
+
+{{ content }}

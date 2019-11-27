@@ -1,16 +1,16 @@
 {% capture workshop_content %}
-		<h3>{{ include.workshop.title }}</h3>
-		<p>Presenter: {{ include.workshop.presenter }}<br/>
-		Date: {{ include.workshop.presentationDate }}<br/>
-		Location: {{ include.workshop.location }}<br/>
-		Time: {{ include.workshop.time }}<br/>
-		Duration: {{ include.workshop.duration }}<br/>
-		Fee: {{ include.workshop.fee }}</p>
-				
-		{{ include.workshop.content }}
-		{% if include.workshop.tickets %}
-			<p style="margin:30px 0px;"><a class="btn" href="{{ include.workshop.tickets }}" target="_blank">Book a Ticket</a></p>
-		{% endif %}
-	{% endcapture %}
+<h3>{{ include.workshop.title }}</h3>
+<p>Presenter: {{ include.workshop.presenter }}<br />
+	Date: {{ include.workshop.presentationDate }}<br />
+	Location: {{ include.workshop.location }}<br />
+	Time: {{ include.workshop.time }}<br />
+	Duration: {{ include.workshop.duration }}<br />
+	Fee: {{ include.workshop.fee }}</p>
 
-	{% include 1-2-image-content-block.html anchor=include.workshop.anchor image=include.workshop.image imageAlt= include.workshop.title imageTitle=include.workshop.shortTitle link=include.workshop.twitter content=workshop_content %}
+{{ include.workshop.content }}
+{% if include.workshop.tickets %}
+<p style="margin:30px 0px;"><a class="btn" href="{{ include.workshop.tickets }}" target="_blank">Book a Ticket</a></p>
+{% endif %}
+{% endcapture %}
+
+{% include 1-2-image-content-block.html anchor=include.workshop.anchor image=include.workshop.image imageAlt= include.workshop.title imageTitle=include.workshop.shortTitle link=include.workshop.twitter content=workshop_content %}
