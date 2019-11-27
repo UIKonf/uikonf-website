@@ -7,10 +7,10 @@
             </a>
         </div>
     </figure>
-    <p class="uk-text-center text-larger"><b>{{ include.title }}</b>
+    <div class="uk-text-center">
+        <b>{{ include.title }}</b>
         {% if include.description %}
-        <br />
-        <i>{{ include.description }}</i>
+        {{ include.description | markdownify }}
         {% endif %}
-    </p>
+    </div>
 </div>
