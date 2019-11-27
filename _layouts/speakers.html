@@ -4,7 +4,7 @@ layout: page
 
 <div class="uk-section">
   {% for speaker in site.speakers %}
-  <div class="uk-grid">
+  <div class="uk-grid" id="{{ speaker.anchor }}">
     <div class="uk-width-1-4@m">
       {% assign imagePath = 'speaker/' | append: speaker.image %}
       {% include thumbnail.html link=speaker.twitter image=imagePath alt=speaker.title %}
