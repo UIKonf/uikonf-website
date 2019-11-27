@@ -2,7 +2,7 @@
 title: Unconscious Bias
 shortTitle: Inka Kretschmer
 presenter: Inka Kretschmer
-image: inka-kretschmer.jpg
+image: workshops/inka-kretschmer.jpg
 anchor: bias
 presentationDate: Wednesday 29th May
 time: 11:00 am

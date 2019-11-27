@@ -1,8 +1,13 @@
 ---
 title: How to set up App Store Optimization (ASO) and Apple Search Ads (ASA) processes to increase your app’s visibility and conversion
+presenters:
+  - name: moriz
+    image: workshops/ivan-morschel.jpg
+  - name: uli
+    image: workshops/ivan-morschel.jpg
 shortTitle:  Moritz Daan & Kevin Bravo
 presenter: Phiture represented by Kevin Bravo and Mathew Parry
-image: Phiture.jpg
+image: workshops/Phiture.jpg
 anchor: appstore-optimization
 presentationDate: Wednesday, 29th May
 time: 10:00 am

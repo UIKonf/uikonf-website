@@ -2,7 +2,7 @@
 title: Tips & Tricks Gleaned for iOS Testing
 shortTitle: Aya Akl
 presenter: Aya Akl
-image: aya.jpg
+image: workshops/aya.jpg
 presentationDate: Monday (overflow on Tuesday same time)
 time: "12:25"
 duration: 30min + 5min Q&A

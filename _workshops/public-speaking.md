@@ -2,7 +2,7 @@
 title: Public Speaking [SOLD OUT]
 shortTitle: Jeff Watkins
 presenter: Jeff Watkins
-image: jeff-watkins.jpg
+image: workshops/jeff-watkins.jpg
 anchor: speaking
 presentationDate: Saturday 25th May
 time: 9:00 am

@@ -2,7 +2,7 @@
 title: Rebuilding Technologies and Scaling Up Processes in the Passenger Tribe at mytaxi
 shortTitle: Ivan Morschel
 presenter: Ivan Morschel
-image: ivan-morschel.jpg
+image: workshops/ivan-morschel.jpg
 presentationDate: Monday (overflow on Tuesday same time)
 time: "11:50"
 duration: 30min + 5min Q&A
