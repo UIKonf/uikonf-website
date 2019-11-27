@@ -69,7 +69,7 @@ alumni:
 	  </div>
 	{% endfor %}
 {% endcapture %}
-{% include content-block.md title="Current Team" content=organizers_content %}
+{% include content-block.html title="Current Team" content=organizers_content %}
 
 
 {% capture organizers_content %}
@@ -80,5 +80,5 @@ alumni:
 	  </div>
 	{% endfor %}
 {% endcapture %}
-{% include content-block.md title="Alumni" content=organizers_content %}
+{% include content-block.html title="Alumni" content=organizers_content %}
 

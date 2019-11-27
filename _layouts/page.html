@@ -9,7 +9,7 @@ defaultHeaderDescription: UIKonf is an independent conference for serious iOS de
 {% assign headerImage = page.headerImage | default: layout.defaultHeaderImage %}
 {% assign headerTitle = page.headerTitle | default: page.title %}
 {% assign headerDescription = page.headerDescription | default: layout.defaultHeaderDescription %}
-{% include header-image.md image=headerImage title=headerTitle description=headerDescription %}
+{% include header-image.html image=headerImage title=headerTitle description=headerDescription %}
 
 
 <div class="uk-container">

@@ -15,7 +15,7 @@ redirect_from:
 
 {% for speaker in site.speakers %}
   	{% assign imagePath = 'speaker/' | append: speaker.image %}
-  	{% include 1-2-image-content-block.md anchor=speaker.anchor image=imagePath imageAlt=speaker.title imageTitle=speaker.title link=speaker.twitter content=speaker.content %}	
+  	{% include 1-2-image-content-block.html anchor=speaker.anchor image=imagePath imageAlt=speaker.title imageTitle=speaker.title link=speaker.twitter content=speaker.content %}	
 {% endfor %}
 
 Sign up for our newsletter to be informed about upcoming speakers.

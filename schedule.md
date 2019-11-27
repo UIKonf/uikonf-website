@@ -10,4 +10,4 @@ includeInNavigation: 1
 ---
 ## Schedule
 
-{% include schedule.md context="schedule" %}
+{% include schedule.html context="schedule" %}

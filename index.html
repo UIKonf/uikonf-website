@@ -43,13 +43,13 @@ redirect_from:
   </div>
 </div>
 {% endcapture %}
-{% include content-block.md content=about_content %}
+{% include content-block.html content=about_content %}
 
 <!-- SCHEDULE -->
 {% capture schedule_content %}
-{% include schedule.md context="home" %}
+{% include schedule.html context="home" %}
 {% endcapture %}
-{% include content-block.md title="Schedule" content=schedule_content %}
+{% include content-block.html title="Schedule" content=schedule_content %}
 
 <!-- TICKETS  -->
 <!-- {% capture ticket_content %}
@@ -69,7 +69,7 @@ redirect_from:
       select the additional "Scholarship Sponsor" package which provides one ticket for our diversity ticket applicants.</p>
   </div>
 {% endcapture %}
-{% include content-block.md title="Tickets" content=ticket_content %} -->
+{% include content-block.html title="Tickets" content=ticket_content %} -->
 
 <!-- SPEAKER -->
 {% capture speaker_content %}
@@ -99,7 +99,7 @@ redirect_from:
 </div>
 
 {% endcapture %}
-{% include content-block.md title="Speakers 2019" content=speaker_content classes="light-grey" %}
+{% include content-block.html title="Speakers 2019" content=speaker_content classes="light-grey" %}
 
 <!-- SPONSORS -->
 <div class="">
@@ -109,7 +109,7 @@ redirect_from:
           {% assign activeSponsors = site.sponsors | where:"active",1 %} {% if activeSponsors.size > 0 %}
           {% for sponsor in activeSponsors %}
           <div class="">
-            {% include sponsor.md content=sponsor.content image=sponsor.image anchor=sponsor.anchor image-alt=sponsor.image-alt%}
+            {% include sponsor.html content=sponsor.content image=sponsor.image anchor=sponsor.anchor image-alt=sponsor.image-alt%}
           </div>
           {% endfor %}
         {% endif %}
