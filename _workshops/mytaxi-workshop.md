@@ -1,5 +1,10 @@
 ---
 title: "Sensor: How to develop apps with a state  of the art architecture"
+presenters:
+  - name: Mounir Dellagi
+    image: workshops/mounir-dellagi.jpg
+  - name: Philipp Schöne
+    image: workshops/philipp_schoene.jpg
 shortTitle: Mounir & Philipp
 presenter: Mounir Dellagi & Philipp Schöne
 image: workshops/mytaxi-workshop-speakers.jpg
@@ -16,8 +21,6 @@ includedIn:
   - workshops
   - mytaxi
 ---
-
-**Sensor: How to develop apps with a state of the art architecture**
 
 A good architecture like MVVM makes it easy to separate the view from the business logic.
 But how do you manage the state?

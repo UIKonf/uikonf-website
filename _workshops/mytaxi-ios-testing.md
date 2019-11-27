@@ -1,5 +1,8 @@
 ---
 title: Tips & Tricks Gleaned for iOS Testing
+presenters:
+  - name: Aya Akl
+    image: workshops/aya.jpg
 shortTitle: Aya Akl
 presenter: Aya Akl
 image: workshops/aya.jpg
@@ -18,4 +21,3 @@ includedIn:
 Ever wondered how we can do test automation for iOS apps? What should be done in order to avoid flaky UI tests? is there any pattern and structure behind successful UI Testing for iOS Apps?
 
 We will talk about tips and tricks for Test Automation for iOS and what we are doing at mytaxi Passenger App.
-	      	
