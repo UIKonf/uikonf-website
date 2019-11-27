@@ -2,66 +2,66 @@
 
   <div class="uk-container">
     <nav class="uk-navbar">
-        <div class="uk-navbar-left">
-            <a class="uk-logo uk-navbar-item" href="{{ site.baseurl }}/">
-              <img src="{{ site.baseurl }}/static/images/uikonf-logo.svg" height="50" width="50" alt="UIKonf logo">
-            </a>
-        </div>
-        <div class="uk-navbar-right">
-          <ul class="hidden uk-navbar-nav uk-visible@m">
-			        {% assign sorted_pages = site.pages | where:"includeInNavigation",1 | sort:"order" %}
-              {% for my_page in sorted_pages %}
-                {% if my_page.title %}				
-                <li>
-                  <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-                </li>
-                {% endif %}
-              {% endfor %}
-              <li>
-                <a class="page-link" href="{{ '/blog' | prepend: site.baseurl }}">Blog</a>
-              </li>
-              <!-- <li>
+      <div class="uk-navbar-left">
+        <a class="uk-logo uk-navbar-item" href="{{ site.baseurl }}/">
+          <img src="{{ site.baseurl }}/static/images/uikonf-logo.svg" height="50" width="50" alt="UIKonf logo">
+        </a>
+      </div>
+      <div class="uk-navbar-right">
+        <ul class="hidden uk-navbar-nav uk-visible@m">
+          {% assign sorted_pages = site.pages | where:"includeInNavigation",1 | sort:"order" %}
+          {% for my_page in sorted_pages %}
+          {% if my_page.title %}
+          <li>
+            <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+          </li>
+          {% endif %}
+          {% endfor %}
+          <li>
+            <a class="page-link" href="{{ '/blog' | prepend: site.baseurl }}">Blog</a>
+          </li>
+          <!-- <li>
                 <a class="page-link" href="http://cfp.uikonf.com" target="_blank">Call for Proposals</a>
               </li> -->
-              <li>
-				        <a class="page-link btn" href="{{ site.ticket_url }}" target="_blank">Tickets</a>
-			        </li>
-          </ul>
+          <li>
+            <a class="page-link btn" href="{{ site.ticket_url }}" target="_blank">Tickets</a>
+          </li>
+        </ul>
 
-          <ul class="uk-navbar-nav uk-hidden@m uk-navbar-right">
+        <ul class="uk-navbar-nav uk-hidden@m uk-navbar-right">
+          <li>
+            <a uk-toggle="target: #mobile-navigation"><i uk-navbar-toggle-icon></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div id="mobile-navigation" uk-offcanvas="mode: none" class="uk-width-1-1">
+      <div class="uk-offcanvas-bar brand-color-background uk-width-1-1 uk-flex uk-flex-column">
+        <button class="uk-offcanvas-close" type="button" uk-close></button>
+        <div class="uk-text-center uk-margin-auto-vertical">
+          <img src="{{ site.baseurl }}/static/images/uikonf-logo-white.svg" height="106" width="106" alt="UIKonf logo">
+
+          <ul class="uk-nav uk-nav-primary" uk-nav>
+            {% assign pages = site.pages | where:"includeInNavigation",1 %}
+            {% for my_page in pages %}
+            {% if my_page.title %}
             <li>
-                <a uk-toggle="target: #mobile-navigation"><i uk-navbar-toggle-icon></i></a>
+              <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+            </li>
+            {% endif %}
+            {% endfor %}
+            <li>
+              <a class="page-link" href="{{ '/blog' | prepend: site.baseurl }}">Blog</a>
+            </li>
+            <!-- <li>
+                <a class="page-link" href="http://cfp.uikonf.com" target="_blank">Call for Proposals</a>
+              </li> -->
+            <li>
+              <a class="page-link btn" href="{{ site.ticket_url }}" target="_blank">Tickets</a>
             </li>
           </ul>
         </div>
-    </nav>
-    <div id="mobile-navigation" uk-offcanvas="mode: none" class="uk-width-1-1">
-        <div class="uk-offcanvas-bar brand-color-background uk-width-1-1 uk-flex uk-flex-column">
-            <button class="uk-offcanvas-close" type="button" uk-close></button>
-            <div class="uk-text-center uk-margin-auto-vertical">
-                <img src="{{ site.baseurl }}/static/images/uikonf-logo-white.svg" height="106" width="106" alt="UIKonf logo">
-            
-            <ul class="uk-nav uk-nav-primary" uk-nav>
-  			{% assign pages = site.pages | where:"includeInNavigation",1 %}
-              {% for my_page in pages %}
-                {% if my_page.title %}
-                <li>
-                  <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-                </li>
-                {% endif %}
-              {% endfor %}
-              <li>
-                <a class="page-link" href="{{ '/blog' | prepend: site.baseurl }}">Blog</a>
-              </li>
-              <!-- <li>
-                <a class="page-link" href="http://cfp.uikonf.com" target="_blank">Call for Proposals</a>
-              </li> -->
-              <li>
-              <a class="page-link btn" href="{{ site.ticket_url }}" target="_blank">Tickets</a>
-              </li>
-          </ul>
-        </div>
-        </div>
+      </div>
     </div>
   </div>
 

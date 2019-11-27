@@ -1,0 +1,114 @@
+---
+layout: default
+---
+
+<div class="headerimage-home" style="background-image: url('{{ site.baseurl }}/static/images/{{ page.headerImage }}');"
+    uk-parallax="by: -50">
+    {% include header.html %}
+    <div class="uk-position-cover uk-flex uk-flex-center uk-flex-middle uk-flex-column">
+        <div class="teaser-register">
+            <img src="{{ site.baseurl }}/static/images/uikonf-logo.svg" height="280" width="280" alt="logo UIKonf" />
+            <h1>{{ page.headerTitle }}</h1>
+            <a class="btn" href="{{ site.ticket_url }}">Book now</a>
+        </div>
+    </div>
+</div>
+
+{% for section in page.sections %}
+{% case section.id %}
+
+{% when "introduction" %}
+
+<div class="" id="{{ section.id}}">
+    <div class="uk-container">
+        <div class="uk-grid uk-margin-large-top uk-margin-bottom">
+            {{ section.text | markdownify }}
+        </div>
+    </div>
+</div>
+
+{% when "schedule" %}
+
+<div class="uk-section" id="{{ section.id}}">
+    <div class="uk-container">
+        <h2 class="uk-text-center">{{ section.headline }}</h2>
+        {% include schedule.html context="home" %}
+    </div>
+</div>
+
+{% when "tickets" %}
+
+<div class="uk-section" id="{{ section.id}}">
+    <div class="uk-container">
+        <h2 class="uk-text-center">{{ section.headline }}</h2>
+        <div>todo: Widget comes here</div>
+        {{ section.text | markdownify }}
+    </div>
+</div>
+
+{% when "speakers" %}
+
+<div class="uk-section light-grey" id="{{ section.id}}">
+    <div class="uk-container">
+        <h2 class="uk-text-center">{{ section.headline }}</h2>
+        {{ section.text | markdownify }}
+        <div class="">
+            <div class="uk-width-2-3@m uk-grid uk-flex-center uk-child-width-1-3@m uk-child-width-1-1@s uk-margin-medium-top uk-margin-medium-bottom"
+                style="margin-left: auto; margin-right: auto;">
+                {% for speaker in site.speakers %}
+                <div class="uk-margin-bottom uk-text-center">
+                    {% capture speaker_link %}/speakers#{{ speaker.anchor}}{% endcapture %}
+                    {% capture speaker_image %}/speaker/{{ speaker.image}}{% endcapture %}
+                    {% include person.html title=speaker.title description=speaker.short-bio image=speaker_image link=speaker_link isSmall=0 %}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+
+    {% when "sponsors" %}
+
+    <div class="uk-section" id="{{ section.id}}">
+        <div class="uk-container">
+            <h2 class="uk-text-center">{{ section.headline }}</h2>
+            {{ section.text | markdownify }}
+            <div class="uk-text-center uk-grid uk-flex-between uk-child-width-1-3@m uk-margin-large-bottom" uk-grid>
+                {% assign activeSponsors = site.sponsors | where:"active",1 %} {% if activeSponsors.size > 0 %}
+                {% for sponsor in activeSponsors %}
+                <div class="">
+                    {% include sponsor.html content=sponsor.content image=sponsor.image anchor=sponsor.anchor image-alt=sponsor.image-alt%}
+                </div>
+                {% endfor %}
+                {% endif %}
+            </div>
+        </div>
+    </div>
+
+
+    {% when "social-events" %}
+
+    <div class="uk-section light-grey" id="{{ section.id}}">
+        <div class="uk-container">
+            <h2 class="uk-text-center">{{ section.headline }}</h2>
+            {{ section.text | markdownify }}
+            <div class="uk-text-center uk-grid uk-flex-center uk-child-width-1-4@m uk-child-width-1-1@s uk-margin-large-bottom"
+                uk-grid>
+                {% assign activeEvents = site.events | where:"active",1 %}
+
+                {% for event in activeEvents %}
+                <div class="">
+                    {% capture event_link %}/social-events#{{ event.anchor}}{% endcapture %}
+                    {% capture event_image %}/events/{{ event.image}}{% endcapture %}
+                    {% include person.html title=event.title description=event.description image=event_image link=event_link isSmall=0 %}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+    {% else %}
+
+    {% endcase %}
+
+    {% endfor %}
