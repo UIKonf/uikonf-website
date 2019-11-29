@@ -1,39 +1,25 @@
 ---
 layout: page
 ---
-
 {% assign activeEvents = site.events | where:"active",1 %}
-
-{% for event in activeEvents %}
-{% assign loopindex = forloop.index | modulo: 2 %}
-{% if loopindex == 1 %}
-<div class="opposite light-grey">
-    {% else %}
-    <div class="opposite">
-        {% endif %}
-        <div class="wrapper">
-            <div class="uk-container uk-margin-large-top">
-                <div class="uk-grid">
-                    <div class="uk-width-medium-1-3 uk-width-small-1-1 uk-width-1-3@l">
-                        <a name="{{ event.anchor }}"></a>
-                        <div class="box">
-                            <figure class="uk-inline-clip uk-transition-toggle"><img
-                                    src="/static/images/events/{{ event.image }}" alt="{{ event.image-alt }}"> </figure>
-                            <div class="info-box small">
-                                <h4>{{ event.title }}</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="uk-width-medium-2-3 uk-width-small-1-1 uk-width-large-2-3" style="padding-top:10px;">
-                        {{ event.content }}
-                        {% if event.start %}
-                        <p>Start: {{ event.start }}</p>
-                        {% endif %}
-                    </div>
-                </div>
-            </div>
+<div class="uk-section">
+    {% for event in activeEvents %}
+    <div class="uk-grid" id="{{ event.anchor }}">
+        <div class="uk-width-1-4@m">
+            {% assign imagePath = 'events/' | append: event.image %}
+            {% include thumbnail.html link=speaker.twitter image=imagePath alt=event.image-alt %}
+        </div>
+        <div class="uk-width-3-4@m">
+            <h4>{{ event.title }}</h4>
+            {{ event.content | markdownify }}
+            {% if event.start %}
+            <p>Start: {{ event.start }}</p>
+            {% endif %}
         </div>
     </div>
-{% endfor %}
+    {% endfor %}
+</div>
 
-{{ content }}
+<div class="uk-section">
+    {{ content }}
+</div>
