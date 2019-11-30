@@ -3,26 +3,49 @@
 {% assign description_text = item.description %}
 {% endif %}
 
+<div class="uk-grid">
+    <div class="">
+        <p class="">{{ item.time }}</p>
+    </div>
+    <div class="uk-width-5-6">
+        <h5 class="">
+            {% if item.anchor %}
+                {% if item.type == "workshop" %}
+                    <a href="/workshops/#{{item.anchor}}">{{ item.title }}</a>
+                {% elsif item.type == "mytaxi-stage" %}
+                    <a href="/mytaxi-stage/#{{item.anchor}}">{{ item.title }}</a>
+                {% else %}
+                    <a href="/speakers/#{{item.anchor}}">{{ item.title }}</a>
+                {% endif %}
+            {% else %}
+                {{ item.title }}
+            {% endif %}
+        </h5>
+        {{ item.presenters | markdownify }}
+        {{ item.description | markdownify }}
+    </div>
+</div>        
+<!-- 
 {% if item.type == "break" %}
 <div class="uk-grid">
     <div class="">
-        <p class=""><i></i> {{ item.time }}</p>
+        <p class="">{{ item.time }}</p>
     </div>
     <div class="uk-width-5-6">
         <p class=""> {{ item.title }}</p>
 
         {% if description_text %}
-        <p><small>{{ item.description }}</small></p>
+        <p>{{ item.description }}</p>
         {% endif %}
 
         {% if item.location %}
-        <p><small><strong>Location: </strong>
-                {% if item.location_link %}
-                <a href="{{ item.location_link }}" target="_blank">{{ item.location }}</a>
-                {% else %}
-                {{ item.location }}
-                {% endif %}
-            </small></p>
+        <p><strong>Location: </strong>
+            {% if item.location_link %}
+            <a href="{{ item.location_link }}" target="_blank">{{ item.location }}</a>
+            {% else %}
+            {{ item.location }}
+            {% endif %}
+        </p>
         {% endif %}
     </div>
 </div>
@@ -52,19 +75,21 @@
     </div>
     <div class="uk-width-5-6@m uk-width-1-1">
         {% if item.anchor %}
-        {% if item.type == "mytaxi-stage" %}
-        <a href="/mytaxi-stage/#{{ item.anchor }}">
+            {% if item.type == "mytaxi-stage" %}
+            <a href="/mytaxi-stage/#{{ item.anchor }}">
             {% else %}
             <a href="/speakers/#{{ item.anchor }}">
-                {% endif %}
-                {% endif %}
+            {% endif %}
+        {% endif %}
                 {% if item.type == "mytaxi-stage" %}
                 <h5><span class="mytaxi-color">MyTaxi Stage: </span>{{ item.talk }}</h5>
                 {% else %}
                 <h5>{{ item.title }}{% if item.talk %} - {{ item.talk }}{% endif %}</h5>
                 {% endif %}
-                {% if item.anchor %} </a> {% endif %}
-            {% if description_text %} <p><small>{{ description_text }}</small></p> {% endif %}
+        {% if item.anchor %} </a> {% endif %}
+            {% if description_text %}
+            <p>{{ item.description }}</p>
+            {% endif %}
             {% if item.location %}
             <p><small><strong>Location: </strong>
                     {% if item.location_link %}
@@ -76,4 +101,4 @@
             {% endif %}
     </div>
 </div>
-{% endif %}
+{% endif %} -->

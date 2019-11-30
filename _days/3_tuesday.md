@@ -4,75 +4,79 @@ day: 28
 isDetail: true
 isSummary: false
 blocks:
-  - title: Morning
+  - title: Morning - Parallel Sessions
     tracks:
       - id: 0
         items:
           - title: Coffee
             type: break
             time: "9:00"
-          - title: Füsun Wehrmann
-            talk: From Heroic Leaders To High Performing Teams
+          - title: From Heroic Leaders To High Performing Teams
+            presenters: Füsun Wehrmann
             time: "10:00"
             anchor: fuesun
-          - title: Erica Sadun
-            talk: Swift 5 Strings
+          - title: Swift 5 Strings
+            presenters: Erica Sadun
             time: "10:35"
             anchor: erica
           - title: Coffee
             type: break
             time: "11:10"
-          - title: Ellen Shapiro
-            talk: Kotlin/Native
+          - title: Kotlin/Native
+            presenters: Ellen Shapiro
             time: "11:50"
             anchor: ellen
-          - title: Ivan Morschel
-            talk: Rebuilding Technologies and Scaling Up Processes in the Passenger Tribe at mytaxi
-            type: mytaxi-stage
-            anchor: scaling-up
-            description: depending on demand
-          - title: Alaina Kafkes
-            talk: A11y-oop - Adding new Accessibility Features to not-so-new Apps
+          - title: A11y-oop - Adding new Accessibility Features to not-so-new Apps
+            presenters: Alaina Kafkes
             time: "12:25"
             anchor: alaina
-          - title: Aya Alk
-            talk: Tips & Tricks Gleaned for iOS Testing
-            type: mytaxi-stage
-            anchor: ios-testing
-            description: depending on demand
           - title: Lunch
             type: break
             time: "13:00"
-  - title: Afternoon - Parallel Sessions
+      - id: 1
+        items:
+          - title: Rebuilding Technologies and Scaling Up Processes in the Passenger Tribe at mytaxi
+            presenters: Ivan Morschel
+            time: "11:50"
+            type: mytaxi-stage
+            anchor: scaling-up
+            description: depending on demand
+          - title: Tips & Tricks Gleaned for iOS Testing
+            presenters: Aya Alk
+            time: "12:25"
+            type: mytaxi-stage
+            anchor: ios-testing
+            description: depending on demand
+  - title: Afternoon
     tracks:
       - id: 0
         items:
-          - title: Mounir Dellagi & Philipp Schöne
-            talk: Sensor - How to develop apps with a state of the art architecture (2h workshop)
+          - title: Sensor - How to develop apps with a state of the art architecture (2h workshop)
+            presenters: Mounir Dellagi & Philipp Schöne
             time: "14:15"
             type: mytaxi-stage
             anchor: architecture
-          - title: Neha Kulkarni
-            talk: Advanced Colors in iOS
+          - title: Advanced Colors in iOS
+            presenters: Neha Kulkarni
             time: "14:30"
             anchor: neha
-          - title: Anne Cahalan
-            talk: Promises in iOS
+          - title: Promises in iOS
+            presenters: Anne Cahalan
             time: "15:05"
             anchor: anne
-          - title: Julia Roggatz
-            talk: Muse Prototype Challenges
+          - title: Muse Prototype Challenges
+            presenters: Julia Roggatz
             time: "15:40"
             anchor: julia
           - title: Coffee
             type: break 
             time: "16:15"
-          - title: Kate Castellano
-            talk: What to expect when you are templating? Clue’s approach to Backend Driven UIs
+          - title: What to expect when you are templating? Clue’s approach to Backend Driven UIs
+            presenters: Kate Castellano
             time: "17:00"
             anchor: kate
-          - title: Lea Marolt
-            talk: "Mobile && Me == It's Complicated"
+          - title: "Mobile && Me == It's Complicated"
+            presenters: Lea Marolt
             time: "17:35"
             anchor: lea
           - title: After Party
