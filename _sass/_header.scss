@@ -33,12 +33,32 @@
 		
 	}
 
-	.headerimage-home & .uk-navbar a {
+	.uk-navbar-brand {
+		line-height: 84px;
+	}
+}
+
+.headerimage-home {
+	background: $brand-color;
+	height: 800px;
+	width: 100%;
+	background-size:cover;
+
+	& .uk-navbar a {
 		color: white;
 		border-color: white;
 	}
+	
+	& .uk-navbar .uk-logo {
+		background: url('/static/images/uikonf-logo-white.svg') center center no-repeat;
+		height: 50px;
 
-	.uk-navbar-brand {
-		line-height: 84px;
+		& img {
+			visibility: hidden;
+		}
+	}
+
+	&.small {
+		height: 339px;
 	}
 }
