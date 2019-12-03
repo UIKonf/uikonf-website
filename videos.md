@@ -30,12 +30,12 @@ redirect_from:
  - /videos/use-your-tools-app-optimization-with-instruments/
  - /videos/were-not-doing-a-startup/
 videos:
- - title: UIKonf 2020
-   url: ""
-   isMain: 1
+#  - title: UIKonf 2020
+#    url: ""
+#    isMain: 1
  - title: UIKonf 2019
    url: "https://www.youtube.com/embed/videoseries?list=PLdr22uU_wISr-FYeKblv3LMe_kHFzRFBw"
-   isMain: 0
+   isMain: 1
  - title: UIKonf 2018
    url: https://www.youtube.com/embed/videoseries?list=PLdr22uU_wISohI7PIhzq0gotGfKZl1lGo
    isMain: 0
