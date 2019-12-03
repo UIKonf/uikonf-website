@@ -27,10 +27,13 @@
 		{% if loopindex == 0 %}
 		<div class="uk-active" aria-hidden="false">
 			{% else %}
-			<div aria-hidden="true" class="uk-grid">
+			<div aria-hidden="true" class="">
 				{% endif %}
 				{% for block in day.blocks %}
-				<div class="uk-text-center brand-color-background uk-width-1-1"><span>{{ block.title }}</span></div>
+				<div class="uk-text-center brand-color-background uk-width-1-1">
+					<span>{{ block.title }}</span>
+				</div>
+				<div class="uk-grid uk-margin-top">
 					{% for track in block.tracks %}
 					<div class="schedule-track uk-width-1-{{  block.tracks.size }}@m">
 						{% for item in track.items %}
@@ -38,6 +41,7 @@
 						{% endfor %}
 					</div>
 					{% endfor %}
+				</div>
 				{% endfor %}
 			</div>
 			{% endfor %}

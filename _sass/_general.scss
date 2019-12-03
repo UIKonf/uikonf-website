@@ -145,7 +145,17 @@ span {
 
 // schedule adjustments
 .uk-tab::before {
-    border-color: $brand-color;
+	border-color: $brand-color;
+	left: 0;
+}
+
+.uk-tab::before {
+	border-color: $brand-color;
+	left: 0;
+}
+
+.uk-tab > * {
+	padding-left: 0px;
 }
 
 .uk-tab li a {
