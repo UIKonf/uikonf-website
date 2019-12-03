@@ -49,20 +49,20 @@ authors:
   ekurutepe:
     name: Engin Kurutepe
     twitter: http://twitter.com/ekurutepe
-    thumbImg: Engin.jpg
+    thumbImg: authors/Engin.jpg
   basine:
     name: Sabine Geithner
     twitter: http://twitter.com/sabinegeithner
-    thumbImg: sabine.jpg
+    thumbImg: authors/sabine.jpg
   mzaks:
     name: Maxim Zaks
     twitter: https://twitter.com/icex33
-    thumbImg: Maxim.jpg
+    thumbImg: authors/Maxim.jpg
   julia:
     name: Julia Kallenberg
     twitter: https://twitter.com/kallenbergjulia
-    thumbImg: julia-kallenberg.jpg
+    thumbImg: authors/julia-kallenberg.jpg
   chriseidhof:
     name: Chris Eidhof
     twitter: https://twitter.com/chriseidhof
-    thumbImg: chris_thumb.jpg
+    thumbImg: authors/chris_thumb.jpg
