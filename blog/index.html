@@ -43,36 +43,28 @@ redirect_from:
 ---
 
 {% for post in paginator.posts %}
-<div class="blog-post uk-margin-large-top">
-	<article class="author-post uk-comment {% if forloop.first %}author-post-first{% endif %}">
-		<header class="uk-comment-header">
-			{% if post.author %}
-		    <img class="uk-comment-avatar" src="{{ site.baseurl }}/static/images/{{ site.authors[post.author].thumbImg }}" alt="{{ site.authors[post.author].name }}">
-		    <h4 class="uk-comment-title" itemprop="author" itemscope itemtype="http://schema.org/Person"><a href="{{ site.authors[post.author].twitter }}"><span itemprop="name">{{ site.authors[post.author].name }}</span></a></h4>
-		    <div class="uk-comment-meta" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</div>        
-			{% endif %}
-		</header>
-	</article>
+<div class="blog-post uk-margin-large-bottom">
 	<article class="uk-article">
 		<h1 class="post-title" itemprop="name headline">{{ post.title }}</h1>
+		<div class="uk-text-center">
+				{% if post.author %}
+				{% assign author = site.authors[post.author] %}
+				{% include thumbnail.html link=author.twitter image=author.thumbImg alt=author.name %}
+				<h4 class="uk-comment-title" itemprop="author" itemscope itemtype="http://schema.org/Person"><a href="{{ site.authors[post.author].twitter }}"><span itemprop="name">{{ site.authors[post.author].name }}</span></a></h4>
+				<div class="uk-comment-meta" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</div>        
+				{% endif %}
+		</div>
 
 	{{ post.content }}
 
 	</article>
 </div>
 
-<div class="uk-margin-large">&nbsp;</div>
-<!-- <div class="social-sharing uk-margin-large">
-	<a href="#"><img src="{{ site.baseurl }}/static/images/icon-twitter.png" alt="twitter"></a>
-	<a href="#"><img src="{{ site.baseurl }}/static/images/icon-facebook.png" alt="facebook"></a>
-	<a href="#"><img src="{{ site.baseurl }}/static/images/icon-googleplus.png" alt="googleplus"></a>
-</div> -->
-
 {% endfor %}
 
 <!-- Pagination links -->
 {% if paginator.total_pages > 1 %}
-<div class="pagination uk-text-right">
+<div class="pagination uk-text-center uk-margin-top uk-margin-large-bottom">
   {% if paginator.previous_page %}
     <a rel="prev" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><i uk-icon="icon: arrow-left"></i> Prev</a>
   {% endif %}
