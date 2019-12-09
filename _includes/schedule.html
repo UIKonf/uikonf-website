@@ -1,5 +1,5 @@
-<div class="uk-width-1-1 brand-color-text uk-margin-large-bottom">
-	<ul class="uk-tab uk-flex-center uk-margin-remove" uk-tab uk-switcher="{connect:'#Schedule', active:2 }">
+<div id="Schedule" class="uk-width-1-1 brand-color-text uk-margin-large-bottom">
+	<ul class="uk-tab uk-flex-center uk-margin-remove" uk-tab uk-switcher="{connect:'#schedule-content', active:2 }">
 
 		{% if include.context == "schedule" %}
 		{% assign days = site.days | where:"isDetail", true %}
@@ -21,7 +21,7 @@
 		{% endfor %}
 	</ul>
 
-	<div id="Schedule" class="uk-switcher">
+	<div id="schedule-content" class="uk-switcher">
 		{% for day in days %}
 		{% assign loopindex = forloop.index %}
 		{% if loopindex == 0 %}
@@ -31,9 +31,9 @@
 				{% endif %}
 				{% for block in day.blocks %}
 				<div class="uk-text-center brand-color-background uk-width-1-1">
-					<span>{{ block.title }}</span>
+					<span class="uk-text-uppercase">{{ block.title }}</span>
 				</div>
-				<div class="uk-grid uk-margin-top">
+				<div class="uk-grid uk-margin-top uk-margin-bottom uk-container">
 					{% for track in block.tracks %}
 					<div class="schedule-track uk-width-1-{{  block.tracks.size }}@m">
 						{% for item in track.items %}

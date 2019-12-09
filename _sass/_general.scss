@@ -144,28 +144,37 @@ span {
 }
 
 // schedule adjustments
-.uk-tab::before {
-	border-color: $brand-color;
-	left: 0;
-}
+#Schedule {
 
-.uk-tab::before {
-	border-color: $brand-color;
-	left: 0;
-}
+	.uk-tab::before {
+		border-color: $brand-color;
+		left: 0;
+	}
+	
+	.uk-tab::before {
+		border-color: $brand-color;
+		left: 0;
+	}
+	
+	.uk-tab > * {
+		padding-left: 0px;
+	}
+	
+	.uk-tab li a {
+		color: $brand-color !important;
+		font-size: 20px;
+	}
+	
+	.uk-tab li.uk-active a {
+		color: #ffffff !important;
+	}
+	
+	.uk-switcher {
+		box-shadow: 0px 6px 12px #00000029;
+		padding-bottom: 24px;
+	}
 
-.uk-tab > * {
-	padding-left: 0px;
 }
-
-.uk-tab li a {
-    color: $brand-color !important;
-}
-
-.uk-tab li.uk-active a {
-    color: #ffffff !important;
-}
-
 
 // ti.to widget adjustments
 
