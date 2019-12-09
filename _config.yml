@@ -13,6 +13,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.uikonf.com" # the base hostname & protocol for your site
 twitter_username: uikonf
 github_username:  uikonf
+cfp_enabled: false # switch to 'true' when cfp is active
+cfp_url: http://cfp.uikonf.com
+tickets_enabled: true # switch to 'true' when ticket are sold
 ticket_url: https://ti.to/uikonf/uikonf-2020
 
 # Gems

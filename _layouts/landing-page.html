@@ -9,7 +9,9 @@ layout: default
         <div class="teaser-register">
             <img src="{{ site.baseurl }}/static/images/uikonf-logo.svg" height="280" width="280" alt="logo UIKonf" />
             <h1>{{ page.headerTitle }}</h1>
+            {% if site.tickets_enabled %}
             <a class="btn" href="{{ site.ticket_url }}">Book now</a>
+            {% endif %}
         </div>
     </div>
 </div>
