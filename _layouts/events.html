@@ -5,11 +5,11 @@ layout: page
 <div class="uk-section">
     {% for event in activeEvents %}
     <div class="uk-grid" id="{{ event.anchor }}">
-        <div class="uk-width-1-4@m">
+        <div class="uk-width-1-4@m uk-text-center uk-margin-bottom">
             {% assign imagePath = 'events/' | append: event.image %}
             {% include thumbnail.html link=speaker.twitter image=imagePath alt=event.image-alt %}
         </div>
-        <div class="uk-width-3-4@m">
+        <div class="uk-width-3-4@m uk-text-center uk-text-left@m">
             <h4>{{ event.title }}</h4>
             {{ event.content | markdownify }}
             {% if event.start %}

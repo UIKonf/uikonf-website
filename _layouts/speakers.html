@@ -5,11 +5,11 @@ layout: page
 <div class="uk-section">
   {% for speaker in site.speakers %}
   <div class="uk-grid" id="{{ speaker.anchor }}">
-    <div class="uk-width-1-4@m">
+    <div class="uk-width-1-4@m uk-text-center uk-margin-bottom">
       {% assign imagePath = 'speaker/' | append: speaker.image %}
       {% include thumbnail.html link=speaker.twitter image=imagePath alt=speaker.title %}
     </div>
-    <div class="uk-width-3-4@m">
+    <div class="uk-width-3-4@m uk-text-center uk-text-left@m">
       <h4>{{ speaker.title }}</h4>
       {{ speaker.content | markdownify }}
     </div>
