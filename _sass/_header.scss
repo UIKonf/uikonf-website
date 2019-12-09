@@ -14,7 +14,10 @@
     		min-height: auto;
 			margin: 20px 0;
 			height: 42px;
-
+			font-family: $base-font-family;
+			font-weight: 600;
+			letter-spacing: 1.4px;
+			
 			&:hover, &:focus {
 				color: $brand-color;
 			}
