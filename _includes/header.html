@@ -39,8 +39,9 @@
       <div class="uk-offcanvas-bar brand-color-background uk-width-1-1 uk-flex uk-flex-column">
         <button class="uk-offcanvas-close" type="button" uk-close></button>
         <div class="uk-text-center uk-margin-auto-vertical">
-          <img src="{{ site.baseurl }}/static/images/uikonf-logo-white.svg" height="106" width="106" alt="UIKonf logo">
-
+          <a class="uk-navbar-item uk-margin-bottom" href="{{ site.baseurl }}/">
+            <img src="{{ site.baseurl }}/static/images/uikonf-logo-white.svg" height="106" width="106" alt="UIKonf logo">
+          </a>
           <ul class="uk-nav uk-nav-primary" uk-nav>
             {% assign pages = site.pages | where:"includeInNavigation",1 %}
             {% for my_page in pages %}
