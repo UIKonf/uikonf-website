@@ -25,7 +25,7 @@ sections:
   text: |
     Ticket prices include VAT (MwSt.), free drinks, lunch on the conference days and the UIKonf party. See <a href="refunds">our refunds policy</a> if you are not sure about your plans in May.
 
-    "We also provide discounted diversity tickets for 99€, aimed to help underrepresented groups in tech. This includes but isn’t limited to: women, people of colour, LGBTQIA+ people, disabled people and generally people who are unable to attend without financial assistance. If you think you are eligible for a diversity ticket, simply <a href="https://goo.gl/forms/E02529wutoMOyB2S2" target="_blank">fill out the application form</a>."
+    "We also provide discounted diversity tickets for 99€, aimed to help underrepresented groups in tech. This includes but isn’t limited to: women, people of colour, LGBTQIA+ people, disabled people and generally people who are unable to attend without financial assistance. If you think you are eligible for a diversity ticket, simply <a href="https://forms.gle/cg8SiTo9ryk5nqzU6" target="_blank">fill out the application form</a>."
 
     If you want to support diversity at UIKonf, you can do so when booking your ticket. Simply select the additional "Scholarship Sponsor" package which provides one ticket for our diversity ticket applicants.
 - id: schedule
@@ -42,7 +42,9 @@ sections:
     <a href="http://uikonf.us9.list-manage.com/subscribe?u=08d7d9a7a55f501920eb76453&id=d3f17105cf" target="_blank">Sign up for our newsletter</a> to hear about our invited speakers and learn about the start of our Call for Proposals. Or check out our <a href="/uikonf-2019">previous speakers</a> and <a href="/videos">videos</a>.
 - id: sponsors
   enabled: true
-  headline: Sponsors
+  headline: Sponsors 2019
+  text: |
+     It’s our sponsors who help us provide amazing catering, entertainment and generally make UIKonf an awesome event. If you or your company is interested in helping us and putting the FUN (... / coffee / food/ ...) into UIKonf, we are happy to <a href="mailto:sponsors@uikonf.com">discuss options with you</a>.
 - id: social-events
   enabled: true
   headline: Social Events
