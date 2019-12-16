@@ -44,6 +44,7 @@ collections:
   - sponsors
   - ambassadors
   - uikonf-2017
+  - uikonf-2019
 
 # Build settings
 markdown: kramdown
