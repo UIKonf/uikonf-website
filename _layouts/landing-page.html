@@ -37,7 +37,7 @@ layout: default
         <h2 class="uk-text-center">{{ section.headline }}</h2>
         <div class="uk-margin-medium-bottom">
             <script>TitoDevelopmentMode = true</script>
-            <tito-widget event="uikonf/uikonf-2020"></tito-widget>
+            <tito-widget event="{{ site.ticket_widget_id }}"></tito-widget>
         </div>
         {{ section.text | markdownify }}
     </div>
