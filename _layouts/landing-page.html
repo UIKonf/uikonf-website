@@ -105,9 +105,13 @@ layout: default
 
             {% for event in activeEvents %}
             <div class="">
-                {% capture event_link %}/social-events#{{ event.anchor}}{% endcapture %}
                 {% capture event_image %}/events/{{ event.image}}{% endcapture %}
-                {% include person.html title=event.title description=event.description image=event_image link=event_link isSmall=0 %}
+                {% if site.social_events_enabled %}
+                    {% capture event_link %}/social-events#{{ event.anchor}}{% endcapture %}
+                    {% include person.html title=event.title description=event.description image=event_image link=event_link isSmall=0 %}
+                {% else %}
+                    {% include person.html title=event.title description=event.description image=event_image isSmall=0 %}
+                {% endif %}
             </div>
             {% endfor %}
         </div>
