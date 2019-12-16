@@ -2,7 +2,7 @@
 layout: landing-page
 description: UIKonf - Berlin's independent conference for serious iOS developers.
 headerImage: uikonf_2020_hero_image.jpg
-headerTitle: May 2020 · Berlin
+headerTitle: 17-20 May 2020 · Berlin
 redirect_from:
 - /program.html
 - /scholarship/
@@ -33,13 +33,13 @@ sections:
   headline: Schedule
 - id: speakers
   enabled: true
-  headline: Speakers 2019
+  headline: Speakers 2020
   text: |
-    For UIKonf 2019 we decided to present you a special edition with an amazing all female speaker line up. We therefore decided to pause the CfP for this year and invite all speakers personally. However, if you would like to speak or suggest someone, please <a href="mailto:engin@uikonf.com" target="_blank">reach out to Engin</a>.
-
+    UIKonf hosts a diverse selection of inspiring speakers. We select and invite about half of our speakers. The other half is selected by our community through our anonymous call for proposals system. Details coming soon. 
+    
     As a speaker, your travel expenses will be reimbursed and you will be our guests at our selected Hotel in Berlin. Of course, we will also reimburse you for your ticket if you already have purchased one.
 
-    <a href="http://uikonf.us9.list-manage.com/subscribe?u=08d7d9a7a55f501920eb76453&id=d3f17105cf" target="_blank">Sign up for our newsletter to hear about our invited speakers first.</a>
+    <a href="http://uikonf.us9.list-manage.com/subscribe?u=08d7d9a7a55f501920eb76453&id=d3f17105cf" target="_blank">Sign up for our newsletter</a> to hear about our invited speakers and learn about the start of our Call for Proposals. Or check out our <a href="/uikonf-2019">previous speakers</a> and <a href="/videos">videos</a>.
 - id: sponsors
   enabled: true
   headline: Sponsors

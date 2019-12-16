@@ -4,7 +4,7 @@ order: 2
 title: Workshops
 permalink: /workshops/
 headerTitle: Workshops at UIKonf 2019
-includeInNavigation: 1
+includeInNavigation: 0
 description: UIKonf 2019 - Workshops
 ---
 

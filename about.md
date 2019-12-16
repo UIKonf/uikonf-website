@@ -8,11 +8,6 @@ headerTitle: About UIKonf
 description: UIKonf - UIKonf is an independent conference for serious iOS developers
 includeInNavigation: 1
 organizers:
- - name: Engin Kurutepe
-   lastName: Kurutepe
-   bio: Indie Developer at <a href="https://fifteenjugglers.com">Fifteen Jugglers</a> making <a href="https://solarwat.ch">SolarWatch</a> and <a href="https://calltap.app">CallTap</a>. Glider pilot.
-   link: https://kurutepe.com
-   image: authors/engin-kurutepe.jpg
  - name: Sabine Geithner
    lastName: Geithner
    bio: iOS developer at Mercedes-Benz.io, former Online Marketer and Scientist.
@@ -34,6 +29,10 @@ organizers:
    link: https://twitter.com/KallenbergJulia
    image: authors/julia-kallenberg.jpg
 alumni:
+ - name: Engin Kurutepe
+   lastName: Kurutepe
+   link: https://kurutepe.com
+   image: authors/engin-kurutepe.jpg
  - name: Diana Arce
    lastName: Arce
    link: https://twitter.com/visualosmosis
@@ -64,7 +63,7 @@ alumni:
 {% capture organizers_content %}
 	{% assign sortedOrganizers = page.organizers | sort: 'lastName' %}
 	{% for person in sortedOrganizers %}
-		<div class="uk-width-1-1@s uk-width-1-5@m uk-text-center uk-margin-medium-bottom">
+		<div class="uk-width-1-1@s uk-width-1-4@m uk-text-center uk-margin-medium-bottom">
         {% include person.html title=person.name description=person.bio image=person.image link=person.link isSmall=1 %}
 	  </div>
 	{% endfor %}
@@ -75,7 +74,7 @@ alumni:
 {% capture organizers_content %}
 	{% assign sortedAlumni = page.alumni | sort: 'lastName' %}
 	{% for person in sortedAlumni %}
-		<div class="uk-width-1-1@s uk-width-1-5@m uk-text-center uk-margin-medium-bottom">
+		<div class="uk-width-1-1@s uk-width-1-6@m uk-text-center uk-margin-medium-bottom">
         {% include person.html title=person.name image=person.image link=person.link isSmall=1 %}
 	  </div>
 	{% endfor %}
