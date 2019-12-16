@@ -7,7 +7,9 @@ layout: page
   <header class="post-header">
    <article class="author-post uk-comment">
 	    <header class="uk-comment-header">
-	        {% if page.author %}
+			{% if page.author %}
+			{% assign author = site.authors[page.author] %}
+			{% include thumbnail.html link=author.twitter image=author.thumbImg alt=author.name %}
         	<img class="uk-comment-avatar" src="{{ site.baseurl }}/static/images/{{ site.authors[page.author].thumbImg }}" alt="{{ site.authors[page.author].name }}">
 	        <h4 class="uk-comment-title" itemprop="author" itemscope itemtype="http://schema.org/Person"><a href="{{ site.authors[page.author].twitter }}"><span itemprop="name">{{ site.authors[page.author].name }}</span></a></h4>
 	        {% endif %}

@@ -3,20 +3,65 @@
 ---
 @charset "utf-8";
 
+/* poppins-600 - latin */
 @font-face {
-	font-family: 'AntennaExtraCond';
-	src: url('../static/fonts/AntennaExtraCond-Bold.eot');
-	src: url('../static/fonts/AntennaExtraCond-Bold.eot?#iefix') format('embedded-opentype'),
-		url('../static/fonts/AntennaExtraCond-Bold.woff') format('woff'),
-		url('../static/fonts/AntennaExtraCond-Bold.ttf') format('truetype');
-	font-style: normal;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Poppins SemiBold'), local('Poppins-SemiBold'),
+         url('../static/fonts/poppins-v9-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../static/fonts/poppins-v9-latin-600.woff') format('woff'), /* Modern Browsers */
+         url('../static/fonts/poppins-v9-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
 }
 
+/* muli-regular - latin */
+@font-face {
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../static/fonts/muli-v17-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../static/fonts/muli-v17-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../static/fonts/muli-v17-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+  }
+  /* muli-600 - latin */
+  @font-face {
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+         url('../static/fonts/muli-v17-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../static/fonts/muli-v17-latin-600.woff') format('woff'), /* Modern Browsers */
+         url('../static/fonts/muli-v17-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+  }
+  /* muli-700 - latin */
+  @font-face {
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../static/fonts/muli-v17-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../static/fonts/muli-v17-latin-700.woff') format('woff'), /* Modern Browsers */
+         url('../static/fonts/muli-v17-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+  }
+  /* muli-italic - latin */
+  @font-face {
+    font-family: 'Muli';
+    font-style: italic;
+    font-weight: 400;
+    src: local(''),
+         url('../static/fonts/muli-v17-latin-italic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../static/fonts/muli-v17-latin-italic.woff') format('woff'), /* Modern Browsers */
+         url('../static/fonts/muli-v17-latin-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+  }
+
+
 // Our variables
-$base-font-family: "ff-bau-web", sans-serif;
-$alternate-font-stack : "AntennaExtraCond", sans-serif;
-$base-font-size:   18px;
+$header-font-family: "Poppins", sans-serif;
+$base-font-family: "Muli", sans-serif;
+$base-font-size:   16px;
 $base-font-weight: 400;
+$header-font-weight: 600;
 $small-font-size:  $base-font-size * 0.75;
 $base-line-height: 1.5;
 
@@ -26,7 +71,10 @@ $text-color:       rgb(74,74,74);
 $light-text-color: rgba(74,74,74, 0.7);
 
 $background-color: #fff;
-$brand-color:      #009FDF;
+$brand-color:      #3399FF;
+$brand-color-dark: #0368CE;
+$brand-color-light: #BCE0FD;
+$white-color:      #fff;
 $mytaxi-color:     #fdc300;
 
 $light-grey: 		#F5F5F5;

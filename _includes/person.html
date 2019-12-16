@@ -1,0 +1,9 @@
+<div>
+    {% include thumbnail.html link=include.link image=include.image alt=include.title %}
+    <div class="uk-text-center">
+        <b>{{ include.title }}</b>
+        {% if include.description %}
+        {{ include.description | markdownify }}
+        {% endif %}
+    </div>
+</div>

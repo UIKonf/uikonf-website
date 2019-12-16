@@ -9,7 +9,7 @@
 
     <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-    <meta property="og:image" content="http://www.uikonf.com/static/images/uikonf-2018.jpg">
+    <meta property="og:image" content="http://www.uikonf.com/static/images/uikonf-social.jpg">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@uikonf">
 
@@ -19,15 +19,6 @@
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
     <link rel="shortcut icon" href="{{ site.baseurl }}/static/icons/favicon.75a42d92d0ede36e9ba14da50a56f402.ico">
 
-    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.js'></script>
-    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.css' rel='stylesheet' />
-    <style>
-        #map {
-            position: relative;
-            height: 100%;
-            ;
-            width: 100%;
-        }
-    </style>
-
+    <script src='https://js.tito.io/v1' async></script>
+    <link rel="stylesheet" type="text/css" href='https://css.tito.io/v1.1' />
 </head>

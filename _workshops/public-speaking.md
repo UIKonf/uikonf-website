@@ -1,8 +1,11 @@
 ---
 title: Public Speaking [SOLD OUT]
+presenters:
+  - name: Jeff Watkins
+    image: workshops/jeff-watkins.jpg
 shortTitle: Jeff Watkins
 presenter: Jeff Watkins
-image: jeff-watkins.jpg
+image: workshops/jeff-watkins.jpg
 anchor: speaking
 presentationDate: Saturday 25th May
 time: 9:00 am
@@ -16,7 +19,7 @@ includedIn:
   - workshops
 ---
 
-**Public speaking Workshop**
+#### Public speaking Workshop
 
 This workshop will teach you the skills you need to feel confident whether you’re pitching an investor, proposing a project to a client, or getting up on stage at a conference or meet up. Learning how to thrive in the spotlight is an essential part of taking your career to the next level. 
 
@@ -28,5 +31,6 @@ Because our community is always in need of a diverse selection of voices, if you
 
 The full ticket price is 100 Euro and all proceeds will be donated to a charity organization.
 
-**Bio**
+#### Bio
+
 Jeff Watkins is an iOS developer living with his daughter and four cats on beautiful Bainbridge Island, Washington. In the past he’s been an itinerant Javascript teacher with his fingers stained by dry erase markers. He lost his fear of public speaking in front of standing room only audiences of more than a thousand fellow engineers. He prefers speaking on non-technical topics at more intimate venues now. His mission is to help make public speaking a common part of the engineer’s toolkit. 

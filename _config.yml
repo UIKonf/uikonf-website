@@ -13,7 +13,11 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.uikonf.com" # the base hostname & protocol for your site
 twitter_username: uikonf
 github_username:  uikonf
-ticket_url: https://ti.to/uikonf/uikonf-2019
+cfp_enabled: true # switch to 'true' when cfp is active
+cfp_url: http://cfp.uikonf.com
+tickets_enabled: true # switch to 'true' when ticket are sold
+ticket_url: https://ti.to/uikonf/uikonf-2020
+ticket_widget_id: uikonf/uikonf-2020
 
 # Gems
 plugins:
@@ -49,20 +53,20 @@ authors:
   ekurutepe:
     name: Engin Kurutepe
     twitter: http://twitter.com/ekurutepe
-    thumbImg: Engin.jpg
+    thumbImg: authors/Engin.jpg
   basine:
     name: Sabine Geithner
     twitter: http://twitter.com/sabinegeithner
-    thumbImg: sabine.jpg
+    thumbImg: authors/sabine.jpg
   mzaks:
     name: Maxim Zaks
     twitter: https://twitter.com/icex33
-    thumbImg: Maxim.jpg
+    thumbImg: authors/Maxim.jpg
   julia:
     name: Julia Kallenberg
     twitter: https://twitter.com/kallenbergjulia
-    thumbImg: julia-kallenberg.jpg
+    thumbImg: authors/julia-kallenberg.jpg
   chriseidhof:
     name: Chris Eidhof
     twitter: https://twitter.com/chriseidhof
-    thumbImg: chris_thumb.jpg
+    thumbImg: authors/chris_thumb.jpg

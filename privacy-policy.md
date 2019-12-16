@@ -4,7 +4,7 @@ layout: page
 description: UIKonf - Privacy Policy
 ---
 
-<h2 id="m14">Preamble</h2>
+## Preamble
 
 <p>We respect the personal data you entrust us. We collect data solely with the purpose of organizing a great UIKonf for you. For example, we collect your name, email and address for the purposes of invoicing and communicating with you.</p>
 
@@ -174,8 +174,8 @@ description: UIKonf - Privacy Policy
 	<li><strong>Stripe:</strong> Payment service provider; Service provider: Stripe, Inc., 510 Townsend Street, San Francisco, CA 94103, USA; Website: <a href="https://stripe.com/en-de">https://stripe.com/en-de</a>; Privacy Policy: <a href="https://stripe.com/en-de/privacy">https://stripe.com/en-de/privacy</a>.</li>
 </ul> -->
 
-<!-- Uncomment when we put the CfP live again -->
-<!-- <h2 id="m367">Registration and Login</h2>
+ {% if site.cfp_enabled %}
+<h2 id="m367">Registration and Login</h2>
 <p>Users can create a user account. Within the scope of registration, the required mandatory information is communicated to the users and processed for the purposes of providing the user account on the basis of contractual fulfilment of obligations. The processed data includes in particular the login information (name, password and an e-mail address). The data entered during registration will be used for the purposes of using the user account and its purpose. </p>
 <p>Users may be informed by e-mail of information relevant to their user account, such as technical changes. If users have terminated their user account, their data will be deleted with regard to the user account, subject to a statutory retention obligation. It is the responsibility of the users to secure their data before the end of the contract in the event of termination. We are entitled to irretrievably delete all user data stored during the term of the contract.</p>
 <p>Within the scope of using our registration and login functions as well as the use of the user account, we store the IP address and the time of the respective user action. The storage is based on our legitimate interests, as well as the user's protection against misuse and other unauthorized use. This data will not be passed on to third parties unless it is necessary to pursue our claims or there is a legal obligation to do so.</p>
@@ -199,7 +199,9 @@ description: UIKonf - Privacy Policy
 	<li><strong>Data subjects:</strong> Users (e.g. website visitors, users of online services).</li>
 	<li><strong>Purposes of Processing:</strong> Contractual services and support, Authentication processes.</li>
 	<li><strong>Legal Basis:</strong> Consent (Article 6 (1) (a) GDPR), Performance of a contract and prior requests (Article 6 (1) (b) GDPR), Legitimate Interests (Article 6 (1) (f) GDPR).</li>
-</ul> -->
+</ul>
+
+{% endif %}
 
 <!-- <h2 id="m104">Blogs and publication media</h2>
 <p>We use blogos or comparable means of online communication and publication (hereinafter "publication medium"). Readers' data will only be processed for the purposes of the publication medium to the extent necessary for its presentation and communication between authors and readers or for security reasons. For the rest, we refer to the information on the processing of visitors to our publication medium within the scope of this privacy policy.</p>
@@ -209,6 +211,9 @@ description: UIKonf - Privacy Policy
 	<li><strong>Purposes of Processing:</strong> Contractual services and support, Feedback (e.g. collecting feedback via online form).</li>
 	<li><strong>Legal Basis:</strong> Performance of a contract and prior requests (Article 6 (1) (b) GDPR), Legitimate Interests (Article 6 (1) (f) GDPR).</li>
 </ul> -->
+
+
+
 
 <h3 id="m391">Communication via Messenger</h3>
 <p>We use Messenger services for communication purposes and therefore ask you to observe the following information regarding the functionality of the Messenger, encryption, use of the metadata of the communication and your objection options.</p>
@@ -255,13 +260,16 @@ description: UIKonf - Privacy Policy
 		 Privacy Policy: <a href="https://help.github.com/en/github/site-policy/github-privacy-statement#github-privacy-statement">https://help.github.com/en/github/site-policy/github-privacy-statement#github-privacy-statement</a> 
 	 </li>
 </ul>
-<!-- </ul><p><strong>Services and service providers being used:</strong></p><ul class="m-elements">
+
+{% if site.tickets_enabled %}
+</ul><p><strong>Services and service providers being used:</strong></p><ul class="m-elements">
 	<li><strong>Team Tito Limited:</strong> Event ticketing; Unit 2, 64 Dame Street, Dublin 2, Irland;
 		Website: <a href="https://ti.to">https://ti.to</a>;
 		Privacy Policy: <a href="https://ti.to/privacy">https://ti.to/privacy</a>,
 		Security information: <a href="https://ti.to/privacy#security">https://ti.to/privacy#security</a>;
 		The personal data collected by us in connection with the purchase of a ticket will be stored until the expiry of the statutory period of limitation (3 years from 1 January of the following year) and then automatically deleted, unless we are under Article 6 para 1 lit. c GDPR obliged to retain the information for a longer period of time due to tax and commercial requirements for storage and documentation (HGB, StGB or AO) or you have explicitly consented to store them further in accordance with Art. 6 para. 1 sentence 1 lit. a GDPR.</li>
-</ul> -->
+</ul>
+ {% endif %}
 
 <h3 id="m29">Cloud Services</h3>
 <p>We use Internet-accessible software services (so-called "cloud services", also referred to as "Software as a Service") provided on the servers of its providers for the following purposes: document storage and administration, calendar management, e-mail delivery, spreadsheets and presentations, exchange of documents, content and information with specific recipients or publication of websites, forms or other content and information, as well as chats and participation in audio and video conferences.</p>

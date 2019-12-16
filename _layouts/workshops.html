@@ -1,0 +1,11 @@
+---
+layout: page
+---
+<div class="uk-grid uk-margin-large-top uk-margin-large-bottom">
+	{% assign sorted = site.workshops | where_exp: "item", "item.includedIn contains 'workshops'" | sort: 'order' %}
+	{% for workshop in sorted %}
+		{% include workshop.html workshop=workshop %}
+	{% endfor %}
+	
+	{{ content }}
+</div>

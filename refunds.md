@@ -7,7 +7,7 @@ order: 6
 description: UIKonf - Berlin's independent iOS conference – Refunding or Transferring Tickets
 ---
 
-# Refund Policy
+## Refund Policy
 
 It is a good idea to book your UIKonf ticket early to make sure you get one. On the other hand, booking so early is not easy because life is life and there are unexpected circumstances. 
 
