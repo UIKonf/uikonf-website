@@ -1,0 +1,14 @@
+<figure class="uk-transition-toggle">
+    <div class="uk-border-circle uk-inline-clip">
+            {% capture image %}
+                <div class="uk-transition-scale-up person-photo"
+                style="background-image: url('/static/images/{{ include.image }}')" aria-label="{{ include.alt }}"></div>
+            {% endcapture image %}
+            
+            {% if include.link %}
+                <a href="{{ include.link }}">{{image}}</a>
+            {% else %}
+                {{image}}
+            {% endif %}
+    </div>
+</figure>

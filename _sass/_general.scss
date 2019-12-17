@@ -1,3 +1,8 @@
+html {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
 body {
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     color: $text-color;
@@ -9,7 +14,7 @@ body {
     font-kerning: normal;
 }
 a, button, input, ul li {
-	font: $base-font-family;
+	font-family: $base-font-family;
 }
 
 a, .btn, button, a img {
@@ -21,19 +26,19 @@ a, .btn, button, a img {
 } 
 
 h1,h2,h3,h4,h5,h6 {
-	font-family: $alternate-font-stack;
-
-	&.brand-color {
-		color: $brand-color !important;
-	}
+	font-family: $header-font-family;
+	font-weight: $header-font-weight;
+	color: $brand-color;
 }
 
 h1, .title-section {
 	padding: 30px 0;
+	text-transform: uppercase;
 }
 
 h2, .title-section {
 	padding: 30px 0;
+	text-transform: uppercase;
 }
 
 h3 {
@@ -42,6 +47,10 @@ h3 {
 
 .relative {
 	position: relative;
+}
+
+.brand-color-text {
+	color: $brand-color;
 }
 
 .light-text {
@@ -57,20 +66,38 @@ a img:hover {
 }
 
 form {
-	input[type="text"], input[type="email"], button {
-		border-radius: 40px;
+	input[type="text"], input[type="email"] {
+		border-color: $brand-color-light;
+		border-radius: 4px;
+		color: $brand-color-dark !important;
 	}
+
+	::placeholder {
+		color: $brand-color-light !important;
+		opacity: 1;
+	}
+
+}
+
+
+.text-larger {
+	font-size: 16px;
+	line-height: 26px;
+}
+
+.supporter-logo {
+	background-size: contain;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 96px;
+	width: 80%;
+	margin: auto;
 }
 
 .archive-list {
 	.author-post {
 		margin-top: 15px;
 	}
-}
-
-.videos-section,
-article.author-post-first {
-	margin-top: -100px;
 }
 
 .uk-tab > li.uk-active > a {
@@ -81,20 +108,8 @@ article.author-post-first {
 
 .teaser  {
 	text-align: center;
-	margin-top: -100px;
-	a.btn {
-		display: block;
-		margin: 40px 0 10px;
-		color: white;
-		border-color: white;
-		font-size: 140%;
-		padding: 6px 0;
-
-		&:hover, &:focus {
-			text-decoration: none;
-			border-color: $brand-color;
-		}
-	}
+	position: absolute;
+    top: 130px;
 	h1, p, a {
 		color: white;
 	}
@@ -102,55 +117,71 @@ article.author-post-first {
 
 .teaser-register  {
 	text-align: center;
-	margin-top: -100px;
-	background: rgba(0,0,0,0.5);
-	padding: 40px;
-	border-radius: 16px;
-	a.btn {
-		display: block;
-		margin: 40px 0 10px;
-		color: white;
-		border-color: white;
-		font-size: 140%;
-		padding: 6px 0;
+	position: absolute;
+	top: 108px;
 
-		&:hover, &:focus {
-			text-decoration: none;
-			border-color: $brand-color;
-		}
+	h1 {
+		font-size: 60px;
 	}
 	h1, p, a {
 		color: white;
 	}
 }
-
-.teaser-light  {
-	text-align: center;
-	margin-top: -100px;
-	background: rgba(255,255,255,0.5);
-	padding: 40px;
-	border-radius: 16px;
-	a.btn {
-		display: block;
-		margin: 40px 0 10px;
-		color: white;
-		border-color: white;
-		font-size: 140%;
-		padding: 6px 0;
-
-		&:hover, &:focus {
-			text-decoration: none;
-			border-color: $brand-color;
-		}
-	}
-	h1, p, a {
-		color: white;
-	}
-}
-
 span {
 
 	&.mytaxi-color {
 		color: $mytaxi-color !important;
 	}
+}
+
+#map {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 640px;
+}
+
+// schedule adjustments
+#Schedule {
+
+	.uk-tab::before {
+		border-color: $brand-color;
+		left: 0;
+	}
+	
+	.uk-tab::before {
+		border-color: $brand-color;
+		left: 0;
+	}
+	
+	.uk-tab > * {
+		padding-left: 0px;
+	}
+	
+	.uk-tab li a {
+		color: $brand-color !important;
+		font-size: 20px;
+	}
+	
+	.uk-tab li.uk-active a {
+		color: #ffffff !important;
+	}
+	
+	.uk-switcher {
+		box-shadow: 0px 6px 12px #00000029;
+		padding-bottom: 24px;
+	}
+
+}
+
+// ti.to widget adjustments
+
+.tito-ticket-name {
+	color: $brand-color;
+}
+
+button.tito-submit {
+	background-color: $brand-color !important;
 }

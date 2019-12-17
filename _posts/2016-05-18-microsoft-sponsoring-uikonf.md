@@ -30,7 +30,7 @@ Duration: approx. 2 x 2,5h
 Fee: free :)
 
 <div class="uk-text-center uk-width-1-2@m uk-width-1-1@s uk-width-1-1@l uk-margin-large-top">
-		<a class="btn uk-button-large" style="padding:20px; text-decoration: none;" href="https://ti.to/uikonf/uikonf-2016" target="_blank" alt="Microsoft Workshops">Book a Ticket</a>
+		<a class="btn" style="padding:20px; text-decoration: none;" href="https://ti.to/uikonf/uikonf-2016" target="_blank" alt="Microsoft Workshops">Book a Ticket</a>
 </div>
 
 

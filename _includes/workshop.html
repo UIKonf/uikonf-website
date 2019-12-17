@@ -1,0 +1,27 @@
+<div class="uk-section uk-padding-remove-top" id="{{ include.workshop.anchor }}">
+	<h3>{{ include.workshop.title }}</h3>
+	<div class="uk-grid">
+		{% for presenter in include.workshop.presenters %}
+		<div class="uk-width-1-1@s uk-width-auto@m uk-text-center uk-margin-bottom">
+			{% include person.html title=presenter.name image=presenter.image link=presenter.twitter isSmall=0 %}
+		</div>
+		{% endfor %}
+	</div>
+	<p>Presenter: {{ include.workshop.presenter }}<br />
+		Date: {{ include.workshop.presentationDate }}<br />
+		Location: {{ include.workshop.location }}<br />
+		Time: {{ include.workshop.time }}<br />
+		Duration: {{ include.workshop.duration }}<br />
+		Fee: {{ include.workshop.fee }}
+	</p>
+	<div class="uk-margin-large-bottom">
+		{{ include.workshop.content }}
+	</div>
+
+	{% if include.workshop.tickets %}
+	<div class="uk-margin-top">
+		<a class="btn" href="{{ include.workshop.tickets }}" target="_blank">Book a Ticket</a>
+	</div>
+	{% endif %}
+
+</div>

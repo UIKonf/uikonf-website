@@ -1,24 +1,76 @@
 .site-header {
-	background: $light-grey;
-	height: 84px;
+	z-index: 100;
+    position: relative;
 
 	.uk-navbar {
 		background: none;
 
+		li:hover > a {
+			color: $brand-color;
+		}
+
 		a {
 			color: $brand-color;
-			text-transform: none;
+    		min-height: auto;
+			margin: 20px 0;
+			height: 42px;
+			font-family: $base-font-family;
+			font-weight: 600;
+			letter-spacing: 1.4px;
+			
+			&:hover, &:focus {
+				color: $brand-color;
+			}
 		}
+
 		.btn {
-			padding: 0px 20px 0px 20px;
-			height: auto;
+			background-color: transparent;
+			padding: 20px;
+
+			&:hover, &:focus {
+				background: $brand-color;
+				border-color: $brand-color;
+				color: #fff;
+			}
+
 		}
+		
 	}
 
 	.uk-navbar-brand {
 		line-height: 84px;
 	}
-	.uk-navbar-nav {
-		margin-top: 22px;
+
+	// ticket button on the mobile
+	#mobile-navigation .btn {
+		border-color: #fff;
+		display: inline-block;
+		padding: 12px 24px;
+		margin-top: 20px;
+	}
+}
+
+.headerimage-home {
+	background: $brand-color;
+	height: 800px;
+	width: 100%;
+	background-size:cover;
+
+	& .uk-navbar a {
+		color: white;
+		border-color: white;
+	}
+	
+	& .uk-navbar .uk-logo {
+		background: url('/static/images/uikonf-logo-white.svg') center center no-repeat;
+		height: 50px;
+
+		& img {
+			visibility: hidden;
+		}
+	}
+
+	&.small {
+		height: 339px;
 	}
 }

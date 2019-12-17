@@ -1,24 +1,27 @@
 ---
 layout: default
+defaultHeaderImage: uikonf_2020_hero_image.jpg
+defaultHeaderDescription: UIKonf is an independent conference for serious iOS developers
 ---
 
-{% include header-image.md image="news_image.jpg" title=page.title %}
+{% include header.html %}
 
-<div class="straight">
-	<div class="wrapper">
-	</div>
-</div>
+{% assign headerImage = page.headerImage | default: layout.defaultHeaderImage %}
+{% assign headerTitle = page.headerTitle | default: page.title %}
+{% assign headerDescription = page.headerDescription | default: layout.defaultHeaderDescription %}
+{% include header-image.html image=headerImage title=headerTitle description=headerDescription %}
 
-<div class="straight">
-	<div class="wrapper">
-		<div class="uk-container">
-			<div class="uk-grid">
-				<div class="uk-width-8-10@m">
 
-					{{ content }}
-    			
-				</div>
-			</div>
+<div class="uk-container" style="margin-bottom:50px;">
+	<div class="uk-grid">
+		<div class="uk-width-8-10@m">
+			{{ content }}
 		</div>
 	</div>
 </div>
+
+<div class="light-grey">
+	{% include newsletter.html %}
+</div>
+
+

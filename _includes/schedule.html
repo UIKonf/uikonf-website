@@ -1,0 +1,49 @@
+<div id="Schedule" class="uk-width-1-1 brand-color-text uk-margin-large-bottom">
+	<ul class="uk-tab uk-flex-center uk-margin-remove" uk-tab uk-switcher="{connect:'#schedule-content', active:2 }">
+
+		{% if include.context == "schedule" %}
+		{% assign days = site.days | where:"isDetail", true %}
+		{% elsif include.context == "home" %}
+		{% assign days = site.days | where:"isSummary", true %}
+		{% endif %}
+
+		{% assign columns = days.size %}
+		{% for day in days %}
+		{% if forloop.index == 0 %}
+		<li class="uk-active uk-width-1-{{columns}}" aria-expanded="true">
+			<a href="#"> {{ day.title }} </a>
+		</li>
+		{% else %}
+		<li aria-expanded="false" class="uk-width-1-{{columns}}">
+			<a href="#" class="uk-text-capitalize"> {{ day.title }}</a>
+		</li>
+		{% endif %}
+		{% endfor %}
+	</ul>
+
+	<div id="schedule-content" class="uk-switcher">
+		{% for day in days %}
+		{% assign loopindex = forloop.index %}
+		{% if loopindex == 0 %}
+		<div class="uk-active" aria-hidden="false">
+			{% else %}
+			<div aria-hidden="true" class="">
+				{% endif %}
+				{% for block in day.blocks %}
+				<div class="uk-text-center brand-color-background uk-width-1-1">
+					<span class="uk-text-uppercase">{{ block.title }}</span>
+				</div>
+				<div class="uk-grid uk-margin-top uk-margin-bottom uk-container">
+					{% for track in block.tracks %}
+					<div class="schedule-track uk-width-1-{{  block.tracks.size }}@m">
+						{% for item in track.items %}
+							{% include schedule-item.html item=item context=include.context %}
+						{% endfor %}
+					</div>
+					{% endfor %}
+				</div>
+				{% endfor %}
+			</div>
+			{% endfor %}
+		</div>
+	</div>
