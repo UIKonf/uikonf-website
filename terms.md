@@ -1,6 +1,7 @@
 ---
 title: Terms and Conditions
 layout: page
+permalink: /terms/
 description: UIKonf - Terms and Conditions
 ---
 ## Full Terms & Conditions
