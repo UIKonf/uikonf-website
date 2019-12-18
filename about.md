@@ -43,7 +43,7 @@ alumni:
    image: alumni/chris_thumb.jpg
  - name: Matt Patterson
    lastName: Patterson
-   link: https://twitter.com/fidothe
+   link: https://twitter.com/mattpatterson
    image: alumni/matt_thumb.jpg
  - name: Peter Bihr
    lastName: Bihr
