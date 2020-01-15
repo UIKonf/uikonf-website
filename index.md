@@ -38,8 +38,33 @@ sections:
     UIKonf hosts a diverse selection of inspiring speakers. We select and invite about half of our speakers. The other half is selected by our community through our anonymous call for proposals system. Details coming soon. 
     
     As a speaker, your travel expenses will be reimbursed and you will be our guests at our selected Hotel in Berlin. Of course, we will also reimburse you for your ticket if you already have purchased one.
+- id: cfp
+  enabled: true
+  text: |
+    #### CfP is now open for submissions
+    
+    **Here is how it works**
 
-    <a href="http://uikonf.us9.list-manage.com/subscribe?u=08d7d9a7a55f501920eb76453&id=d3f17105cf" target="_blank">Sign up for our newsletter</a> to hear about our invited speakers and learn about the start of our Call for Proposals. Or check out our <a href="/uikonf-2019">previous speakers</a> and <a href="/videos">videos</a>.
+    Propose a presentation through our [anonymous CFP](https://cfp.uikonf.com). Others will help you refine and focus it by making suggestions. Keep updating your proposal bearing those suggestions in mind.  
+    
+    If your proposal is selected at the end of the voting process, your travel expenses will be reimbursed and you will be our guests at our selected hotel in Berlin. Of course, we will also reimburse your ticket if you already have purchased one. In addition, you can choose to take part in a free 1-on-1 stage & speech training. And of course, you will also have access to all activities UIKonf offers its attendees.
+    
+    Everything happens anonymously to focus on the content and not on the names. Remember that our Code of Conduct applies to proposals and comments as well, so please be nice.
+    
+    **The Timeline**
+
+    **17 Jan – 10 Feb:** Submit your proposal on our CfP page or comment on already submitted proposals. We accept any topic you deem interesting may it be technical, design-focused, about building / running / failing a company or how to get a rocket into space using Swift - Inspire us! For inspiration, you can check out the speakers or videos of 2019.
+    
+    **11 Feb – 18 Feb:** A committee consisting of previous UIKonf speakers will do a preselection of the talks ahead of voting by the community.
+    
+    **19 Feb – 27 Feb:** Comment on existing proposals to help the authors improve their talks. You can help talks you'd like to see at UIKonf 2020 become even better and maybe get elected for the final eight.
+    
+    **1 Mar – 8 Mar:** The voting week&#58; our community and a committee consisting of previous UIKonf speakers will vote on their eight favorite talks. The final eight talks will be determined by equally weighing the votes from the public and the committee (just like in Eurovision 👩‍🎤👨‍🎤). We will inform everyone who participated in the CfP in the week after that and announce the chosen speakers one by one.
+    
+    Don't miss the deadline - there are no exceptions for late submissions.
+    <p>&nbsp;&nbsp;</p>  
+      
+    <div style="text-align:center;"><a class="btn" href="https://cfp.uikonf.com">Submit Your Talk</a></div>
 - id: sponsors
   enabled: true
   headline: Sponsors 2019
