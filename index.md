@@ -45,7 +45,7 @@ sections:
     
     **Here is how it works**
 
-    Propose a presentation through our [anonymous CFP](https://cfp.uikonf.com). Others will help you refine and focus it by making suggestions. Keep updating your proposal bearing those suggestions in mind.  
+    Propose a presentation through our [anonymous CfP](https://cfp.uikonf.com). Others will help you refine and focus it by making suggestions. Keep updating your proposal bearing those suggestions in mind.  
     
     If your proposal is selected at the end of the voting process, your travel expenses will be reimbursed and you will be our guests at our selected hotel in Berlin. Of course, we will also reimburse your ticket if you already have purchased one. In addition, you can choose to take part in a free 1-on-1 stage & speech training. And of course, you will also have access to all activities UIKonf offers its attendees.
     
@@ -59,7 +59,7 @@ sections:
     
     **19 Feb – 27 Feb:** Comment on existing proposals to help the authors improve their talks. You can help talks you'd like to see at UIKonf 2020 become even better and maybe get elected for the final eight.
     
-    **1 Mar – 8 Mar:** The voting week&#58; our community and a committee consisting of previous UIKonf speakers will vote on their eight favorite talks. The final eight talks will be determined by equally weighing the votes from the public and the committee (just like in Eurovision 👩‍🎤👨‍🎤). We will inform everyone who participated in the CfP in the week after that and announce the chosen speakers one by one.
+    **1 Mar – 8 Mar:** The voting week&#58; our community and a committee consisting of previous UIKonf speakers will vote on their eight favorite talks. The final eight talks will be determined by equally weighing the votes from the public and the committee. We will inform everyone who participated in the CfP in the week after that and announce the chosen speakers one by one.
     
     Don't miss the deadline - there are no exceptions for late submissions.
     <p>&nbsp;&nbsp;</p>  
