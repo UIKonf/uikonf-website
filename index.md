@@ -53,13 +53,13 @@ sections:
     
     **The Timeline**
 
-    **17 Jan – 9 Feb:** Submit your proposal on our CfP page or comment on already submitted proposals. We accept any topic you deem interesting may it be technical, design-focused, about building / running / failing a company or how to get a rocket into space using Swift - Inspire us! For inspiration, you can check out the speakers or videos of 2019.
+    **17 Jan – 16 Feb:** Submit your proposal on our CfP page or comment on already submitted proposals. We accept any topic you deem interesting may it be technical, design-focused, about building / running / failing a company or how to get a rocket into space using Swift - Inspire us! For inspiration, you can check out the speakers or videos of 2019.
         
-    **10 Feb – 16 Feb:** Comment on existing proposals to help the authors improve their talks. You can help talks you'd like to see at UIKonf 2020 become even better and maybe get elected for the final eight.
+    **17 Feb – 23 Feb:** Comment on existing proposals to help the authors improve their talks. You can help talks you'd like to see at UIKonf 2020 become even better and maybe get elected for the final eight.
     
-    **17 Feb – 23 Feb:** A committee consisting of previous UIKonf speakers will do a preselection of the talks ahead of voting by the community.
+    **24 Feb – 1 Mar:** A committee consisting of previous UIKonf speakers will do a preselection of the talks ahead of voting by the community.
     
-    **24 Feb – 1 Mar:** The voting week&#58; our community and a committee consisting of previous UIKonf speakers will vote on their eight favorite talks. The final eight talks will be determined by equally weighing the votes from the public and the committee. We will inform everyone who participated in the CfP in the week after that and announce the chosen speakers one by one.
+    **2 Mar – 8 Mar:** The voting week&#58; our community and a committee consisting of previous UIKonf speakers will vote on their eight favorite talks. The final eight talks will be determined by equally weighing the votes from the public and the committee. We will inform everyone who participated in the CfP in the week after that and announce the chosen speakers one by one.
     
     Don't miss the deadline - there are no exceptions for late submissions.
     <p>&nbsp;&nbsp;</p>  
