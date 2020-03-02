@@ -1,7 +1,7 @@
 ---
 title: UIKonf update regarding the corona virus
 layout: post
-author: sabine
+author: basine
 date: 2 March 2020
 published: true
 description: UIKonf will happen. We updated our terms.
