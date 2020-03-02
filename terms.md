@@ -13,6 +13,8 @@ Each ticket entitles the ticket holder registered during the purchase process to
 - **From April 15 until May 10:** To give you more flexibility in case you can’t travel, we are extending the time to transfer tickets until a week before the conference. If you find someone who buys your ticket from you, we are happy to change the ticket holder. There are no refunds.
 - **From May 11:** All sales are final, no refunds nor transfers are allowed.
 
+Due to PayPal rules, we cannot refund your ticket after 60 days. So if you paid with PayPal, it is either the deadlines above or 60 days after purchase whichever comes first. 
+
 All participants are expected to observe the Code of Conduct. The latest version of the Code of Conduct is available under [http://www.uikonf.com/coc/](http://www.uikonf.com/coc/)
 
 We reserve the right to exclude anybody from the event in cases of inappropriate behaviour against the code of conduct. No refunds are possible in case of such an exclusion.
