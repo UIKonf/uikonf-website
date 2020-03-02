@@ -14,7 +14,7 @@ We’ve been following the corona virus crisis closely. Of course there is no pr
 To make sure UIKonf survives, we updated our [refunds policy]({{site.baseurl}}/refunds) as well as our [terms of service]({{site.baseurl}}/terms/) for the case of cancellation.
 
 **Our contingency plan**  
-Of course there is still a risk for which we need to take precautions. Organising the average UIKonf costs A LOT of money. A financial risk that Julia and I are currently carrying on our own. Some of these costs are fixed like the venue, some are variable (up to a point in time) like the catering, t-shirts, social events, etc. Let’s add some transparency:
+Of course there is still a risk for which we need to take precautions. Organising the average UIKonf costs A LOT of money. A financial risk that Julia and Sabine are currently carrying on our own. Some of these costs are fixed like the venue, some are variable (up to a point in time) like the catering, t-shirts, social events, etc. Let’s add some transparency:
 
 There are two important scenarios for us we need to consider when assessing our risk: The first one being that UIKonf takes place but a lot of people cancel last minute so that we sell fewer tickets than needed to break even. The second one: If the corona virus continues to spread and does not die down, there is a chance that the German government orders us to cancel the event.
 
@@ -36,4 +36,6 @@ If you already purchased a ticket, we will inform you about our updated terms sh
 
 UIKonf has been around for 7 years now. It was founded and lived on to help you, our community, to connect with others and grow your circle of experts. In these not-so-easy times the future of UIKonf depends on you. Help us keep it alive, by attending, spreading the word about UIKonf, and being understanding about this rather strict refund policy.
 
-That all being said, we believe UIKonf will happen just as in previous years and everything will be fine. This is all just preparation for the (unlikely) worst case and to ensure that UIKonf will live on.
+See you all in May!
+
+Sabine, Julia, Bianca and Chrissy
