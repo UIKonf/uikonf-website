@@ -7,7 +7,9 @@ published: true
 description: UIKonf will happen. We updated our terms.
 ---
 
-Thanks to the corona virus, some of you might have started to wonder if UIKonf will be happening this year at all. The answer is: yes, unless we are ordered by the government to cancel the event.
+Published March 2nd, please check our [blog]({{site.baseurl}}/blog) for further updates.
+
+Due to the corona virus, some of you might have started to wonder if UIKonf will be happening this year at all. The answer is: yes, unless we are ordered by the government to cancel the event.
 
 We’ve been following the corona virus crisis closely. Of course there is no prediction on how this virus will develop since it is completely new, but if it is anything like the most flu-like viruses, it is most likely going to die down with the onset of warmer weather. UIKonf is still more than 2 months away. By then summer will already be in the air. We therefore believe that this will blow over before UIKonf so that we will all be able to come together as planned.
 
