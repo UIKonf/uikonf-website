@@ -1,8 +1,8 @@
 ---
 title: May 20th
 day: 20
-isDetail: true
-isSummary: true
+isDetail: false
+isSummary: false
 blocks:
   - title: All day
     tracks:

@@ -12,7 +12,7 @@ redirect_from:
 
 ## Code of Conduct
 
-All attendees, speakers, sponsors and volunteers at UIKonf are required to agree with the following code of conduct. Organizers will enforce this code throughout the event. We are expecting cooperation from all participants to help ensuring a safe environment for everybody.
+All attendees, speakers, and sponsors and volunteers at UIKonf are required to agree with the following Code of Conduct. Organizers will enforce this code throughout the event. We are expecting cooperation from all participants to help ensure a safe environment for everybody.
 
 *tl;dr: Don’t be a Jerk. Be excellent.*
 
@@ -22,22 +22,20 @@ Sabine Geithner Twitter: [@sabinegeithner](http://twitter.com/sabinegeithner) Em
 
 ### The Quick Version
 
-UIKonf is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, sexual orientation, disability, physical appearance, body size, race, or religion. We do not tolerate harassment of conference participants in any form. Sexual language and imagery is not appropriate for any conference venue, including talks, workshops, parties, Twitter and other online media. Conference participants violating these rules may be sanctioned or expelled from the conference without a refund at the discretion of the conference organizers.
+UIKonf is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, sexual orientation, disability, physical appearance, body size, race, or religion. We do not tolerate harassment of conference participants in any form. Sexual language and imagery is not appropriate for any medium in connection with UIKonf, including online or offline media. Conference participants violating these rules may be sanctioned or expelled from the conference without a refund at the discretion of the conference organizers.
 
 ### The Less Quick Version
 
-Harassment includes offensive verbal comments related to gender, sexual orientation, disability, physical appearance, body size, race, religion, sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention.
+Harassment includes offensive comments related to gender, sexual orientation, disability, physical appearance, body size, race, religion, sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of talks or other events, inappropriate contact, and unwelcome sexual attention.
 
 Participants asked to stop any harassing behavior are expected to comply immediately.
 
-Sponsors are also subject to the anti-harassment policy. In particular, sponsors should not use sexualized images, activities, or other material. Booth staff (including volunteers) should not use sexualized clothing/uniforms/costumes, or otherwise create a sexualized environment.
+Sponsors are also subject to the anti-harassment policy. In particular, sponsors should not use sexualized images, activities, or other material or otherwise create a sexualized environment.
 
 If a participant engages in harassing behavior, the conference organizers may take any action they deem appropriate, including warning the offender or expulsion from the conference with no refund.
 
-If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of conference staff immediately. Conference staff can be identified by a black conference shirt with a pink or black square UIKonf logo.
+If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact Sabine immediately via [@sabinegeithner](http://twitter.com/sabinegeithner) or sabine@uikonf.com.
 
-In case you can’t find a staff member, Sabine Geithner is always there for you: [@sabinegeithner](http://twitter.com/sabinegeithner), sabine@uikonf.com.
+We staff will be happy to help participants contact hotel/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the conference. We value your attendance.
 
-Conference staff will be happy to help participants contact hotel/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the conference. We value your attendance.
-
-We expect participants to follow these rules at conference and workshop venues and conference-related social events.
+We expect participants to follow these rules throughout the entire online conferenceincluding any conference-related social events, as well as on our social media channels and discussion forums.

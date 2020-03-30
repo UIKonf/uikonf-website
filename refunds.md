@@ -11,9 +11,8 @@ description: UIKonf - Berlin's independent iOS conference – Refunding or Trans
 
 It is a good idea to book your UIKonf ticket early to make sure you get one. On the other hand, booking so early is not easy because life is life and there are unexpected circumstances. That is why we have a very flexible refund and transfer policy:
 
-- **Until March 15:** Cancellation will cause a penalty of 10 Euro to cover our transaction fees (only applies to ticket purchases done after March 2nd, 2020)
-- **From March 15 until April 14:** Cancellation will cause a penalty of 160 Euro (instead of 100 Euro as previously stated). This is about the amount of fixed costs we have per person at that point in time. Ticket transfers are free of charge.
-- **From April 15 until May 10:** To give you more flexibility in case you can’t travel, we are extending the time to transfer tickets until a week before the conference. If you find someone who buys your ticket from you, we are happy to change the ticket holder. There are no refunds.
+- **Until April 14:** Cancellation will cause a penalty of 10 Euro to cover our transaction fees.
+- **From April 15 until May 10:** Tickets are transferrable, but not refundable.
 - **From May 11:** All sales are final, no refunds nor transfers are allowed.
 
 ## Refunds for PayPal Orders 
