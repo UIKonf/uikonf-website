@@ -9,11 +9,11 @@ blocks:
       - id: 0
         items:
           - title: Social events
-            description: What makes UIKonf great are not just the inspiring talks and speakers, but the ease at which you can meet new people. Make the most of your UIKonf trip to Berlin and join one of our social events to learn more about Berlin while networking with likeminded people
-            time: "14:00"
-            location: Everywhere in Berlin
-          - title: Kick-off party
-            description: All social events end at the venue for the kick-off party. Pick up your conference badge, grab a beer and meet your other attendees.
-            time: "19:00"
+            description: Our social events help you break the ice and meet like-minded people in an informal setting. Even if we're not together in the same place, we won't be alone. So join us remotely for some fun digital adventures. More details following soon.
+            time: from 2pm CET
+            location: Online - on your couch, on your bike or outside.
+          - title: Digital Kick-off Hangout
+            description: All social events end at our digital conference party. Open your laptop, grab a beer and meet your fellow attendees.
+            time: from 7pm CET
             location: tbd
 ---

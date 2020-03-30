@@ -8,9 +8,8 @@ description: UIKonf - Terms and Conditions
 
 Each ticket entitles the ticket holder registered during the purchase process to attend the UIKonf during the days stated in the purchase confirmation. Cancellations by the ticket holder are handled as follows:
 
-- **Until March 15:** Cancellation will cause a penalty of 10 Euro to cover our transaction fees (only applies to ticket purchases done after March 2nd, 2020)
-- **From March 15 until April 14:** Cancellation will cause a penalty of 160 Euro (instead of 100 Euro as previously stated). This is about the amount of fixed costs we have per person at that point in time. Ticket transfers are free of charge.
-- **From April 15 until May 10:** To give you more flexibility in case you can’t travel, we are extending the time to transfer tickets until a week before the conference. If you find someone who buys your ticket from you, we are happy to change the ticket holder. There are no refunds.
+- **Until April 14:** Cancellation will cause a penalty of 10 Euro to cover our transaction fees.
+- **From April 15 until May 10:** Tickets are transferrable, but not refundable.
 - **From May 11:** All sales are final, no refunds nor transfers are allowed.
 
 Due to PayPal rules, we cannot refund your ticket after 60 days. So if you paid with PayPal, it is either the deadlines above or 60 days after purchase whichever comes first. 
