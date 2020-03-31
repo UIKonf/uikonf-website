@@ -9,7 +9,7 @@ description: UIKonf 2020 opens a new chapter for UIKonf - We will go remote and 
 
 As the world continues to battle the Coronavirus, we have been hard at work looking to adapt UIKonf for 2020.
 
-We are excited to announce we will be taking UIKonf remote for the first time ever! Join us in a live streaming experience online from May 18th-19th plus community social events on the day before. Since we want to accommodate viewers and speakers from as many time zones as we are able, we will be kicking off at 2pm and ending the conference days at 10pm CET (Berlin time).
+We are excited to announce we will be taking UIKonf remote for the first time ever! Join us in a live streaming experience online from May 18th-19th plus community social events on the day before. Since we want to accommodate viewers and speakers from as many time zones as we are able, we will be kicking off at 2pm CEST and ending the conference days at 10pm CEST (Berlin time).
 
 Although we are still facing significant costs in moving our event online, we are sure that modifying this event will be worth it for everyone. If you have already purchased a ticket, you should have heard from us about your options. If you have already cancelled your tickets due to the uncertainty but would love to join us online after all, please follow the [ticket registration link](https://ti.to/uikonf/uikonf-2020/with/mnmljgkfquu).
 

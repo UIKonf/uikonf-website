@@ -24,7 +24,7 @@ sections:
   text: |
     Ticket prices include VAT (MwSt.) access to both conference day livestreams taking place from 14:00 - 22:00 CEST (UTC +2 Berlin) on May 18th and 19th, 2020. See our refunds policy if you are not sure about your plans in May.
 
-    "We also provide discounted diversity tickets, aimed to help underrepresented groups in tech. This includes but isn’t limited to: women, people of colour, LGBTQIA+ people, disabled people and generally people who are unable to attend without financial assistance. If you think you are eligible for a diversity ticket, simply <a href="https://forms.gle/cg8SiTo9ryk5nqzU6" target="_blank">fill out the application form</a>."
+    We also provide discounted diversity tickets, aimed to help underrepresented groups in tech. This includes but isn’t limited to: women, people of colour, LGBTQIA+ people, disabled people and generally people who are unable to attend without financial assistance. If you think you are eligible for a diversity ticket, simply <a href="https://forms.gle/cg8SiTo9ryk5nqzU6" target="_blank">fill out the application form</a>.
 
     If you want to support diversity at UIKonf, you can do so when booking your ticket. Simply select the additional "Diversity Scholarship Donation" package which provides one ticket for our diversity ticket applicants.
 - id: schedule
