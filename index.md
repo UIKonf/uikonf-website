@@ -1,6 +1,6 @@
 ---
 layout: landing-page
-description: UIKonf - Berlin's independent conference for serious iOS developers.
+description: UIKonf - Berlin's independent conference for serious, socially distanced iOS developers.
 headerImage: uikonf_2020_hero_image.jpg
 headerTitle: 18-19 May 2020 · Online
 redirect_from:
