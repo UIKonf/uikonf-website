@@ -1,6 +1,6 @@
 ---
 title: Veronica Ray
-short-bio: Senior Software Engineer at Compass, ex. LinkedIN
+short-bio: Senior Software Engineer at Compass, ex. LinkedIn
 image: Veronica-Ray.jpg
 anchor: veronica
 twitter: https://twitter.com/nerdonica
