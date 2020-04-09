@@ -1,6 +1,6 @@
 ---
 title: Federico Zanetello
-short-bio: Senior Software Engineer at Compass, ex. LinkedIn
+short-bio: Swift iOS Engineer and fivestars.blog writer
 image: Federico-Zanetello.jpg
 anchor: federico
 twitter: https://twitter.com/zntfdr
