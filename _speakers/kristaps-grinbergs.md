@@ -1,6 +1,6 @@
 ---
 title: Kristaps Grinbergs
-short-bio: Senior Software Engineer at Compass, ex. LinkedIn
+short-bio: Apple technologies software engineer. Active contributor at Swift Weekly Brief newsletter and various open-source projects.
 image: Kristaps-Grinbergs.jpg
 anchor: kristaps
 twitter: https://twitter.com/fassko
