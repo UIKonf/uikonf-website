@@ -1,4 +1,5 @@
----Conrad Stoll
+---
+title: Conrad Stoll
 short-bio: iOS Engineering Lead at Under Armour. Lifelong Apple nerd and nature lover.
 image: Conrad-Stoll.jpg
 anchor: conrad
