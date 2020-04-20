@@ -1,10 +1,10 @@
 ---
-title: Bike Tour
-start: 2pm (meeting-time 1:45pm)
-image: bike.jpg
-anchor: bike
-description: Join UIKonf's oldest tradition and explore Berlin by bike
+title: UIKonf’s Classic Bike Tour
+_start: tbd
+image: bike-tour.jpg
+anchor: biketour
+description: Some things never change 
 active: 1
 ---
 
-<p>A guided bicycle tour is the best way to discover Berlin. You’ll enjoy the city’s expansive, green and primarily flat urban landscape. On routes, almost entirely separated from automobile traffic, our guides will take you to some of Berlin’s most interesting, exciting and unexpected places. We provide the bikes, all you have to bring is your curiosity, a little bit of leg strength, good mood and something to cover yourself should it start to rain.</p>
+To be honest, no one will keep you from joining several events, so you might just want to do some sports before joining the BBQ, too. Not sure yet how to do this together (on your stationary bike at home?) but we created a [Strava event](https://www.strava.com/clubs/603614/group_events/681330) you can sign up for. Let’s see how many miles / kilometers we can log together. Do you have ideas on how to make this really social? Then please please please [contact us](mailto:questions@uikonf.com).

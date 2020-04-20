@@ -53,17 +53,15 @@ sections:
     <p>&nbsp;&nbsp;</p>  
       
     <div style="text-align:center;"><a class="btn" href="https://cfp.uikonf.com">Vote Now</a></div>
-- id: sponsors
-  enabled: true
-  headline: Sponsors 2019
-  text: |
-     It’s our sponsors who help us provide amazing UIKonf experience. If you or your company is interested in helping us, <a href="mailto:sponsors@uikonf.com">let's chat</a>.
 - id: social-events
   enabled: true
   headline: Social Events
   text: |
     A central part of UIKonf are the social events on the Sunday before the conference. This year, we have come up with creative ways to “remotely” get to interact with one another to give you a first opportunity to get to know other participants of the conference in a fun atmosphere.
-    
-    The events we offered in previous years will be adapted in a creative and fun way
+- id: sponsors
+  enabled: true
+  headline: Sponsors 2019
+  text: |
+     It’s our sponsors who help us provide amazing UIKonf experience. If you or your company is interested in helping us, <a href="mailto:sponsors@uikonf.com">let's chat</a>.
 
 ---

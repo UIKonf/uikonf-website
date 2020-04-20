@@ -73,13 +73,38 @@ layout: default
     </div>
 </div>
 
-
-{% when "sponsors" %}
+{% when "social-events" %}
 
 <div class="uk-section" id="{{ section.id}}">
     <div class="uk-container">
         <h2 class="uk-text-center">{{ section.headline }}</h2>
-        {{ section.text | markdownify }}
+        <div class="uk-text-center">{{ section.text | markdownify }}</div>
+        <div class="uk-text-center uk-grid uk-flex-center uk-child-width-1-4@m uk-child-width-1-1@s uk-margin-large-bottom"
+            uk-grid>
+            {% assign activeEvents = site.events | where:"active",1 %}
+
+            {% for event in activeEvents %}
+            <div class="">
+                {% capture event_image %}/events/{{ event.image}}{% endcapture %}
+                {% if site.social_events_enabled %}
+                    {% capture event_link %}/social-events#{{ event.anchor}}{% endcapture %}
+                    {% include person.html title=event.title image=event_image link=event_link isSmall=0 %}
+                {% else %}
+                    {% include person.html title=event.title description=event.description image=event_image isSmall=0 %}
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+
+{% when "sponsors" %}
+
+<div class="uk-section light-grey" id="{{ section.id}}">
+    <div class="uk-container">
+        <h2 class="uk-text-center">{{ section.headline }}</h2>
+        <div class="uk-text-center">{{ section.text | markdownify }}</div>
         <div class="uk-text-center uk-grid uk-flex-between uk-child-width-1-3@m uk-margin-large-bottom" uk-grid>
             {% assign activeSponsors = site.sponsors | where:"active",1 %} {% if activeSponsors.size > 0 %}
             {% for sponsor in activeSponsors %}
@@ -92,31 +117,6 @@ layout: default
     </div>
 </div>
 
-
-{% when "social-events" %}
-
-<div class="uk-section light-grey" id="{{ section.id}}">
-    <div class="uk-container">
-        <h2 class="uk-text-center">{{ section.headline }}</h2>
-        {{ section.text | markdownify }}
-        <div class="uk-text-center uk-grid uk-flex-center uk-child-width-1-4@m uk-child-width-1-1@s uk-margin-large-bottom"
-            uk-grid>
-            {% assign activeEvents = site.events | where:"active",1 %}
-
-            {% for event in activeEvents %}
-            <div class="">
-                {% capture event_image %}/events/{{ event.image}}{% endcapture %}
-                {% if site.social_events_enabled %}
-                    {% capture event_link %}/social-events#{{ event.anchor}}{% endcapture %}
-                    {% include person.html title=event.title description=event.description image=event_image link=event_link isSmall=0 %}
-                {% else %}
-                    {% include person.html title=event.title description=event.description image=event_image isSmall=0 %}
-                {% endif %}
-            </div>
-            {% endfor %}
-        </div>
-    </div>
-</div>
 
 {% else %}
 
