@@ -3,7 +3,7 @@ title: Firebase
 image: sponsors/firebase.png
 image-alt: firebase
 anchor: https://www.firebase.com
-active: 1
+active: 0
 ---
 
 <a href="https://www.firebase.com" target="_blank">Firebase</a>  is Google's flagship mobile platform for developers building iOS, Android, and Web apps.

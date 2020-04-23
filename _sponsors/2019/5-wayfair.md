@@ -3,7 +3,7 @@ title: Wayfair
 image: sponsors/wayfair.png
 image-alt: wayfair
 anchor: https://www.wayfair.com/about
-active: 1
+active: 0
 ---
 <a href="https://www.wayfair.com/about" target="_blank">Wayfair</a> is one of the world's largest online destinations for the home.
 

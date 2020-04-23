@@ -3,7 +3,7 @@ title: moovel (REACH NOW)
 image: sponsors/moovel.png
 image-alt: moovel
 anchor: https://www.moovel.com
-active: 1
+active: 0
 ---
 
 

@@ -3,7 +3,7 @@ title: Detroit Labs
 image: sponsors/detroit-labs.png
 image-alt: detroit-labs
 anchor: https://www.detroitlabs.com/
-active: 1
+active: 0
 ---
 
 

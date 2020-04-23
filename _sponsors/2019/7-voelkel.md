@@ -3,7 +3,7 @@ title: voelkel
 image: sponsors/voelkel.jpg
 image-alt: moovel
 anchor: https://voelkeljuice.de/en/home.html
-active: 1
+active: 0
 ---
 
 
