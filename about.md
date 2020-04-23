@@ -13,11 +13,6 @@ organizers:
    bio: iOS developer at Mercedes-Benz.io, former Online Marketer and Scientist.
    link: https://twitter.com/sabinegeithner
    image: authors/sabine-geithner.jpg
- - name: Christine Braun
-   lastName: Braun
-   bio: Consulting and creation for businesses with good intentions <a href="mailto:post@chrissybrown.com">post@chrissybrown.com</a>.
-   link: https://twitter.com/post4chrissy
-   image: authors/christine-braun.jpg
  - name: Bianca Walterspiel Stromlund
    lastName: Walterspiel
    bio: Managing Global Engineering Relations at Delivery Hero.
@@ -29,6 +24,11 @@ organizers:
    link: https://twitter.com/KallenbergJulia
    image: authors/julia-kallenberg.jpg
 alumni:
+ - name: Christine Braun
+   lastName: Braun
+   bio: Consulting and creation for businesses with good intentions <a href="mailto:post@chrissybrown.com">post@chrissybrown.com</a>.
+   link: https://twitter.com/post4chrissy
+   image: authors/christine-braun.jpg
  - name: Engin Kurutepe
    lastName: Kurutepe
    link: https://kurutepe.com
@@ -60,24 +60,37 @@ alumni:
    image: alumni/Maxim.jpg
 ---
 
-{% capture organizers_content %}
-	{% assign sortedOrganizers = page.organizers | sort: 'lastName' %}
-	{% for person in sortedOrganizers %}
-		<div class="uk-width-1-1@s uk-width-1-4@m uk-text-center uk-margin-medium-bottom">
-        {% include person.html title=person.name description=person.bio image=person.image link=person.link isSmall=1 %}
-	  </div>
-	{% endfor %}
-{% endcapture %}
-{% include content-block.html title="Current Team" content=organizers_content %}
+{% assign sortedOrganizers = page.organizers | sort: 'lastName' %}
+
+<div class="uk-section">
+    <div class="uk-container">
+        <h2 class="uk-text-center">Current Team</h2>
+        <div class="uk-container uk-width-2-3@m">
+            <div class="uk-grid uk-flex-center uk-child-width-1-3@m uk-child-width-1-1@s uk-margin-medium-top uk-margin-medium-bottom">
+                	{% for person in sortedOrganizers %}
+		                <div class="uk-margin-bottom uk-text-center">
+                      {% include person.html title=person.name description=person.bio image=person.image link=person.link isSmall=1 %}
+	                  </div>
+	                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
 
 
-{% capture organizers_content %}
-	{% assign sortedAlumni = page.alumni | sort: 'lastName' %}
-	{% for person in sortedAlumni %}
-		<div class="uk-width-1-1@s uk-width-1-6@m uk-text-center uk-margin-medium-bottom">
-        {% include person.html title=person.name image=person.image link=person.link isSmall=1 %}
-	  </div>
-	{% endfor %}
-{% endcapture %}
-{% include content-block.html title="Alumni" content=organizers_content %}
+{% assign sortedAlumni = page.alumni | sort: 'lastName' %}
 
+<div class="uk-section">
+    <div class="uk-container">
+        <h2 class="uk-text-center">Alumni</h2>
+        <div class="uk-container uk-width-1-1@m">
+            <div class="uk-grid uk-flex-center uk-child-width-1-6@m uk-child-width-1-1@s uk-margin-medium-top uk-margin-medium-bottom">
+                	{% for person in sortedAlumni %}
+		                <div class="uk-margin-bottom uk-text-center">
+                      {% include person.html title=person.name image=person.image link=person.link isSmall=1 %}
+	                  </div>
+	                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
