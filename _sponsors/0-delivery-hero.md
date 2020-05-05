@@ -7,8 +7,9 @@ active: 1
 level: silver
 ---
 
-Ever since [Delivery Hero](https://www.deliveryhero.com/careers/) started they have been continuously transforming the way people order food online. In essence, visiting their platforms is the easiest way to your favorite food.
+[Delivery Hero](https://www.deliveryhero.com/careers/) is the #1 Global Leader in online food delivery! We have grown rapidly from inception in 2011 to become the world's largest food-ordering network and we’re now innovating and creating new verticals such as groceries, pharmacies, flowers, and other convenience articles in multiple markets.
+ 
+Delivery Hero Tech is playing an exceptional role in the large growth of our company. Our Tech teams leverage a diverse stack to create cutting-edge solutions that cover the full customer experience - starting with a great online search experience and ending with a real-time delivery at your doorstep. Delivery Hero is building the next generation global on-demand delivery platform.
 
-Orders and payments can conveniently be placed online and restaurants are peer-reviewed, making it easier to choose the best restaurant every time. With just a few clicks delicious food is on its way!
 
 
