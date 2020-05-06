@@ -10,4 +10,4 @@ twitter: https://twitter.com/Dimillian
 He worked on many products and applications. From Google on Chrome for iOS to currently [Glose](https://glose.com/what-is-glose), a company he co-founded making social network & educational service in the digital book industry. Recently became obsessed with Redux and SwiftUI.
 
 **SwiftUI Data Flow with Redux**  
-We'll begin with a short introduction on the SwiftUI data flow, the basics. And then we'll see how we'll see what is the Redux architecture and how can we make it works on top of the SwiftUI data flow. Followed by some examples. 
+We'll begin with a short introduction on the SwiftUI data flow, the basics. And then we'll see what is the Redux architecture and how can we make it works on top of the SwiftUI data flow. Followed by some examples. 
