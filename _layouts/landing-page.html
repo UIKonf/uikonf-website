@@ -105,54 +105,8 @@ layout: default
     <div class="uk-container">
         <h2 class="uk-text-center">{{ section.headline }}</h2>
         <div class="uk-text-center">{{ section.text | markdownify }}</div>
-        
-        {% assign activeSponsors = site.sponsors | where:"active",1 %} {% if activeSponsors.size > 0 %}
-        
-        {% assign platinumSponsors = activeSponsors | where:"level","platinum" %} {% if platinumSponsors.size > 0 %}
-        <h3 class="uk-text-center">Platinum</h3>
-        <div class="uk-text-center uk-grid uk-flex-between uk-child-width-1-1@m uk-margin-large-bottom" uk-grid>
-            {% for sponsor in platinumSponsors %}
-            <div class="">
-                {% include sponsor.html content=sponsor.content image=sponsor.image anchor=sponsor.anchor image-alt=sponsor.image-alt level=sponsor.level%}
-            </div>
-            {% endfor %}
-        </div>
-        {% endif %}
-
-        {% assign goldSponsors = activeSponsors | where:"level","gold" %} {% if goldSponsors.size > 0 %}
-        <h3 class="uk-text-center" style="margin-bottom: 50px!important;">Gold</h3>
-        <div class="uk-text-center uk-grid uk-flex-between uk-child-width-1-2@m uk-margin-large-bottom" uk-grid>
-            {% for sponsor in goldSponsors %}
-            <div class="">
-                {% include sponsor.html content=sponsor.content image=sponsor.image anchor=sponsor.anchor image-alt=sponsor.image-alt level=sponsor.level%}
-            </div>
-            {% endfor %}
-        </div>
-        {% endif %}
-
-        {% assign silverSponsors = activeSponsors | where:"level","silver" %} {% if silverSponsors.size > 0 %}
-        <h3 class="uk-text-center" style="margin-bottom: 50px!important;">Silver</h3>
-        <div class="uk-text-center uk-grid uk-flex-between uk-child-width-1-3@m uk-margin-large-bottom" uk-grid>
-            {% for sponsor in silverSponsors %}
-            <div class="">
-                {% include sponsor.html content=sponsor.content image=sponsor.image anchor=sponsor.anchor image-alt=sponsor.image-alt level=sponsor.level%}
-            </div>
-            {% endfor %}
-        </div>
-        {% endif %}
-
-        {% assign bronzeSponsors = activeSponsors | where:"level","bronze" %} {% if bronzeSponsors.size > 0 %}
-        <h3 class="uk-text-center" style="margin-bottom: 30px!important;">Bronze & Community</h3>
-        <div class="uk-text-center uk-grid uk-flex-center uk-child-width-1-5@m uk-margin-large-bottom" uk-grid>
-            {% for sponsor in bronzeSponsors %}
-            <div class="">
-                {% include sponsor.html content=sponsor.content image=sponsor.image anchor=sponsor.anchor image-alt=sponsor.image-alt level=sponsor.level%}
-            </div>
-            {% endfor %}
-        </div>
-        {% endif %}
-
-        {% endif %}
+        {% include sponsors.html %}
+       
     </div>
 </div>
 
