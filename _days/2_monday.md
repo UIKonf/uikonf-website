@@ -4,111 +4,72 @@ day: 18
 isDetail: true
 isSummary: false
 blocks:
-  - title: Morning
+  - title: Main Stage
     tracks:
       - id: 0
         items:
-          - title: Registration
-            time: "9:00"
-            location: Radialsystem V, Holzmarktstraße 33
-            location_link: https://goo.gl/maps/jA7wcLtfZo32
-          - title: Inclusive and Accessible App Development
-            presenters: Kaya Thomas
-            time: "10:00"
-            anchor: kaya
-          - title: Detangling Gesture Recognizers
-            presenters: Shannon Hughes
-            time: "10:35"
-            anchor: shannon
-          - title: Coffee Break
-            type: break 
-            time: "11:10"
-          - title: Rolling your own Network Stack
-            presenters: Glenna Buford
-            time: "11:50"
-            anchor: glenna
-          - title: Declarative Presentations
-            presenters: Nataliya Patsovska
-            time: "12:25"
-            anchor: nataliya
-          - title: Lunch
-            type: break 
-            time: "13:00"
-      - id: 1
-        items:
-          - title: Rebuilding Technologies and Scaling Up Processes in the Passenger Tribe at mytaxi
-            presenters: Ivan Morschel
-            type: mytaxi-stage
-            anchor: scaling-up
-            time: "11:50"
-          - title: Tips & Tricks Gleaned for iOS Testing
-            presenters: Aya Alk
-            type: mytaxi-stage
-            anchor: ios-testing
-            time: "12:25"
-
-  - title: Afternoon - Parallel Sessions
-    tracks:
-      - id: 0
-        items:
-          - title: Sensor - How to develop apps with a state of the art architecture (2h workshop)
-            presenters: Mounir Dellagi & Philipp Schöne
-            time: "14:15"
-            type: mytaxi-stage
-            anchor: architecture
-          - title: Internationalizing your App
-            presenters: Kristina Fox
-            time: "14:30"
-            anchor: kristina
-          - title: "Mockolo: Efficient Mock Generator for Swift"
-            presenters: Ellie Shin
-            time: "15:05"
-            anchor: ellie
-          - title: Sensor - How to develop apps with a state of the art architecture (2h workshop)
-            presenters: Mounir Dellagi & Philipp Schöne
-            time: "14:15"
-            type: mytaxi-stage
-            anchor: architecture
-          - title: Internationalizing your App
-            presenters: Kristina Fox
-            time: "14:30"
-            anchor: kristina
-          - title: "Mockolo: Efficient Mock Generator for Swift"
-            presenters: Ellie Shin
-            time: "15:05"
-            anchor: ellie
-          - title: Consistency Principle
-            presenters: Julie Yaunches
-            time: "15:40"
-            anchor: julie
+          - title: Opening
+            time: "2:00"
+          - title: Who can say they have learned Swift?
+            presenters: Paul Hudson
+            time: '2:10'
+            anchor: paul
+          - title: Building a mobile-based startup business
+            presenters: Dal Rupnik
+            time: '2:45'
+            anchor: dal
+          - title: Prepping For a SwiftUI Future 
+            presenters: Veronica Ray
+            time: '3:20'
+            anchor: veronica
           - title: Coffee
-            time: "16:15"
+            time: '3:55'
             type: break
-          - title: How to Market Your Mobile App
-            presenters: Lisa Dziuba
-            time: "17:00"
-            anchor: lisa
-          - title: Swift to Hack Hardware
-            presenters: Sally Shepard
-            time: "17:35"
-            anchor: sally
-          - title: Ambassador's dinner
-            time: "19:00"
-            location: everywhere in Berlin
-      - id: 1
+          - title: Fixing your Combine code with the Timelane Instrument
+            presenters: Marin Todorov
+            time: '4:20'
+            anchor: marin
+          - title: Explain Metal like I’m 5
+            presenters: Andrey Volodin
+            time: '4:55'
+            anchor: andrey
+          - title: Sponsored Talk
+            presenters: eBay Tech
+            time: '5:30'
+          - title: Dinner / Lunch
+            time: '6:00'
+            type: break 
+          - title: The Multi-Threaded Asynchronous Parallel World of Swift
+            presenters: Leo Dion
+            time: '7:30'
+            anchor: leo
+          - title: Rich Text, Core Text
+            presenters: Rob Napier
+            time: '8:05'
+            anchor: rob
+          - title: Wine / Beer / Coffee
+            time: '8:40'
+            type: break 
+          - title: SwiftUI Data Flow with Redux
+            presenters: Thomas Ricouard
+            time: '8:50'
+            anchor: thomas
+          - title: Cross-platform Collaboration Patterns
+            presenters: Miriam Busch
+            time: '9:25'
+            anchor: miriam
+  - title: Community Rooms (under construction)
+    tracks:
+      - id: 2
         items:
-          - title: Sensor - How to develop apps with a state of the art architecture (2h workshop)
-            presenters: Mounir Dellagi & Philipp Schöne
-            time: "14:15"
-            type: mytaxi-stage
-            anchor: architecture
-          - title: Internationalizing your App
-            presenters: Kristina Fox
-            time: "14:30"
-            anchor: kristina
-          - title: "Mockolo: Efficient Mock Generator for Swift"
-            presenters: Ellie Shin
-            time: "15:05"
-            anchor: ellie
+          - title: By the Riverside
+            description: If you need a break to catch some fresh air, join us on our virtual riverside.
+            time: 2pm - 10pm CET
+          - title: Mix it up 
+            description: Are you tired of talking to the same people over and over again? Mix it up in randomly assigned groups.
+            time: During the main stage breaks
+          - title: Meet the speakers
+            description: Hang out with our speakers who opted in to a more personal chat session. Seats are limited.
+            time: During the main stage breaks
 ---
 

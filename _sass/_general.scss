@@ -89,9 +89,16 @@ form {
 	background-size: contain;
 	background-position: center center;
 	background-repeat: no-repeat;
-	height: 96px;
 	width: 80%;
 	margin: auto;
+}
+
+.platinum, .diamond, .gold, .silver {
+	height: 120px;
+}
+
+.bronze {
+	height: 100px;
 }
 
 .archive-list {
