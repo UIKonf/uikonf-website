@@ -2,6 +2,6 @@
     <div class="supporter-logo {{include.level}} uk-width-1-1@s" data-src="/static/images/{{ include.image }}" uk-img>
     </div>
     <div uk-drop>
-            <div class="uk-card uk-card-body uk-card-default uk-text-left">{{ include.content }}</div>
+            <div class="uk-card uk-card-body uk-card-default uk-text-left">{{ include.content | markdownify }}</div>
     </div>
 </div>
