@@ -7,4 +7,4 @@ description: UIKonf features a list of social events on the day before the confe
 includeInNavigation: 1
 ---
 
-Note: Attendance at our social events is restricted to UIKonf participants.
+Note: Attendance at our social events is restricted to UIKonf ticket holders.

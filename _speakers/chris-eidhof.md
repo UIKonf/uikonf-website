@@ -8,5 +8,5 @@ twitter: https://twitter.com/chriseidhof
 
 [Chris Eidhof](https://twitter.com/chriseidhof) is the founder of [objc.io](https://objc.io) and host of Swift Talk. He co-wrote the books Functional Swift, Advanced Swift and App Architecture. Before focussing full-time on objc.io, he also helped start UIKonf and Deckset.
 
-**Building a Programming Language in Swift**  
+**Talk: Building a Programming Language in Swift**  
 In this talk, we'll build a very simple programming language in Swift. We'll look at how to parse text, build a syntax tree, and evaluate the program.
