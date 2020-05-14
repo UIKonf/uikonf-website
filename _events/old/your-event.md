@@ -4,7 +4,7 @@ _start: tbd
 image: host.jpg
 anchor: self-hosted
 description: Host-Your-Own Social Event
-active: 1
+active: 0
 ---
 
 Your company provides a product that brings people together preferably for free - or maybe even guided tours (hello GetYourGuide people 👋, please nudge your Marketing Department for us)?  

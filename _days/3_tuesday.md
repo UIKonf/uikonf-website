@@ -55,8 +55,10 @@ blocks:
             presenters: Conrad Stoll
             time: '8:50'
             anchor: conrad
-          - title: tba
+          - title: Why Is Swift So Much Better On Server?
+            presenters: Gwynne Raskind
             time: '9:25'
+            anchor: gwynne
   - title: Community Rooms (under construction)
     tracks:
       - id: 2
