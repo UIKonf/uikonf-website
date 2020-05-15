@@ -33,11 +33,8 @@ blocks:
             presenters: Andrey Volodin
             time: '4:55pm CEST'
             anchor: andrey
-          - title: Sponsored Talk
-            presenters: eBay Tech
-            time: '5:30pm CEST'
           - title: Dinner / Lunch
-            time: '6:00pm CEST'
+            time: '5:30pm CEST'
             type: break 
           - title: The Multi-Threaded Asynchronous Parallel World of Swift
             presenters: Leo Dion
