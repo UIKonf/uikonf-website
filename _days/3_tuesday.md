@@ -8,55 +8,54 @@ blocks:
     tracks:
       - id: 0
         items:
-          - title: Coffee
-            type: break
-            time: "9:00"
           - title: Building a Programming Language in Swift
             presenters: Chris Eidhof
-            time: '2:10'
+            time: '2:10pm CEST'
             anchor: chris
           - title: "Swift Scripts: Zero to Hero"
             presenters: Federico Zanetello
-            time: '2:45'
+            time: '2:45pm CEST'
             anchor: federico
           - title: "Data Trusts: What, Why, How?"
             presenters: Anouk Ruhaak
-            time: '3:20'
+            time: '3:20pm CEST'
             anchor: anouk
           - title: Coffee
-            time: '3:55'
+            time: '3:55pm CEST'
             type: break
           - title: "Combine: Connect MIDI signals to SwiftUI"
             presenters: Matěj Kašpar Jirásek
-            time: '4:20'
+            time: '4:20pm CEST'
             anchor: matej
           - title: Who’s Afraid of the Big Bad Bluetooth?
             presenters: Leah Vogel 
-            time: '4:55'
+            time: '4:55pm CEST'
             anchor: leah
           - title: Sponsored Talk
             presenters: eBay Tech
-            time: '5:30'
+            time: '5:30pm CEST'
           - title: Dinner / Lunch
-            time: '6:00'
+            time: '6:00pm CEST'
             type: break 
           - title: Visualizing the Structure of a Swift Project
             presenters: David Piper
-            time: '7:30'
+            time: '7:00pm CEST'
             anchor: devid
           - title: We need to talk about Websockets
             presenters: Kristaps Grinbergs
-            time: '8:05'
+            time: '7:35pm CEST'
             anchor: kristaps
           - title: Wine / Beer / Coffee
-            time: '8:40'
+            time: '8:10pm CEST'
             type: break 
           - title: State Driven Development - The Beauty of Enums in Swift
             presenters: Conrad Stoll
-            time: '8:50'
+            time: '8:50pm CEST'
             anchor: conrad
-          - title: tba
-            time: '9:25'
+          - title: Why Is Swift So Much Better On Server?
+            presenters: Gwynne Raskind
+            time: '9:25pm CEST'
+            anchor: gwynne
   - title: Community Rooms (under construction)
     tracks:
       - id: 2

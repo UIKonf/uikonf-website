@@ -16,9 +16,9 @@ All attendees, speakers, and sponsors and volunteers at UIKonf are required to a
 
 *tl;dr: Don’t be a Jerk. Be excellent.*
 
-### Need Help? Contact Sabine
+### Need Help? Contact us
 
-Sabine Geithner Twitter: [@sabinegeithner](http://twitter.com/sabinegeithner) Email: sabine@uikonf.com
+Sabine Geithner, Julia Kallenberg & Bianca Stromlund: coc@uikonf.com
 
 ### The Quick Version
 
