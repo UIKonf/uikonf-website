@@ -31,8 +31,8 @@ blocks:
             presenters: Leah Vogel 
             time: '4:55pm CEST'
             anchor: leah
-          - title: Sponsored Talk
-            presenters: eBay Tech
+          - title: Peter Mosaad (Sponsor contribution - Delivery Hero)
+            presenters: "Conductors: It’s all about communication!"
             time: '5:30pm CEST'
           - title: Dinner / Lunch
             time: '6:00pm CEST'
