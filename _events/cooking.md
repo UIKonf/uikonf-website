@@ -1,6 +1,6 @@
 ---
 title: Cooking with UIKonf
-_start: tbd
+start: 6pm CEST
 image: cooking.jpg
 anchor: cooking
 description: Quarantine food adé! 

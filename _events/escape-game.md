@@ -1,6 +1,6 @@
 ---
 title: Escape the Quarantine with UIKonf
-_start: tbd
+start: 4pm CEST
 image: escape-game.jpg
 anchor: escape-game
 description: Let's find our way out! 

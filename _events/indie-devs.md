@@ -1,6 +1,6 @@
 ---
 title: Indie Developer Feedback Round
-_start: tbd
+start: 4pm CEST
 image: indie.jpg
 anchor: indie
 description: Hello Feedback!

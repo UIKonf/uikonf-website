@@ -1,6 +1,6 @@
 ---
 title: Play Dominion online
-_start: tbd
+start: 8pm CEST
 image: dominion.jpg
 anchor: dominion
 description: Game on! 

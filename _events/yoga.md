@@ -1,6 +1,6 @@
 ---
 title: Yoga with UIKonf
-_start: tbd
+start: 6pm CEST
 image: yoga.jpg
 anchor: yoga
 description: Take a deep breath in! 

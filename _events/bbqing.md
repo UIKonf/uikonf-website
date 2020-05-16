@@ -1,6 +1,6 @@
 ---
 title: BBQing with UIKonf
-_start: tbd
+start: 7pm CEST
 image: bbqing.jpg
 anchor: bbqing
 description: For lovers of grilled meat and veggies 
